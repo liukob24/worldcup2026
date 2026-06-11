@@ -1,0 +1,125 @@
+{
+  "lastUpdate": "2026-06-22T15:00:00",
+  "news": [
+    {
+      "id": 1,
+      "title": "阿根廷3-0大胜墨西哥，提前锁定小组出线名额",
+      "summary": "2026年世界杯A组焦点战，卫冕冠军阿根廷凭借梅西的一传一射和马丁内斯的进球，3-0完胜墨西哥，积9分提前锁定小组第一出线。",
+      "source": "央视体育",
+      "publishTime": "2026-06-22T23:45:00",
+      "category": "赛况",
+      "image": "https://picsum.photos/seed/news1/800/450",
+      "url": "https://example.com/news/1"
+    },
+    {
+      "id": 2,
+      "title": "法国4-0横扫澳大利亚，姆巴佩上演帽子戏法",
+      "summary": "世界杯C组第二轮，法国队以4-0大胜澳大利亚，姆巴佩独中三元，成为本届世界杯首位完成帽子戏法的球员，目前领跑射手榜。",
+      "source": "新浪体育",
+      "publishTime": "2026-06-23T02:30:00",
+      "category": "赛况",
+      "image": "https://picsum.photos/seed/news2/800/450",
+      "url": "https://example.com/news/2"
+    },
+    {
+      "id": 3,
+      "title": "德国7-1血洗哥斯达黎加，创本届世界杯最大分差",
+      "summary": "D组比赛中，德国队展现出恐怖的进攻火力，以7-1的悬殊比分击败哥斯达黎加。哈兰德上演大四喜，成为全场最佳球员。",
+      "source": "腾讯体育",
+      "publishTime": "2026-06-24T04:15:00",
+      "category": "赛况",
+      "image": "https://picsum.photos/seed/news3/800/450",
+      "url": "https://example.com/news/3"
+    },
+    {
+      "id": 4,
+      "title": "英格兰爆冷0-1不敌美国，末轮必须取胜才能确保出线",
+      "summary": "B组出线形势突变，英格兰在与美国的比赛中0-1告负，末轮对阵伊朗必须全取三分才能锁定出线资格。三狮军团状态令人担忧。",
+      "source": "网易体育",
+      "publishTime": "2026-06-23T06:00:00",
+      "category": "赛况",
+      "image": "https://picsum.photos/seed/news4/800/450",
+      "url": "https://example.com/news/4"
+    },
+    {
+      "id": 5,
+      "title": "巴西2-1逆转波兰，内马尔点球绝杀",
+      "summary": "桑巴军团在落后一球的情况下奋起直追，内马尔点球命中帮助球队2-1逆转战胜波兰。目前巴西积6分，出线形势一片大好。",
+      "source": "搜狐体育",
+      "publishTime": "2026-06-24T01:20:00",
+      "category": "赛况",
+      "image": "https://picsum.photos/seed/news5/800/450",
+      "url": "https://example.com/news/5"
+    },
+    {
+      "id": 6,
+      "title": "2026世界杯VAR判罚惹争议，多支球队向FIFA投诉",
+      "summary": "本届世界杯开赛以来，VAR系统的多次判罚引发广泛争议。包括英格兰、西班牙在内的多支球队已向国际足联提出正式投诉。",
+      "source": "体坛周报",
+      "publishTime": "2026-06-23T10:00:00",
+      "category": "热点",
+      "image": "https://picsum.photos/seed/news6/800/450",
+      "url": "https://example.com/news/6"
+    },
+    {
+      "id": 7,
+      "title": "摩洛哥2-0击败意大利，成为本届世界杯最大黑马",
+      "summary": "F组爆出大冷门，摩洛哥以2-0战胜传统强队意大利，积7分高居小组榜首。这支非洲球队的表现令人眼前一亮，有望创造历史最佳战绩。",
+      "source": "PP体育",
+      "publishTime": "2026-06-25T05:30:00",
+      "category": "赛况",
+      "image": "https://picsum.photos/seed/news7/800/450",
+      "url": "https://example.com/news/7"
+    },
+    {
+      "id": 8,
+      "title": "克罗地亚点球大战4-2淘汰日本，晋级16强",
+      "summary": "D组最后一轮，克罗地亚与日本120分钟内1-1战平。点球大战中，莫德里奇领衔的格子军团以4-2击败蓝武士，晋级16强。",
+      "source": "央视体育",
+      "publishTime": "2026-06-24T07:45:00",
+      "category": "赛况",
+      "image": "https://picsum.photos/seed/news8/800/450",
+      "url": "https://example.com/news/8"
+    },
+    {
+      "id": 9,
+      "title": "2026世界杯小组赛上座率创历史新高",
+      "summary": "国际足联官方数据显示，本届世界杯小组赛阶段平均上座率达到92%，创下历届世界杯新高。美国和墨西哥的球场氛围获得广泛好评。",
+      "source": "FIFA官方",
+      "publishTime": "2026-06-25T09:00:00",
+      "category": "综合",
+      "image": "https://picsum.photos/seed/news9/800/450",
+      "url": "https://example.com/news/9"
+    },
+    {
+      "id": 10,
+      "title": "比利时1-1战平乌拉圭，德布劳内远射世界波",
+      "summary": "E组焦点战，比利时与乌拉圭1-1握手言和。比利时中场核心德布劳内轰入一记精彩远射，但未能帮助球队全取三分。",
+      "source": "新浪体育",
+      "publishTime": "2026-06-24T23:00:00",
+      "category": "赛况",
+      "image": "https://picsum.photos/seed/news10/800/450",
+      "url": "https://example.com/news/10"
+    },
+    {
+      "id": 11,
+      "title": "2026世界杯用球\"北美洲\"正式发布，采用最新传感技术",
+      "summary": "阿迪达斯发布本届世界杯官方用球\"北美洲\"，该球采用革命性的传感技术，可实时传输球速、旋转等数据，为VAR判罚提供更精确依据。",
+      "source": "体育用品周刊",
+      "publishTime": "2026-06-15T14:00:00",
+      "category": "装备",
+      "image": "https://picsum.photos/seed/news11/800/450",
+      "url": "https://example.com/news/11"
+    },
+    {
+      "id": 12,
+      "title": "西班牙6-0大胜伊朗，小组赛三连胜晋级",
+      "summary": "斗牛士军团展现强大攻击力，以6-0横扫亚洲劲旅伊朗。佩德里、威廉姆斯等年轻球员表现出色，西班牙成为本届世界杯夺冠热门之一。",
+      "source": "腾讯体育",
+      "publishTime": "2026-06-23T05:00:00",
+      "category": "赛况",
+      "image": "https://picsum.photos/seed/news12/800/450",
+      "url": "https://example.com/news/12"
+    }
+  ]
+}

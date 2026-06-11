@@ -1,0 +1,76 @@
+{
+  "groups": [
+    {
+      "id": "A",
+      "teams": [
+        {"rank": 1, "name": "阿根廷", "code": "ARG", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 8, "goalsAgainst": 1, "points": 9, "gd": 7},
+        {"rank": 2, "name": "墨西哥", "code": "MEX", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 5, "points": 4, "gd": -1},
+        {"rank": 3, "name": "荷兰", "code": "NED", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 6, "points": 3, "gd": -3},
+        {"rank": 4, "name": "加拿大", "code": "CAN", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "points": 1, "gd": -3}
+      ]
+    },
+    {
+      "id": "B",
+      "teams": [
+        {"rank": 1, "name": "英格兰", "code": "ENG", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 2, "points": 7, "gd": 4},
+        {"rank": 2, "name": "西班牙", "code": "ESP", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "points": 6, "gd": 2},
+        {"rank": 3, "name": "伊朗", "code": "IRN", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 5, "points": 3, "gd": -2},
+        {"rank": 4, "name": "美国", "code": "USA", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "points": 1, "gd": -4}
+      ]
+    },
+    {
+      "id": "C",
+      "teams": [
+        {"rank": 1, "name": "法国", "code": "FRA", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 9, "goalsAgainst": 2, "points": 9, "gd": 7},
+        {"rank": 2, "name": "巴西", "code": "BRA", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 7, "goalsAgainst": 3, "points": 6, "gd": 4},
+        {"rank": 3, "name": "波兰", "code": "POL", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "points": 1, "gd": -4},
+        {"rank": 4, "name": "澳大利亚", "code": "AUS", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 8, "points": 1, "gd": -7}
+      ]
+    },
+    {
+      "id": "D",
+      "teams": [
+        {"rank": 1, "name": "德国", "code": "GER", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 8, "goalsAgainst": 3, "points": 7, "gd": 5},
+        {"rank": 2, "name": "克罗地亚", "code": "CRO", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 4, "goalsAgainst": 2, "points": 5, "gd": 2},
+        {"rank": 3, "name": "日本", "code": "JPN", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 6, "points": 3, "gd": -2},
+        {"rank": 4, "name": "哥斯达黎加", "code": "CRC", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 7, "points": 1, "gd": -5}
+      ]
+    },
+    {
+      "id": "E",
+      "teams": [
+        {"rank": 1, "name": "葡萄牙", "code": "POR", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 2, "points": 7, "gd": 4},
+        {"rank": 2, "name": "比利时", "code": "BEL", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "points": 6, "gd": 2},
+        {"rank": 3, "name": "乌拉圭", "code": "URU", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "points": 4, "gd": 0},
+        {"rank": 4, "name": "韩国", "code": "KOR", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 7, "points": 0, "gd": -6}
+      ]
+    },
+    {
+      "id": "F",
+      "teams": [
+        {"rank": 1, "name": "摩洛哥", "code": "MAR", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "points": 7, "gd": 4},
+        {"rank": 2, "name": "意大利", "code": "ITA", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "points": 6, "gd": 3},
+        {"rank": 3, "name": "塞内加尔", "code": "SEN", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 5, "points": 3, "gd": -2},
+        {"rank": 4, "name": "厄瓜多尔", "code": "ECU", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 6, "points": 1, "gd": -5}
+      ]
+    },
+    {
+      "id": "G",
+      "teams": [
+        {"rank": 1, "name": "丹麦", "code": "DEN", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "points": 7, "gd": 4},
+        {"rank": 2, "name": "瑞士", "code": "SUI", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "points": 6, "gd": 2},
+        {"rank": 3, "name": "墨西哥", "code": "MEX", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 4, "points": 2, "gd": -2},
+        {"rank": 4, "name": "加纳", "code": "GHA", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "points": 1, "gd": -4}
+      ]
+    },
+    {
+      "id": "H",
+      "teams": [
+        {"rank": 1, "name": "瑞典", "code": "SWE", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 2, "points": 7, "gd": 3},
+        {"rank": 2, "name": "挪威", "code": "NOR", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 4, "points": 6, "gd": 2},
+        {"rank": 3, "name": "葡萄牙", "code": "POR", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "points": 4, "gd": 0},
+        {"rank": 4, "name": "阿尔及利亚", "code": "ALG", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 7, "points": 0, "gd": -5}
+      ]
+    }
+  ]
+}

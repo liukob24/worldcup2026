@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赛程 - 2026世界杯预测分析</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">⚽</span>
+                <span class="logo-text">世界杯预测</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="schedule.html" class="nav-link active">赛程</a></li>
+                <li><a href="#" class="nav-link">小组积分</a></li>
+                <li><a href="#" class="nav-link">实时赔率</a></li>
+                <li><a href="#" class="nav-link">赛事新闻</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">🏆 赛程表</h1>
+            <p class="page-subtitle">2026世界杯小组赛 · 共72场比赛 · 点击比赛查看AI分析</p>
+        </div>
+    </header>
+
+    <!-- 赛程内容 -->
+    <section class="section schedule-section">
+        <div class="container">
+            <!-- 组别筛选 -->
+            <div class="filter-bar">
+                <button class="filter-btn active" data-group="all">全部</button>
+                <button class="filter-btn" data-group="A">A</button>
+                <button class="filter-btn" data-group="B">B</button>
+                <button class="filter-btn" data-group="C">C</button>
+                <button class="filter-btn" data-group="D">D</button>
+                <button class="filter-btn" data-group="E">E</button>
+                <button class="filter-btn" data-group="F">F</button>
+                <button class="filter-btn" data-group="G">G</button>
+                <button class="filter-btn" data-group="H">H</button>
+                <button class="filter-btn" data-group="I">I</button>
+                <button class="filter-btn" data-group="J">J</button>
+                <button class="filter-btn" data-group="K">K</button>
+                <button class="filter-btn" data-group="L">L</button>
+                <button class="filter-btn" data-group="M">M</button>
+                <button class="filter-btn" data-group="N">N</button>
+                <button class="filter-btn" data-group="O">O</button>
+                <button class="filter-btn" data-group="P">P</button>
+            </div>
+
+            <!-- 比赛列表容器 -->
+            <div class="matches-container" id="matchesContainer">
+                <!-- 比赛卡片将由JS动态生成 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 弹窗 -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content" id="modalContent">
+            <button class="modal-close" id="modalClose">×</button>
+            <div class="modal-body" id="modalBody">
+                <!-- 弹窗内容由JS生成 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">⚽</span>
+                    <span class="footer-text">2026世界杯预测分析</span>
+                </div>
+                <div class="footer-disclaimer">
+                    <p>本平台仅供娱乐参考，请理性观看比赛</p>
+                    <p>AI预测结果仅供参考，不构成投注建议</p>
+                </div>
+                <div class="footer-links">
+                    <p>© 2026 FIFA World Cup Prediction. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 数据
+        let scheduleData = null;
+
+        // 加载赛程数据
+        async function loadSchedule() {
+            try {
+                const response = await fetch('./data/schedule.json');
+                scheduleData = await response.json();
+                renderMatches(scheduleData.matches);
+            } catch (error) {
+                console.error('加载赛程失败:', error);
+            }
+        }
+
+        // 渲染比赛列表
+        function renderMatches(matches) {
+            const container = document.getElementById('matchesContainer');
+            
+            // 按日期分组
+            const groupedMatches = {};
+            matches.forEach(match => {
+                if (!groupedMatches[match.date]) {
+                    groupedMatches[match.date] = [];
+                }
+                groupedMatches[match.date].push(match);
+            });
+
+            let html = '';
+            Object.keys(groupedMatches).sort().forEach(date => {
+                const dateObj = new Date(date);
+                const dateStr = `${dateObj.getMonth() + 1}月${dateObj.getDate()}日`;
+                const weekDay = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'][dateObj.getDay()];
+                
+                html += `
+                    <div class="date-section">
+                        <div class="date-header">
+                            <span class="date-badge">${dateStr}</span>
+                            <span class="weekday">${weekDay}</span>
+                        </div>
+                        <div class="matches-grid">
+                `;
+                
+                groupedMatches[date].forEach(match => {
+                    const venue = scheduleData.venues.find(v => v.id === match.venue) || {name: '待定', city: ''};
+                    html += createMatchCard(match, venue);
+                });
+                
+                html += `
+                        </div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+
+            // 绑定点击事件
+            document.querySelectorAll('.match-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    const matchId = parseInt(card.dataset.matchId);
+                    openAnalysisModal(matchId);
+                });
+            });
+        }
+
+        // 创建比赛卡片
+        function createMatchCard(match, venue) {
+            return `
+                <div class="match-card" data-match-id="${match.id}" data-group="${match.group}">
+                    <div class="match-header">
+                        <span class="group-tag">${match.group}组 第${match.round}轮</span>
+                        <span class="venue-tag">${venue.name}</span>
+                    </div>
+                    <div class="match-teams-simple">
+                        <div class="team-simple">
+                            <span class="team-flag-small ${getTeamFlagClass(match.home)}"></span>
+                            <span class="team-name-simple">${match.home}</span>
+                        </div>
+                        <div class="vs-simple">
+                            <span class="vs-text-small">VS</span>
+                            <span class="match-time-simple">${formatTime(match.time)}</span>
+                        </div>
+                        <div class="team-simple away">
+                            <span class="team-flag-small ${getTeamFlagClass(match.away)}"></span>
+                            <span class="team-name-simple">${match.away}</span>
+                        </div>
+                    </div>
+                    <div class="match-footer">
+                        <span class="analysis-hint">点击查看AI分析 →</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 打开分析弹窗
+        function openAnalysisModal(matchId) {
+            const match = scheduleData.matches.find(m => m.id === matchId);
+            if (!match) return;
+
+            const venue = scheduleData.venues.find(v => v.id === match.venue) || {name: '待定', city: ''};
+            const modalBody = document.getElementById('modalBody');
+            
+            // 检查是否赛前12小时内
+            const matchDateTime = new Date(`${match.date}T${match.time}:00`);
+            const now = new Date();
+            const hoursUntilMatch = (matchDateTime - now) / (1000 * 60 * 60);
+            const isUnlocked = hoursUntilMatch <= 12;
+
+            modalBody.innerHTML = `
+                <div class="analysis-modal">
+                    <div class="modal-header-section">
+                        <span class="modal-group-badge">${match.group}组 第${match.round}轮</span>
+                        <h2>${match.home} vs ${match.away}</h2>
+                        <p class="modal-match-info">${match.date} · ${formatTime(match.time)} · ${venue.name}</p>
+                    </div>
+                    
+                    ${isUnlocked ? `
+                        <div class="analysis-content">
+                            <div class="ai-prediction">
+                                <div class="ai-badge">🤖 AI预测分析</div>
+                                
+                                <div class="prediction-grid">
+                                    <div class="prediction-card">
+                                        <div class="card-subtitle">胜负预测</div>
+                                        <div class="probability-bars">
+                                            <div class="prob-item win">
+                                                <div class="prob-label">
+                                                    <span class="country-name">${match.home} 胜</span>
+                                                    <span class="prob-value">${generateProbability()}%</span>
+                                                </div>
+                                                <div class="prob-bar">
+                                                    <div class="prob-fill" style="width: ${generateProbability()}%"></div>
+                                                </div>
+                                            </div>
+                                            <div class="prob-item draw">
+                                                <div class="prob-label">
+                                                    <span class="country-name">平局</span>
+                                                    <span class="prob-value">${generateProbability()}%</span>
+                                                </div>
+                                                <div class="prob-bar">
+                                                    <div class="prob-fill" style="width: ${generateProbability()}%"></div>
+                                                </div>
+                                            </div>
+                                            <div class="prob-item lose">
+                                                <div class="prob-label">
+                                                    <span class="country-name">${match.away} 胜</span>
+                                                    <span class="prob-value">${generateProbability()}%</span>
+                                                </div>
+                                                <div class="prob-bar">
+                                                    <div class="prob-fill" style="width: ${generateProbability()}%"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="prediction-card">
+                                        <div class="card-subtitle">比分预测</div>
+                                        <div class="score-prediction">
+                                            <span class="score-team">${match.home}</span>
+                                            <div class="score-numbers">
+                                                <span class="home-score">${Math.floor(Math.random() * 3) + 1}</span>
+                                                <span class="score-divider">-</span>
+                                                <span class="away-score">${Math.floor(Math.random() * 3)}</span>
+                                            </div>
+                                            <span class="score-team">${match.away}</span>
+                                        </div>
+                                        <div class="alternative-scores">
+                                            <span>备选: </span>
+                                            <span class="alt-score">${Math.floor(Math.random() * 2) + 1}-${Math.floor(Math.random() * 2)}</span>
+                                            <span class="alt-score">${Math.floor(Math.random() * 2) + 2}-${Math.floor(Math.random() * 2)}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="analysis-grid">
+                                    <div class="analysis-card advantages-card">
+                                        <div class="card-header">
+                                            <span class="card-icon">💪</span>
+                                            <h4 class="card-title">${match.home}优势</h4>
+                                        </div>
+                                        <ul class="advantage-list">
+                                            <li class="advantage-item">
+                                                <span class="item-bullet green"></span>
+                                                <span>近期状态火热，攻防两端表现稳定</span>
+                                            </li>
+                                            <li class="advantage-item">
+                                                <span class="item-bullet green"></span>
+                                                <span>主力球员伤愈复出，阵容齐整</span>
+                                            </li>
+                                            <li class="advantage-item">
+                                                <span class="item-bullet green"></span>
+                                                <span>历史交锋占据心理优势</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="analysis-card concerns-card">
+                                        <div class="card-header">
+                                            <span class="card-icon">⚠️</span>
+                                            <h4 class="card-title">${match.away}优势</h4>
+                                        </div>
+                                        <ul class="advantage-list">
+                                            <li class="advantage-item">
+                                                <span class="item-bullet orange"></span>
+                                                <span>客场作战，需要适应时差与气候</span>
+                                            </li>
+                                            <li class="advantage-item">
+                                                <span class="item-bullet orange"></span>
+                                                <span>防线存在一定隐患</span>
+                                            </li>
+                                            <li class="advantage-item">
+                                                <span class="item-bullet orange"></span>
+                                                <span>关键位置球员可能缺阵</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="risk-section">
+                                    <h4>🔮 冷门概率分析</h4>
+                                    <div class="risk-items">
+                                        <div class="risk-item">
+                                            <span class="risk-icon">⚡</span>
+                                            <div class="risk-content">
+                                                <span class="risk-title">意外结果概率</span>
+                                                <div class="risk-bar-container">
+                                                    <div class="risk-bar">
+                                                        <div class="risk-fill" style="width: ${Math.floor(Math.random() * 30) + 10}%"></div>
+                                                    </div>
+                                                    <span class="risk-value">${Math.floor(Math.random() * 30) + 10}%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="alert-box">
+                                        <span class="alert-icon">💡</span>
+                                        <span class="alert-text">综合分析显示本场${match.home}获胜概率较高，但${match.away}具备一定反击能力，建议关注临场数据变化。</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ` : `
+                        <div class="locked-analysis">
+                            <div class="lock-icon">🔒</div>
+                            <h3>详细分析已锁定</h3>
+                            <p>赛前12小时解锁详细AI预测与分析</p>
+                            <div class="unlock-countdown">
+                                <span>距离解锁还有</span>
+                                <span class="countdown-time" id="unlockCountdown">--:--:--</span>
+                            </div>
+                            <div class="preview-teaser">
+                                <h4>📋 预告内容</h4>
+                                <ul>
+                                    <li>✅ 胜负概率预测</li>
+                                    <li>✅ 比分预测</li>
+                                    <li>✅ 球队优劣势分析</li>
+                                    <li>✅ 冷门概率评估</li>
+                                    <li>✅ 关键球员数据</li>
+                                </ul>
+                            </div>
+                        </div>
+                    `}
+                </div>
+            `;
+
+            document.getElementById('modalOverlay').classList.add('active');
+
+            // 如果未解锁，启动倒计时
+            if (!isUnlocked) {
+                startUnlockCountdown(matchDateTime);
+            }
+        }
+
+        // 关闭弹窗
+        function closeModal() {
+            document.getElementById('modalOverlay').classList.remove('active');
+        }
+
+        // 工具函数
+        function formatTime(time) {
+            const [hours, minutes] = time.split(':');
+            return `${hours}:${minutes}`;
+        }
+
+        function generateProbability() {
+            return Math.floor(Math.random() * 40) + 30;
+        }
+
+        function getTeamFlagClass(teamName) {
+            const flagMap = {
+                '墨西哥': 'mexico-flag-sm',
+                '墨西哥B': 'mexico-flag-sm',
+                '巴西': 'brazil-flag-sm',
+                '阿根廷': 'argentina-flag-sm',
+                '法国': 'france-flag-sm',
+                '英格兰': 'england-flag-sm',
+                '德国': 'germany-flag-sm',
+                '德国B': 'germany-flag-sm',
+                '西班牙': 'spain-flag-sm',
+                '西班牙B': 'spain-flag-sm',
+                '意大利': 'italy-flag-sm',
+                '葡萄牙': 'portugal-flag-sm',
+                '葡萄牙B': 'portugal-flag-sm',
+                '荷兰': 'netherlands-flag-sm',
+                '比利时': 'belgium-flag-sm',
+                '乌拉圭': 'uruguay-flag-sm',
+                '克罗地亚': 'croatia-flag-sm',
+                '丹麦': 'denmark-flag-sm',
+                '瑞典': 'sweden-flag-sm',
+                '瑞士': 'switzerland-flag-sm',
+                '波兰': 'poland-flag-sm',
+                '挪威': 'norway-flag-sm',
+                '奥地利': 'austria-flag-sm',
+                '乌克兰': 'ukraine-flag-sm',
+                '塞尔维亚': 'serbia-flag-sm',
+                '希腊': 'greece-flag-sm',
+                '匈牙利': 'hungary-flag-sm',
+                '美国': 'usa-flag-sm',
+                '加拿大': 'canada-flag-sm',
+                '尼日利亚': 'nigeria-flag-sm',
+                '塞内加尔': 'senegal-flag-sm',
+                '摩洛哥': 'morocco-flag-sm',
+                '埃及': 'egypt-flag-sm',
+                '南非': 'southafrica-flag-sm',
+                '阿尔及利亚': 'algeria-flag-sm',
+                '突尼斯': 'tunisia-flag-sm',
+                '喀麦隆': 'cameroon-flag-sm',
+                '日本': 'japan-flag-sm',
+                '日本B': 'japan-flag-sm',
+                '韩国': 'korea-flag-sm',
+                '伊朗': 'iran-flag-sm',
+                '澳大利亚': 'australia-flag-sm',
+                '新西兰': 'newzealand-flag-sm',
+                '秘鲁': 'peru-flag-sm',
+                '智利': 'chile-flag-sm',
+                '厄瓜多尔': 'ecuador-flag-sm',
+                '哥伦比亚': 'colombia-flag-sm',
+                '牙买加': 'jamaica-flag-sm'
+            };
+            return flagMap[teamName] || 'default-flag-sm';
+        }
+
+        function startUnlockCountdown(targetDate) {
+            function update() {
+                const now = new Date();
+                const diff = targetDate - now - (12 * 60 * 60 * 1000); // 提前12小时
+                
+                if (diff <= 0) {
+                    document.getElementById('unlockCountdown').textContent = '已解锁!';
+                    return;
+                }
+
+                const hours = Math.floor(diff / (1000 * 60 * 60));
+                const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+                document.getElementById('unlockCountdown').textContent = 
+                    `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+            }
+            
+            update();
+            setInterval(update, 1000);
+        }
+
+        // 筛选功能
+        function initFilters() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    
+                    const group = btn.dataset.group;
+                    const cards = document.querySelectorAll('.match-card');
+                    
+                    cards.forEach(card => {
+                        if (group === 'all' || card.dataset.group === group) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        }
+
+        // 导航功能
+        function initNavigation() {
+            const navToggle = document.getElementById('navToggle');
+            const navMenu = document.querySelector('.nav-menu');
+            const mainNav = document.querySelector('.main-nav');
+
+            navToggle.addEventListener('click', () => {
+                navToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    mainNav.classList.add('scrolled');
+                } else {
+                    mainNav.classList.remove('scrolled');
+                }
+            });
+        }
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            loadSchedule();
+            initFilters();
+            initNavigation();
+
+            document.getElementById('modalClose').addEventListener('click', closeModal);
+            document.getElementById('modalOverlay').addEventListener('click', (e) => {
+                if (e.target === e.currentTarget) {
+                    closeModal();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

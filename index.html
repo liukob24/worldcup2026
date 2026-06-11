@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026世界杯预测分析 - 官方网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">⚽</span>
+                <span class="logo-text">世界杯预测</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">首页</a></li>
+                <li><a href="schedule.html" class="nav-link">赛程</a></li>
+                <li><a href="#" class="nav-link">小组积分</a></li>
+                <li><a href="#" class="nav-link">实时赔率</a></li>
+                <li><a href="#" class="nav-link">赛事新闻</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 顶部英雄区域 -->
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="stadium-lights"></div>
+        <div class="hero-content">
+            <div class="trophy-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2022_FIFA_World_Cup_%E2%80%93_Trophy.jpg/800px-2022_FIFA_World_Cup_%E2%80%93_Trophy.jpg" 
+                     alt="大力神杯" class="trophy-icon">
+                <div class="trophy-glow"></div>
+            </div>
+            <h1 class="hero-title">
+                <span class="year-text">2026</span>
+                <span class="world-cup-text">世界杯预测分析</span>
+            </h1>
+            <p class="hero-subtitle">FIFA World Cup USA • Canada • Mexico</p>
+            <div class="match-countdown">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">--</span>
+                    <span class="countdown-label">天</span>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">--</span>
+                    <span class="countdown-label">时</span>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">--</span>
+                    <span class="countdown-label">分</span>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">--</span>
+                    <span class="countdown-label">秒</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 功能入口卡片 -->
+    <section class="section portal-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">功能导航</span>
+                <h2 class="section-title">探索世界杯</h2>
+                <p class="section-desc">全面覆盖赛程、数据、预测与资讯，一站式世界杯体验</p>
+            </div>
+            
+            <div class="portal-grid">
+                <!-- 赛程入口 -->
+                <a href="schedule.html" class="portal-card">
+                    <div class="portal-icon">📅</div>
+                    <h3 class="portal-title">赛程</h3>
+                    <p class="portal-desc">查看全部72场小组赛程，支持按组别筛选与比赛分析</p>
+                    <div class="portal-meta">
+                        <span class="portal-badge">72场比赛</span>
+                    </div>
+                    <div class="portal-arrow">→</div>
+                </a>
+
+                <!-- 小组积分入口 -->
+                <a href="#" class="portal-card">
+                    <div class="portal-icon">🏆</div>
+                    <h3 class="portal-title">小组积分</h3>
+                    <p class="portal-desc">实时更新各小组积分榜，掌握晋级形势与关键战役</p>
+                    <div class="portal-meta">
+                        <span class="portal-badge">16个小组</span>
+                    </div>
+                    <div class="portal-arrow">→</div>
+                </a>
+
+                <!-- 实时赔率入口 -->
+                <a href="#" class="portal-card">
+                    <div class="portal-icon">📊</div>
+                    <h3 class="portal-title">实时赔率</h3>
+                    <p class="portal-desc">汇集多家博彩公司赔率数据，支持胜平负与比分投注</p>
+                    <div class="portal-meta">
+                        <span class="portal-badge">实时更新</span>
+                    </div>
+                    <div class="portal-arrow">→</div>
+                </a>
+
+                <!-- 赛事新闻入口 -->
+                <a href="#" class="portal-card">
+                    <div class="portal-icon">📰</div>
+                    <h3 class="portal-title">赛事新闻</h3>
+                    <p class="portal-desc">最新球队动态、伤病报告、转会消息与赛前分析</p>
+                    <div class="portal-meta">
+                        <span class="portal-badge">每日更新</span>
+                    </div>
+                    <div class="portal-arrow">→</div>
+                </a>
+
+                <!-- 实时赛事分析入口 -->
+                <a href="#" class="portal-card featured">
+                    <div class="portal-icon">🤖</div>
+                    <h3 class="portal-title">AI赛事分析</h3>
+                    <p class="portal-desc">基于大数据与机器学习的比赛预测，胜负概率与比分分析</p>
+                    <div class="portal-meta">
+                        <span class="portal-badge">AI驱动</span>
+                        <span class="portal-badge hot">热门</span>
+                    </div>
+                    <div class="portal-arrow">→</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 赛事信息 -->
+    <section class="section info-section">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">🌍</div>
+                    <div class="info-content">
+                        <h4>举办地点</h4>
+                        <p>美国 · 加拿大 · 墨西哥</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">📅</div>
+                    <div class="info-content">
+                        <h4>比赛时间</h4>
+                        <p>2026年6月11日 - 7月19日</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">⚽</div>
+                    <div class="info-content">
+                        <h4>参赛球队</h4>
+                        <p>48支球队 · 16个小组</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">🏟️</div>
+                    <div class="info-content">
+                        <h4>比赛场馆</h4>
+                        <p>16座专业足球场</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">⚽</span>
+                    <span class="footer-text">2026世界杯预测分析</span>
+                </div>
+                <div class="footer-disclaimer">
+                    <p>本平台仅供娱乐参考，请理性观看比赛</p>
+                    <p>AI预测结果仅供参考，不构成投注建议</p>
+                </div>
+                <div class="footer-links">
+                    <p>© 2026 FIFA World Cup Prediction. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 倒计时功能
+        function initCountdown() {
+            const worldCupStart = new Date('2026-06-11T19:00:00-05:00');
+            
+            function updateCountdown() {
+                const now = new Date();
+                const diff = worldCupStart - now;
+
+                if (diff <= 0) {
+                    document.getElementById('days').textContent = '00';
+                    document.getElementById('hours').textContent = '00';
+                    document.getElementById('minutes').textContent = '00';
+                    document.getElementById('seconds').textContent = '00';
+                    return;
+                }
+
+                const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+                document.getElementById('days').textContent = String(days).padStart(2, '0');
+                document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+                document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+                document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+            }
+
+            updateCountdown();
+            setInterval(updateCountdown, 1000);
+        }
+
+        // 导航功能
+        function initNavigation() {
+            const navToggle = document.getElementById('navToggle');
+            const navMenu = document.querySelector('.nav-menu');
+            const mainNav = document.querySelector('.main-nav');
+
+            navToggle.addEventListener('click', () => {
+                navToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    mainNav.classList.add('scrolled');
+                } else {
+                    mainNav.classList.remove('scrolled');
+                }
+            });
+        }
+
+        // 卡片动画
+        function initAnimations() {
+            const cards = document.querySelectorAll('.portal-card');
+            cards.forEach((card, index) => {
+                card.style.animationDelay = `${index * 100}ms`;
+                card.classList.add('fade-in');
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            initCountdown();
+            initNavigation();
+            initAnimations();
+        });
+    </script>
+</body>
+</html>

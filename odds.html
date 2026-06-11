@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026世界杯 - 实时赔率</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .page-container {
+            padding-top: 80px;
+            min-height: 100vh;
+        }
+
+        .page-header {
+            text-align: center;
+            padding: var(--space-2xl) var(--space-lg);
+            background: linear-gradient(180deg, rgba(10, 22, 40, 0.9) 0%, rgba(26, 45, 77, 0.5) 100%);
+        }
+
+        .page-title {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 900;
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: var(--space-md);
+        }
+
+        .page-desc {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        .update-time {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            margin-top: var(--space-md);
+            padding: var(--space-xs) var(--space-md);
+            background: rgba(96, 165, 250, 0.15);
+            border-radius: var(--radius-xl);
+            font-size: 0.875rem;
+            color: var(--info-blue);
+        }
+
+        .odds-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-2xl);
+        }
+
+        .matches-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: var(--space-xl);
+        }
+
+        .match-odds-card {
+            background: var(--gradient-card);
+            border-radius: var(--radius-xl);
+            border: 1px solid rgba(255, 215, 0, 0.15);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.3s ease;
+        }
+
+        .match-odds-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 215, 0, 0.3);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .odds-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-md) var(--space-lg);
+            background: rgba(0, 0, 0, 0.3);
+            border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+        }
+
+        .match-badges {
+            display: flex;
+            gap: var(--space-sm);
+        }
+
+        .match-badge {
+            padding: var(--space-xs) var(--space-md);
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .badge-group {
+            background: rgba(255, 215, 0, 0.2);
+            color: var(--accent-gold);
+        }
+
+        .badge-round {
+            background: rgba(148, 163, 184, 0.2);
+            color: var(--text-secondary);
+        }
+
+        .match-datetime {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 2px;
+        }
+
+        .match-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .match-time {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .odds-teams {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: var(--space-md);
+            padding: var(--space-xl);
+            align-items: center;
+        }
+
+        .odds-team {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .odds-team-flag {
+            font-size: 2.5rem;
+        }
+
+        .odds-team-name {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-align: center;
+        }
+
+        .odds-vs {
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: var(--text-muted);
+        }
+
+        .odds-section {
+            padding: 0 var(--space-lg) var(--space-lg);
+        }
+
+        .odds-section-title {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: var(--space-md);
+            padding-bottom: var(--space-sm);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* 1X2 Odds */
+        .odds-1x2 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-sm);
+        }
+
+        .odds-1x2-item {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: var(--radius-md);
+            padding: var(--space-md);
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        .odds-1x2-item:hover {
+            background: rgba(255, 215, 0, 0.1);
+            border-color: rgba(255, 215, 0, 0.3);
+        }
+
+        .odds-1x2-item.home:hover { border-color: var(--success-green); }
+        .odds-1x2-item.draw:hover { border-color: var(--warning-orange); }
+        .odds-1x2-item.away:hover { border-color: var(--info-blue); }
+
+        .odds-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: var(--space-xs);
+        }
+
+        .odds-value {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+        }
+
+        /* Score Odds */
+        .score-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--space-xs);
+        }
+
+        .score-item {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: var(--radius-sm);
+            padding: var(--space-sm);
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .score-item:hover {
+            background: rgba(255, 215, 0, 0.15);
+            transform: scale(1.05);
+        }
+
+        .score-item.hot {
+            background: rgba(255, 215, 0, 0.2);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+        }
+
+        .score-prediction {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 2px;
+        }
+
+        .score-odds {
+            font-size: 0.75rem;
+            color: var(--accent-gold);
+        }
+
+        /* Over/Under */
+        .ou-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--space-sm);
+        }
+
+        .ou-item {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: var(--radius-md);
+            padding: var(--space-lg);
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        .ou-item:hover {
+            background: rgba(255, 215, 0, 0.1);
+            border-color: rgba(255, 215, 0, 0.3);
+        }
+
+        .ou-item.over { border-left: 3px solid var(--success-green); }
+        .ou-item.under { border-left: 3px solid var(--danger-red); }
+
+        .ou-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: var(--space-xs);
+        }
+
+        .ou-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .ou-odds {
+            font-size: 1rem;
+            color: var(--accent-gold);
+            margin-top: var(--space-xs);
+        }
+
+        .odds-footer {
+            padding: var(--space-md) var(--space-lg);
+            background: rgba(0, 0, 0, 0.2);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        /* Filter Bar */
+        .filter-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-md);
+            justify-content: center;
+            padding: var(--space-lg);
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: var(--radius-lg);
+            margin-bottom: var(--space-xl);
+        }
+
+        .filter-group {
+            display: flex;
+            gap: var(--space-sm);
+        }
+
+        .filter-btn {
+            padding: var(--space-sm) var(--space-lg);
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-md);
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: rgba(255, 215, 0, 0.15);
+            border-color: rgba(255, 215, 0, 0.3);
+            color: var(--accent-gold);
+        }
+
+        @media (max-width: 768px) {
+            .odds-container {
+                padding: var(--space-lg);
+            }
+
+            .matches-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .odds-teams {
+                padding: var(--space-lg);
+            }
+
+            .score-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            .filter-bar {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filter-group {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🏆</span>
+                <span class="logo-text">2026世界杯</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="standings.html" class="nav-link">积分榜</a></li>
+                <li><a href="odds.html" class="nav-link active">赔率</a></li>
+                <li><a href="news.html" class="nav-link">新闻</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="page-container">
+        <header class="page-header">
+            <h1 class="page-title">📊 实时赔率</h1>
+            <p class="page-desc">2026年世界杯比赛赔率实时更新</p>
+            <div class="update-time">
+                <span>🔄</span>
+                <span id="lastUpdate">数据更新时间: --</span>
+            </div>
+        </header>
+
+        <main class="odds-container">
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <button class="filter-btn active" data-filter="all">全部</button>
+                    <button class="filter-btn" data-filter="A">A组</button>
+                    <button class="filter-btn" data-filter="B">B组</button>
+                    <button class="filter-btn" data-filter="C">C组</button>
+                    <button class="filter-btn" data-filter="D">D组</button>
+                    <button class="filter-btn" data-filter="E">E组</button>
+                    <button class="filter-btn" data-filter="F">F组</button>
+                </div>
+            </div>
+
+            <div class="matches-grid" id="matchesGrid">
+                <!-- Matches will be loaded here -->
+            </div>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">🏆</span>
+                    <span class="footer-text">FIFA World Cup 2026™</span>
+                </div>
+                <div class="footer-disclaimer">
+                    <p>赔率仅供参考，请以实际投注平台为准</p>
+                    <p>© 2026 世界杯预测分析系统</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Country emoji mapping
+        const countryEmoji = {
+            'ARG': '🇦🇷', 'MEX': '🇲🇽', 'NED': '🇳🇱', 'CAN': '🇨🇦',
+            'ENG': '🏴󠁧󠁢󠁥󠁮󠁧󠁿', 'ESP': '🇪🇸', 'IRN': '🇮🇷', 'USA': '🇺🇸',
+            'FRA': '🇫🇷', 'BRA': '🇧🇷', 'POL': '🇵🇱', 'AUS': '🇦🇺',
+            'GER': '🇩🇪', 'CRO': '🇭🇷', 'JPN': '🇯🇵', 'CRC': '🇨🇷',
+            'POR': '🇵🇹', 'BEL': '🇧🇪', 'KOR': '🇰🇷', 'URU': '🇺🇾',
+            'MAR': '🇲🇦', 'ITA': '🇮🇹', 'SEN': '🇸🇳', 'ECU': '🇪🇨'
+        };
+
+        let oddsData = null;
+
+        // Load odds data
+        async function loadOdds() {
+            try {
+                const response = await fetch('data/odds.json');
+                oddsData = await response.json();
+                
+                // Update last update time
+                const updateDate = new Date(oddsData.lastUpdate);
+                document.getElementById('lastUpdate').textContent = 
+                    `数据更新时间: ${updateDate.toLocaleString('zh-CN')}`;
+                
+                renderMatches(oddsData.matches);
+            } catch (error) {
+                console.error('Failed to load odds:', error);
+                document.getElementById('matchesGrid').innerHTML = 
+                    '<p style="text-align:center;color:var(--text-muted);">数据加载失败</p>';
+            }
+        }
+
+        // Render matches
+        function renderMatches(matches) {
+            const grid = document.getElementById('matchesGrid');
+            grid.innerHTML = matches.map(match => {
+                // Get top 4 scores by odds value (lowest odds = most likely)
+                const sortedScores = Object.entries(match.odds.correctScore)
+                    .sort((a, b) => a[1] - b[1])
+                    .slice(0, 4);
+                
+                return `
+                <div class="match-odds-card" data-group="${match.group}">
+                    <div class="odds-header">
+                        <div class="match-badges">
+                            <span class="match-badge badge-group">${match.group}组</span>
+                            <span class="match-badge badge-round">${match.round}</span>
+                        </div>
+                        <div class="match-datetime">
+                            <span class="match-date">${formatDate(match.date)}</span>
+                            <span class="match-time">${match.time}</span>
+                        </div>
+                    </div>
+
+                    <div class="odds-teams">
+                        <div class="odds-team">
+                            <div class="odds-team-flag">${countryEmoji[match.home.code] || '🏳️'}</div>
+                            <div class="odds-team-name">${match.home.name}</div>
+                        </div>
+                        <div class="odds-vs">VS</div>
+                        <div class="odds-team">
+                            <div class="odds-team-flag">${countryEmoji[match.away.code] || '🏳️'}</div>
+                            <div class="odds-team-name">${match.away.name}</div>
+                        </div>
+                    </div>
+
+                    <div class="odds-section">
+                        <h4 class="odds-section-title">💰 胜平负</h4>
+                        <div class="odds-1x2">
+                            <div class="odds-1x2-item home">
+                                <div class="odds-label">主胜</div>
+                                <div class="odds-value">${match.odds['1X2'].home.toFixed(2)}</div>
+                            </div>
+                            <div class="odds-1x2-item draw">
+                                <div class="odds-label">平局</div>
+                                <div class="odds-value">${match.odds['1X2'].draw.toFixed(2)}</div>
+                            </div>
+                            <div class="odds-1x2-item away">
+                                <div class="odds-label">客胜</div>
+                                <div class="odds-value">${match.odds['1X2'].away.toFixed(2)}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="odds-section">
+                        <h4 class="odds-section-title">⚽ 比分赔率 (热门)</h4>
+                        <div class="score-grid">
+                            ${sortedScores.map(([score, odds], index) => `
+                                <div class="score-item ${index === 0 ? 'hot' : ''}">
+                                    <div class="score-prediction">${score}</div>
+                                    <div class="score-odds">${odds.toFixed(2)}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <div class="odds-section">
+                        <h4 class="odds-section-title">📈 大小球 (2.5)</h4>
+                        <div class="ou-grid">
+                            <div class="ou-item over">
+                                <div class="ou-label">大 2.5</div>
+                                <div class="ou-value">${match.odds.overUnder.over25}</div>
+                                <div class="ou-odds">${match.odds.overUnder.over25.toFixed(2)}</div>
+                            </div>
+                            <div class="ou-item under">
+                                <div class="ou-label">小 2.5</div>
+                                <div class="ou-value">${match.odds.overUnder.under25}</div>
+                                <div class="ou-odds">${match.odds.overUnder.under25.toFixed(2)}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="odds-footer">
+                        🏟️ ${match.venue}
+                    </div>
+                </div>
+            `}).join('');
+        }
+
+        // Format date
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return `${date.getMonth() + 1}月${date.getDate()}日`;
+        }
+
+        // Filter functionality
+        document.querySelector('.filter-bar').addEventListener('click', (e) => {
+            if (e.target.classList.contains('filter-btn')) {
+                // Update active state
+                document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                e.target.classList.add('active');
+
+                const filter = e.target.dataset.filter;
+                const cards = document.querySelectorAll('.match-odds-card');
+
+                cards.forEach(card => {
+                    if (filter === 'all' || card.dataset.group === filter) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+        });
+
+        // Mobile menu toggle
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+
+        // Initialize
+        loadOdds();
+    </script>
+</body>
+</html>

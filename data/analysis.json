@@ -1,0 +1,222 @@
+{
+  "matches": [
+    {
+      "id": 1,
+      "home_team": {
+        "name": "阿根廷",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "fifa_ranking": 1
+      },
+      "away_team": {
+        "name": "巴西",
+        "code": "BRA",
+        "flag": "🇧🇷",
+        "fifa_ranking": 3
+      },
+      "datetime": "2026-07-14T22:00:00+08:00",
+      "venue": "玫瑰碗体育场",
+      "city": "洛杉矶",
+      "group": "淘汰赛",
+      "round": "1/8决赛",
+      "analysis": {
+        "ai_prediction": {
+          "win": 45,
+          "draw": 25,
+          "lose": 30
+        },
+        "score_prediction": {
+          "most_likely": ["2-1", "1-0", "2-0"],
+          "upset_scores": ["0-2", "1-3"]
+        },
+        "goals_prediction": {
+          "distribution": {
+            "0": 10,
+            "1": 20,
+            "2": 35,
+            "3": 25,
+            "4": 10
+          },
+          "predicted_total": 2.5
+        },
+        "upset_analysis": {
+          "probability": 18,
+          "risk_level": "medium",
+          "description": "巴西近期状态回暖，但阿根廷主场气势强劲"
+        },
+        "advantages": {
+          "home": ["防线稳固，本届零失球", "定位球得分能力强", "核心球员梅西状态出色"],
+          "away": ["进攻火力凶猛", "边路突破犀利", "反击效率极高"]
+        },
+        "concerns": {
+          "home": ["中场控制力下降", "体能消耗较大", "替补深度不足"],
+          "away": ["防守存在漏洞", "客场作战适应问题", "主力后卫伤缺"]
+        },
+        "key_highlights": ["南美双雄巅峰对决", "梅西vs内马尔世纪较量", "可能决定金靴奖归属"],
+        "variables": {
+          "altitude": "中低海拔，暂无影响",
+          "weather": "晴朗，气温25°C",
+          "referee": "意大利主裁奥尔萨托",
+          "round_impact": "淘汰赛双方都会更谨慎"
+        },
+        "venue_info": {
+          "capacity": 90000,
+          "surface": "天然草皮",
+          "home_advantage": "中立场比赛"
+        },
+        "recommendations": {
+          "primary": "阿根廷胜",
+          "secondary": "总进球数大2.5",
+          "correct_score": "2-1",
+          "goals": "大2.5"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "home_team": {
+        "name": "法国",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "fifa_ranking": 2
+      },
+      "away_team": {
+        "name": "德国",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "fifa_ranking": 5
+      },
+      "datetime": "2026-07-15T03:00:00+08:00",
+      "venue": "AT&T体育场",
+      "city": "达拉斯",
+      "group": "淘汰赛",
+      "round": "1/8决赛",
+      "analysis": {
+        "ai_prediction": {
+          "win": 52,
+          "draw": 23,
+          "lose": 25
+        },
+        "score_prediction": {
+          "most_likely": ["2-0", "1-1", "3-1"],
+          "upset_scores": ["1-2", "0-2"]
+        },
+        "goals_prediction": {
+          "distribution": {
+            "0": 8,
+            "1": 18,
+            "2": 32,
+            "3": 28,
+            "4": 14
+          },
+          "predicted_total": 2.8
+        },
+        "upset_analysis": {
+          "probability": 22,
+          "risk_level": "medium-high",
+          "description": "德国战车底蕴深厚，随时可能爆发"
+        },
+        "advantages": {
+          "home": ["进攻端人才济济", "反击速度极快", "姆巴佩状态火热"],
+          "away": ["战术纪律性强", "中锋菲尔克鲁格支点作用明显", "大赛经验丰富"]
+        },
+        "concerns": {
+          "home": ["后防线略有隐患", "坎特缺阵影响较大", "心态可能轻敌"],
+          "away": ["边后卫位置薄弱", "整体速度不如对手", "小组赛表现一般"]
+        },
+        "key_highlights": ["欧洲传统豪门对决", "姆巴佩vs萨内边路对飙", "两队历史交锋频繁"],
+        "variables": {
+          "altitude": "室内场馆，无海拔影响",
+          "weather": "室内空调环境",
+          "referee": "西班牙主裁拉奥斯",
+          "round_impact": "强强对话，双方谨慎试探"
+        },
+        "venue_info": {
+          "capacity": 100000,
+          "surface": "人工草皮",
+          "home_advantage": "中立场比赛"
+        },
+        "recommendations": {
+          "primary": "法国胜",
+          "secondary": "总进球数大2.5",
+          "correct_score": "2-0",
+          "goals": "大2.5"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "home_team": {
+        "name": "西班牙",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "fifa_ranking": 4
+      },
+      "away_team": {
+        "name": "英格兰",
+        "code": "ENG",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "fifa_ranking": 6
+      },
+      "datetime": "2026-07-15T22:00:00+08:00",
+      "venue": "梅赛德斯奔驰体育场",
+      "city": "亚特兰大",
+      "group": "淘汰赛",
+      "round": "1/8决赛",
+      "analysis": {
+        "ai_prediction": {
+          "win": 38,
+          "draw": 30,
+          "lose": 32
+        },
+        "score_prediction": {
+          "most_likely": ["1-1", "2-1", "1-2"],
+          "upset_scores": ["0-0", "2-2"]
+        },
+        "goals_prediction": {
+          "distribution": {
+            "0": 15,
+            "1": 30,
+            "2": 35,
+            "3": 15,
+            "4": 5
+          },
+          "predicted_total": 2.0
+        },
+        "upset_analysis": {
+          "probability": 35,
+          "risk_level": "high",
+          "description": "势均力敌，临场发挥决定胜负"
+        },
+        "advantages": {
+          "home": ["控球能力世界顶级", "年轻球员冲劲十足", "小组赛全胜晋级"],
+          "away": ["身体对抗优势明显", "定位球威胁大", "贝林厄姆状态神勇"]
+        },
+        "concerns": {
+          "home": ["关键比赛经验不足", "门前把握机会能力待提高", "防守注意力有时不集中"],
+          "away": ["进攻创造力有限", "落后时追分能力差", "点球大战心理压力大"]
+        },
+        "key_highlights": ["欧洲技术流vs身体流对决", "佩德里vs贝林厄姆新生代核心较量", "可能出现点球大战"],
+        "variables": {
+          "altitude": "低海拔，无明显影响",
+          "weather": "多云，气温28°C",
+          "referee": "德国主裁茨伯尔",
+          "round_impact": "双方都可能保守，谨慎开局"
+        },
+        "venue_info": {
+          "capacity": 72000,
+          "surface": "天然草皮",
+          "home_advantage": "中立场比赛"
+        },
+        "recommendations": {
+          "primary": "总进球数小2.5",
+          "secondary": "平局",
+          "correct_score": "1-1",
+          "goals": "小2.5"
+        }
+      }
+    }
+  ],
+  "update_time": "2026-07-14T18:00:00+08:00",
+  "data_source": "AI综合分析模型v3.2"
+}

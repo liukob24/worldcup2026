@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026世界杯 - 赛事新闻</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .page-container {
+            padding-top: 80px;
+            min-height: 100vh;
+        }
+
+        .page-header {
+            text-align: center;
+            padding: var(--space-2xl) var(--space-lg);
+            background: linear-gradient(180deg, rgba(10, 22, 40, 0.9) 0%, rgba(26, 45, 77, 0.5) 100%);
+        }
+
+        .page-title {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 900;
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: var(--space-md);
+        }
+
+        .page-desc {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        .news-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: var(--space-2xl);
+        }
+
+        /* Category Tabs */
+        .category-tabs {
+            display: flex;
+            gap: var(--space-md);
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: var(--space-xl);
+            padding-bottom: var(--space-lg);
+            border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+        }
+
+        .category-tab {
+            padding: var(--space-sm) var(--space-xl);
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-xl);
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .category-tab:hover,
+        .category-tab.active {
+            background: rgba(255, 215, 0, 0.15);
+            border-color: rgba(255, 215, 0, 0.3);
+            color: var(--accent-gold);
+        }
+
+        /* Featured News */
+        .featured-news {
+            margin-bottom: var(--space-xl);
+        }
+
+        .featured-card {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: var(--space-xl);
+            background: var(--gradient-card);
+            border-radius: var(--radius-xl);
+            border: 1px solid rgba(255, 215, 0, 0.15);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .featured-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 215, 0, 0.3);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .featured-image {
+            position: relative;
+            height: 300px;
+            overflow: hidden;
+        }
+
+        .featured-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .featured-card:hover .featured-image img {
+            transform: scale(1.05);
+        }
+
+        .featured-category {
+            position: absolute;
+            top: var(--space-lg);
+            left: var(--space-lg);
+            padding: var(--space-xs) var(--space-md);
+            background: var(--accent-gold);
+            color: var(--primary-dark);
+            font-size: 0.75rem;
+            font-weight: 700;
+            border-radius: var(--radius-sm);
+        }
+
+        .featured-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: var(--space-xl);
+        }
+
+        .featured-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            line-height: 1.4;
+            margin-bottom: var(--space-md);
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .featured-summary {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: var(--space-lg);
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .featured-meta {
+            display: flex;
+            gap: var(--space-lg);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .featured-meta span {
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+        }
+
+        /* News List */
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-lg);
+        }
+
+        .news-card {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            gap: var(--space-lg);
+            background: var(--gradient-card);
+            border-radius: var(--radius-lg);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .news-card:hover {
+            transform: translateX(5px);
+            border-color: rgba(255, 215, 0, 0.2);
+            box-shadow: var(--shadow-md);
+        }
+
+        .news-image {
+            position: relative;
+            height: 140px;
+            overflow: hidden;
+        }
+
+        .news-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .news-card:hover .news-image img {
+            transform: scale(1.1);
+        }
+
+        .news-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: var(--space-lg) var(--space-lg) var(--space-lg) 0;
+        }
+
+        .news-category {
+            display: inline-block;
+            width: fit-content;
+            padding: var(--space-xs) var(--space-sm);
+            background: rgba(255, 215, 0, 0.15);
+            color: var(--accent-gold);
+            font-size: 0.625rem;
+            font-weight: 700;
+            border-radius: var(--radius-sm);
+            text-transform: uppercase;
+            margin-bottom: var(--space-sm);
+        }
+
+        .news-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            line-height: 1.4;
+            margin-bottom: var(--space-sm);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            transition: color 0.3s ease;
+        }
+
+        .news-card:hover .news-title {
+            color: var(--accent-gold);
+        }
+
+        .news-summary {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin-bottom: var(--space-md);
+        }
+
+        .news-meta {
+            display: flex;
+            gap: var(--space-md);
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        .news-meta span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* Load More */
+        .load-more {
+            display: flex;
+            justify-content: center;
+            margin-top: var(--space-2xl);
+        }
+
+        .load-more-btn {
+            padding: var(--space-md) var(--space-2xl);
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: var(--radius-xl);
+            color: var(--accent-gold);
+            font-size: 0.875rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .load-more-btn:hover {
+            background: rgba(255, 215, 0, 0.2);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .news-container {
+                padding: var(--space-lg);
+            }
+
+            .featured-card {
+                grid-template-columns: 1fr;
+            }
+
+            .featured-image {
+                height: 200px;
+            }
+
+            .featured-content {
+                padding: var(--space-lg);
+            }
+
+            .news-card {
+                grid-template-columns: 1fr;
+            }
+
+            .news-image {
+                height: 180px;
+            }
+
+            .news-content {
+                padding: var(--space-lg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🏆</span>
+                <span class="logo-text">2026世界杯</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="standings.html" class="nav-link">积分榜</a></li>
+                <li><a href="odds.html" class="nav-link">赔率</a></li>
+                <li><a href="news.html" class="nav-link active">新闻</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="page-container">
+        <header class="page-header">
+            <h1 class="page-title">📰 赛事新闻</h1>
+            <p class="page-desc">2026年世界杯最新资讯实时更新</p>
+        </header>
+
+        <main class="news-container">
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="all">全部</button>
+                <button class="category-tab" data-category="赛况">赛况</button>
+                <button class="category-tab" data-category="热点">热点</button>
+                <button class="category-tab" data-category="综合">综合</button>
+                <button class="category-tab" data-category="装备">装备</button>
+            </div>
+
+            <div id="newsContent">
+                <!-- News content will be loaded here -->
+            </div>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">🏆</span>
+                    <span class="footer-text">FIFA World Cup 2026™</span>
+                </div>
+                <div class="footer-disclaimer">
+                    <p>新闻内容来源于各媒体平台，不代表本系统观点</p>
+                    <p>© 2026 世界杯预测分析系统</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let newsData = null;
+
+        // Load news data
+        async function loadNews() {
+            try {
+                const response = await fetch('data/news.json');
+                newsData = await response.json();
+                renderNews(newsData.news);
+            } catch (error) {
+                console.error('Failed to load news:', error);
+                document.getElementById('newsContent').innerHTML = 
+                    '<p style="text-align:center;color:var(--text-muted);">数据加载失败</p>';
+            }
+        }
+
+        // Render news
+        function renderNews(newsList) {
+            const container = document.getElementById('newsContent');
+            
+            if (newsList.length === 0) {
+                container.innerHTML = '<p style="text-align:center;color:var(--text-muted);">暂无相关新闻</p>';
+                return;
+            }
+
+            const [featured, ...rest] = newsList;
+
+            container.innerHTML = `
+                <div class="featured-news">
+                    <div class="featured-card" onclick="openNews('${featured.url}')">
+                        <div class="featured-image">
+                            <img src="${featured.image}" alt="${featured.title}">
+                            <span class="featured-category">${featured.category}</span>
+                        </div>
+                        <div class="featured-content">
+                            <h2 class="featured-title">${featured.title}</h2>
+                            <p class="featured-summary">${featured.summary}</p>
+                            <div class="featured-meta">
+                                <span>📰 ${featured.source}</span>
+                                <span>🕐 ${formatTime(featured.publishTime)}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-list">
+                    ${rest.map(item => `
+                        <div class="news-card" onclick="openNews('${item.url}')">
+                            <div class="news-image">
+                                <img src="${item.image}" alt="${item.title}">
+                            </div>
+                            <div class="news-content">
+                                <span class="news-category">${item.category}</span>
+                                <h3 class="news-title">${item.title}</h3>
+                                <p class="news-summary">${item.summary}</p>
+                                <div class="news-meta">
+                                    <span>📰 ${item.source}</span>
+                                    <span>🕐 ${formatTime(item.publishTime)}</span>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+
+                <div class="load-more">
+                    <button class="load-more-btn" onclick="loadMore()">加载更多新闻</button>
+                </div>
+            `;
+        }
+
+        // Format time
+        function formatTime(timeStr) {
+            const date = new Date(timeStr);
+            const now = new Date();
+            const diff = now - date;
+            
+            // Less than 1 hour
+            if (diff < 3600000) {
+                const mins = Math.floor(diff / 60000);
+                return mins > 0 ? `${mins}分钟前` : '刚刚';
+            }
+            
+            // Less than 24 hours
+            if (diff < 86400000) {
+                const hours = Math.floor(diff / 3600000);
+                return `${hours}小时前`;
+            }
+            
+            // Less than 7 days
+            if (diff < 604800000) {
+                const days = Math.floor(diff / 86400000);
+                return `${days}天前`;
+            }
+            
+            return `${date.getMonth() + 1}/${date.getDate()}`;
+        }
+
+        // Open news in new tab
+        function openNews(url) {
+            window.open(url, '_blank');
+        }
+
+        // Category filter
+        document.querySelector('.category-tabs').addEventListener('click', (e) => {
+            if (e.target.classList.contains('category-tab')) {
+                document.querySelectorAll('.category-tab').forEach(tab => tab.classList.remove('active'));
+                e.target.classList.add('active');
+
+                const category = e.target.dataset.category;
+                
+                if (category === 'all') {
+                    renderNews(newsData.news);
+                } else {
+                    const filtered = newsData.news.filter(item => item.category === category);
+                    renderNews(filtered);
+                }
+            }
+        });
+
+        // Load more
+        let page = 1;
+        function loadMore() {
+            page++;
+            // Simulate loading more (in real app, fetch from API)
+            const btn = document.querySelector('.load-more-btn');
+            btn.textContent = '暂无更多新闻';
+            btn.disabled = true;
+            btn.style.opacity = '0.5';
+            btn.style.cursor = 'not-allowed';
+        }
+
+        // Mobile menu toggle
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+
+        // Initialize
+        loadNews();
+    </script>
+</body>
+</html>
