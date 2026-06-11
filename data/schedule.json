@@ -239,13 +239,13 @@
       "group": "A",
       "round": 1,
       "status": "completed",
-      "homeScore": 4,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
       "id": 2,
-      "date": "2026-06-11",
-      "time": "06:00",
+      "date": "2026-06-12",
+      "time": "10:00",
       "home": "韩国",
       "away": "捷克",
       "venue": "bbva",
