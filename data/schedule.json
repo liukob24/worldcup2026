@@ -1,2231 +1,1098 @@
 {
-    "tournament": {
-        "name": "2026 FIFA World Cup",
-        "host": "USA • Canada • Mexico",
-        "startDate": "2026-06-11",
-        "endDate": "2026-07-19",
-        "totalTeams": 48,
-        "totalMatches": 104
+  "tournament": {
+    "name": "2026 FIFA World Cup",
+    "host": "USA • Canada • Mexico",
+    "startDate": "2026-06-11",
+    "endDate": "2026-07-19",
+    "totalTeams": 48,
+    "totalMatches": 72
+  },
+  "groups": {
+    "A": {
+      "name": "A组",
+      "teams": [
+        "墨西哥",
+        "南非",
+        "韩国",
+        "捷克"
+      ]
     },
-    "groups": {
-        "A": {
-            "name": "A组",
-            "teams": [
-                "墨西哥",
-                "南非",
-                "韩国",
-                "捷克"
-            ]
-        },
-        "B": {
-            "name": "B组",
-            "teams": [
-                "加拿大",
-                "波黑",
-                "卡塔尔",
-                "瑞士"
-            ]
-        },
-        "C": {
-            "name": "C组",
-            "teams": [
-                "巴西",
-                "摩洛哥",
-                "海地",
-                "苏格兰"
-            ]
-        },
-        "D": {
-            "name": "D组",
-            "teams": [
-                "美国",
-                "巴拉圭",
-                "澳大利亚",
-                "土耳其"
-            ]
-        },
-        "E": {
-            "name": "E组",
-            "teams": [
-                "德国",
-                "库拉索",
-                "科特迪瓦",
-                "厄瓜多尔"
-            ]
-        },
-        "F": {
-            "name": "F组",
-            "teams": [
-                "荷兰",
-                "日本",
-                "瑞典",
-                "突尼斯"
-            ]
-        },
-        "G": {
-            "name": "G组",
-            "teams": [
-                "比利时",
-                "埃及",
-                "伊朗",
-                "新西兰"
-            ]
-        },
-        "H": {
-            "name": "H组",
-            "teams": [
-                "西班牙",
-                "佛得角",
-                "沙特",
-                "乌拉圭"
-            ]
-        },
-        "I": {
-            "name": "I组",
-            "teams": [
-                "法国",
-                "塞内加尔",
-                "伊拉克",
-                "挪威"
-            ]
-        },
-        "J": {
-            "name": "J组",
-            "teams": [
-                "阿根廷",
-                "阿尔及利亚",
-                "奥地利",
-                "约旦"
-            ]
-        },
-        "K": {
-            "name": "K组",
-            "teams": [
-                "葡萄牙",
-                "民主刚果",
-                "乌兹别克斯坦",
-                "哥伦比亚"
-            ]
-        },
-        "L": {
-            "name": "L组",
-            "teams": [
-                "英格兰",
-                "克罗地亚",
-                "加纳",
-                "巴拿马"
-            ]
-        }
+    "B": {
+      "name": "B组",
+      "teams": [
+        "加拿大",
+        "波黑",
+        "卡塔尔",
+        "瑞士"
+      ]
     },
-    "venues": [
-        {
-            "id": "azteca",
-            "name": "阿兹特克体育场",
-            "city": "墨西哥城",
-            "country": "墨西哥"
-        },
-        {
-            "id": "metlife",
-            "name": "大都会体育场",
-            "city": "东卢瑟福",
-            "country": "美国"
-        },
-        {
-            "id": "sofi",
-            "name": "SoFi体育场",
-            "city": "英格尔伍德",
-            "country": "美国"
-        },
-        {
-            "id": "att",
-            "name": "AT&T体育场",
-            "city": "阿灵顿",
-            "country": "美国"
-        },
-        {
-            "id": "levis",
-            "name": "李维斯体育场",
-            "city": "圣克拉拉",
-            "country": "美国"
-        },
-        {
-            "id": "bcplace",
-            "name": "BC广场体育场",
-            "city": "温哥华",
-            "country": "加拿大"
-        },
-        {
-            "id": "bmo",
-            "name": "BMO体育场",
-            "city": "多伦多",
-            "country": "加拿大"
-        },
-        {
-            "id": "lumen",
-            "name": "流明体育场",
-            "city": "西雅图",
-            "country": "美国"
-        },
-        {
-            "id": "hardrock",
-            "name": "硬石体育场",
-            "city": "迈阿密花园",
-            "country": "美国"
-        },
-        {
-            "id": "nrg",
-            "name": "NRG体育场",
-            "city": "休斯顿",
-            "country": "美国"
-        },
-        {
-            "id": "arrowhead",
-            "name": "箭头体育场",
-            "city": "堪萨斯城",
-            "country": "美国"
-        },
-        {
-            "id": "lincoln",
-            "name": "林肯金融体育场",
-            "city": "费城",
-            "country": "美国"
-        },
-        {
-            "id": "gillette",
-            "name": "吉列体育场",
-            "city": "福克斯堡",
-            "country": "美国"
-        },
-        {
-            "id": "bbva",
-            "name": "BBVA体育场",
-            "city": "瓜达拉哈拉",
-            "country": "墨西哥"
-        }
-    ],
-    "matches": [
-        {
-            "id": 1,
-            "date": "2026-06-11",
-            "time": "01:00",
-            "home": "墨西哥",
-            "away": "南非",
-            "city": "墨西哥城",
-            "group": "A",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "azteca",
-                "name": "阿兹特克体育场",
-                "city": "墨西哥城",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 2,
-            "date": "2026-06-11",
-            "time": "08:00",
-            "home": "韩国",
-            "away": "捷克",
-            "city": "瓜达拉哈拉",
-            "group": "A",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "bbva",
-                "name": "BBVA体育场",
-                "city": "瓜达拉哈拉",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 3,
-            "date": "2026-06-12",
-            "time": "03:00",
-            "home": "加拿大",
-            "away": "波黑",
-            "city": "多伦多",
-            "group": "B",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "bmo",
-                "name": "BMO体育场",
-                "city": "多伦多",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 4,
-            "date": "2026-06-12",
-            "time": "09:00",
-            "home": "美国",
-            "away": "巴拉圭",
-            "city": "英格尔伍德",
-            "group": "D",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "sofi",
-                "name": "SoFi体育场",
-                "city": "英格尔伍德",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 5,
-            "date": "2026-06-13",
-            "time": "03:00",
-            "home": "卡塔尔",
-            "away": "瑞士",
-            "city": "圣克拉拉",
-            "group": "B",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "levis",
-                "name": "李维斯体育场",
-                "city": "圣克拉拉",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 6,
-            "date": "2026-06-13",
-            "time": "06:00",
-            "home": "巴西",
-            "away": "摩洛哥",
-            "city": "东卢瑟福",
-            "group": "C",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "metlife",
-                "name": "大都会体育场",
-                "city": "东卢瑟福",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 7,
-            "date": "2026-06-13",
-            "time": "09:00",
-            "home": "海地",
-            "away": "苏格兰",
-            "city": "福克斯堡",
-            "group": "C",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "gillette",
-                "name": "吉列体育场",
-                "city": "福克斯堡",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 8,
-            "date": "2026-06-13",
-            "time": "12:00",
-            "home": "澳大利亚",
-            "away": "土耳其",
-            "city": "温哥华",
-            "group": "D",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "bcplace",
-                "name": "BC广场体育场",
-                "city": "温哥华",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 9,
-            "date": "2026-06-14",
-            "time": "01:00",
-            "home": "德国",
-            "away": "库拉索",
-            "city": "休斯顿",
-            "group": "E",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "nrg",
-                "name": "NRG体育场",
-                "city": "休斯顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 10,
-            "date": "2026-06-14",
-            "time": "04:00",
-            "home": "荷兰",
-            "away": "日本",
-            "city": "阿灵顿",
-            "group": "F",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "att",
-                "name": "AT&T体育场",
-                "city": "阿灵顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 11,
-            "date": "2026-06-14",
-            "time": "07:00",
-            "home": "科特迪瓦",
-            "away": "厄瓜多尔",
-            "city": "费城",
-            "group": "E",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "lincoln",
-                "name": "林肯金融体育场",
-                "city": "费城",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 12,
-            "date": "2026-06-14",
-            "time": "10:00",
-            "home": "瑞典",
-            "away": "突尼斯",
-            "city": "瓜达拉哈拉",
-            "group": "F",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "bbva",
-                "name": "BBVA体育场",
-                "city": "瓜达拉哈拉",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 13,
-            "date": "2026-06-15",
-            "time": "00:00",
-            "home": "西班牙",
-            "away": "佛得角",
-            "city": "迈阿密花园",
-            "group": "H",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "hardrock",
-                "name": "硬石体育场",
-                "city": "迈阿密花园",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 14,
-            "date": "2026-06-15",
-            "time": "03:00",
-            "home": "比利时",
-            "away": "埃及",
-            "city": "西雅图",
-            "group": "G",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "lumen",
-                "name": "流明体育场",
-                "city": "西雅图",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 15,
-            "date": "2026-06-15",
-            "time": "06:00",
-            "home": "沙特",
-            "away": "乌拉圭",
-            "city": "迈阿密花园",
-            "group": "H",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "hardrock",
-                "name": "硬石体育场",
-                "city": "迈阿密花园",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 16,
-            "date": "2026-06-15",
-            "time": "09:00",
-            "home": "伊朗",
-            "away": "新西兰",
-            "city": "英格尔伍德",
-            "group": "G",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "sofi",
-                "name": "SoFi体育场",
-                "city": "英格尔伍德",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 17,
-            "date": "2026-06-16",
-            "time": "03:00",
-            "home": "法国",
-            "away": "塞内加尔",
-            "city": "东卢瑟福",
-            "group": "I",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "metlife",
-                "name": "大都会体育场",
-                "city": "东卢瑟福",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 18,
-            "date": "2026-06-16",
-            "time": "06:00",
-            "home": "伊拉克",
-            "away": "挪威",
-            "city": "福克斯堡",
-            "group": "I",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "gillette",
-                "name": "吉列体育场",
-                "city": "福克斯堡",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 19,
-            "date": "2026-06-16",
-            "time": "09:00",
-            "home": "阿根廷",
-            "away": "阿尔及利亚",
-            "city": "阿灵顿",
-            "group": "J",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "att",
-                "name": "AT&T体育场",
-                "city": "阿灵顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 20,
-            "date": "2026-06-16",
-            "time": "12:00",
-            "home": "奥地利",
-            "away": "约旦",
-            "city": "圣克拉拉",
-            "group": "J",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "levis",
-                "name": "李维斯体育场",
-                "city": "圣克拉拉",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 21,
-            "date": "2026-06-17",
-            "time": "01:00",
-            "home": "葡萄牙",
-            "away": "民主刚果",
-            "city": "休斯顿",
-            "group": "K",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "nrg",
-                "name": "NRG体育场",
-                "city": "休斯顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 22,
-            "date": "2026-06-17",
-            "time": "04:00",
-            "home": "英格兰",
-            "away": "克罗地亚",
-            "city": "阿灵顿",
-            "group": "L",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "att",
-                "name": "AT&T体育场",
-                "city": "阿灵顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 23,
-            "date": "2026-06-17",
-            "time": "07:00",
-            "home": "加纳",
-            "away": "巴拿马",
-            "city": "多伦多",
-            "group": "L",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "bmo",
-                "name": "BMO体育场",
-                "city": "多伦多",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 24,
-            "date": "2026-06-17",
-            "time": "10:00",
-            "home": "乌兹别克斯坦",
-            "away": "哥伦比亚",
-            "city": "墨西哥城",
-            "group": "K",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "azteca",
-                "name": "阿兹特克体育场",
-                "city": "墨西哥城",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 25,
-            "date": "2026-06-18",
-            "time": "03:00",
-            "home": "捷克",
-            "away": "南非",
-            "city": "迈阿密花园",
-            "group": "A",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "hardrock",
-                "name": "硬石体育场",
-                "city": "迈阿密花园",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 26,
-            "date": "2026-06-18",
-            "time": "08:00",
-            "home": "瑞士",
-            "away": "波黑",
-            "city": "英格尔伍德",
-            "group": "B",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "sofi",
-                "name": "SoFi体育场",
-                "city": "英格尔伍德",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 27,
-            "date": "2026-06-18",
-            "time": "11:00",
-            "home": "加拿大",
-            "away": "卡塔尔",
-            "city": "温哥华",
-            "group": "B",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "bcplace",
-                "name": "BC广场体育场",
-                "city": "温哥华",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 28,
-            "date": "2026-06-18",
-            "time": "21:00",
-            "home": "墨西哥",
-            "away": "韩国",
-            "city": "瓜达拉哈拉",
-            "group": "A",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "bbva",
-                "name": "BBVA体育场",
-                "city": "瓜达拉哈拉",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 29,
-            "date": "2026-06-19",
-            "time": "02:00",
-            "home": "巴西",
-            "away": "海地",
-            "city": "费城",
-            "group": "C",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "lincoln",
-                "name": "林肯金融体育场",
-                "city": "费城",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 30,
-            "date": "2026-06-19",
-            "time": "07:00",
-            "home": "苏格兰",
-            "away": "摩洛哥",
-            "city": "福克斯堡",
-            "group": "C",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "gillette",
-                "name": "吉列体育场",
-                "city": "福克斯堡",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 31,
-            "date": "2026-06-19",
-            "time": "08:00",
-            "home": "美国",
-            "away": "澳大利亚",
-            "city": "西雅图",
-            "group": "D",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "lumen",
-                "name": "流明体育场",
-                "city": "西雅图",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 32,
-            "date": "2026-06-19",
-            "time": "22:00",
-            "home": "土耳其",
-            "away": "巴拉圭",
-            "city": "圣克拉拉",
-            "group": "D",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "levis",
-                "name": "李维斯体育场",
-                "city": "圣克拉拉",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 33,
-            "date": "2026-06-20",
-            "time": "00:00",
-            "home": "厄瓜多尔",
-            "away": "库拉索",
-            "city": "堪萨斯城",
-            "group": "E",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "arrowhead",
-                "name": "箭头体育场",
-                "city": "堪萨斯城",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 34,
-            "date": "2026-06-20",
-            "time": "05:00",
-            "home": "德国",
-            "away": "科特迪瓦",
-            "city": "多伦多",
-            "group": "E",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "bmo",
-                "name": "BMO体育场",
-                "city": "多伦多",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 35,
-            "date": "2026-06-20",
-            "time": "08:00",
-            "home": "荷兰",
-            "away": "瑞典",
-            "city": "休斯顿",
-            "group": "F",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "nrg",
-                "name": "NRG体育场",
-                "city": "休斯顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 36,
-            "date": "2026-06-20",
-            "time": "21:00",
-            "home": "突尼斯",
-            "away": "日本",
-            "city": "瓜达拉哈拉",
-            "group": "F",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "bbva",
-                "name": "BBVA体育场",
-                "city": "瓜达拉哈拉",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 37,
-            "date": "2026-06-21",
-            "time": "00:00",
-            "home": "乌拉圭",
-            "away": "佛得角",
-            "city": "迈阿密花园",
-            "group": "H",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "hardrock",
-                "name": "硬石体育场",
-                "city": "迈阿密花园",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 38,
-            "date": "2026-06-21",
-            "time": "05:00",
-            "home": "西班牙",
-            "away": "沙特",
-            "city": "迈阿密花园",
-            "group": "H",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "hardrock",
-                "name": "硬石体育场",
-                "city": "迈阿密花园",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 39,
-            "date": "2026-06-21",
-            "time": "08:00",
-            "home": "比利时",
-            "away": "伊朗",
-            "city": "英格尔伍德",
-            "group": "G",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "sofi",
-                "name": "SoFi体育场",
-                "city": "英格尔伍德",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 40,
-            "date": "2026-06-21",
-            "time": "18:00",
-            "home": "新西兰",
-            "away": "埃及",
-            "city": "温哥华",
-            "group": "G",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "bcplace",
-                "name": "BC广场体育场",
-                "city": "温哥华",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 41,
-            "date": "2026-06-22",
-            "time": "02:00",
-            "home": "挪威",
-            "away": "塞内加尔",
-            "city": "东卢瑟福",
-            "group": "I",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "metlife",
-                "name": "大都会体育场",
-                "city": "东卢瑟福",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 42,
-            "date": "2026-06-22",
-            "time": "03:00",
-            "home": "法国",
-            "away": "伊拉克",
-            "city": "费城",
-            "group": "I",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "lincoln",
-                "name": "林肯金融体育场",
-                "city": "费城",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 43,
-            "date": "2026-06-22",
-            "time": "09:00",
-            "home": "阿根廷",
-            "away": "奥地利",
-            "city": "阿灵顿",
-            "group": "J",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "att",
-                "name": "AT&T体育场",
-                "city": "阿灵顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 44,
-            "date": "2026-06-22",
-            "time": "12:00",
-            "home": "约旦",
-            "away": "阿尔及利亚",
-            "city": "圣克拉拉",
-            "group": "J",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "levis",
-                "name": "李维斯体育场",
-                "city": "圣克拉拉",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 45,
-            "date": "2026-06-23",
-            "time": "03:00",
-            "home": "哥伦比亚",
-            "away": "民主刚果",
-            "city": "瓜达拉哈拉",
-            "group": "K",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "bbva",
-                "name": "BBVA体育场",
-                "city": "瓜达拉哈拉",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 46,
-            "date": "2026-06-23",
-            "time": "08:00",
-            "home": "葡萄牙",
-            "away": "乌兹别克斯坦",
-            "city": "休斯顿",
-            "group": "K",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "nrg",
-                "name": "NRG体育场",
-                "city": "休斯顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 47,
-            "date": "2026-06-23",
-            "time": "09:00",
-            "home": "英格兰",
-            "away": "加纳",
-            "city": "福克斯堡",
-            "group": "L",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "gillette",
-                "name": "吉列体育场",
-                "city": "福克斯堡",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 48,
-            "date": "2026-06-23",
-            "time": "10:00",
-            "home": "巴拿马",
-            "away": "克罗地亚",
-            "city": "多伦多",
-            "group": "L",
-            "round": 1,
-            "status": "upcoming",
-            "venue": {
-                "id": "bmo",
-                "name": "BMO体育场",
-                "city": "多伦多",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 49,
-            "date": "2026-06-18",
-            "time": "03:00",
-            "home": "南非",
-            "away": "墨西哥",
-            "city": "迈阿密花园",
-            "group": "A",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "hardrock",
-                "name": "硬石体育场",
-                "city": "迈阿密花园",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 50,
-            "date": "2026-06-18",
-            "time": "08:00",
-            "home": "捷克",
-            "away": "韩国",
-            "city": "英格尔伍德",
-            "group": "A",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "sofi",
-                "name": "SoFi体育场",
-                "city": "英格尔伍德",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 51,
-            "date": "2026-06-19",
-            "time": "03:00",
-            "home": "波黑",
-            "away": "加拿大",
-            "city": "福克斯堡",
-            "group": "B",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "gillette",
-                "name": "吉列体育场",
-                "city": "福克斯堡",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 52,
-            "date": "2026-06-19",
-            "time": "08:00",
-            "home": "瑞士",
-            "away": "卡塔尔",
-            "city": "西雅图",
-            "group": "B",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "lumen",
-                "name": "流明体育场",
-                "city": "西雅图",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 53,
-            "date": "2026-06-20",
-            "time": "03:00",
-            "home": "摩洛哥",
-            "away": "巴西",
-            "city": "费城",
-            "group": "C",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "lincoln",
-                "name": "林肯金融体育场",
-                "city": "费城",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 54,
-            "date": "2026-06-20",
-            "time": "08:00",
-            "home": "苏格兰",
-            "away": "海地",
-            "city": "温哥华",
-            "group": "C",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "bcplace",
-                "name": "BC广场体育场",
-                "city": "温哥华",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 55,
-            "date": "2026-06-21",
-            "time": "03:00",
-            "home": "巴拉圭",
-            "away": "美国",
-            "city": "阿灵顿",
-            "group": "D",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "att",
-                "name": "AT&T体育场",
-                "city": "阿灵顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 56,
-            "date": "2026-06-21",
-            "time": "08:00",
-            "home": "土耳其",
-            "away": "澳大利亚",
-            "city": "圣克拉拉",
-            "group": "D",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "levis",
-                "name": "李维斯体育场",
-                "city": "圣克拉拉",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 57,
-            "date": "2026-06-22",
-            "time": "00:00",
-            "home": "库拉索",
-            "away": "德国",
-            "city": "堪萨斯城",
-            "group": "E",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "arrowhead",
-                "name": "箭头体育场",
-                "city": "堪萨斯城",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 58,
-            "date": "2026-06-22",
-            "time": "05:00",
-            "home": "厄瓜多尔",
-            "away": "科特迪瓦",
-            "city": "休斯顿",
-            "group": "E",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "nrg",
-                "name": "NRG体育场",
-                "city": "休斯顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 59,
-            "date": "2026-06-23",
-            "time": "00:00",
-            "home": "日本",
-            "away": "荷兰",
-            "city": "瓜达拉哈拉",
-            "group": "F",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "bbva",
-                "name": "BBVA体育场",
-                "city": "瓜达拉哈拉",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 60,
-            "date": "2026-06-23",
-            "time": "05:00",
-            "home": "突尼斯",
-            "away": "瑞典",
-            "city": "迈阿密花园",
-            "group": "F",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "hardrock",
-                "name": "硬石体育场",
-                "city": "迈阿密花园",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 61,
-            "date": "2026-06-24",
-            "time": "03:00",
-            "home": "埃及",
-            "away": "比利时",
-            "city": "东卢瑟福",
-            "group": "G",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "metlife",
-                "name": "大都会体育场",
-                "city": "东卢瑟福",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 62,
-            "date": "2026-06-24",
-            "time": "08:00",
-            "home": "伊朗",
-            "away": "新西兰",
-            "city": "温哥华",
-            "group": "G",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "bcplace",
-                "name": "BC广场体育场",
-                "city": "温哥华",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 63,
-            "date": "2026-06-25",
-            "time": "00:00",
-            "home": "佛得角",
-            "away": "西班牙",
-            "city": "福克斯堡",
-            "group": "H",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "gillette",
-                "name": "吉列体育场",
-                "city": "福克斯堡",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 64,
-            "date": "2026-06-25",
-            "time": "05:00",
-            "home": "沙特",
-            "away": "乌拉圭",
-            "city": "西雅图",
-            "group": "H",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "lumen",
-                "name": "流明体育场",
-                "city": "西雅图",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 65,
-            "date": "2026-06-26",
-            "time": "03:00",
-            "home": "塞内加尔",
-            "away": "法国",
-            "city": "费城",
-            "group": "I",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "lincoln",
-                "name": "林肯金融体育场",
-                "city": "费城",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 66,
-            "date": "2026-06-26",
-            "time": "08:00",
-            "home": "挪威",
-            "away": "伊拉克",
-            "city": "阿灵顿",
-            "group": "I",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "att",
-                "name": "AT&T体育场",
-                "city": "阿灵顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 67,
-            "date": "2026-06-27",
-            "time": "03:00",
-            "home": "阿尔及利亚",
-            "away": "阿根廷",
-            "city": "圣克拉拉",
-            "group": "J",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "levis",
-                "name": "李维斯体育场",
-                "city": "圣克拉拉",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 68,
-            "date": "2026-06-27",
-            "time": "08:00",
-            "home": "约旦",
-            "away": "奥地利",
-            "city": "温哥华",
-            "group": "J",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "bcplace",
-                "name": "BC广场体育场",
-                "city": "温哥华",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 69,
-            "date": "2026-06-28",
-            "time": "00:00",
-            "home": "民主刚果",
-            "away": "葡萄牙",
-            "city": "瓜达拉哈拉",
-            "group": "K",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "bbva",
-                "name": "BBVA体育场",
-                "city": "瓜达拉哈拉",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 70,
-            "date": "2026-06-28",
-            "time": "05:00",
-            "home": "哥伦比亚",
-            "away": "乌兹别克斯坦",
-            "city": "休斯顿",
-            "group": "K",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "nrg",
-                "name": "NRG体育场",
-                "city": "休斯顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 71,
-            "date": "2026-06-29",
-            "time": "00:00",
-            "home": "克罗地亚",
-            "away": "英格兰",
-            "city": "迈阿密花园",
-            "group": "L",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "hardrock",
-                "name": "硬石体育场",
-                "city": "迈阿密花园",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 72,
-            "date": "2026-06-29",
-            "time": "05:00",
-            "home": "巴拿马",
-            "away": "加纳",
-            "city": "东卢瑟福",
-            "group": "L",
-            "round": 2,
-            "status": "upcoming",
-            "venue": {
-                "id": "metlife",
-                "name": "大都会体育场",
-                "city": "东卢瑟福",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 73,
-            "date": "2026-06-24",
-            "time": "03:00",
-            "home": "韩国",
-            "away": "南非",
-            "city": "墨西哥城",
-            "group": "A",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "azteca",
-                "name": "阿兹特克体育场",
-                "city": "墨西哥城",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 74,
-            "date": "2026-06-24",
-            "time": "03:00",
-            "home": "墨西哥",
-            "away": "捷克",
-            "city": "瓜达拉哈拉",
-            "group": "A",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "bbva",
-                "name": "BBVA体育场",
-                "city": "瓜达拉哈拉",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 75,
-            "date": "2026-06-25",
-            "time": "03:00",
-            "home": "卡塔尔",
-            "away": "波黑",
-            "city": "福克斯堡",
-            "group": "B",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "gillette",
-                "name": "吉列体育场",
-                "city": "福克斯堡",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 76,
-            "date": "2026-06-25",
-            "time": "03:00",
-            "home": "瑞士",
-            "away": "加拿大",
-            "city": "西雅图",
-            "group": "B",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "lumen",
-                "name": "流明体育场",
-                "city": "西雅图",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 77,
-            "date": "2026-06-26",
-            "time": "03:00",
-            "home": "海地",
-            "away": "巴西",
-            "city": "费城",
-            "group": "C",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "lincoln",
-                "name": "林肯金融体育场",
-                "city": "费城",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 78,
-            "date": "2026-06-26",
-            "time": "03:00",
-            "home": "摩洛哥",
-            "away": "苏格兰",
-            "city": "阿灵顿",
-            "group": "C",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "att",
-                "name": "AT&T体育场",
-                "city": "阿灵顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 79,
-            "date": "2026-06-27",
-            "time": "03:00",
-            "home": "澳大利亚",
-            "away": "美国",
-            "city": "圣克拉拉",
-            "group": "D",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "levis",
-                "name": "李维斯体育场",
-                "city": "圣克拉拉",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 80,
-            "date": "2026-06-27",
-            "time": "03:00",
-            "home": "巴拉圭",
-            "away": "土耳其",
-            "city": "温哥华",
-            "group": "D",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "bcplace",
-                "name": "BC广场体育场",
-                "city": "温哥华",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 81,
-            "date": "2026-06-28",
-            "time": "03:00",
-            "home": "科特迪瓦",
-            "away": "德国",
-            "city": "堪萨斯城",
-            "group": "E",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "arrowhead",
-                "name": "箭头体育场",
-                "city": "堪萨斯城",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 82,
-            "date": "2026-06-28",
-            "time": "03:00",
-            "home": "库拉索",
-            "away": "厄瓜多尔",
-            "city": "休斯顿",
-            "group": "E",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "nrg",
-                "name": "NRG体育场",
-                "city": "休斯顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 83,
-            "date": "2026-06-29",
-            "time": "03:00",
-            "home": "瑞典",
-            "away": "荷兰",
-            "city": "瓜达拉哈拉",
-            "group": "F",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "bbva",
-                "name": "BBVA体育场",
-                "city": "瓜达拉哈拉",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 84,
-            "date": "2026-06-29",
-            "time": "03:00",
-            "home": "日本",
-            "away": "突尼斯",
-            "city": "迈阿密花园",
-            "group": "F",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "hardrock",
-                "name": "硬石体育场",
-                "city": "迈阿密花园",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 85,
-            "date": "2026-06-30",
-            "time": "03:00",
-            "home": "新西兰",
-            "away": "伊朗",
-            "city": "东卢瑟福",
-            "group": "G",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "metlife",
-                "name": "大都会体育场",
-                "city": "东卢瑟福",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 86,
-            "date": "2026-06-30",
-            "time": "03:00",
-            "home": "比利时",
-            "away": "埃及",
-            "city": "福克斯堡",
-            "group": "G",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "gillette",
-                "name": "吉列体育场",
-                "city": "福克斯堡",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 87,
-            "date": "2026-07-01",
-            "time": "03:00",
-            "home": "沙特",
-            "away": "佛得角",
-            "city": "西雅图",
-            "group": "H",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "lumen",
-                "name": "流明体育场",
-                "city": "西雅图",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 88,
-            "date": "2026-07-01",
-            "time": "03:00",
-            "home": "乌拉圭",
-            "away": "西班牙",
-            "city": "费城",
-            "group": "H",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "lincoln",
-                "name": "林肯金融体育场",
-                "city": "费城",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 89,
-            "date": "2026-07-02",
-            "time": "03:00",
-            "home": "伊拉克",
-            "away": "塞内加尔",
-            "city": "阿灵顿",
-            "group": "I",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "att",
-                "name": "AT&T体育场",
-                "city": "阿灵顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 90,
-            "date": "2026-07-02",
-            "time": "03:00",
-            "home": "法国",
-            "away": "挪威",
-            "city": "圣克拉拉",
-            "group": "I",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "levis",
-                "name": "李维斯体育场",
-                "city": "圣克拉拉",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 91,
-            "date": "2026-07-03",
-            "time": "03:00",
-            "home": "奥地利",
-            "away": "阿尔及利亚",
-            "city": "温哥华",
-            "group": "J",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "bcplace",
-                "name": "BC广场体育场",
-                "city": "温哥华",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 92,
-            "date": "2026-07-03",
-            "time": "03:00",
-            "home": "阿根廷",
-            "away": "约旦",
-            "city": "瓜达拉哈拉",
-            "group": "J",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "bbva",
-                "name": "BBVA体育场",
-                "city": "瓜达拉哈拉",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 93,
-            "date": "2026-07-04",
-            "time": "03:00",
-            "home": "乌兹别克斯坦",
-            "away": "民主刚果",
-            "city": "休斯顿",
-            "group": "K",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "nrg",
-                "name": "NRG体育场",
-                "city": "休斯顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 94,
-            "date": "2026-07-04",
-            "time": "03:00",
-            "home": "葡萄牙",
-            "away": "哥伦比亚",
-            "city": "迈阿密花园",
-            "group": "K",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "hardrock",
-                "name": "硬石体育场",
-                "city": "迈阿密花园",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 95,
-            "date": "2026-07-05",
-            "time": "03:00",
-            "home": "加纳",
-            "away": "克罗地亚",
-            "city": "东卢瑟福",
-            "group": "L",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "metlife",
-                "name": "大都会体育场",
-                "city": "东卢瑟福",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 96,
-            "date": "2026-07-05",
-            "time": "03:00",
-            "home": "英格兰",
-            "away": "巴拿马",
-            "city": "福克斯堡",
-            "group": "L",
-            "round": 3,
-            "status": "upcoming",
-            "venue": {
-                "id": "gillette",
-                "name": "吉列体育场",
-                "city": "福克斯堡",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 97,
-            "date": "2026-06-29",
-            "time": "03:00",
-            "home": "A组第一",
-            "away": "B组第三",
-            "city": "英格尔伍德",
-            "group": "",
-            "round": "round16",
-            "status": "upcoming",
-            "venue": {
-                "id": "sofi",
-                "name": "SoFi体育场",
-                "city": "英格尔伍德",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 98,
-            "date": "2026-06-29",
-            "time": "21:00",
-            "home": "C组第二",
-            "away": "D组第二",
-            "city": "福克斯堡",
-            "group": "",
-            "round": "round16",
-            "status": "upcoming",
-            "venue": {
-                "id": "gillette",
-                "name": "吉列体育场",
-                "city": "福克斯堡",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 99,
-            "date": "2026-06-29",
-            "time": "21:00",
-            "home": "E组第一",
-            "away": "A/B/C/D/F组第三",
-            "city": "瓜达拉哈拉",
-            "group": "",
-            "round": "round16",
-            "status": "upcoming",
-            "venue": {
-                "id": "bbva",
-                "name": "BBVA体育场",
-                "city": "瓜达拉哈拉",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 100,
-            "date": "2026-06-29",
-            "time": "21:00",
-            "home": "G组第一",
-            "away": "F组第二",
-            "city": "休斯顿",
-            "group": "",
-            "round": "round16",
-            "status": "upcoming",
-            "venue": {
-                "id": "nrg",
-                "name": "NRG体育场",
-                "city": "休斯顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 101,
-            "date": "2026-06-30",
-            "time": "03:00",
-            "home": "B组第一",
-            "away": "A组第二",
-            "city": "东卢瑟福",
-            "group": "",
-            "round": "round16",
-            "status": "upcoming",
-            "venue": {
-                "id": "metlife",
-                "name": "大都会体育场",
-                "city": "东卢瑟福",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 102,
-            "date": "2026-06-30",
-            "time": "09:00",
-            "home": "D组第一",
-            "away": "C组第三",
-            "city": "阿灵顿",
-            "group": "",
-            "round": "round16",
-            "status": "upcoming",
-            "venue": {
-                "id": "att",
-                "name": "AT&T体育场",
-                "city": "阿灵顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 103,
-            "date": "2026-06-30",
-            "time": "09:00",
-            "home": "F组第一",
-            "away": "E组第二",
-            "city": "墨西哥城",
-            "group": "",
-            "round": "round16",
-            "status": "upcoming",
-            "venue": {
-                "id": "azteca",
-                "name": "阿兹特克体育场",
-                "city": "墨西哥城",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 104,
-            "date": "2026-07-01",
-            "time": "03:00",
-            "home": "H组第一",
-            "away": "G/H/I/J组第三",
-            "city": "迈阿密花园",
-            "group": "",
-            "round": "round16",
-            "status": "upcoming",
-            "venue": {
-                "id": "hardrock",
-                "name": "硬石体育场",
-                "city": "迈阿密花园",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 105,
-            "date": "2026-07-01",
-            "time": "09:00",
-            "home": "I组第二",
-            "away": "H组第二",
-            "city": "英格尔伍德",
-            "group": "",
-            "round": "round16",
-            "status": "upcoming",
-            "venue": {
-                "id": "sofi",
-                "name": "SoFi体育场",
-                "city": "英格尔伍德",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 106,
-            "date": "2026-07-01",
-            "time": "09:00",
-            "home": "K组第一",
-            "away": "J组第二",
-            "city": "西雅图",
-            "group": "",
-            "round": "round16",
-            "status": "upcoming",
-            "venue": {
-                "id": "lumen",
-                "name": "流明体育场",
-                "city": "西雅图",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 107,
-            "date": "2026-07-02",
-            "time": "03:00",
-            "home": "J组第一",
-            "away": "I组第三",
-            "city": "多伦多",
-            "group": "",
-            "round": "round16",
-            "status": "upcoming",
-            "venue": {
-                "id": "bmo",
-                "name": "BMO体育场",
-                "city": "多伦多",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 108,
-            "date": "2026-07-02",
-            "time": "09:00",
-            "home": "L组第一",
-            "away": "K组第二",
-            "city": "英格尔伍德",
-            "group": "",
-            "round": "round16",
-            "status": "upcoming",
-            "venue": {
-                "id": "sofi",
-                "name": "SoFi体育场",
-                "city": "英格尔伍德",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 109,
-            "date": "2026-07-04",
-            "time": "03:00",
-            "home": "胜场97",
-            "away": "胜场99",
-            "city": "费城",
-            "group": "",
-            "round": "quarter",
-            "status": "upcoming",
-            "venue": {
-                "id": "lincoln",
-                "name": "林肯金融体育场",
-                "city": "费城",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 110,
-            "date": "2026-07-04",
-            "time": "07:00",
-            "home": "胜场98",
-            "away": "胜场100",
-            "city": "休斯顿",
-            "group": "",
-            "round": "quarter",
-            "status": "upcoming",
-            "venue": {
-                "id": "nrg",
-                "name": "NRG体育场",
-                "city": "休斯顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 111,
-            "date": "2026-07-04",
-            "time": "11:00",
-            "home": "胜场101",
-            "away": "胜场103",
-            "city": "东卢瑟福",
-            "group": "",
-            "round": "quarter",
-            "status": "upcoming",
-            "venue": {
-                "id": "metlife",
-                "name": "大都会体育场",
-                "city": "东卢瑟福",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 112,
-            "date": "2026-07-05",
-            "time": "03:00",
-            "home": "胜场104",
-            "away": "胜场106",
-            "city": "墨西哥城",
-            "group": "",
-            "round": "quarter",
-            "status": "upcoming",
-            "venue": {
-                "id": "azteca",
-                "name": "阿兹特克体育场",
-                "city": "墨西哥城",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 113,
-            "date": "2026-07-05",
-            "time": "07:00",
-            "home": "胜场107",
-            "away": "胜场108",
-            "city": "阿灵顿",
-            "group": "",
-            "round": "quarter",
-            "status": "upcoming",
-            "venue": {
-                "id": "att",
-                "name": "AT&T体育场",
-                "city": "阿灵顿",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 114,
-            "date": "2026-07-05",
-            "time": "11:00",
-            "home": "胜场105",
-            "away": "胜场102",
-            "city": "圣克拉拉",
-            "group": "",
-            "round": "quarter",
-            "status": "upcoming",
-            "venue": {
-                "id": "levis",
-                "name": "李维斯体育场",
-                "city": "圣克拉拉",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 115,
-            "date": "2026-07-09",
-            "time": "03:00",
-            "home": "胜场109",
-            "away": "胜场110",
-            "city": "瓜达拉哈拉",
-            "group": "",
-            "round": "semi",
-            "status": "upcoming",
-            "venue": {
-                "id": "bbva",
-                "name": "BBVA体育场",
-                "city": "瓜达拉哈拉",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 116,
-            "date": "2026-07-09",
-            "time": "07:00",
-            "home": "胜场111",
-            "away": "胜场112",
-            "city": "墨西哥城",
-            "group": "",
-            "round": "semi",
-            "status": "upcoming",
-            "venue": {
-                "id": "azteca",
-                "name": "阿兹特克体育场",
-                "city": "墨西哥城",
-                "country": "墨西哥"
-            }
-        },
-        {
-            "id": 117,
-            "date": "2026-07-09",
-            "time": "11:00",
-            "home": "胜场113",
-            "away": "胜场114",
-            "city": "温哥华",
-            "group": "",
-            "round": "semi",
-            "status": "upcoming",
-            "venue": {
-                "id": "bcplace",
-                "name": "BC广场体育场",
-                "city": "温哥华",
-                "country": "加拿大"
-            }
-        },
-        {
-            "id": 118,
-            "date": "2026-07-12",
-            "time": "03:00",
-            "home": "胜场115",
-            "away": "胜场116",
-            "city": "迈阿密花园",
-            "group": "",
-            "round": "third",
-            "status": "upcoming",
-            "venue": {
-                "id": "hardrock",
-                "name": "硬石体育场",
-                "city": "迈阿密花园",
-                "country": "美国"
-            }
-        },
-        {
-            "id": 119,
-            "date": "2026-07-19",
-            "time": "03:00",
-            "home": "胜场117",
-            "away": "胜场118",
-            "city": "东卢瑟福",
-            "group": "",
-            "round": "final",
-            "status": "upcoming",
-            "venue": {
-                "id": "metlife",
-                "name": "大都会体育场",
-                "city": "东卢瑟福",
-                "country": "美国"
-            }
-        }
-    ]
+    "C": {
+      "name": "C组",
+      "teams": [
+        "巴西",
+        "摩洛哥",
+        "海地",
+        "苏格兰"
+      ]
+    },
+    "D": {
+      "name": "D组",
+      "teams": [
+        "美国",
+        "巴拉圭",
+        "澳大利亚",
+        "土耳其"
+      ]
+    },
+    "E": {
+      "name": "E组",
+      "teams": [
+        "德国",
+        "库拉索",
+        "科特迪瓦",
+        "厄瓜多尔"
+      ]
+    },
+    "F": {
+      "name": "F组",
+      "teams": [
+        "荷兰",
+        "日本",
+        "瑞典",
+        "突尼斯"
+      ]
+    },
+    "G": {
+      "name": "G组",
+      "teams": [
+        "比利时",
+        "埃及",
+        "伊朗",
+        "新西兰"
+      ]
+    },
+    "H": {
+      "name": "H组",
+      "teams": [
+        "西班牙",
+        "佛得角",
+        "沙特",
+        "乌拉圭"
+      ]
+    },
+    "I": {
+      "name": "I组",
+      "teams": [
+        "法国",
+        "塞内加尔",
+        "伊拉克",
+        "挪威"
+      ]
+    },
+    "J": {
+      "name": "J组",
+      "teams": [
+        "阿根廷",
+        "阿尔及利亚",
+        "奥地利",
+        "约旦"
+      ]
+    },
+    "K": {
+      "name": "K组",
+      "teams": [
+        "葡萄牙",
+        "刚果民主共和国",
+        "乌兹别克斯坦",
+        "哥伦比亚"
+      ]
+    },
+    "L": {
+      "name": "L组",
+      "teams": [
+        "英格兰",
+        "克罗地亚",
+        "加纳",
+        "巴拿马"
+      ]
+    }
+  },
+  "venues": {
+    "azteca": {
+      "name": "阿兹特克体育场",
+      "city": "墨西哥城",
+      "country": "墨西哥",
+      "capacity": 87000
+    },
+    "metlife": {
+      "name": "大都会体育场",
+      "city": "东卢瑟福",
+      "country": "美国",
+      "capacity": 82000
+    },
+    "sofi": {
+      "name": "SoFi体育场",
+      "city": "英格尔伍德",
+      "country": "美国",
+      "capacity": 70000
+    },
+    "att": {
+      "name": "AT&T体育场",
+      "city": "阿灵顿",
+      "country": "美国",
+      "capacity": 80000
+    },
+    "rosebowl": {
+      "name": "玫瑰碗",
+      "city": "帕萨迪纳",
+      "country": "美国",
+      "capacity": 90000
+    },
+    "levis": {
+      "name": "李维斯体育场",
+      "city": "圣克拉拉",
+      "country": "美国",
+      "capacity": 68000
+    },
+    "bcplace": {
+      "name": "BC广场体育场",
+      "city": "温哥华",
+      "country": "加拿大",
+      "capacity": 54000
+    },
+    "bmo": {
+      "name": "BMO体育场",
+      "city": "多伦多",
+      "country": "加拿大",
+      "capacity": 45000
+    },
+    "lumen": {
+      "name": "流明体育场",
+      "city": "西雅图",
+      "country": "美国",
+      "capacity": 69030
+    },
+    "hardrock": {
+      "name": "硬石体育场",
+      "city": "迈阿密花园",
+      "country": "美国",
+      "capacity": 64767
+    },
+    "nrg": {
+      "name": "NRG体育场",
+      "city": "休斯顿",
+      "country": "美国",
+      "capacity": 72220
+    },
+    "arrowhead": {
+      "name": "箭头体育场",
+      "city": "堪萨斯城",
+      "country": "美国",
+      "capacity": 73416
+    },
+    "lincoln": {
+      "name": "林肯金融体育场",
+      "city": "费城",
+      "country": "美国",
+      "capacity": 68532
+    },
+    "gillette": {
+      "name": "吉列体育场",
+      "city": "福克斯堡",
+      "country": "美国",
+      "capacity": 65878
+    },
+    "bbva": {
+      "name": "BBVA体育场",
+      "city": "瓜达拉哈拉",
+      "country": "墨西哥",
+      "capacity": 49500
+    },
+    "sanfran": {
+      "name": "大通体育场",
+      "city": "圣克拉拉",
+      "country": "美国",
+      "capacity": 68500
+    },
+    "boston": {
+      "name": "吉列体育场",
+      "city": "波士顿",
+      "country": "美国",
+      "capacity": 65878
+    },
+    "seattle": {
+      "name": "流明体育场",
+      "city": "西雅图",
+      "country": "美国",
+      "capacity": 69030
+    }
+  },
+  "matches": [
+    {
+      "id": 1,
+      "date": "2026-06-11",
+      "time": "03:00",
+      "home": "墨西哥",
+      "away": "南非",
+      "venue": "azteca",
+      "city": "墨西哥城",
+      "group": "A",
+      "round": 1,
+      "status": "completed",
+      "homeScore": 4,
+      "awayScore": 0
+    },
+    {
+      "id": 2,
+      "date": "2026-06-11",
+      "time": "06:00",
+      "home": "韩国",
+      "away": "捷克",
+      "venue": "bbva",
+      "city": "瓜达拉哈拉",
+      "group": "A",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 3,
+      "date": "2026-06-12",
+      "time": "03:00",
+      "home": "加拿大",
+      "away": "波黑",
+      "venue": "bmo",
+      "city": "多伦多",
+      "group": "B",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 4,
+      "date": "2026-06-12",
+      "time": "06:00",
+      "home": "美国",
+      "away": "巴拉圭",
+      "venue": "sofi",
+      "city": "英格尔伍德",
+      "group": "D",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 5,
+      "date": "2026-06-12",
+      "time": "09:00",
+      "home": "卡塔尔",
+      "away": "瑞士",
+      "venue": "sanfran",
+      "city": "圣克拉拉",
+      "group": "B",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 6,
+      "date": "2026-06-13",
+      "time": "03:00",
+      "home": "巴西",
+      "away": "摩洛哥",
+      "venue": "metlife",
+      "city": "东卢瑟福",
+      "group": "C",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 7,
+      "date": "2026-06-13",
+      "time": "06:00",
+      "home": "苏格兰",
+      "away": "海地",
+      "venue": "boston",
+      "city": "波士顿",
+      "group": "C",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 8,
+      "date": "2026-06-13",
+      "time": "09:00",
+      "home": "土耳其",
+      "away": "澳大利亚",
+      "venue": "lumen",
+      "city": "西雅图",
+      "group": "D",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 9,
+      "date": "2026-06-14",
+      "time": "03:00",
+      "home": "德国",
+      "away": "库拉索",
+      "venue": "nrg",
+      "city": "休斯顿",
+      "group": "E",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 10,
+      "date": "2026-06-14",
+      "time": "06:00",
+      "home": "荷兰",
+      "away": "日本",
+      "venue": "att",
+      "city": "阿灵顿",
+      "group": "F",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 11,
+      "date": "2026-06-14",
+      "time": "09:00",
+      "home": "厄瓜多尔",
+      "away": "科特迪瓦",
+      "venue": "lincoln",
+      "city": "费城",
+      "group": "E",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 12,
+      "date": "2026-06-14",
+      "time": "12:00",
+      "home": "瑞典",
+      "away": "突尼斯",
+      "venue": "bbva",
+      "city": "瓜达拉哈拉",
+      "group": "F",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 13,
+      "date": "2026-06-15",
+      "time": "03:00",
+      "home": "西班牙",
+      "away": "佛得角",
+      "venue": "hardrock",
+      "city": "迈阿密花园",
+      "group": "H",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 14,
+      "date": "2026-06-15",
+      "time": "06:00",
+      "home": "比利时",
+      "away": "埃及",
+      "venue": "lumen",
+      "city": "西雅图",
+      "group": "G",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 15,
+      "date": "2026-06-15",
+      "time": "09:00",
+      "home": "沙特",
+      "away": "乌拉圭",
+      "venue": "hardrock",
+      "city": "迈阿密花园",
+      "group": "H",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 16,
+      "date": "2026-06-15",
+      "time": "12:00",
+      "home": "伊朗",
+      "away": "新西兰",
+      "venue": "sofi",
+      "city": "英格尔伍德",
+      "group": "G",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 17,
+      "date": "2026-06-16",
+      "time": "03:00",
+      "home": "法国",
+      "away": "塞内加尔",
+      "venue": "metlife",
+      "city": "东卢瑟福",
+      "group": "I",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 18,
+      "date": "2026-06-16",
+      "time": "06:00",
+      "home": "伊拉克",
+      "away": "挪威",
+      "venue": "gillette",
+      "city": "福克斯堡",
+      "group": "I",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 19,
+      "date": "2026-06-16",
+      "time": "09:00",
+      "home": "阿根廷",
+      "away": "阿尔及利亚",
+      "venue": "att",
+      "city": "阿灵顿",
+      "group": "J",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 20,
+      "date": "2026-06-16",
+      "time": "12:00",
+      "home": "奥地利",
+      "away": "约旦",
+      "venue": "sanfran",
+      "city": "圣克拉拉",
+      "group": "J",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 21,
+      "date": "2026-06-17",
+      "time": "03:00",
+      "home": "葡萄牙",
+      "away": "刚果民主共和国",
+      "venue": "nrg",
+      "city": "休斯顿",
+      "group": "K",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 22,
+      "date": "2026-06-17",
+      "time": "06:00",
+      "home": "英格兰",
+      "away": "加纳",
+      "venue": "att",
+      "city": "阿灵顿",
+      "group": "L",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 23,
+      "date": "2026-06-17",
+      "time": "09:00",
+      "home": "巴拿马",
+      "away": "克罗地亚",
+      "venue": "bmo",
+      "city": "多伦多",
+      "group": "L",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 24,
+      "date": "2026-06-17",
+      "time": "12:00",
+      "home": "乌兹别克斯坦",
+      "away": "哥伦比亚",
+      "venue": "azteca",
+      "city": "墨西哥城",
+      "group": "K",
+      "round": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 25,
+      "date": "2026-06-18",
+      "time": "03:00",
+      "home": "南非",
+      "away": "捷克",
+      "venue": "hardrock",
+      "city": "迈阿密花园",
+      "group": "A",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 26,
+      "date": "2026-06-18",
+      "time": "06:00",
+      "home": "瑞士",
+      "away": "波黑",
+      "venue": "sofi",
+      "city": "英格尔伍德",
+      "group": "B",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 27,
+      "date": "2026-06-18",
+      "time": "09:00",
+      "home": "加拿大",
+      "away": "卡塔尔",
+      "venue": "bcplace",
+      "city": "温哥华",
+      "group": "B",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 28,
+      "date": "2026-06-18",
+      "time": "12:00",
+      "home": "墨西哥",
+      "away": "韩国",
+      "venue": "bbva",
+      "city": "瓜达拉哈拉",
+      "group": "A",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 29,
+      "date": "2026-06-19",
+      "time": "03:00",
+      "home": "澳大利亚",
+      "away": "美国",
+      "venue": "lumen",
+      "city": "西雅图",
+      "group": "D",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 30,
+      "date": "2026-06-19",
+      "time": "06:00",
+      "home": "摩洛哥",
+      "away": "苏格兰",
+      "venue": "boston",
+      "city": "波士顿",
+      "group": "C",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 31,
+      "date": "2026-06-19",
+      "time": "09:00",
+      "home": "巴西",
+      "away": "海地",
+      "venue": "lincoln",
+      "city": "费城",
+      "group": "C",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 32,
+      "date": "2026-06-19",
+      "time": "12:00",
+      "home": "土耳其",
+      "away": "巴拉圭",
+      "venue": "sanfran",
+      "city": "圣克拉拉",
+      "group": "D",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 33,
+      "date": "2026-06-20",
+      "time": "03:00",
+      "home": "日本",
+      "away": "瑞典",
+      "venue": "nrg",
+      "city": "休斯顿",
+      "group": "F",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 34,
+      "date": "2026-06-20",
+      "time": "06:00",
+      "home": "科特迪瓦",
+      "away": "德国",
+      "venue": "bmo",
+      "city": "多伦多",
+      "group": "E",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 35,
+      "date": "2026-06-20",
+      "time": "09:00",
+      "home": "厄瓜多尔",
+      "away": "库拉索",
+      "venue": "att",
+      "city": "阿灵顿",
+      "group": "E",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 36,
+      "date": "2026-06-20",
+      "time": "12:00",
+      "home": "突尼斯",
+      "away": "荷兰",
+      "venue": "bbva",
+      "city": "瓜达拉哈拉",
+      "group": "F",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 37,
+      "date": "2026-06-21",
+      "time": "03:00",
+      "home": "沙特",
+      "away": "西班牙",
+      "venue": "hardrock",
+      "city": "迈阿密花园",
+      "group": "H",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 38,
+      "date": "2026-06-21",
+      "time": "06:00",
+      "home": "伊朗",
+      "away": "比利时",
+      "venue": "sofi",
+      "city": "英格尔伍德",
+      "group": "G",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 39,
+      "date": "2026-06-21",
+      "time": "09:00",
+      "home": "乌拉圭",
+      "away": "佛得角",
+      "venue": "hardrock",
+      "city": "迈阿密花园",
+      "group": "H",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 40,
+      "date": "2026-06-21",
+      "time": "12:00",
+      "home": "新西兰",
+      "away": "埃及",
+      "venue": "bcplace",
+      "city": "温哥华",
+      "group": "G",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 41,
+      "date": "2026-06-22",
+      "time": "03:00",
+      "home": "奥地利",
+      "away": "阿根廷",
+      "venue": "att",
+      "city": "阿灵顿",
+      "group": "J",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 42,
+      "date": "2026-06-22",
+      "time": "06:00",
+      "home": "法国",
+      "away": "伊拉克",
+      "venue": "lincoln",
+      "city": "费城",
+      "group": "I",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 43,
+      "date": "2026-06-22",
+      "time": "09:00",
+      "home": "塞内加尔",
+      "away": "挪威",
+      "venue": "metlife",
+      "city": "东卢瑟福",
+      "group": "I",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 44,
+      "date": "2026-06-22",
+      "time": "12:00",
+      "home": "约旦",
+      "away": "阿尔及利亚",
+      "venue": "sanfran",
+      "city": "圣克拉拉",
+      "group": "J",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 45,
+      "date": "2026-06-23",
+      "time": "03:00",
+      "home": "哥伦比亚",
+      "away": "葡萄牙",
+      "venue": "nrg",
+      "city": "休斯顿",
+      "group": "K",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 46,
+      "date": "2026-06-23",
+      "time": "06:00",
+      "home": "英格兰",
+      "away": "巴拿马",
+      "venue": "gillette",
+      "city": "福克斯堡",
+      "group": "L",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 47,
+      "date": "2026-06-23",
+      "time": "09:00",
+      "home": "克罗地亚",
+      "away": "加纳",
+      "venue": "bmo",
+      "city": "多伦多",
+      "group": "L",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 48,
+      "date": "2026-06-23",
+      "time": "12:00",
+      "home": "乌兹别克斯坦",
+      "away": "刚果民主共和国",
+      "venue": "bbva",
+      "city": "瓜达拉哈拉",
+      "group": "K",
+      "round": 2,
+      "status": "upcoming"
+    },
+    {
+      "id": 49,
+      "date": "2026-06-24",
+      "time": "03:00",
+      "home": "捷克",
+      "away": "韩国",
+      "venue": "bbva",
+      "city": "瓜达拉哈拉",
+      "group": "A",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 50,
+      "date": "2026-06-24",
+      "time": "03:00",
+      "home": "墨西哥",
+      "away": "南非",
+      "venue": "azteca",
+      "city": "墨西哥城",
+      "group": "A",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 51,
+      "date": "2026-06-24",
+      "time": "06:00",
+      "home": "瑞士",
+      "away": "加拿大",
+      "venue": "bcplace",
+      "city": "温哥华",
+      "group": "B",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 52,
+      "date": "2026-06-24",
+      "time": "06:00",
+      "home": "波黑",
+      "away": "卡塔尔",
+      "venue": "lumen",
+      "city": "西雅图",
+      "group": "B",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 53,
+      "date": "2026-06-25",
+      "time": "03:00",
+      "home": "苏格兰",
+      "away": "巴西",
+      "venue": "hardrock",
+      "city": "迈阿密花园",
+      "group": "C",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 54,
+      "date": "2026-06-25",
+      "time": "03:00",
+      "home": "海地",
+      "away": "摩洛哥",
+      "venue": "hardrock",
+      "city": "迈阿密花园",
+      "group": "C",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 55,
+      "date": "2026-06-25",
+      "time": "06:00",
+      "home": "美国",
+      "away": "土耳其",
+      "venue": "sofi",
+      "city": "英格尔伍德",
+      "group": "D",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 56,
+      "date": "2026-06-25",
+      "time": "06:00",
+      "home": "澳大利亚",
+      "away": "巴拉圭",
+      "venue": "sanfran",
+      "city": "圣克拉拉",
+      "group": "D",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 57,
+      "date": "2026-06-26",
+      "time": "03:00",
+      "home": "库拉索",
+      "away": "科特迪瓦",
+      "venue": "lincoln",
+      "city": "费城",
+      "group": "E",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 58,
+      "date": "2026-06-26",
+      "time": "03:00",
+      "home": "德国",
+      "away": "厄瓜多尔",
+      "venue": "metlife",
+      "city": "东卢瑟福",
+      "group": "E",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 59,
+      "date": "2026-06-26",
+      "time": "06:00",
+      "home": "瑞典",
+      "away": "荷兰",
+      "venue": "att",
+      "city": "阿灵顿",
+      "group": "F",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 60,
+      "date": "2026-06-26",
+      "time": "06:00",
+      "home": "日本",
+      "away": "突尼斯",
+      "venue": "bbva",
+      "city": "瓜达拉哈拉",
+      "group": "F",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 61,
+      "date": "2026-06-27",
+      "time": "03:00",
+      "home": "比利时",
+      "away": "伊朗",
+      "venue": "sofi",
+      "city": "英格尔伍德",
+      "group": "G",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 62,
+      "date": "2026-06-27",
+      "time": "03:00",
+      "home": "新西兰",
+      "away": "沙特",
+      "venue": "lumen",
+      "city": "西雅图",
+      "group": "G",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 63,
+      "date": "2026-06-27",
+      "time": "06:00",
+      "home": "佛得角",
+      "away": "乌拉圭",
+      "venue": "hardrock",
+      "city": "迈阿密花园",
+      "group": "H",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 64,
+      "date": "2026-06-27",
+      "time": "06:00",
+      "home": "西班牙",
+      "away": "埃及",
+      "venue": "boston",
+      "city": "波士顿",
+      "group": "H",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 65,
+      "date": "2026-06-28",
+      "time": "03:00",
+      "home": "挪威",
+      "away": "伊拉克",
+      "venue": "gillette",
+      "city": "福克斯堡",
+      "group": "I",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 66,
+      "date": "2026-06-28",
+      "time": "03:00",
+      "home": "塞内加尔",
+      "away": "法国",
+      "venue": "nrg",
+      "city": "休斯顿",
+      "group": "I",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 67,
+      "date": "2026-06-28",
+      "time": "06:00",
+      "home": "约旦",
+      "away": "阿根廷",
+      "venue": "att",
+      "city": "阿灵顿",
+      "group": "J",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 68,
+      "date": "2026-06-28",
+      "time": "06:00",
+      "home": "阿尔及利亚",
+      "away": "奥地利",
+      "venue": "sanfran",
+      "city": "圣克拉拉",
+      "group": "J",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 69,
+      "date": "2026-06-29",
+      "time": "03:00",
+      "home": "刚果民主共和国",
+      "away": "哥伦比亚",
+      "venue": "bbva",
+      "city": "瓜达拉哈拉",
+      "group": "K",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 70,
+      "date": "2026-06-29",
+      "time": "03:00",
+      "home": "葡萄牙",
+      "away": "乌兹别克斯坦",
+      "venue": "azteca",
+      "city": "墨西哥城",
+      "group": "K",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 71,
+      "date": "2026-06-29",
+      "time": "06:00",
+      "home": "加纳",
+      "away": "英格兰",
+      "venue": "bmo",
+      "city": "多伦多",
+      "group": "L",
+      "round": 3,
+      "status": "upcoming"
+    },
+    {
+      "id": 72,
+      "date": "2026-06-29",
+      "time": "06:00",
+      "home": "巴拿马",
+      "away": "克罗地亚",
+      "venue": "lincoln",
+      "city": "费城",
+      "group": "L",
+      "round": 3,
+      "status": "upcoming"
+    }
+  ]
 }

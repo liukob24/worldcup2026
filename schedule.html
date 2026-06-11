@@ -5,6 +5,622 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>赛程 - 2026世界杯预测分析</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 赛程页额外样式 */
+        .date-section {
+            margin-bottom: 2rem;
+        }
+        
+        .date-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            padding: 1rem 1.5rem;
+            background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+            border-radius: 12px;
+            border-left: 4px solid #4299e1;
+        }
+        
+        .date-badge {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #fff;
+        }
+        
+        .weekday {
+            padding: 0.25rem 0.75rem;
+            background: rgba(255,255,255,0.15);
+            border-radius: 20px;
+            font-size: 0.875rem;
+            color: rgba(255,255,255,0.9);
+        }
+        
+        .match-count {
+            margin-left: auto;
+            font-size: 0.875rem;
+            color: rgba(255,255,255,0.7);
+        }
+        
+        .matches-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1rem;
+        }
+        
+        .match-card {
+            background: linear-gradient(145deg, #1a365d 0%, #234876 100%);
+            border-radius: 12px;
+            padding: 1.25rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .match-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #4299e1, #667eea);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .match-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+            border-color: rgba(66,153,225,0.5);
+        }
+        
+        .match-card:hover::before {
+            opacity: 1;
+        }
+        
+        .match-teams {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .team {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .team-name {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+        
+        .team-flag {
+            width: 40px;
+            height: 30px;
+            border-radius: 4px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+        
+        .match-vs {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .vs-text {
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: #4299e1;
+            background: rgba(66,153,225,0.15);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+        }
+        
+        .match-info-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 0.75rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.6);
+        }
+        
+        .match-datetime {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .match-datetime svg {
+            width: 14px;
+            height: 14px;
+        }
+        
+        .match-venue {
+            color: rgba(255,255,255,0.5);
+            max-width: 120px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        .group-badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            background: linear-gradient(135deg, #4299e1 0%, #667eea 100%);
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .analysis-hint {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+            font-size: 0.8rem;
+            color: #4299e1;
+            justify-content: center;
+        }
+        
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .matches-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .date-header {
+                padding: 0.75rem 1rem;
+                flex-wrap: wrap;
+            }
+            
+            .date-badge {
+                font-size: 1rem;
+            }
+            
+            .match-count {
+                width: 100%;
+                margin-left: 0;
+                margin-top: 0.5rem;
+            }
+            
+            .match-info-row {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+            
+            .match-venue {
+                max-width: 100%;
+            }
+            
+            .team-name {
+                font-size: 0.9rem;
+            }
+        }
+        
+        /* 弹窗样式 */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.8);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+        
+        .modal-overlay.active {
+            display: flex;
+        }
+        
+        .modal-content {
+            background: linear-gradient(145deg, #1a365d 0%, #234876 100%);
+            border-radius: 16px;
+            max-width: 700px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: #fff;
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            z-index: 10;
+        }
+        
+        .modal-close:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        
+        .modal-body {
+            padding: 2rem;
+        }
+        
+        .analysis-modal {
+            color: #fff;
+        }
+        
+        .modal-header-section {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .modal-group-badge {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            background: linear-gradient(135deg, #4299e1 0%, #667eea 100%);
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .modal-header-section h2 {
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .modal-match-info {
+            color: rgba(255,255,255,0.6);
+            font-size: 0.9rem;
+        }
+        
+        .ai-prediction {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .ai-badge {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #4299e1;
+            text-align: center;
+        }
+        
+        .prediction-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        
+        @media (max-width: 600px) {
+            .prediction-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .prediction-card {
+            background: rgba(0,0,0,0.2);
+            border-radius: 12px;
+            padding: 1.25rem;
+        }
+        
+        .card-subtitle {
+            font-size: 0.875rem;
+            color: rgba(255,255,255,0.6);
+            margin-bottom: 1rem;
+        }
+        
+        .probability-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        
+        .prob-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+        
+        .prob-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+        }
+        
+        .prob-bar {
+            height: 8px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .prob-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 1s ease;
+        }
+        
+        .prob-item.win .prob-fill { background: #48bb78; }
+        .prob-item.draw .prob-fill { background: #ecc94b; }
+        .prob-item.lose .prob-fill { background: #fc8181; }
+        
+        .score-prediction {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+        
+        .score-team {
+            flex: 1;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        
+        .score-numbers {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        
+        .score-divider {
+            color: #4299e1;
+        }
+        
+        .alternative-scores {
+            margin-top: 0.75rem;
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.5);
+            text-align: center;
+        }
+        
+        .alt-score {
+            margin: 0 0.25rem;
+            color: rgba(255,255,255,0.7);
+        }
+        
+        .analysis-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        
+        @media (max-width: 600px) {
+            .analysis-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .analysis-card {
+            background: rgba(0,0,0,0.2);
+            border-radius: 12px;
+            padding: 1.25rem;
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .card-icon {
+            font-size: 1.25rem;
+        }
+        
+        .card-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin: 0;
+        }
+        
+        .advantage-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+        
+        .advantage-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.8);
+            line-height: 1.4;
+        }
+        
+        .item-bullet {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-top: 0.35rem;
+            flex-shrink: 0;
+        }
+        
+        .item-bullet.green { background: #48bb78; }
+        .item-bullet.orange { background: #ed8936; }
+        
+        .risk-section {
+            background: rgba(0,0,0,0.2);
+            border-radius: 12px;
+            padding: 1.25rem;
+        }
+        
+        .risk-section h4 {
+            font-size: 1rem;
+            margin: 0 0 1rem 0;
+        }
+        
+        .risk-items {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        
+        .risk-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .risk-icon {
+            font-size: 1.25rem;
+        }
+        
+        .risk-content {
+            flex: 1;
+        }
+        
+        .risk-title {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.6);
+            margin-bottom: 0.25rem;
+        }
+        
+        .risk-bar-container {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .risk-bar {
+            flex: 1;
+            height: 6px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        
+        .risk-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4299e1, #667eea);
+            border-radius: 3px;
+        }
+        
+        .risk-value {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #4299e1;
+            min-width: 35px;
+        }
+        
+        .alert-box {
+            margin-top: 1rem;
+            padding: 0.75rem 1rem;
+            background: rgba(66,153,225,0.15);
+            border-radius: 8px;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.9);
+            line-height: 1.5;
+        }
+        
+        .alert-icon {
+            flex-shrink: 0;
+        }
+        
+        /* 锁定分析样式 */
+        .locked-analysis {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        
+        .lock-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .locked-analysis h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.25rem;
+        }
+        
+        .locked-analysis p {
+            color: rgba(255,255,255,0.6);
+            margin: 0 0 1.5rem 0;
+        }
+        
+        .unlock-countdown {
+            margin-bottom: 2rem;
+        }
+        
+        .unlock-countdown span {
+            color: rgba(255,255,255,0.6);
+            font-size: 0.9rem;
+        }
+        
+        .countdown-time {
+            display: block;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #4299e1;
+            margin-top: 0.5rem;
+            font-family: monospace;
+        }
+        
+        .preview-teaser {
+            background: rgba(0,0,0,0.2);
+            border-radius: 12px;
+            padding: 1.25rem;
+            text-align: left;
+        }
+        
+        .preview-teaser h4 {
+            margin: 0 0 0.75rem 0;
+            font-size: 0.95rem;
+        }
+        
+        .preview-teaser ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .preview-teaser li {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.7);
+        }
+    </style>
 </head>
 <body>
     <!-- 导航栏 -->
@@ -33,34 +649,13 @@
     <header class="page-header">
         <div class="container">
             <h1 class="page-title">🏆 赛程表</h1>
-            <p class="page-subtitle">2026世界杯小组赛 · 共72场比赛 · 点击比赛查看AI分析</p>
+            <p class="page-subtitle">2026世界杯 · 共72场比赛 · 点击比赛查看AI分析</p>
         </div>
     </header>
 
     <!-- 赛程内容 -->
     <section class="section schedule-section">
         <div class="container">
-            <!-- 组别筛选 -->
-            <div class="filter-bar">
-                <button class="filter-btn active" data-group="all">全部</button>
-                <button class="filter-btn" data-group="A">A</button>
-                <button class="filter-btn" data-group="B">B</button>
-                <button class="filter-btn" data-group="C">C</button>
-                <button class="filter-btn" data-group="D">D</button>
-                <button class="filter-btn" data-group="E">E</button>
-                <button class="filter-btn" data-group="F">F</button>
-                <button class="filter-btn" data-group="G">G</button>
-                <button class="filter-btn" data-group="H">H</button>
-                <button class="filter-btn" data-group="I">I</button>
-                <button class="filter-btn" data-group="J">J</button>
-                <button class="filter-btn" data-group="K">K</button>
-                <button class="filter-btn" data-group="L">L</button>
-                <button class="filter-btn" data-group="M">M</button>
-                <button class="filter-btn" data-group="N">N</button>
-                <button class="filter-btn" data-group="O">O</button>
-                <button class="filter-btn" data-group="P">P</button>
-            </div>
-
             <!-- 比赛列表容器 -->
             <div class="matches-container" id="matchesContainer">
                 <!-- 比赛卡片将由JS动态生成 -->
@@ -109,10 +704,11 @@
                 renderMatches(scheduleData.matches);
             } catch (error) {
                 console.error('加载赛程失败:', error);
+                document.getElementById('matchesContainer').innerHTML = '<p style="color:#fff;text-align:center;">加载赛程数据失败，请刷新页面重试。</p>';
             }
         }
 
-        // 渲染比赛列表
+        // 渲染比赛列表 - 按日期分组
         function renderMatches(matches) {
             const container = document.getElementById('matchesContainer');
             
@@ -126,22 +722,27 @@
             });
 
             let html = '';
+            // 按日期排序
             Object.keys(groupedMatches).sort().forEach(date => {
                 const dateObj = new Date(date);
-                const dateStr = `${dateObj.getMonth() + 1}月${dateObj.getDate()}日`;
+                const month = dateObj.getMonth() + 1;
+                const day = dateObj.getDate();
+                const dateStr = `${month}月${day}日`;
                 const weekDay = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'][dateObj.getDay()];
+                const matchesInDay = groupedMatches[date];
                 
                 html += `
                     <div class="date-section">
                         <div class="date-header">
                             <span class="date-badge">${dateStr}</span>
                             <span class="weekday">${weekDay}</span>
+                            <span class="match-count">${matchesInDay.length}场比赛</span>
                         </div>
                         <div class="matches-grid">
                 `;
                 
-                groupedMatches[date].forEach(match => {
-                    const venue = typeof match.venue === 'object' ? match.venue : (scheduleData.venues.find(v => v.id === match.venue) || {name: '待定', city: ''});
+                matchesInDay.forEach(match => {
+                    const venue = scheduleData.venues[match.venue] || {name: match.city || '待定', city: ''};
                     html += createMatchCard(match, venue);
                 });
                 
@@ -166,26 +767,32 @@
         function createMatchCard(match, venue) {
             return `
                 <div class="match-card" data-match-id="${match.id}" data-group="${match.group}">
-                    <div class="match-header">
-                        <span class="group-tag">${match.group}组 第${match.round}轮</span>
-                        <span class="venue-tag">${venue.name}</span>
-                    </div>
-                    <div class="match-teams-simple">
-                        <div class="team-simple">
-                            <span class="team-flag-small ${getTeamFlagClass(match.home)}"></span>
-                            <span class="team-name-simple">${match.home}</span>
+                    <div class="match-teams">
+                        <div class="team">
+                            <div class="team-name">${match.home}</div>
+                            <div class="team-flag">${getTeamEmoji(match.home)}</div>
                         </div>
-                        <div class="vs-simple">
-                            <span class="vs-text-small">VS</span>
-                            <span class="match-time-simple">${formatTime(match.time)}</span>
+                        <div class="match-vs">
+                            <span class="vs-text">VS</span>
+                            <span class="group-badge">${match.group}组</span>
                         </div>
-                        <div class="team-simple away">
-                            <span class="team-flag-small ${getTeamFlagClass(match.away)}"></span>
-                            <span class="team-name-simple">${match.away}</span>
+                        <div class="team">
+                            <div class="team-name">${match.away}</div>
+                            <div class="team-flag">${getTeamEmoji(match.away)}</div>
                         </div>
                     </div>
-                    <div class="match-footer">
-                        <span class="analysis-hint">点击查看AI分析 →</span>
+                    <div class="match-info-row">
+                        <div class="match-datetime">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12,6 12,12 16,14"/>
+                            </svg>
+                            <span>${formatTime(match.time)}</span>
+                        </div>
+                        <span class="match-venue">${venue.name}</span>
+                    </div>
+                    <div class="analysis-hint">
+                        <span>点击查看AI分析 →</span>
                     </div>
                 </div>
             `;
@@ -196,7 +803,7 @@
             const match = scheduleData.matches.find(m => m.id === matchId);
             if (!match) return;
 
-            const venue = typeof match.venue === 'object' ? match.venue : (scheduleData.venues.find(v => v.id === match.venue) || {name: '待定', city: ''});
+            const venue = scheduleData.venues[match.venue] || {name: match.city || '待定', city: ''};
             const modalBody = document.getElementById('modalBody');
             
             // 检查是否赛前12小时内
@@ -385,64 +992,28 @@
             return Math.floor(Math.random() * 40) + 30;
         }
 
-        function getTeamFlagClass(teamName) {
-            const flagMap = {
-                '墨西哥': 'mexico-flag-sm',
-                '墨西哥B': 'mexico-flag-sm',
-                '巴西': 'brazil-flag-sm',
-                '阿根廷': 'argentina-flag-sm',
-                '法国': 'france-flag-sm',
-                '英格兰': 'england-flag-sm',
-                '德国': 'germany-flag-sm',
-                '德国B': 'germany-flag-sm',
-                '西班牙': 'spain-flag-sm',
-                '西班牙B': 'spain-flag-sm',
-                '意大利': 'italy-flag-sm',
-                '葡萄牙': 'portugal-flag-sm',
-                '葡萄牙B': 'portugal-flag-sm',
-                '荷兰': 'netherlands-flag-sm',
-                '比利时': 'belgium-flag-sm',
-                '乌拉圭': 'uruguay-flag-sm',
-                '克罗地亚': 'croatia-flag-sm',
-                '丹麦': 'denmark-flag-sm',
-                '瑞典': 'sweden-flag-sm',
-                '瑞士': 'switzerland-flag-sm',
-                '波兰': 'poland-flag-sm',
-                '挪威': 'norway-flag-sm',
-                '奥地利': 'austria-flag-sm',
-                '乌克兰': 'ukraine-flag-sm',
-                '塞尔维亚': 'serbia-flag-sm',
-                '希腊': 'greece-flag-sm',
-                '匈牙利': 'hungary-flag-sm',
-                '美国': 'usa-flag-sm',
-                '加拿大': 'canada-flag-sm',
-                '尼日利亚': 'nigeria-flag-sm',
-                '塞内加尔': 'senegal-flag-sm',
-                '摩洛哥': 'morocco-flag-sm',
-                '埃及': 'egypt-flag-sm',
-                '南非': 'southafrica-flag-sm',
-                '阿尔及利亚': 'algeria-flag-sm',
-                '突尼斯': 'tunisia-flag-sm',
-                '喀麦隆': 'cameroon-flag-sm',
-                '日本': 'japan-flag-sm',
-                '日本B': 'japan-flag-sm',
-                '韩国': 'korea-flag-sm',
-                '伊朗': 'iran-flag-sm',
-                '澳大利亚': 'australia-flag-sm',
-                '新西兰': 'newzealand-flag-sm',
-                '秘鲁': 'peru-flag-sm',
-                '智利': 'chile-flag-sm',
-                '厄瓜多尔': 'ecuador-flag-sm',
-                '哥伦比亚': 'colombia-flag-sm',
-                '牙买加': 'jamaica-flag-sm'
+        function getTeamEmoji(teamName) {
+            const emojiMap = {
+                '墨西哥': '🇲🇽', '南非': '🇿🇦', '韩国': '🇰🇷', '捷克': '🇨🇿',
+                '加拿大': '🇨🇦', '波黑': '🇧🇦', '卡塔尔': '🇶🇦', '瑞士': '🇨🇭',
+                '巴西': '🇧🇷', '摩洛哥': '🇲🇦', '海地': '🇭🇹', '苏格兰': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+                '美国': '🇺🇸', '巴拉圭': '🇵🇾', '土耳其': '🇹🇷', '澳大利亚': '🇦🇺',
+                '德国': '🇩🇪', '库拉索': '🇨🇼', '科特迪瓦': '🇨🇮', '厄瓜多尔': '🇪🇨',
+                '荷兰': '🇳🇱', '日本': '🇯🇵', '瑞典': '🇸🇪', '突尼斯': '🇹🇳',
+                '比利时': '🇧🇪', '埃及': '🇪🇬', '伊朗': '🇮🇷', '新西兰': '🇳🇿',
+                '西班牙': '🇪🇸', '佛得角': '🇨🇻', '沙特': '🇸🇦', '乌拉圭': '🇺🇾',
+                '法国': '🇫🇷', '塞内加尔': '🇸🇳', '伊拉克': '🇮🇶', '挪威': '🇳🇴',
+                '阿根廷': '🇦🇷', '阿尔及利亚': '🇩🇿', '奥地利': '🇦🇹', '约旦': '🇯🇴',
+                '葡萄牙': '🇵🇹', '英格兰': '🏴󠁧󠁢󠁥󠁮󠁧󠁿', '加纳': '🇬🇭', '巴拿马': '🇵🇦', '克罗地亚': '🇭🇷',
+                '哥伦比亚': '🇨🇴', '刚果民主共和国': '🇨🇩', '乌兹别克斯坦': '🇺🇿'
             };
-            return flagMap[teamName] || 'default-flag-sm';
+            return emojiMap[teamName] || '🏳️';
         }
 
         function startUnlockCountdown(targetDate) {
             function update() {
                 const now = new Date();
-                const diff = targetDate - now - (12 * 60 * 60 * 1000); // 提前12小时
+                const diff = targetDate - now - (12 * 60 * 60 * 1000);
                 
                 if (diff <= 0) {
                     document.getElementById('unlockCountdown').textContent = '已解锁!';
@@ -459,29 +1030,6 @@
             
             update();
             setInterval(update, 1000);
-        }
-
-        // 筛选功能
-        function initFilters() {
-            const filterBtns = document.querySelectorAll('.filter-btn');
-            
-            filterBtns.forEach(btn => {
-                btn.addEventListener('click', () => {
-                    filterBtns.forEach(b => b.classList.remove('active'));
-                    btn.classList.add('active');
-                    
-                    const group = btn.dataset.group;
-                    const cards = document.querySelectorAll('.match-card');
-                    
-                    cards.forEach(card => {
-                        if (group === 'all' || card.dataset.group === group) {
-                            card.style.display = 'block';
-                        } else {
-                            card.style.display = 'none';
-                        }
-                    });
-                });
-            });
         }
 
         // 导航功能
@@ -507,12 +1055,18 @@
         // 初始化
         document.addEventListener('DOMContentLoaded', () => {
             loadSchedule();
-            initFilters();
             initNavigation();
 
             document.getElementById('modalClose').addEventListener('click', closeModal);
             document.getElementById('modalOverlay').addEventListener('click', (e) => {
                 if (e.target === e.currentTarget) {
+                    closeModal();
+                }
+            });
+            
+            // ESC关闭弹窗
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
                     closeModal();
                 }
             });
