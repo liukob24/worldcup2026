@@ -141,7 +141,7 @@
                 `;
                 
                 groupedMatches[date].forEach(match => {
-                    const venue = scheduleData.venues.find(v => v.id === match.venue) || {name: '待定', city: ''};
+                    const venue = typeof match.venue === 'object' ? match.venue : (scheduleData.venues.find(v => v.id === match.venue) || {name: '待定', city: ''});
                     html += createMatchCard(match, venue);
                 });
                 
@@ -196,7 +196,7 @@
             const match = scheduleData.matches.find(m => m.id === matchId);
             if (!match) return;
 
-            const venue = scheduleData.venues.find(v => v.id === match.venue) || {name: '待定', city: ''};
+            const venue = typeof match.venue === 'object' ? match.venue : (scheduleData.venues.find(v => v.id === match.venue) || {name: '待定', city: ''});
             const modalBody = document.getElementById('modalBody');
             
             // 检查是否赛前12小时内
