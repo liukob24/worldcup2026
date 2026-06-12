@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-12T12:31:22",
-  "version": "2.0",
+  "lastUpdate": "2026-06-12T12:47:00",
+  "version": "2.1",
   "totalMatches": 72,
   "groups": [
     "A",
@@ -23,8 +23,8 @@
       "date": "2026-06-11",
       "time": "03:00",
       "timezone": "CST",
-      "home": "mexico",
-      "away": "southafrica",
+      "home": "墨西哥",
+      "away": "南非",
       "home_name": "墨西哥",
       "away_name": "南非",
       "home_ranking": 15,
@@ -51,8 +51,8 @@
       "date": "2026-06-12",
       "time": "10:00",
       "timezone": "CST",
-      "home": "korea",
-      "away": "czech",
+      "home": "韩国",
+      "away": "捷克",
       "home_name": "韩国",
       "away_name": "捷克",
       "home_ranking": 25,
@@ -75,48 +75,636 @@
     },
     {
       "match_id": 3,
-      "group": "A",
+      "group": "B",
       "date": "2026-06-13",
       "time": "03:00",
       "timezone": "CST",
-      "home": "mexico",
-      "away": "korea",
-      "home_name": "墨西哥",
-      "away_name": "韩国",
-      "home_ranking": 15,
-      "away_ranking": 25,
+      "home": "加拿大",
+      "away": "波黑",
+      "home_name": "加拿大",
+      "away_name": "波黑",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "bmo",
       "venueCity": "多伦多",
       "altitude": 0,
       "round": 1,
       "analysis": {
-        "tactics": "墨西哥采用4-3-3阵型，以技术流+身体对抗为主要打法，依托主场高原优势争取主动。韩国则使用4-2-3-1阵型，通过快速反击+边路突破寻找反击机会。高原环境（2240米）对客队体能是极大考验，主队日常训练就适应这种环境。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "墨西哥仰仗洛萨诺, 希门尼斯, 瓜尔达多组成的中前场体系，其中洛萨诺是进攻核心，其状态好坏直接决定球队走势。韩国依靠孙兴慜, 金玟哉, 黄喜灿支撑进攻，孙兴慜的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(15 vs 25)，实力在伯仲之间，主场成为关键因素。概率分布：主队55.0% <b>→</b> 平局25.0% <b>→</b> 客队20.0%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "超级球星：孙兴慜有能力以一己之力改变结果；主队隐患：阵容年龄老化；客队弱点：客场作战",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "中"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 4,
-      "group": "A",
+      "group": "D",
       "date": "2026-06-13",
       "time": "09:00",
       "timezone": "CST",
-      "home": "southafrica",
-      "away": "czech",
-      "home_name": "南非",
-      "away_name": "捷克",
-      "home_ranking": 68,
-      "away_ranking": 41,
+      "home": "美国",
+      "away": "巴拉圭",
+      "home_name": "美国",
+      "away_name": "巴拉圭",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "sofi",
       "venueCity": "英格尔伍德",
       "altitude": 0,
       "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 5,
+      "group": "B",
+      "date": "2026-06-14",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "卡塔尔",
+      "away": "瑞士",
+      "home_name": "卡塔尔",
+      "away_name": "瑞士",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "sanfran",
+      "venueCity": "圣克拉拉",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 6,
+      "group": "C",
+      "date": "2026-06-13",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "巴西",
+      "away": "摩洛哥",
+      "home_name": "巴西",
+      "away_name": "摩洛哥",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "metlife",
+      "venueCity": "东卢瑟福",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 7,
+      "group": "C",
+      "date": "2026-06-13",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "苏格兰",
+      "away": "海地",
+      "home_name": "苏格兰",
+      "away_name": "海地",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "boston",
+      "venueCity": "波士顿",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 8,
+      "group": "D",
+      "date": "2026-06-13",
+      "time": "09:00",
+      "timezone": "CST",
+      "home": "土耳其",
+      "away": "澳大利亚",
+      "home_name": "土耳其",
+      "away_name": "澳大利亚",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "lumen",
+      "venueCity": "西雅图",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 9,
+      "group": "E",
+      "date": "2026-06-14",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "德国",
+      "away": "库拉索",
+      "home_name": "德国",
+      "away_name": "库拉索",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "nrg",
+      "venueCity": "休斯顿",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 10,
+      "group": "F",
+      "date": "2026-06-14",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "荷兰",
+      "away": "日本",
+      "home_name": "荷兰",
+      "away_name": "日本",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "att",
+      "venueCity": "阿灵顿",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 11,
+      "group": "E",
+      "date": "2026-06-14",
+      "time": "09:00",
+      "timezone": "CST",
+      "home": "厄瓜多尔",
+      "away": "科特迪瓦",
+      "home_name": "厄瓜多尔",
+      "away_name": "科特迪瓦",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "lincoln",
+      "venueCity": "费城",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 12,
+      "group": "F",
+      "date": "2026-06-14",
+      "time": "12:00",
+      "timezone": "CST",
+      "home": "瑞典",
+      "away": "突尼斯",
+      "home_name": "瑞典",
+      "away_name": "突尼斯",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "bbva",
+      "venueCity": "瓜达拉哈拉",
+      "altitude": 2240,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 13,
+      "group": "H",
+      "date": "2026-06-15",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "西班牙",
+      "away": "佛得角",
+      "home_name": "西班牙",
+      "away_name": "佛得角",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "hardrock",
+      "venueCity": "迈阿密花园",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 14,
+      "group": "G",
+      "date": "2026-06-15",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "比利时",
+      "away": "埃及",
+      "home_name": "比利时",
+      "away_name": "埃及",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "lumen",
+      "venueCity": "西雅图",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 15,
+      "group": "H",
+      "date": "2026-06-15",
+      "time": "09:00",
+      "timezone": "CST",
+      "home": "沙特",
+      "away": "乌拉圭",
+      "home_name": "沙特",
+      "away_name": "乌拉圭",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "hardrock",
+      "venueCity": "迈阿密花园",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 16,
+      "group": "G",
+      "date": "2026-06-15",
+      "time": "12:00",
+      "timezone": "CST",
+      "home": "伊朗",
+      "away": "新西兰",
+      "home_name": "伊朗",
+      "away_name": "新西兰",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "sofi",
+      "venueCity": "英格尔伍德",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 17,
+      "group": "I",
+      "date": "2026-06-16",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "法国",
+      "away": "塞内加尔",
+      "home_name": "法国",
+      "away_name": "塞内加尔",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "metlife",
+      "venueCity": "东卢瑟福",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 18,
+      "group": "I",
+      "date": "2026-06-16",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "伊拉克",
+      "away": "挪威",
+      "home_name": "伊拉克",
+      "away_name": "挪威",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "gillette",
+      "venueCity": "福克斯堡",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 19,
+      "group": "J",
+      "date": "2026-06-16",
+      "time": "09:00",
+      "timezone": "CST",
+      "home": "阿根廷",
+      "away": "阿尔及利亚",
+      "home_name": "阿根廷",
+      "away_name": "阿尔及利亚",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "att",
+      "venueCity": "阿灵顿",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 20,
+      "group": "J",
+      "date": "2026-06-16",
+      "time": "12:00",
+      "timezone": "CST",
+      "home": "奥地利",
+      "away": "约旦",
+      "home_name": "奥地利",
+      "away_name": "约旦",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "sanfran",
+      "venueCity": "圣克拉拉",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 21,
+      "group": "K",
+      "date": "2026-06-17",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "葡萄牙",
+      "away": "刚果民主共和国",
+      "home_name": "葡萄牙",
+      "away_name": "刚果民主共和国",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "nrg",
+      "venueCity": "休斯顿",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 22,
+      "group": "L",
+      "date": "2026-06-17",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "英格兰",
+      "away": "加纳",
+      "home_name": "英格兰",
+      "away_name": "加纳",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "att",
+      "venueCity": "阿灵顿",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 23,
+      "group": "L",
+      "date": "2026-06-17",
+      "time": "09:00",
+      "timezone": "CST",
+      "home": "巴拿马",
+      "away": "克罗地亚",
+      "home_name": "巴拿马",
+      "away_name": "克罗地亚",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "bmo",
+      "venueCity": "多伦多",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 24,
+      "group": "K",
+      "date": "2026-06-17",
+      "time": "12:00",
+      "timezone": "CST",
+      "home": "乌兹别克斯坦",
+      "away": "哥伦比亚",
+      "home_name": "乌兹别克斯坦",
+      "away_name": "哥伦比亚",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "azteca",
+      "venueCity": "墨西哥城",
+      "altitude": 2240,
+      "round": 1,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 25,
+      "group": "A",
+      "date": "2026-06-18",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "南非",
+      "away": "捷克",
+      "home_name": "南非",
+      "away_name": "捷克",
+      "home_ranking": 68,
+      "away_ranking": 41,
+      "venue": "hardrock",
+      "venueCity": "迈阿密花园",
+      "altitude": 0,
+      "round": 2,
       "analysis": {
         "tactics": "南非采用4-4-2阵型，以身体型长传冲吊为主要打法，依托身体素质争取主动。捷克则使用4-1-4-1阵型，通过防守反击+定位球寻找反击机会。高原环境（2240米）对客队体能是极大考验，主队日常训练就适应这种环境。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
         "key_players": "南非仰仗莫伊塞, 洛奇, 库马洛组成的中前场体系，其中莫伊塞是进攻核心，其状态好坏直接决定球队走势。捷克依靠绍切克, 希克, 曹法尔支撑进攻，绍切克的个人能力可能成为比赛的变数。",
@@ -130,777 +718,1001 @@
       }
     },
     {
-      "match_id": 5,
-      "group": "A",
-      "date": "2026-06-14",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "mexico",
-      "away": "czech",
-      "home_name": "墨西哥",
-      "away_name": "捷克",
-      "home_ranking": 15,
-      "away_ranking": 41,
-      "venue": "sanfran",
-      "venueCity": "圣克拉拉",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "墨西哥采用4-3-3阵型，以技术流+身体对抗为主要打法，依托主场高原优势争取主动。捷克则使用4-1-4-1阵型，通过防守反击+定位球寻找反击机会。高原环境（2240米）对客队体能是极大考验，主队日常训练就适应这种环境。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "墨西哥仰仗洛萨诺, 希门尼斯, 瓜尔达多组成的中前场体系，其中洛萨诺是进攻核心，其状态好坏直接决定球队走势。捷克依靠绍切克, 希克, 曹法尔支撑进攻，绍切克的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，墨西哥(15位)明显占优，捷克需要超水平发挥。概率分布：主队58.0% <b>→</b> 平局23.0% <b>→</b> 客队19.0%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：阵容年龄老化；客队弱点：高原适应差",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 6,
-      "group": "A",
-      "date": "2026-06-13",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "southafrica",
-      "away": "korea",
-      "home_name": "南非",
-      "away_name": "韩国",
-      "home_ranking": 68,
-      "away_ranking": 25,
-      "venue": "metlife",
-      "venueCity": "东卢瑟福",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "南非采用4-4-2阵型，以身体型长传冲吊为主要打法，依托身体素质争取主动。韩国则使用4-2-3-1阵型，通过快速反击+边路突破寻找反击机会。高原环境（2240米）对客队体能是极大考验，主队日常训练就适应这种环境。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "南非仰仗莫伊塞, 洛奇, 库马洛组成的中前场体系，其中莫伊塞是进攻核心，其状态好坏直接决定球队走势。韩国依靠孙兴慜, 金玟哉, 黄喜灿支撑进攻，孙兴慜的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，韩国(25位)明显占优，南非需要超水平发挥。概率分布：主队30.5% <b>→</b> 平局27.2% <b>→</b> 客队42.3%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；超级球星：孙兴慜有能力以一己之力改变结果；主队隐患：高原适应差；客队弱点：客场作战",
-        "prediction": {
-          "result": "客场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 7,
-      "group": "B",
-      "date": "2026-06-13",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "spain",
-      "away": "usa",
-      "home_name": "西班牙",
-      "away_name": "美国",
-      "home_ranking": 8,
-      "away_ranking": 13,
-      "venue": "boston",
-      "venueCity": "波士顿",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "西班牙采用4-3-3阵型，以传控足球为主要打法，依托传控体系成熟争取主动。美国则使用4-3-3阵型，通过快速攻防转换寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "西班牙仰仗佩德里, 加维, 莫拉塔组成的中前场体系，其中佩德里是进攻核心，其状态好坏直接决定球队走势。美国依靠普利西奇, 雷纳, 麦肯尼支撑进攻，普利西奇的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(8 vs 13)，实力在伯仲之间，主场成为关键因素。概率分布：主队46.7% <b>→</b> 平局28.3% <b>→</b> 客队25.0%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：缺少顶级射手；客队弱点：大赛经验不足",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 8,
-      "group": "B",
-      "date": "2026-06-13",
-      "time": "09:00",
-      "timezone": "CST",
-      "home": "japan",
-      "away": "mali",
-      "home_name": "日本",
-      "away_name": "马里",
-      "home_ranking": 18,
-      "away_ranking": 48,
-      "venue": "lumen",
-      "venueCity": "西雅图",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "日本采用4-2-3-1阵型，以技术流控球为主要打法，依托技术细腻争取主动。马里则使用4-4-2阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "日本仰仗久保建英, 三笘薰, 远藤航组成的中前场体系，其中久保建英是进攻核心，其状态好坏直接决定球队走势。马里依靠阿布巴卡尔, 库里巴利, 海耶支撑进攻，阿布巴卡尔的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，日本(18位)明显占优，马里需要超水平发挥。概率分布：主队58.5% <b>→</b> 平局28.3% <b>→</b> 客队13.2%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：身体对抗；客队弱点：技术粗糙",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 9,
-      "group": "B",
-      "date": "2026-06-14",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "spain",
-      "away": "japan",
-      "home_name": "西班牙",
-      "away_name": "日本",
-      "home_ranking": 8,
-      "away_ranking": 18,
-      "venue": "nrg",
-      "venueCity": "休斯顿",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "西班牙采用4-3-3阵型，以传控足球为主要打法，依托传控体系成熟争取主动。日本则使用4-2-3-1阵型，通过技术流控球寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "西班牙仰仗佩德里, 加维, 莫拉塔组成的中前场体系，其中佩德里是进攻核心，其状态好坏直接决定球队走势。日本依靠久保建英, 三笘薰, 远藤航支撑进攻，久保建英的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(8 vs 18)，实力在伯仲之间，主场成为关键因素。概率分布：主队49.1% <b>→</b> 平局28.3% <b>→</b> 客队22.6%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：缺少顶级射手；客队弱点：身体对抗",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 10,
-      "group": "B",
-      "date": "2026-06-14",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "usa",
-      "away": "mali",
-      "home_name": "美国",
-      "away_name": "马里",
-      "home_ranking": 13,
-      "away_ranking": 48,
-      "venue": "att",
-      "venueCity": "阿灵顿",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "美国采用4-3-3阵型，以快速攻防转换为主要打法，依托主场优势争取主动。马里则使用4-4-2阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "美国仰仗普利西奇, 雷纳, 麦肯尼组成的中前场体系，其中普利西奇是进攻核心，其状态好坏直接决定球队走势。马里依靠阿布巴卡尔, 库里巴利, 海耶支撑进攻，阿布巴卡尔的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，美国(13位)明显占优，马里需要超水平发挥。概率分布：主队60.8% <b>→</b> 平局28.4% <b>→</b> 客队10.8%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：大赛经验不足；客队弱点：技术粗糙",
-        "prediction": {
-          "result": "主场胜",
-          "score": "2-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 11,
-      "group": "B",
-      "date": "2026-06-14",
-      "time": "09:00",
-      "timezone": "CST",
-      "home": "spain",
-      "away": "mali",
-      "home_name": "西班牙",
-      "away_name": "马里",
-      "home_ranking": 8,
-      "away_ranking": 48,
-      "venue": "lincoln",
-      "venueCity": "费城",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "西班牙采用4-3-3阵型，以传控足球为主要打法，依托传控体系成熟争取主动。马里则使用4-4-2阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "西班牙仰仗佩德里, 加维, 莫拉塔组成的中前场体系，其中佩德里是进攻核心，其状态好坏直接决定球队走势。马里依靠阿布巴卡尔, 库里巴利, 海耶支撑进攻，阿布巴卡尔的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，西班牙(8位)明显占优，马里需要超水平发挥。概率分布：主队63.2% <b>→</b> 平局28.3% <b>→</b> 客队8.5%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：缺少顶级射手；客队弱点：技术粗糙",
-        "prediction": {
-          "result": "主场胜",
-          "score": "2-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 12,
-      "group": "B",
-      "date": "2026-06-14",
-      "time": "12:00",
-      "timezone": "CST",
-      "home": "usa",
-      "away": "japan",
-      "home_name": "美国",
-      "away_name": "日本",
-      "home_ranking": 13,
-      "away_ranking": 18,
-      "venue": "bbva",
-      "venueCity": "瓜达拉哈拉",
-      "altitude": 2240,
-      "round": 1,
-      "analysis": {
-        "tactics": "美国采用4-3-3阵型，以快速攻防转换为主要打法，依托主场优势争取主动。日本则使用4-2-3-1阵型，通过技术流控球寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "美国仰仗普利西奇, 雷纳, 麦肯尼组成的中前场体系，其中普利西奇是进攻核心，其状态好坏直接决定球队走势。日本依靠久保建英, 三笘薰, 远藤航支撑进攻，久保建英的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(13 vs 18)，实力在伯仲之间，主场成为关键因素。概率分布：主队46.7% <b>→</b> 平局28.3% <b>→</b> 客队25.0%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：大赛经验不足；客队弱点：身体对抗",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 13,
-      "group": "C",
-      "date": "2026-06-15",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "argentina",
-      "away": "morocco",
-      "home_name": "阿根廷",
-      "away_name": "摩洛哥",
-      "home_ranking": 1,
-      "away_ranking": 12,
-      "venue": "hardrock",
-      "venueCity": "迈阿密花园",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "阿根廷采用4-4-2阵型，以攻防转换为主要打法，依托世界杯冠军底蕴争取主动。摩洛哥则使用4-1-4-1阵型，通过防守反击+边路寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "阿根廷仰仗梅西, 迪马利亚, 劳塔罗组成的中前场体系，其中梅西是进攻核心，其状态好坏直接决定球队走势。摩洛哥依靠哈基米, 齐耶赫, 阿姆拉巴特支撑进攻，哈基米的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(1 vs 12)，实力在伯仲之间，主场成为关键因素。概率分布：主队49.5% <b>→</b> 平局28.3% <b>→</b> 客队22.2%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：老化问题；客队弱点：进攻稳定性",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 14,
-      "group": "C",
-      "date": "2026-06-15",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "portugal",
-      "away": "qatar",
-      "home_name": "葡萄牙",
-      "away_name": "卡塔尔",
-      "home_ranking": 6,
-      "away_ranking": 58,
-      "venue": "lumen",
-      "venueCity": "西雅图",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "葡萄牙采用4-3-3阵型，以边路突破+中路渗透为主要打法，依托黄金一代争取主动。卡塔尔则使用5-4-1阵型，通过防守组织寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "葡萄牙仰仗C罗, B席, B费组成的中前场体系，其中C罗是进攻核心，其状态好坏直接决定球队走势。卡塔尔依靠阿尔海耶斯, 阿费夫, 蒙塔里支撑进攻，阿尔海耶斯的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，葡萄牙(6位)明显占优，卡塔尔需要超水平发挥。概率分布：主队68.9% <b>→</b> 平局28.3% <b>→</b> 客队2.8%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：C罗年龄；客队弱点：实力差距",
-        "prediction": {
-          "result": "主场胜",
-          "score": "2-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 15,
-      "group": "C",
-      "date": "2026-06-15",
-      "time": "09:00",
-      "timezone": "CST",
-      "home": "argentina",
-      "away": "portugal",
-      "home_name": "阿根廷",
-      "away_name": "葡萄牙",
-      "home_ranking": 1,
-      "away_ranking": 6,
-      "venue": "hardrock",
-      "venueCity": "迈阿密花园",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "阿根廷采用4-4-2阵型，以攻防转换为主要打法，依托世界杯冠军底蕴争取主动。葡萄牙则使用4-3-3阵型，通过边路突破+中路渗透寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "阿根廷仰仗梅西, 迪马利亚, 劳塔罗组成的中前场体系，其中梅西是进攻核心，其状态好坏直接决定球队走势。葡萄牙依靠C罗, B席, B费支撑进攻，C罗的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(1 vs 6)，实力在伯仲之间，主场成为关键因素。概率分布：主队46.7% <b>→</b> 平局28.3% <b>→</b> 客队25.0%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "超级球星：C罗有能力以一己之力改变结果；主队隐患：老化问题；客队弱点：C罗年龄",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 16,
-      "group": "C",
-      "date": "2026-06-15",
-      "time": "12:00",
-      "timezone": "CST",
-      "home": "morocco",
-      "away": "qatar",
-      "home_name": "摩洛哥",
-      "away_name": "卡塔尔",
-      "home_ranking": 12,
-      "away_ranking": 58,
-      "venue": "sofi",
-      "venueCity": "英格尔伍德",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "摩洛哥采用4-1-4-1阵型，以防守反击+边路为主要打法，依托非洲杯冠军争取主动。卡塔尔则使用5-4-1阵型，通过防守组织寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "摩洛哥仰仗哈基米, 齐耶赫, 阿姆拉巴特组成的中前场体系，其中哈基米是进攻核心，其状态好坏直接决定球队走势。卡塔尔依靠阿尔海耶斯, 阿费夫, 蒙塔里支撑进攻，阿尔海耶斯的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，摩洛哥(12位)明显占优，卡塔尔需要超水平发挥。概率分布：主队66.0% <b>→</b> 平局28.3% <b>→</b> 客队5.7%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：进攻稳定性；客队弱点：实力差距",
-        "prediction": {
-          "result": "主场胜",
-          "score": "2-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 17,
-      "group": "C",
-      "date": "2026-06-16",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "argentina",
-      "away": "qatar",
-      "home_name": "阿根廷",
-      "away_name": "卡塔尔",
-      "home_ranking": 1,
-      "away_ranking": 58,
-      "venue": "metlife",
-      "venueCity": "东卢瑟福",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "阿根廷采用4-4-2阵型，以攻防转换为主要打法，依托世界杯冠军底蕴争取主动。卡塔尔则使用5-4-1阵型，通过防守组织寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "阿根廷仰仗梅西, 迪马利亚, 劳塔罗组成的中前场体系，其中梅西是进攻核心，其状态好坏直接决定球队走势。卡塔尔依靠阿尔海耶斯, 阿费夫, 蒙塔里支撑进攻，阿尔海耶斯的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，阿根廷(1位)明显占优，卡塔尔需要超水平发挥。概率分布：主队71.2% <b>→</b> 平局28.3% <b>→</b> 客队0.5%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：老化问题；客队弱点：实力差距",
-        "prediction": {
-          "result": "主场胜",
-          "score": "2-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 18,
-      "group": "C",
-      "date": "2026-06-16",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "morocco",
-      "away": "portugal",
-      "home_name": "摩洛哥",
-      "away_name": "葡萄牙",
-      "home_ranking": 12,
-      "away_ranking": 6,
-      "venue": "gillette",
-      "venueCity": "福克斯堡",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "摩洛哥采用4-1-4-1阵型，以防守反击+边路为主要打法，依托非洲杯冠军争取主动。葡萄牙则使用4-3-3阵型，通过边路突破+中路渗透寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "摩洛哥仰仗哈基米, 齐耶赫, 阿姆拉巴特组成的中前场体系，其中哈基米是进攻核心，其状态好坏直接决定球队走势。葡萄牙依靠C罗, B席, B费支撑进攻，C罗的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(12 vs 6)，实力在伯仲之间，主场成为关键因素。概率分布：主队41.5% <b>→</b> 平局28.3% <b>→</b> 客队30.2%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "超级球星：C罗有能力以一己之力改变结果；主队隐患：进攻稳定性；客队弱点：C罗年龄",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 19,
-      "group": "D",
-      "date": "2026-06-16",
-      "time": "09:00",
-      "timezone": "CST",
-      "home": "france",
-      "away": "australia",
-      "home_name": "法国",
-      "away_name": "澳大利亚",
-      "home_ranking": 2,
-      "away_ranking": 23,
-      "venue": "att",
-      "venueCity": "阿灵顿",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "法国采用4-3-3阵型，以防守反击+个人能力为主要打法，依托阵容豪华争取主动。澳大利亚则使用4-4-2阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "法国仰仗姆巴佩, 格列兹曼, 琼阿梅尼组成的中前场体系，其中姆巴佩是进攻核心，其状态好坏直接决定球队走势。澳大利亚依靠马修莱基, 赫鲁斯蒂奇, 杜克支撑进攻，马修莱基的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，法国(2位)明显占优，澳大利亚需要超水平发挥。概率分布：主队54.2% <b>→</b> 平局28.3% <b>→</b> 客队17.5%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：更衣室问题；客队弱点：实力有限",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 20,
-      "group": "D",
-      "date": "2026-06-16",
-      "time": "12:00",
-      "timezone": "CST",
-      "home": "germany",
-      "away": "cameroon",
-      "home_name": "德国",
-      "away_name": "喀麦隆",
-      "home_ranking": 16,
-      "away_ranking": 52,
-      "venue": "sanfran",
-      "venueCity": "圣克拉拉",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "德国采用4-2-3-1阵型，以控球压制+高位逼抢为主要打法，依托拜仁班底争取主动。喀麦隆则使用4-3-3阵型，通过个人能力型寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "德国仰仗京多安, 克罗斯, 萨内组成的中前场体系，其中京多安是进攻核心，其状态好坏直接决定球队走势。喀麦隆依靠舒波莫廷, 安古伊萨, 奥纳纳支撑进攻，舒波莫廷的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，德国(16位)明显占优，喀麦隆需要超水平发挥。概率分布：主队61.3% <b>→</b> 平局28.3% <b>→</b> 客队10.4%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：锋线效率；客队弱点：整体性差",
-        "prediction": {
-          "result": "主场胜",
-          "score": "2-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 21,
-      "group": "D",
-      "date": "2026-06-17",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "france",
-      "away": "germany",
-      "home_name": "法国",
-      "away_name": "德国",
-      "home_ranking": 2,
-      "away_ranking": 16,
-      "venue": "nrg",
-      "venueCity": "休斯顿",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "法国采用4-3-3阵型，以防守反击+个人能力为主要打法，依托阵容豪华争取主动。德国则使用4-2-3-1阵型，通过控球压制+高位逼抢寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "法国仰仗姆巴佩, 格列兹曼, 琼阿梅尼组成的中前场体系，其中姆巴佩是进攻核心，其状态好坏直接决定球队走势。德国依靠京多安, 克罗斯, 萨内支撑进攻，京多安的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(2 vs 16)，实力在伯仲之间，主场成为关键因素。概率分布：主队50.9% <b>→</b> 平局28.3% <b>→</b> 客队20.8%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：更衣室问题；客队弱点：锋线效率",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 22,
-      "group": "D",
-      "date": "2026-06-17",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "australia",
-      "away": "cameroon",
-      "home_name": "澳大利亚",
-      "away_name": "喀麦隆",
-      "home_ranking": 23,
-      "away_ranking": 52,
-      "venue": "att",
-      "venueCity": "阿灵顿",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "澳大利亚采用4-4-2阵型，以防守反击为主要打法，依托亚洲杯经验争取主动。喀麦隆则使用4-3-3阵型，通过个人能力型寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "澳大利亚仰仗马修莱基, 赫鲁斯蒂奇, 杜克组成的中前场体系，其中马修莱基是进攻核心，其状态好坏直接决定球队走势。喀麦隆依靠舒波莫廷, 安古伊萨, 奥纳纳支撑进攻，舒波莫廷的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，澳大利亚(23位)明显占优，喀麦隆需要超水平发挥。概率分布：主队58.0% <b>→</b> 平局28.3% <b>→</b> 客队13.7%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：实力有限；客队弱点：整体性差",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 23,
-      "group": "D",
-      "date": "2026-06-17",
-      "time": "09:00",
-      "timezone": "CST",
-      "home": "france",
-      "away": "cameroon",
-      "home_name": "法国",
-      "away_name": "喀麦隆",
-      "home_ranking": 2,
-      "away_ranking": 52,
-      "venue": "bmo",
-      "venueCity": "多伦多",
-      "altitude": 0,
-      "round": 1,
-      "analysis": {
-        "tactics": "法国采用4-3-3阵型，以防守反击+个人能力为主要打法，依托阵容豪华争取主动。喀麦隆则使用4-3-3阵型，通过个人能力型寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "法国仰仗姆巴佩, 格列兹曼, 琼阿梅尼组成的中前场体系，其中姆巴佩是进攻核心，其状态好坏直接决定球队走势。喀麦隆依靠舒波莫廷, 安古伊萨, 奥纳纳支撑进攻，舒波莫廷的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，法国(2位)明显占优，喀麦隆需要超水平发挥。概率分布：主队67.9% <b>→</b> 平局28.3% <b>→</b> 客队3.8%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：更衣室问题；客队弱点：整体性差",
-        "prediction": {
-          "result": "主场胜",
-          "score": "2-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 24,
-      "group": "D",
-      "date": "2026-06-17",
-      "time": "12:00",
-      "timezone": "CST",
-      "home": "australia",
-      "away": "germany",
-      "home_name": "澳大利亚",
-      "away_name": "德国",
-      "home_ranking": 23,
-      "away_ranking": 16,
-      "venue": "azteca",
-      "venueCity": "墨西哥城",
-      "altitude": 2240,
-      "round": 1,
-      "analysis": {
-        "tactics": "澳大利亚采用4-4-2阵型，以防守反击为主要打法，依托亚洲杯经验争取主动。德国则使用4-2-3-1阵型，通过控球压制+高位逼抢寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "澳大利亚仰仗马修莱基, 赫鲁斯蒂奇, 杜克组成的中前场体系，其中马修莱基是进攻核心，其状态好坏直接决定球队走势。德国依靠京多安, 克罗斯, 萨内支撑进攻，京多安的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(23 vs 16)，实力在伯仲之间，主场成为关键因素。概率分布：主队41.0% <b>→</b> 平局28.3% <b>→</b> 客队30.7%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：实力有限；客队弱点：锋线效率",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 25,
-      "group": "E",
-      "date": "2026-06-18",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "brazil",
-      "away": "canada",
-      "home_name": "巴西",
-      "away_name": "加拿大",
-      "home_ranking": 3,
-      "away_ranking": 35,
-      "venue": "hardrock",
-      "venueCity": "迈阿密花园",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "巴西采用4-3-3阵型，以桑巴足球为主要打法，依托天才球员多争取主动。加拿大则使用4-3-3阵型，通过快速反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "巴西仰仗维尼修斯, 罗德里戈, 卡塞米罗组成的中前场体系，其中维尼修斯是进攻核心，其状态好坏直接决定球队走势。加拿大依靠阿方索戴维斯, 戴维, 拉林支撑进攻，阿方索戴维斯的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，巴西(3位)明显占优，加拿大需要超水平发挥。概率分布：主队59.4% <b>→</b> 平局28.3% <b>→</b> 客队12.3%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：防守脆弱；客队弱点：大赛经验",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
       "match_id": 26,
-      "group": "E",
+      "group": "B",
       "date": "2026-06-18",
       "time": "06:00",
       "timezone": "CST",
-      "home": "netherlands",
-      "away": "italy",
-      "home_name": "荷兰",
-      "away_name": "意大利",
-      "home_ranking": 7,
-      "away_ranking": 10,
+      "home": "瑞士",
+      "away": "波黑",
+      "home_name": "瑞士",
+      "away_name": "波黑",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "sofi",
       "venueCity": "英格尔伍德",
       "altitude": 0,
       "round": 2,
       "analysis": {
-        "tactics": "荷兰采用4-3-3阵型，以全攻全守为主要打法，依托防守稳固争取主动。意大利则使用4-3-3阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "荷兰仰仗范迪克, 德容, 德佩组成的中前场体系，其中范迪克是进攻核心，其状态好坏直接决定球队走势。意大利依靠多纳鲁马, 巴斯托尼, 巴雷拉支撑进攻，多纳鲁马的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(7 vs 10)，实力在伯仲之间，主场成为关键因素。概率分布：主队45.8% <b>→</b> 平局28.3% <b>→</b> 客队25.9%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：创造力不足；客队弱点：锋线无力",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 27,
-      "group": "E",
+      "group": "B",
       "date": "2026-06-18",
       "time": "09:00",
       "timezone": "CST",
-      "home": "brazil",
-      "away": "netherlands",
-      "home_name": "巴西",
-      "away_name": "荷兰",
-      "home_ranking": 3,
-      "away_ranking": 7,
+      "home": "加拿大",
+      "away": "卡塔尔",
+      "home_name": "加拿大",
+      "away_name": "卡塔尔",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "bcplace",
       "venueCity": "温哥华",
       "altitude": 0,
       "round": 2,
       "analysis": {
-        "tactics": "巴西采用4-3-3阵型，以桑巴足球为主要打法，依托天才球员多争取主动。荷兰则使用4-3-3阵型，通过全攻全守寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "巴西仰仗维尼修斯, 罗德里戈, 卡塞米罗组成的中前场体系，其中维尼修斯是进攻核心，其状态好坏直接决定球队走势。荷兰依靠范迪克, 德容, 德佩支撑进攻，范迪克的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(3 vs 7)，实力在伯仲之间，主场成为关键因素。概率分布：主队46.2% <b>→</b> 平局28.3% <b>→</b> 客队25.5%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：防守脆弱；客队弱点：创造力不足",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 28,
-      "group": "E",
+      "group": "A",
       "date": "2026-06-18",
       "time": "12:00",
       "timezone": "CST",
-      "home": "canada",
-      "away": "italy",
-      "home_name": "加拿大",
-      "away_name": "意大利",
-      "home_ranking": 35,
-      "away_ranking": 10,
+      "home": "墨西哥",
+      "away": "韩国",
+      "home_name": "墨西哥",
+      "away_name": "韩国",
+      "home_ranking": 15,
+      "away_ranking": 25,
       "venue": "bbva",
       "venueCity": "瓜达拉哈拉",
       "altitude": 2240,
       "round": 2,
       "analysis": {
-        "tactics": "加拿大采用4-3-3阵型，以快速反击为主要打法，依托阿方索速度争取主动。意大利则使用4-3-3阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "加拿大仰仗阿方索戴维斯, 戴维, 拉林组成的中前场体系，其中阿方索戴维斯是进攻核心，其状态好坏直接决定球队走势。意大利依靠多纳鲁马, 巴斯托尼, 巴雷拉支撑进攻，多纳鲁马的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，意大利(10位)明显占优，加拿大需要超水平发挥。概率分布：主队32.5% <b>→</b> 平局28.3% <b>→</b> 客队39.2%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：大赛经验；客队弱点：锋线无力",
+        "tactics": "墨西哥采用4-3-3阵型，以技术流+身体对抗为主要打法，依托主场高原优势争取主动。韩国则使用4-2-3-1阵型，通过快速反击+边路突破寻找反击机会。高原环境（2240米）对客队体能是极大考验，主队日常训练就适应这种环境。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
+        "key_players": "墨西哥仰仗洛萨诺, 希门尼斯, 瓜尔达多组成的中前场体系，其中洛萨诺是进攻核心，其状态好坏直接决定球队走势。韩国依靠孙兴慜, 金玟哉, 黄喜灿支撑进攻，孙兴慜的个人能力可能成为比赛的变数。",
+        "odds_analysis": "双方排名接近(15 vs 25)，实力在伯仲之间，主场成为关键因素。概率分布：主队55.0% <b>→</b> 平局25.0% <b>→</b> 客队20.0%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
+        "upset_factors": "超级球星：孙兴慜有能力以一己之力改变结果；主队隐患：阵容年龄老化；客队弱点：客场作战",
         "prediction": {
-          "result": "客场胜",
-          "score": "1-1",
+          "result": "主场胜",
+          "score": "1-0",
           "confidence": "中"
         }
       }
     },
     {
       "match_id": 29,
-      "group": "E",
+      "group": "D",
       "date": "2026-06-19",
       "time": "03:00",
       "timezone": "CST",
-      "home": "brazil",
-      "away": "italy",
-      "home_name": "巴西",
-      "away_name": "意大利",
-      "home_ranking": 3,
-      "away_ranking": 10,
+      "home": "澳大利亚",
+      "away": "美国",
+      "home_name": "澳大利亚",
+      "away_name": "美国",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "lumen",
       "venueCity": "西雅图",
       "altitude": 0,
       "round": 2,
       "analysis": {
-        "tactics": "巴西采用4-3-3阵型，以桑巴足球为主要打法，依托天才球员多争取主动。意大利则使用4-3-3阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "巴西仰仗维尼修斯, 罗德里戈, 卡塞米罗组成的中前场体系，其中维尼修斯是进攻核心，其状态好坏直接决定球队走势。意大利依靠多纳鲁马, 巴斯托尼, 巴雷拉支撑进攻，多纳鲁马的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(3 vs 10)，实力在伯仲之间，主场成为关键因素。概率分布：主队47.6% <b>→</b> 平局28.3% <b>→</b> 客队24.1%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：防守脆弱；客队弱点：锋线无力",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 30,
-      "group": "E",
+      "group": "C",
       "date": "2026-06-19",
       "time": "06:00",
       "timezone": "CST",
-      "home": "canada",
-      "away": "netherlands",
-      "home_name": "加拿大",
-      "away_name": "荷兰",
-      "home_ranking": 35,
-      "away_ranking": 7,
+      "home": "摩洛哥",
+      "away": "苏格兰",
+      "home_name": "摩洛哥",
+      "away_name": "苏格兰",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "boston",
       "venueCity": "波士顿",
       "altitude": 0,
       "round": 2,
       "analysis": {
-        "tactics": "加拿大采用4-3-3阵型，以快速反击为主要打法，依托阿方索速度争取主动。荷兰则使用4-3-3阵型，通过全攻全守寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "加拿大仰仗阿方索戴维斯, 戴维, 拉林组成的中前场体系，其中阿方索戴维斯是进攻核心，其状态好坏直接决定球队走势。荷兰依靠范迪克, 德容, 德佩支撑进攻，范迪克的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，荷兰(7位)明显占优，加拿大需要超水平发挥。概率分布：主队31.1% <b>→</b> 平局28.3% <b>→</b> 客队40.6%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：大赛经验；客队弱点：创造力不足",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "客场胜",
-          "score": "1-1",
-          "confidence": "中"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 31,
-      "group": "F",
+      "group": "C",
       "date": "2026-06-19",
       "time": "09:00",
       "timezone": "CST",
-      "home": "england",
-      "away": "croatia",
-      "home_name": "英格兰",
-      "away_name": "克罗地亚",
-      "home_ranking": 4,
-      "away_ranking": 9,
+      "home": "巴西",
+      "away": "海地",
+      "home_name": "巴西",
+      "away_name": "海地",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "lincoln",
       "venueCity": "费城",
       "altitude": 0,
       "round": 2,
       "analysis": {
-        "tactics": "英格兰采用4-3-3阵型，以高压进攻为主要打法，依托身价最高争取主动。克罗地亚则使用4-1-4-1阵型，通过中场传控寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "英格兰仰仗贝林厄姆, 凯恩, 萨卡组成的中前场体系，其中贝林厄姆是进攻核心，其状态好坏直接决定球队走势。克罗地亚依靠莫德里奇, 科瓦西奇, 佩里西奇支撑进攻，莫德里奇的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(4 vs 9)，实力在伯仲之间，主场成为关键因素。概率分布：主队46.7% <b>→</b> 平局28.3% <b>→</b> 客队25.0%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：点球压力；客队弱点：老化严重",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 32,
-      "group": "F",
+      "group": "D",
       "date": "2026-06-19",
       "time": "12:00",
       "timezone": "CST",
-      "home": "belgium",
-      "away": "iran",
-      "home_name": "比利时",
-      "away_name": "伊朗",
-      "home_ranking": 5,
-      "away_ranking": 21,
+      "home": "土耳其",
+      "away": "巴拉圭",
+      "home_name": "土耳其",
+      "away_name": "巴拉圭",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "sanfran",
       "venueCity": "圣克拉拉",
       "altitude": 0,
       "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 33,
+      "group": "F",
+      "date": "2026-06-20",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "日本",
+      "away": "瑞典",
+      "home_name": "日本",
+      "away_name": "瑞典",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "nrg",
+      "venueCity": "休斯顿",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 34,
+      "group": "E",
+      "date": "2026-06-20",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "科特迪瓦",
+      "away": "德国",
+      "home_name": "科特迪瓦",
+      "away_name": "德国",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "bmo",
+      "venueCity": "多伦多",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 35,
+      "group": "E",
+      "date": "2026-06-20",
+      "time": "09:00",
+      "timezone": "CST",
+      "home": "厄瓜多尔",
+      "away": "库拉索",
+      "home_name": "厄瓜多尔",
+      "away_name": "库拉索",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "att",
+      "venueCity": "阿灵顿",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 36,
+      "group": "F",
+      "date": "2026-06-20",
+      "time": "12:00",
+      "timezone": "CST",
+      "home": "突尼斯",
+      "away": "荷兰",
+      "home_name": "突尼斯",
+      "away_name": "荷兰",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "bbva",
+      "venueCity": "瓜达拉哈拉",
+      "altitude": 2240,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 37,
+      "group": "H",
+      "date": "2026-06-21",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "沙特",
+      "away": "西班牙",
+      "home_name": "沙特",
+      "away_name": "西班牙",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "hardrock",
+      "venueCity": "迈阿密花园",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 38,
+      "group": "G",
+      "date": "2026-06-21",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "伊朗",
+      "away": "比利时",
+      "home_name": "伊朗",
+      "away_name": "比利时",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "sofi",
+      "venueCity": "英格尔伍德",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 39,
+      "group": "H",
+      "date": "2026-06-21",
+      "time": "09:00",
+      "timezone": "CST",
+      "home": "乌拉圭",
+      "away": "佛得角",
+      "home_name": "乌拉圭",
+      "away_name": "佛得角",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "hardrock",
+      "venueCity": "迈阿密花园",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 40,
+      "group": "G",
+      "date": "2026-06-21",
+      "time": "12:00",
+      "timezone": "CST",
+      "home": "新西兰",
+      "away": "埃及",
+      "home_name": "新西兰",
+      "away_name": "埃及",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "bcplace",
+      "venueCity": "温哥华",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 41,
+      "group": "J",
+      "date": "2026-06-22",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "奥地利",
+      "away": "阿根廷",
+      "home_name": "奥地利",
+      "away_name": "阿根廷",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "att",
+      "venueCity": "阿灵顿",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 42,
+      "group": "I",
+      "date": "2026-06-22",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "法国",
+      "away": "伊拉克",
+      "home_name": "法国",
+      "away_name": "伊拉克",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "lincoln",
+      "venueCity": "费城",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 43,
+      "group": "I",
+      "date": "2026-06-22",
+      "time": "09:00",
+      "timezone": "CST",
+      "home": "塞内加尔",
+      "away": "挪威",
+      "home_name": "塞内加尔",
+      "away_name": "挪威",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "metlife",
+      "venueCity": "东卢瑟福",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 44,
+      "group": "J",
+      "date": "2026-06-22",
+      "time": "12:00",
+      "timezone": "CST",
+      "home": "约旦",
+      "away": "阿尔及利亚",
+      "home_name": "约旦",
+      "away_name": "阿尔及利亚",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "sanfran",
+      "venueCity": "圣克拉拉",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 45,
+      "group": "K",
+      "date": "2026-06-23",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "哥伦比亚",
+      "away": "葡萄牙",
+      "home_name": "哥伦比亚",
+      "away_name": "葡萄牙",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "nrg",
+      "venueCity": "休斯顿",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 46,
+      "group": "L",
+      "date": "2026-06-23",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "英格兰",
+      "away": "巴拿马",
+      "home_name": "英格兰",
+      "away_name": "巴拿马",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "gillette",
+      "venueCity": "福克斯堡",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 47,
+      "group": "L",
+      "date": "2026-06-23",
+      "time": "09:00",
+      "timezone": "CST",
+      "home": "克罗地亚",
+      "away": "加纳",
+      "home_name": "克罗地亚",
+      "away_name": "加纳",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "bmo",
+      "venueCity": "多伦多",
+      "altitude": 0,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 48,
+      "group": "K",
+      "date": "2026-06-23",
+      "time": "12:00",
+      "timezone": "CST",
+      "home": "乌兹别克斯坦",
+      "away": "刚果民主共和国",
+      "home_name": "乌兹别克斯坦",
+      "away_name": "刚果民主共和国",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "bbva",
+      "venueCity": "瓜达拉哈拉",
+      "altitude": 2240,
+      "round": 2,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 49,
+      "group": "A",
+      "date": "2026-06-24",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "捷克",
+      "away": "韩国",
+      "home_name": "捷克",
+      "away_name": "韩国",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "bbva",
+      "venueCity": "瓜达拉哈拉",
+      "altitude": 2240,
+      "round": 3,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 50,
+      "group": "A",
+      "date": "2026-06-24",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "墨西哥",
+      "away": "南非",
+      "home_name": "墨西哥",
+      "away_name": "南非",
+      "home_ranking": 15,
+      "away_ranking": 68,
+      "venue": "azteca",
+      "venueCity": "墨西哥城",
+      "altitude": 2240,
+      "round": 3,
+      "analysis": {
+        "tactics": "墨西哥采用4-3-3阵型，以技术流+身体对抗为主要打法，依托主场高原优势争取主动。南非则使用4-4-2阵型，通过身体型长传冲吊寻找反击机会。高原环境（2240米）对客队体能是极大考验，主队日常训练就适应这种环境。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
+        "key_players": "墨西哥仰仗洛萨诺, 希门尼斯, 瓜尔达多组成的中前场体系，其中洛萨诺是进攻核心，其状态好坏直接决定球队走势。南非依靠莫伊塞, 洛奇, 库马洛支撑进攻，莫伊塞的个人能力可能成为比赛的变数。",
+        "odds_analysis": "排名差距明显，墨西哥(15位)明显占优，南非需要超水平发挥。概率分布：主队62.0% <b>→</b> 平局22.0% <b>→</b> 客队16.0%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
+        "upset_factors": "高原适应：客队身体素质出色可能抵消环境劣势；排名悬殊：弱队无压力可能放手一搏；主队隐患：阵容年龄老化；客队弱点：高原适应差",
+        "prediction": {
+          "result": "主场胜",
+          "score": "2-0",
+          "confidence": "高"
+        }
+      }
+    },
+    {
+      "match_id": 51,
+      "group": "B",
+      "date": "2026-06-24",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "瑞士",
+      "away": "加拿大",
+      "home_name": "瑞士",
+      "away_name": "加拿大",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "bcplace",
+      "venueCity": "温哥华",
+      "altitude": 0,
+      "round": 3,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 52,
+      "group": "B",
+      "date": "2026-06-24",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "波黑",
+      "away": "卡塔尔",
+      "home_name": "波黑",
+      "away_name": "卡塔尔",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "lumen",
+      "venueCity": "西雅图",
+      "altitude": 0,
+      "round": 3,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 53,
+      "group": "C",
+      "date": "2026-06-25",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "苏格兰",
+      "away": "巴西",
+      "home_name": "苏格兰",
+      "away_name": "巴西",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "hardrock",
+      "venueCity": "迈阿密花园",
+      "altitude": 0,
+      "round": 3,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 54,
+      "group": "C",
+      "date": "2026-06-25",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "海地",
+      "away": "摩洛哥",
+      "home_name": "海地",
+      "away_name": "摩洛哥",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "hardrock",
+      "venueCity": "迈阿密花园",
+      "altitude": 0,
+      "round": 3,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 55,
+      "group": "D",
+      "date": "2026-06-25",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "美国",
+      "away": "土耳其",
+      "home_name": "美国",
+      "away_name": "土耳其",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "sofi",
+      "venueCity": "英格尔伍德",
+      "altitude": 0,
+      "round": 3,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 56,
+      "group": "D",
+      "date": "2026-06-25",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "澳大利亚",
+      "away": "巴拉圭",
+      "home_name": "澳大利亚",
+      "away_name": "巴拉圭",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "sanfran",
+      "venueCity": "圣克拉拉",
+      "altitude": 0,
+      "round": 3,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 57,
+      "group": "E",
+      "date": "2026-06-26",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "库拉索",
+      "away": "科特迪瓦",
+      "home_name": "库拉索",
+      "away_name": "科特迪瓦",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "lincoln",
+      "venueCity": "费城",
+      "altitude": 0,
+      "round": 3,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 58,
+      "group": "E",
+      "date": "2026-06-26",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "德国",
+      "away": "厄瓜多尔",
+      "home_name": "德国",
+      "away_name": "厄瓜多尔",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "metlife",
+      "venueCity": "东卢瑟福",
+      "altitude": 0,
+      "round": 3,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 59,
+      "group": "F",
+      "date": "2026-06-26",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "瑞典",
+      "away": "荷兰",
+      "home_name": "瑞典",
+      "away_name": "荷兰",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "att",
+      "venueCity": "阿灵顿",
+      "altitude": 0,
+      "round": 3,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 60,
+      "group": "F",
+      "date": "2026-06-26",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "日本",
+      "away": "突尼斯",
+      "home_name": "日本",
+      "away_name": "突尼斯",
+      "home_ranking": 50,
+      "away_ranking": 50,
+      "venue": "bbva",
+      "venueCity": "瓜达拉哈拉",
+      "altitude": 2240,
+      "round": 3,
+      "analysis": {
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
+        "prediction": {
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
+        }
+      }
+    },
+    {
+      "match_id": 61,
+      "group": "G",
+      "date": "2026-06-27",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "比利时",
+      "away": "伊朗",
+      "home_name": "比利时",
+      "away_name": "伊朗",
+      "home_ranking": 5,
+      "away_ranking": 21,
+      "venue": "sofi",
+      "venueCity": "英格尔伍德",
+      "altitude": 0,
+      "round": 3,
       "analysis": {
         "tactics": "比利时采用4-2-3-1阵型，以中场控制为主要打法，依托黄金一代争取主动。伊朗则使用5-4-1阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
         "key_players": "比利时仰仗德布劳内, 卢卡库, 阿扎尔组成的中前场体系，其中德布劳内是进攻核心，其状态好坏直接决定球队走势。伊朗依靠塔雷米, 阿兹蒙, 贾拉汉支撑进攻，塔雷米的个人能力可能成为比赛的变数。",
@@ -914,1066 +1726,254 @@
       }
     },
     {
-      "match_id": 33,
-      "group": "F",
-      "date": "2026-06-20",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "england",
-      "away": "belgium",
-      "home_name": "英格兰",
-      "away_name": "比利时",
-      "home_ranking": 4,
-      "away_ranking": 5,
-      "venue": "nrg",
-      "venueCity": "休斯顿",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "英格兰采用4-3-3阵型，以高压进攻为主要打法，依托身价最高争取主动。比利时则使用4-2-3-1阵型，通过中场控制寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "英格兰仰仗贝林厄姆, 凯恩, 萨卡组成的中前场体系，其中贝林厄姆是进攻核心，其状态好坏直接决定球队走势。比利时依靠德布劳内, 卢卡库, 阿扎尔支撑进攻，德布劳内的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(4 vs 5)，实力在伯仲之间，主场成为关键因素。概率分布：主队44.8% <b>→</b> 平局28.3% <b>→</b> 客队26.9%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "超级球星：德布劳内有能力以一己之力改变结果；主队隐患：点球压力；客队弱点：老化问题",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 34,
-      "group": "F",
-      "date": "2026-06-20",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "croatia",
-      "away": "iran",
-      "home_name": "克罗地亚",
-      "away_name": "伊朗",
-      "home_ranking": 9,
-      "away_ranking": 21,
-      "venue": "bmo",
-      "venueCity": "多伦多",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "克罗地亚采用4-1-4-1阵型，以中场传控为主要打法，依托世界杯亚军争取主动。伊朗则使用5-4-1阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "克罗地亚仰仗莫德里奇, 科瓦西奇, 佩里西奇组成的中前场体系，其中莫德里奇是进攻核心，其状态好坏直接决定球队走势。伊朗依靠塔雷米, 阿兹蒙, 贾拉汉支撑进攻，塔雷米的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(9 vs 21)，实力在伯仲之间，主场成为关键因素。概率分布：主队50.0% <b>→</b> 平局28.3% <b>→</b> 客队21.7%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：老化严重；客队弱点：政治因素",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 35,
-      "group": "F",
-      "date": "2026-06-20",
-      "time": "09:00",
-      "timezone": "CST",
-      "home": "england",
-      "away": "iran",
-      "home_name": "英格兰",
-      "away_name": "伊朗",
-      "home_ranking": 4,
-      "away_ranking": 21,
-      "venue": "att",
-      "venueCity": "阿灵顿",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "英格兰采用4-3-3阵型，以高压进攻为主要打法，依托身价最高争取主动。伊朗则使用5-4-1阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "英格兰仰仗贝林厄姆, 凯恩, 萨卡组成的中前场体系，其中贝林厄姆是进攻核心，其状态好坏直接决定球队走势。伊朗依靠塔雷米, 阿兹蒙, 贾拉汉支撑进攻，塔雷米的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(4 vs 21)，实力在伯仲之间，主场成为关键因素。概率分布：主队52.4% <b>→</b> 平局28.3% <b>→</b> 客队19.3%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：点球压力；客队弱点：政治因素",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 36,
-      "group": "F",
-      "date": "2026-06-20",
-      "time": "12:00",
-      "timezone": "CST",
-      "home": "croatia",
-      "away": "belgium",
-      "home_name": "克罗地亚",
-      "away_name": "比利时",
-      "home_ranking": 9,
-      "away_ranking": 5,
-      "venue": "bbva",
-      "venueCity": "瓜达拉哈拉",
-      "altitude": 2240,
-      "round": 2,
-      "analysis": {
-        "tactics": "克罗地亚采用4-1-4-1阵型，以中场传控为主要打法，依托世界杯亚军争取主动。比利时则使用4-2-3-1阵型，通过中场控制寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "克罗地亚仰仗莫德里奇, 科瓦西奇, 佩里西奇组成的中前场体系，其中莫德里奇是进攻核心，其状态好坏直接决定球队走势。比利时依靠德布劳内, 卢卡库, 阿扎尔支撑进攻，德布劳内的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(9 vs 5)，实力在伯仲之间，主场成为关键因素。概率分布：主队42.5% <b>→</b> 平局28.3% <b>→</b> 客队29.2%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "超级球星：德布劳内有能力以一己之力改变结果；主队隐患：老化严重；客队弱点：老化问题",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 37,
-      "group": "G",
-      "date": "2026-06-21",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "sweden",
-      "away": "newzealand",
-      "home_name": "瑞典",
-      "away_name": "新西兰",
-      "home_ranking": 22,
-      "away_ranking": 89,
-      "venue": "hardrock",
-      "venueCity": "迈阿密花园",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "瑞典采用4-4-2阵型，以北欧打法为主要打法，依托北欧身体优势争取主动。新西兰则使用4-4-2阵型，通过长传冲吊寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "瑞典仰仗福斯贝里, 伊萨克, 埃克达尔组成的中前场体系，其中福斯贝里是进攻核心，其状态好坏直接决定球队走势。新西兰依靠克里斯伍德, 巴巴鲁塞斯, 史密斯支撑进攻，克里斯伍德的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，瑞典(22位)明显占优，新西兰需要超水平发挥。概率分布：主队75.9% <b>→</b> 平局28.3% <b>→</b> 客队-4.2%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：进攻效率；客队弱点：实力差距",
-        "prediction": {
-          "result": "主场胜",
-          "score": "2-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 38,
-      "group": "G",
-      "date": "2026-06-21",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "norway",
-      "away": "switzerland",
-      "home_name": "挪威",
-      "away_name": "瑞士",
-      "home_ranking": 32,
-      "away_ranking": 14,
-      "venue": "sofi",
-      "venueCity": "英格尔伍德",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "挪威采用4-3-3阵型，以中锋战术为主要打法，依托哈兰德进球争取主动。瑞士则使用4-2-3-1阵型，通过战术纪律寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "挪威仰仗哈兰德, 厄德高, 厄斯蒂高组成的中前场体系，其中哈兰德是进攻核心，其状态好坏直接决定球队走势。瑞士依靠扎卡, 沙奇里, 阿坎吉支撑进攻，扎卡的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(32 vs 14)，实力在伯仲之间，主场成为关键因素。概率分布：主队35.8% <b>→</b> 平局28.4% <b>→</b> 客队35.8%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：阵容深度；客队弱点：进攻单一",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 39,
-      "group": "G",
-      "date": "2026-06-21",
-      "time": "09:00",
-      "timezone": "CST",
-      "home": "sweden",
-      "away": "norway",
-      "home_name": "瑞典",
-      "away_name": "挪威",
-      "home_ranking": 22,
-      "away_ranking": 32,
-      "venue": "hardrock",
-      "venueCity": "迈阿密花园",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "瑞典采用4-4-2阵型，以北欧打法为主要打法，依托北欧身体优势争取主动。挪威则使用4-3-3阵型，通过中锋战术寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "瑞典仰仗福斯贝里, 伊萨克, 埃克达尔组成的中前场体系，其中福斯贝里是进攻核心，其状态好坏直接决定球队走势。挪威依靠哈兰德, 厄德高, 厄斯蒂高支撑进攻，哈兰德的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(22 vs 32)，实力在伯仲之间，主场成为关键因素。概率分布：主队49.1% <b>→</b> 平局28.3% <b>→</b> 客队22.6%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "超级球星：哈兰德有能力以一己之力改变结果；主队隐患：进攻效率；客队弱点：阵容深度",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 40,
-      "group": "G",
-      "date": "2026-06-21",
-      "time": "12:00",
-      "timezone": "CST",
-      "home": "newzealand",
-      "away": "switzerland",
-      "home_name": "新西兰",
-      "away_name": "瑞士",
-      "home_ranking": 89,
-      "away_ranking": 14,
-      "venue": "bcplace",
-      "venueCity": "温哥华",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "新西兰采用4-4-2阵型，以长传冲吊为主要打法，依托大洋洲冠军争取主动。瑞士则使用4-2-3-1阵型，通过战术纪律寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "新西兰仰仗克里斯伍德, 巴巴鲁塞斯, 史密斯组成的中前场体系，其中克里斯伍德是进攻核心，其状态好坏直接决定球队走势。瑞士依靠扎卡, 沙奇里, 阿坎吉支撑进攻，扎卡的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，瑞士(14位)明显占优，新西兰需要超水平发挥。概率分布：主队9.0% <b>→</b> 平局28.3% <b>→</b> 客队62.7%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：实力差距；客队弱点：进攻单一",
-        "prediction": {
-          "result": "客场胜",
-          "score": "1-2",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 41,
-      "group": "G",
-      "date": "2026-06-22",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "sweden",
-      "away": "switzerland",
-      "home_name": "瑞典",
-      "away_name": "瑞士",
-      "home_ranking": 22,
-      "away_ranking": 14,
-      "venue": "att",
-      "venueCity": "阿灵顿",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "瑞典采用4-4-2阵型，以北欧打法为主要打法，依托北欧身体优势争取主动。瑞士则使用4-2-3-1阵型，通过战术纪律寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "瑞典仰仗福斯贝里, 伊萨克, 埃克达尔组成的中前场体系，其中福斯贝里是进攻核心，其状态好坏直接决定球队走势。瑞士依靠扎卡, 沙奇里, 阿坎吉支撑进攻，扎卡的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(22 vs 14)，实力在伯仲之间，主场成为关键因素。概率分布：主队40.6% <b>→</b> 平局28.3% <b>→</b> 客队31.1%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：进攻效率；客队弱点：进攻单一",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 42,
-      "group": "G",
-      "date": "2026-06-22",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "newzealand",
-      "away": "norway",
-      "home_name": "新西兰",
-      "away_name": "挪威",
-      "home_ranking": 89,
-      "away_ranking": 32,
-      "venue": "lincoln",
-      "venueCity": "费城",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "新西兰采用4-4-2阵型，以长传冲吊为主要打法，依托大洋洲冠军争取主动。挪威则使用4-3-3阵型，通过中锋战术寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "新西兰仰仗克里斯伍德, 巴巴鲁塞斯, 史密斯组成的中前场体系，其中克里斯伍德是进攻核心，其状态好坏直接决定球队走势。挪威依靠哈兰德, 厄德高, 厄斯蒂高支撑进攻，哈兰德的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，挪威(32位)明显占优，新西兰需要超水平发挥。概率分布：主队17.5% <b>→</b> 平局28.3% <b>→</b> 客队54.2%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；超级球星：哈兰德有能力以一己之力改变结果；主队隐患：实力差距；客队弱点：阵容深度",
-        "prediction": {
-          "result": "客场胜",
-          "score": "1-2",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 43,
-      "group": "H",
-      "date": "2026-06-22",
-      "time": "09:00",
-      "timezone": "CST",
-      "home": "denmark",
-      "away": "vietnam",
-      "home_name": "丹麦",
-      "away_name": "越南",
-      "home_ranking": 19,
-      "away_ranking": 115,
-      "venue": "metlife",
-      "venueCity": "东卢瑟福",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "丹麦采用4-3-3阵型，以团队配合为主要打法，依托团队足球争取主动。越南则使用5-4-1阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "丹麦仰仗埃里克森, 霍伊伦, 克里斯滕森组成的中前场体系，其中埃里克森是进攻核心，其状态好坏直接决定球队走势。越南依靠阮光海, 段文厚, 杜雄勇支撑进攻，阮光海的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，丹麦(19位)明显占优，越南需要超水平发挥。概率分布：主队89.6% <b>→</b> 平局28.3% <b>→</b> 客队-17.9%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：伤病影响；客队弱点：实力差距大",
-        "prediction": {
-          "result": "主场胜",
-          "score": "2-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 44,
-      "group": "H",
-      "date": "2026-06-22",
-      "time": "12:00",
-      "timezone": "CST",
-      "home": "serbia",
-      "away": "turkiye",
-      "home_name": "塞尔维亚",
-      "away_name": "土耳其",
-      "home_ranking": 25,
-      "away_ranking": 42,
-      "venue": "sanfran",
-      "venueCity": "圣克拉拉",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "塞尔维亚采用3-5-2阵型，以高中锋战术为主要打法，依托高中锋战术争取主动。土耳其则使用4-2-3-1阵型，通过快速反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "塞尔维亚仰仗米特罗维奇, 弗拉霍维奇, 塔迪奇组成的中前场体系，其中米特罗维奇是进攻核心，其状态好坏直接决定球队走势。土耳其依靠恰尔汗奥卢, 伊尔迪兹, 厄兹詹支撑进攻，恰尔汗奥卢的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(25 vs 42)，实力在伯仲之间，主场成为关键因素。概率分布：主队52.4% <b>→</b> 平局28.3% <b>→</b> 客队19.3%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：防守问题；客队弱点：防守不稳",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 45,
-      "group": "H",
-      "date": "2026-06-23",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "denmark",
-      "away": "serbia",
-      "home_name": "丹麦",
-      "away_name": "塞尔维亚",
-      "home_ranking": 19,
-      "away_ranking": 25,
-      "venue": "nrg",
-      "venueCity": "休斯顿",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "丹麦采用4-3-3阵型，以团队配合为主要打法，依托团队足球争取主动。塞尔维亚则使用3-5-2阵型，通过高中锋战术寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "丹麦仰仗埃里克森, 霍伊伦, 克里斯滕森组成的中前场体系，其中埃里克森是进攻核心，其状态好坏直接决定球队走势。塞尔维亚依靠米特罗维奇, 弗拉霍维奇, 塔迪奇支撑进攻，米特罗维奇的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(19 vs 25)，实力在伯仲之间，主场成为关键因素。概率分布：主队47.2% <b>→</b> 平局28.3% <b>→</b> 客队24.5%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：伤病影响；客队弱点：防守问题",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 46,
-      "group": "H",
-      "date": "2026-06-23",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "vietnam",
-      "away": "turkiye",
-      "home_name": "越南",
-      "away_name": "土耳其",
-      "home_ranking": 115,
-      "away_ranking": 42,
-      "venue": "gillette",
-      "venueCity": "福克斯堡",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "越南采用5-4-1阵型，以防守反击为主要打法，依托亚洲杯表现争取主动。土耳其则使用4-2-3-1阵型，通过快速反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "越南仰仗阮光海, 段文厚, 杜雄勇组成的中前场体系，其中阮光海是进攻核心，其状态好坏直接决定球队走势。土耳其依靠恰尔汗奥卢, 伊尔迪兹, 厄兹詹支撑进攻，恰尔汗奥卢的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，土耳其(42位)明显占优，越南需要超水平发挥。概率分布：主队9.9% <b>→</b> 平局28.3% <b>→</b> 客队61.8%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：实力差距大；客队弱点：防守不稳",
-        "prediction": {
-          "result": "客场胜",
-          "score": "1-2",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 47,
-      "group": "H",
-      "date": "2026-06-23",
-      "time": "09:00",
-      "timezone": "CST",
-      "home": "denmark",
-      "away": "turkiye",
-      "home_name": "丹麦",
-      "away_name": "土耳其",
-      "home_ranking": 19,
-      "away_ranking": 42,
-      "venue": "bmo",
-      "venueCity": "多伦多",
-      "altitude": 0,
-      "round": 2,
-      "analysis": {
-        "tactics": "丹麦采用4-3-3阵型，以团队配合为主要打法，依托团队足球争取主动。土耳其则使用4-2-3-1阵型，通过快速反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "丹麦仰仗埃里克森, 霍伊伦, 克里斯滕森组成的中前场体系，其中埃里克森是进攻核心，其状态好坏直接决定球队走势。土耳其依靠恰尔汗奥卢, 伊尔迪兹, 厄兹詹支撑进攻，恰尔汗奥卢的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，丹麦(19位)明显占优，土耳其需要超水平发挥。概率分布：主队55.2% <b>→</b> 平局28.3% <b>→</b> 客队16.5%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：伤病影响；客队弱点：防守不稳",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 48,
-      "group": "H",
-      "date": "2026-06-23",
-      "time": "12:00",
-      "timezone": "CST",
-      "home": "vietnam",
-      "away": "serbia",
-      "home_name": "越南",
-      "away_name": "塞尔维亚",
-      "home_ranking": 115,
-      "away_ranking": 25,
-      "venue": "bbva",
-      "venueCity": "瓜达拉哈拉",
-      "altitude": 2240,
-      "round": 2,
-      "analysis": {
-        "tactics": "越南采用5-4-1阵型，以防守反击为主要打法，依托亚洲杯表现争取主动。塞尔维亚则使用3-5-2阵型，通过高中锋战术寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "越南仰仗阮光海, 段文厚, 杜雄勇组成的中前场体系，其中阮光海是进攻核心，其状态好坏直接决定球队走势。塞尔维亚依靠米特罗维奇, 弗拉霍维奇, 塔迪奇支撑进攻，米特罗维奇的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，塞尔维亚(25位)明显占优，越南需要超水平发挥。概率分布：主队1.9% <b>→</b> 平局28.3% <b>→</b> 客队69.8%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：实力差距大；客队弱点：防守问题",
-        "prediction": {
-          "result": "客场胜",
-          "score": "1-2",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 49,
-      "group": "I",
-      "date": "2026-06-24",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "uruguay",
-      "away": "panama",
-      "home_name": "乌拉圭",
-      "away_name": "巴拿马",
-      "home_ranking": 17,
-      "away_ranking": 45,
-      "venue": "bbva",
-      "venueCity": "瓜达拉哈拉",
-      "altitude": 2240,
-      "round": 3,
-      "analysis": {
-        "tactics": "乌拉圭采用4-3-3阵型，以高位逼抢为主要打法，依托美洲杯冠军争取主动。巴拿马则使用5-4-1阵型，通过防守组织寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "乌拉圭仰仗努涅斯, 巴尔韦德, 本坦库尔组成的中前场体系，其中努涅斯是进攻核心，其状态好坏直接决定球队走势。巴拿马依靠迪亚斯, 戈麦斯, 法加多支撑进攻，迪亚斯的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，乌拉圭(17位)明显占优，巴拿马需要超水平发挥。概率分布：主队57.5% <b>→</b> 平局28.3% <b>→</b> 客队14.2%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：经验欠缺；客队弱点：实力有限",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 50,
-      "group": "I",
-      "date": "2026-06-24",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "colombia",
-      "away": "ecuador",
-      "home_name": "哥伦比亚",
-      "away_name": "厄瓜多尔",
-      "home_ranking": 11,
-      "away_ranking": 31,
-      "venue": "azteca",
-      "venueCity": "墨西哥城",
-      "altitude": 2240,
-      "round": 3,
-      "analysis": {
-        "tactics": "哥伦比亚采用4-2-3-1阵型，以技术流进攻为主要打法，依托美洲杯亚军争取主动。厄瓜多尔则使用4-4-2阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "哥伦比亚仰仗J罗, 迪亚斯, 夸德拉多组成的中前场体系，其中J罗是进攻核心，其状态好坏直接决定球队走势。厄瓜多尔依靠瓦伦西亚, 凯塞多, 因卡皮耶支撑进攻，瓦伦西亚的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(11 vs 31)，实力在伯仲之间，主场成为关键因素。概率分布：主队53.8% <b>→</b> 平局28.3% <b>→</b> 客队17.9%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：客场表现；客队弱点：离开高原",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 51,
-      "group": "I",
-      "date": "2026-06-24",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "uruguay",
-      "away": "colombia",
-      "home_name": "乌拉圭",
-      "away_name": "哥伦比亚",
-      "home_ranking": 17,
-      "away_ranking": 11,
-      "venue": "bcplace",
-      "venueCity": "温哥华",
-      "altitude": 0,
-      "round": 3,
-      "analysis": {
-        "tactics": "乌拉圭采用4-3-3阵型，以高位逼抢为主要打法，依托美洲杯冠军争取主动。哥伦比亚则使用4-2-3-1阵型，通过技术流进攻寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "乌拉圭仰仗努涅斯, 巴尔韦德, 本坦库尔组成的中前场体系，其中努涅斯是进攻核心，其状态好坏直接决定球队走势。哥伦比亚依靠J罗, 迪亚斯, 夸德拉多支撑进攻，J罗的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(17 vs 11)，实力在伯仲之间，主场成为关键因素。概率分布：主队41.5% <b>→</b> 平局28.3% <b>→</b> 客队30.2%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：经验欠缺；客队弱点：客场表现",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 52,
-      "group": "I",
-      "date": "2026-06-24",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "panama",
-      "away": "ecuador",
-      "home_name": "巴拿马",
-      "away_name": "厄瓜多尔",
-      "home_ranking": 45,
-      "away_ranking": 31,
-      "venue": "lumen",
-      "venueCity": "西雅图",
-      "altitude": 0,
-      "round": 3,
-      "analysis": {
-        "tactics": "巴拿马采用5-4-1阵型，以防守组织为主要打法，依托中美洲冠军争取主动。厄瓜多尔则使用4-4-2阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "巴拿马仰仗迪亚斯, 戈麦斯, 法加多组成的中前场体系，其中迪亚斯是进攻核心，其状态好坏直接决定球队走势。厄瓜多尔依靠瓦伦西亚, 凯塞多, 因卡皮耶支撑进攻，瓦伦西亚的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(45 vs 31)，实力在伯仲之间，主场成为关键因素。概率分布：主队37.7% <b>→</b> 平局28.3% <b>→</b> 客队34.0%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：实力有限；客队弱点：离开高原",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 53,
-      "group": "I",
-      "date": "2026-06-25",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "uruguay",
-      "away": "ecuador",
-      "home_name": "乌拉圭",
-      "away_name": "厄瓜多尔",
-      "home_ranking": 17,
-      "away_ranking": 31,
-      "venue": "hardrock",
-      "venueCity": "迈阿密花园",
-      "altitude": 0,
-      "round": 3,
-      "analysis": {
-        "tactics": "乌拉圭采用4-3-3阵型，以高位逼抢为主要打法，依托美洲杯冠军争取主动。厄瓜多尔则使用4-4-2阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "乌拉圭仰仗努涅斯, 巴尔韦德, 本坦库尔组成的中前场体系，其中努涅斯是进攻核心，其状态好坏直接决定球队走势。厄瓜多尔依靠瓦伦西亚, 凯塞多, 因卡皮耶支撑进攻，瓦伦西亚的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(17 vs 31)，实力在伯仲之间，主场成为关键因素。概率分布：主队50.9% <b>→</b> 平局28.3% <b>→</b> 客队20.8%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：经验欠缺；客队弱点：离开高原",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 54,
-      "group": "I",
-      "date": "2026-06-25",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "panama",
-      "away": "colombia",
-      "home_name": "巴拿马",
-      "away_name": "哥伦比亚",
-      "home_ranking": 45,
-      "away_ranking": 11,
-      "venue": "hardrock",
-      "venueCity": "迈阿密花园",
-      "altitude": 0,
-      "round": 3,
-      "analysis": {
-        "tactics": "巴拿马采用5-4-1阵型，以防守组织为主要打法，依托中美洲冠军争取主动。哥伦比亚则使用4-2-3-1阵型，通过技术流进攻寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "巴拿马仰仗迪亚斯, 戈麦斯, 法加多组成的中前场体系，其中迪亚斯是进攻核心，其状态好坏直接决定球队走势。哥伦比亚依靠J罗, 迪亚斯, 夸德拉多支撑进攻，J罗的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，哥伦比亚(11位)明显占优，巴拿马需要超水平发挥。概率分布：主队28.3% <b>→</b> 平局28.3% <b>→</b> 客队43.4%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：实力有限；客队弱点：客场表现",
-        "prediction": {
-          "result": "客场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 55,
-      "group": "J",
-      "date": "2026-06-25",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "poland",
-      "away": "iceland",
-      "home_name": "波兰",
-      "away_name": "冰岛",
-      "home_ranking": 28,
-      "away_ranking": 72,
-      "venue": "sofi",
-      "venueCity": "英格尔伍德",
-      "altitude": 0,
-      "round": 3,
-      "analysis": {
-        "tactics": "波兰采用4-2-3-1阵型，以中锋战术为主要打法，依托莱万领衔争取主动。冰岛则使用4-4-1-1阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "波兰仰仗莱万, 泽林斯基, 什琴斯尼组成的中前场体系，其中莱万是进攻核心，其状态好坏直接决定球队走势。冰岛依靠古德蒙德松, 芬博阿松, 鲁纳松支撑进攻，古德蒙德松的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，波兰(28位)明显占优，冰岛需要超水平发挥。概率分布：主队65.1% <b>→</b> 平局28.3% <b>→</b> 客队6.6%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：依赖莱万；客队弱点：实力下滑",
-        "prediction": {
-          "result": "主场胜",
-          "score": "2-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
-      "match_id": 56,
-      "group": "J",
-      "date": "2026-06-25",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "ukraine",
-      "away": "austria_j",
-      "home_name": "乌克兰",
-      "away_name": "奥地利",
-      "home_ranking": 24,
-      "away_ranking": 27,
-      "venue": "sanfran",
-      "venueCity": "圣克拉拉",
-      "altitude": 0,
-      "round": 3,
-      "analysis": {
-        "tactics": "乌克兰采用4-3-3阵型，以快速反击为主要打法，依托欧洲杯表现争取主动。奥地利则使用4-2-3-1阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "乌克兰仰仗津琴科, 多夫比克, 穆德里克组成的中前场体系，其中津琴科是进攻核心，其状态好坏直接决定球队走势。奥地利依靠阿拉巴, 萨比策, 阿瑙托维奇支撑进攻，阿拉巴的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(24 vs 27)，实力在伯仲之间，主场成为关键因素。概率分布：主队45.8% <b>→</b> 平局28.3% <b>→</b> 客队25.9%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：战争影响；客队弱点：进攻能力",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 57,
-      "group": "J",
-      "date": "2026-06-26",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "poland",
-      "away": "ukraine",
-      "home_name": "波兰",
-      "away_name": "乌克兰",
-      "home_ranking": 28,
-      "away_ranking": 24,
-      "venue": "lincoln",
-      "venueCity": "费城",
-      "altitude": 0,
-      "round": 3,
-      "analysis": {
-        "tactics": "波兰采用4-2-3-1阵型，以中锋战术为主要打法，依托莱万领衔争取主动。乌克兰则使用4-3-3阵型，通过快速反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "波兰仰仗莱万, 泽林斯基, 什琴斯尼组成的中前场体系，其中莱万是进攻核心，其状态好坏直接决定球队走势。乌克兰依靠津琴科, 多夫比克, 穆德里克支撑进攻，津琴科的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(28 vs 24)，实力在伯仲之间，主场成为关键因素。概率分布：主队42.5% <b>→</b> 平局28.3% <b>→</b> 客队29.2%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：依赖莱万；客队弱点：战争影响",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 58,
-      "group": "J",
-      "date": "2026-06-26",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "iceland",
-      "away": "austria_j",
-      "home_name": "冰岛",
-      "away_name": "奥地利",
-      "home_ranking": 72,
-      "away_ranking": 27,
-      "venue": "metlife",
-      "venueCity": "东卢瑟福",
-      "altitude": 0,
-      "round": 3,
-      "analysis": {
-        "tactics": "冰岛采用4-4-1-1阵型，以防守反击为主要打法，依托北欧铁军争取主动。奥地利则使用4-2-3-1阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "冰岛仰仗古德蒙德松, 芬博阿松, 鲁纳松组成的中前场体系，其中古德蒙德松是进攻核心，其状态好坏直接决定球队走势。奥地利依靠阿拉巴, 萨比策, 阿瑙托维奇支撑进攻，阿拉巴的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，奥地利(27位)明显占优，冰岛需要超水平发挥。概率分布：主队23.1% <b>→</b> 平局28.3% <b>→</b> 客队48.6%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：实力下滑；客队弱点：进攻能力",
-        "prediction": {
-          "result": "客场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 59,
-      "group": "J",
-      "date": "2026-06-26",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "poland",
-      "away": "austria_j",
-      "home_name": "波兰",
-      "away_name": "奥地利",
-      "home_ranking": 28,
-      "away_ranking": 27,
-      "venue": "att",
-      "venueCity": "阿灵顿",
-      "altitude": 0,
-      "round": 3,
-      "analysis": {
-        "tactics": "波兰采用4-2-3-1阵型，以中锋战术为主要打法，依托莱万领衔争取主动。奥地利则使用4-2-3-1阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "波兰仰仗莱万, 泽林斯基, 什琴斯尼组成的中前场体系，其中莱万是进攻核心，其状态好坏直接决定球队走势。奥地利依靠阿拉巴, 萨比策, 阿瑙托维奇支撑进攻，阿拉巴的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(28 vs 27)，实力在伯仲之间，主场成为关键因素。概率分布：主队43.9% <b>→</b> 平局28.3% <b>→</b> 客队27.8%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：依赖莱万；客队弱点：进攻能力",
-        "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 60,
-      "group": "J",
-      "date": "2026-06-26",
-      "time": "06:00",
-      "timezone": "CST",
-      "home": "iceland",
-      "away": "ukraine",
-      "home_name": "冰岛",
-      "away_name": "乌克兰",
-      "home_ranking": 72,
-      "away_ranking": 24,
-      "venue": "bbva",
-      "venueCity": "瓜达拉哈拉",
-      "altitude": 2240,
-      "round": 3,
-      "analysis": {
-        "tactics": "冰岛采用4-4-1-1阵型，以防守反击为主要打法，依托北欧铁军争取主动。乌克兰则使用4-3-3阵型，通过快速反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "冰岛仰仗古德蒙德松, 芬博阿松, 鲁纳松组成的中前场体系，其中古德蒙德松是进攻核心，其状态好坏直接决定球队走势。乌克兰依靠津琴科, 多夫比克, 穆德里克支撑进攻，津琴科的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，乌克兰(24位)明显占优，冰岛需要超水平发挥。概率分布：主队21.7% <b>→</b> 平局28.3% <b>→</b> 客队50.0%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：实力下滑；客队弱点：战争影响",
-        "prediction": {
-          "result": "客场胜",
-          "score": "1-2",
-          "confidence": "中"
-        }
-      }
-    },
-    {
-      "match_id": 61,
-      "group": "K",
-      "date": "2026-06-27",
-      "time": "03:00",
-      "timezone": "CST",
-      "home": "chile",
-      "away": "trinidad",
-      "home_name": "智利",
-      "away_name": "特立尼达和多巴哥",
-      "home_ranking": 40,
-      "away_ranking": 95,
-      "venue": "sofi",
-      "venueCity": "英格尔伍德",
-      "altitude": 0,
-      "round": 3,
-      "analysis": {
-        "tactics": "智利采用4-3-3阵型，以技术流防守为主要打法，依托美洲杯冠军争取主动。特立尼达和多巴哥则使用4-4-2阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "智利仰仗桑切斯, 比达尔, 布拉沃组成的中前场体系，其中桑切斯是进攻核心，其状态好坏直接决定球队走势。特立尼达和多巴哥依靠莱斯特朗, 沃德, 摩尔支撑进攻，莱斯特朗的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，智利(40位)明显占优，特立尼达和多巴哥需要超水平发挥。概率分布：主队70.3% <b>→</b> 平局28.3% <b>→</b> 客队1.4%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：老化严重；客队弱点：实力差距",
-        "prediction": {
-          "result": "主场胜",
-          "score": "2-0",
-          "confidence": "高"
-        }
-      }
-    },
-    {
       "match_id": 62,
-      "group": "K",
+      "group": "G",
       "date": "2026-06-27",
       "time": "03:00",
       "timezone": "CST",
-      "home": "paraguay",
-      "away": "peru",
-      "home_name": "巴拉圭",
-      "away_name": "秘鲁",
-      "home_ranking": 55,
-      "away_ranking": 38,
+      "home": "新西兰",
+      "away": "沙特",
+      "home_name": "新西兰",
+      "away_name": "沙特",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "lumen",
       "venueCity": "西雅图",
       "altitude": 0,
       "round": 3,
       "analysis": {
-        "tactics": "巴拉圭采用5-4-1阵型，以防守反击为主要打法，依托南美劲旅争取主动。秘鲁则使用4-4-2阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "巴拉圭仰仗戈麦斯, 阿尔米隆, 巴尔武埃纳组成的中前场体系，其中戈麦斯是进攻核心，其状态好坏直接决定球队走势。秘鲁依靠格雷罗, 塔皮亚, 卡里略支撑进攻，格雷罗的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(55 vs 38)，实力在伯仲之间，主场成为关键因素。概率分布：主队36.3% <b>→</b> 平局28.3% <b>→</b> 客队35.4%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：实力下滑；客队弱点：阵容老化",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 63,
-      "group": "K",
+      "group": "H",
       "date": "2026-06-27",
       "time": "06:00",
       "timezone": "CST",
-      "home": "chile",
-      "away": "paraguay",
-      "home_name": "智利",
-      "away_name": "巴拉圭",
-      "home_ranking": 40,
-      "away_ranking": 55,
+      "home": "佛得角",
+      "away": "乌拉圭",
+      "home_name": "佛得角",
+      "away_name": "乌拉圭",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "hardrock",
       "venueCity": "迈阿密花园",
       "altitude": 0,
       "round": 3,
       "analysis": {
-        "tactics": "智利采用4-3-3阵型，以技术流防守为主要打法，依托美洲杯冠军争取主动。巴拉圭则使用5-4-1阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "智利仰仗桑切斯, 比达尔, 布拉沃组成的中前场体系，其中桑切斯是进攻核心，其状态好坏直接决定球队走势。巴拉圭依靠戈麦斯, 阿尔米隆, 巴尔武埃纳支撑进攻，戈麦斯的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(40 vs 55)，实力在伯仲之间，主场成为关键因素。概率分布：主队51.4% <b>→</b> 平局28.3% <b>→</b> 客队20.3%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：老化严重；客队弱点：实力下滑",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "中"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 64,
-      "group": "K",
+      "group": "H",
       "date": "2026-06-27",
       "time": "06:00",
       "timezone": "CST",
-      "home": "trinidad",
-      "away": "peru",
-      "home_name": "特立尼达和多巴哥",
-      "away_name": "秘鲁",
-      "home_ranking": 95,
-      "away_ranking": 38,
+      "home": "西班牙",
+      "away": "埃及",
+      "home_name": "西班牙",
+      "away_name": "埃及",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "boston",
       "venueCity": "波士顿",
       "altitude": 0,
       "round": 3,
       "analysis": {
-        "tactics": "特立尼达和多巴哥采用4-4-2阵型，以防守反击为主要打法，依托加勒比海冠军争取主动。秘鲁则使用4-4-2阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "特立尼达和多巴哥仰仗莱斯特朗, 沃德, 摩尔组成的中前场体系，其中莱斯特朗是进攻核心，其状态好坏直接决定球队走势。秘鲁依靠格雷罗, 塔皮亚, 卡里略支撑进攻，格雷罗的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，秘鲁(38位)明显占优，特立尼达和多巴哥需要超水平发挥。概率分布：主队17.5% <b>→</b> 平局28.3% <b>→</b> 客队54.2%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：实力差距；客队弱点：阵容老化",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "客场胜",
-          "score": "1-2",
-          "confidence": "高"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 65,
-      "group": "K",
+      "group": "I",
       "date": "2026-06-28",
       "time": "03:00",
       "timezone": "CST",
-      "home": "chile",
-      "away": "peru",
-      "home_name": "智利",
-      "away_name": "秘鲁",
-      "home_ranking": 40,
-      "away_ranking": 38,
+      "home": "挪威",
+      "away": "伊拉克",
+      "home_name": "挪威",
+      "away_name": "伊拉克",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "gillette",
       "venueCity": "福克斯堡",
       "altitude": 0,
       "round": 3,
       "analysis": {
-        "tactics": "智利采用4-3-3阵型，以技术流防守为主要打法，依托美洲杯冠军争取主动。秘鲁则使用4-4-2阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "智利仰仗桑切斯, 比达尔, 布拉沃组成的中前场体系，其中桑切斯是进攻核心，其状态好坏直接决定球队走势。秘鲁依靠格雷罗, 塔皮亚, 卡里略支撑进攻，格雷罗的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(40 vs 38)，实力在伯仲之间，主场成为关键因素。概率分布：主队43.4% <b>→</b> 平局28.3% <b>→</b> 客队28.3%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：老化严重；客队弱点：阵容老化",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 66,
-      "group": "K",
+      "group": "I",
       "date": "2026-06-28",
       "time": "03:00",
       "timezone": "CST",
-      "home": "trinidad",
-      "away": "paraguay",
-      "home_name": "特立尼达和多巴哥",
-      "away_name": "巴拉圭",
-      "home_ranking": 95,
-      "away_ranking": 55,
+      "home": "塞内加尔",
+      "away": "法国",
+      "home_name": "塞内加尔",
+      "away_name": "法国",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "nrg",
       "venueCity": "休斯顿",
       "altitude": 0,
       "round": 3,
       "analysis": {
-        "tactics": "特立尼达和多巴哥采用4-4-2阵型，以防守反击为主要打法，依托加勒比海冠军争取主动。巴拉圭则使用5-4-1阵型，通过防守反击寻找反击机会。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "特立尼达和多巴哥仰仗莱斯特朗, 沃德, 摩尔组成的中前场体系，其中莱斯特朗是进攻核心，其状态好坏直接决定球队走势。巴拉圭依靠戈麦斯, 阿尔米隆, 巴尔武埃纳支撑进攻，戈麦斯的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，巴拉圭(55位)明显占优，特立尼达和多巴哥需要超水平发挥。概率分布：主队25.5% <b>→</b> 平局28.3% <b>→</b> 客队46.2%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：实力差距；客队弱点：实力下滑",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "客场胜",
-          "score": "1-1",
-          "confidence": "中"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 67,
-      "group": "L",
+      "group": "J",
       "date": "2026-06-28",
       "time": "06:00",
       "timezone": "CST",
-      "home": "austria_l",
-      "away": "southsudan",
-      "home_name": "奥地利B",
-      "away_name": "南苏丹",
-      "home_ranking": 36,
-      "away_ranking": 180,
+      "home": "约旦",
+      "away": "阿根廷",
+      "home_name": "约旦",
+      "away_name": "阿根廷",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "att",
       "venueCity": "阿灵顿",
       "altitude": 0,
       "round": 3,
       "analysis": {
-        "tactics": "奥地利B采用4-3-3阵型，以防守反击为主要打法，依托防守坚固争取主动。南苏丹则使用5-4-1阵型，通过防守组织寻找反击机会。高原环境（1609米）对客队体能是极大考验，主队日常训练就适应这种环境。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "奥地利B仰仗施拉格尔, 格里利奇, 欣特雷格组成的中前场体系，其中施拉格尔是进攻核心，其状态好坏直接决定球队走势。南苏丹依靠卡曼, 邓, 马沙尔支撑进攻，卡曼的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，奥地利B(36位)明显占优，南苏丹需要超水平发挥。概率分布：主队115.5% <b>→</b> 平局27.2% <b>→</b> 客队-42.7%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：进攻能力；客队弱点：实力差距悬殊",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "主场胜",
-          "score": "2-0",
-          "confidence": "高"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 68,
-      "group": "L",
+      "group": "J",
       "date": "2026-06-28",
       "time": "06:00",
       "timezone": "CST",
-      "home": "hungary",
-      "away": "romania",
-      "home_name": "匈牙利",
-      "away_name": "罗马尼亚",
-      "home_ranking": 33,
-      "away_ranking": 45,
+      "home": "阿尔及利亚",
+      "away": "奥地利",
+      "home_name": "阿尔及利亚",
+      "away_name": "奥地利",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "sanfran",
       "venueCity": "圣克拉拉",
       "altitude": 0,
       "round": 3,
       "analysis": {
-        "tactics": "匈牙利采用3-5-2阵型，以防守组织为主要打法，依托欧洲杯表现争取主动。罗马尼亚则使用4-1-4-1阵型，通过防守反击寻找反击机会。高原环境（1609米）对客队体能是极大考验，主队日常训练就适应这种环境。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "匈牙利仰仗索博斯洛伊, 奥尔班, 纳吉组成的中前场体系，其中索博斯洛伊是进攻核心，其状态好坏直接决定球队走势。罗马尼亚依靠斯坦丘, 拉茨, 布尔卡支撑进攻，斯坦丘的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(33 vs 45)，实力在伯仲之间，主场成为关键因素。概率分布：主队55.5% <b>→</b> 平局27.2% <b>→</b> 客队17.3%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：实力有限；客队弱点：进攻能力",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "高"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 69,
-      "group": "L",
+      "group": "K",
       "date": "2026-06-29",
       "time": "03:00",
       "timezone": "CST",
-      "home": "austria_l",
-      "away": "hungary",
-      "home_name": "奥地利B",
-      "away_name": "匈牙利",
-      "home_ranking": 36,
-      "away_ranking": 33,
+      "home": "刚果民主共和国",
+      "away": "哥伦比亚",
+      "home_name": "刚果民主共和国",
+      "away_name": "哥伦比亚",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "bbva",
       "venueCity": "瓜达拉哈拉",
       "altitude": 2240,
       "round": 3,
       "analysis": {
-        "tactics": "奥地利B采用4-3-3阵型，以防守反击为主要打法，依托防守坚固争取主动。匈牙利则使用3-5-2阵型，通过防守组织寻找反击机会。高原环境（1609米）对客队体能是极大考验，主队日常训练就适应这种环境。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "奥地利B仰仗施拉格尔, 格里利奇, 欣特雷格组成的中前场体系，其中施拉格尔是进攻核心，其状态好坏直接决定球队走势。匈牙利依靠索博斯洛伊, 奥尔班, 纳吉支撑进攻，索博斯洛伊的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(36 vs 33)，实力在伯仲之间，主场成为关键因素。概率分布：主队48.6% <b>→</b> 平局27.3% <b>→</b> 客队24.1%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：进攻能力；客队弱点：实力有限",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "主场胜",
-          "score": "1-1",
-          "confidence": "中"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
     {
       "match_id": 70,
-      "group": "L",
+      "group": "K",
       "date": "2026-06-29",
       "time": "03:00",
       "timezone": "CST",
-      "home": "southsudan",
-      "away": "romania",
-      "home_name": "南苏丹",
-      "away_name": "罗马尼亚",
-      "home_ranking": 180,
-      "away_ranking": 45,
+      "home": "葡萄牙",
+      "away": "乌兹别克斯坦",
+      "home_name": "葡萄牙",
+      "away_name": "乌兹别克斯坦",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "azteca",
       "venueCity": "墨西哥城",
       "altitude": 2240,
       "round": 3,
       "analysis": {
-        "tactics": "南苏丹采用5-4-1阵型，以防守组织为主要打法，依托身高优势争取主动。罗马尼亚则使用4-1-4-1阵型，通过防守反击寻找反击机会。高原环境（1609米）对客队体能是极大考验，主队日常训练就适应这种环境。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "南苏丹仰仗卡曼, 邓, 马沙尔组成的中前场体系，其中卡曼是进攻核心，其状态好坏直接决定球队走势。罗马尼亚依靠斯坦丘, 拉茨, 布尔卡支撑进攻，斯坦丘的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，罗马尼亚(45位)明显占优，南苏丹需要超水平发挥。概率分布：主队-11.4% <b>→</b> 平局27.3% <b>→</b> 客队84.1%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：实力差距悬殊；客队弱点：进攻能力",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "客场胜",
-          "score": "1-2",
-          "confidence": "高"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
@@ -1983,25 +1983,25 @@
       "date": "2026-06-29",
       "time": "06:00",
       "timezone": "CST",
-      "home": "austria_l",
-      "away": "romania",
-      "home_name": "奥地利B",
-      "away_name": "罗马尼亚",
-      "home_ranking": 36,
-      "away_ranking": 45,
+      "home": "加纳",
+      "away": "英格兰",
+      "home_name": "加纳",
+      "away_name": "英格兰",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "bmo",
       "venueCity": "多伦多",
       "altitude": 0,
       "round": 3,
       "analysis": {
-        "tactics": "奥地利B采用4-3-3阵型，以防守反击为主要打法，依托防守坚固争取主动。罗马尼亚则使用4-1-4-1阵型，通过防守反击寻找反击机会。高原环境（1609米）对客队体能是极大考验，主队日常训练就适应这种环境。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "奥地利B仰仗施拉格尔, 格里利奇, 欣特雷格组成的中前场体系，其中施拉格尔是进攻核心，其状态好坏直接决定球队走势。罗马尼亚依靠斯坦丘, 拉茨, 布尔卡支撑进攻，斯坦丘的个人能力可能成为比赛的变数。",
-        "odds_analysis": "双方排名接近(36 vs 45)，实力在伯仲之间，主场成为关键因素。概率分布：主队54.1% <b>→</b> 平局27.3% <b>→</b> 客队18.6%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "主队隐患：进攻能力；客队弱点：进攻能力",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "主场胜",
-          "score": "1-0",
-          "confidence": "中"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     },
@@ -2011,25 +2011,25 @@
       "date": "2026-06-29",
       "time": "06:00",
       "timezone": "CST",
-      "home": "southsudan",
-      "away": "hungary",
-      "home_name": "南苏丹",
-      "away_name": "匈牙利",
-      "home_ranking": 180,
-      "away_ranking": 33,
+      "home": "巴拿马",
+      "away": "克罗地亚",
+      "home_name": "巴拿马",
+      "away_name": "克罗地亚",
+      "home_ranking": 50,
+      "away_ranking": 50,
       "venue": "lincoln",
       "venueCity": "费城",
       "altitude": 0,
       "round": 3,
       "analysis": {
-        "tactics": "南苏丹采用5-4-1阵型，以防守组织为主要打法，依托身高优势争取主动。匈牙利则使用3-5-2阵型，通过防守组织寻找反击机会。高原环境（1609米）对客队体能是极大考验，主队日常训练就适应这种环境。主队有望利用场地熟悉度和球迷支持控制中场节奏。",
-        "key_players": "南苏丹仰仗卡曼, 邓, 马沙尔组成的中前场体系，其中卡曼是进攻核心，其状态好坏直接决定球队走势。匈牙利依靠索博斯洛伊, 奥尔班, 纳吉支撑进攻，索博斯洛伊的个人能力可能成为比赛的变数。",
-        "odds_analysis": "排名差距明显，匈牙利(33位)明显占优，南苏丹需要超水平发挥。概率分布：主队-16.8% <b>→</b> 平局27.3% <b>→</b> 客队89.5%。赔率组合显示市场倾向主队不败。大小球偏向2-3球。",
-        "upset_factors": "排名悬殊：弱队无压力可能放手一搏；主队隐患：实力差距悬殊；客队弱点：实力有限",
+        "tactics": "暂无战术分析数据",
+        "key_players": "暂无关键球员信息",
+        "odds_analysis": "暂无赔率分析数据",
+        "upset_factors": "暂无冷门分析",
         "prediction": {
-          "result": "客场胜",
-          "score": "1-2",
-          "confidence": "高"
+          "result": "未知",
+          "score": "0-0",
+          "confidence": "低"
         }
       }
     }
