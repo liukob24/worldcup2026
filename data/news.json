@@ -1,7 +1,47 @@
 {
-  "lastUpdate": "2026-06-12T19:49:05",
-  "version": "1.0.3",
+  "lastUpdate": "2026-06-13T00:23:00",
+  "version": "1.0.6",
   "news": [
+    {
+      "id": 201,
+      "title": "黄健翔预测加拿大vs波黑：双方可能握手言和",
+      "summary": "黄健翔分析B组形势，认为加拿大、波黑、瑞士实力明显高一档。加拿大目标是在波黑和瑞士身上抢分，4分大概率晋级。黄健翔认为本场可能比较沉闷，双方各拿一分都可接受。徐云龙同样看好平局，张稀哲更看好波黑。",
+      "category": "专家预测",
+      "publishTime": "2026-06-12T23:02:05",
+      "source": "咪咕体育",
+      "sourceUrl": "http://m.toutiao.com/group/7650516768288555560/",
+      "relatedMatches": ["match-fd-537333"]
+    },
+    {
+      "id": 202,
+      "title": "78%球迷看好加拿大赢，AI预测12中8支持东道主",
+      "summary": "咪咕平台数据显示，78.1%球迷看好加拿大取胜，10.6%认为平局，11.3%看好波黑。12家AI大模型预测中8家支持加拿大主场取胜，3家认为平局，1家支持波黑。",
+      "category": "专家预测",
+      "publishTime": "2026-06-12T23:02:05",
+      "source": "咪咕体育",
+      "sourceUrl": "http://m.toutiao.com/group/7650516768288555560/",
+      "relatedMatches": ["match-fd-537333"]
+    },
+    {
+      "id": 203,
+      "title": "波黑主帅：加拿大少了戴维斯，防线可能有漏洞",
+      "summary": "波黑主帅巴巴雷茨赛前表示，加拿大缺少阿方索·戴维斯后防线可能出现问题。波黑全队早于其他参赛队两周进入训练营备战。哲科体能储备充足，将是谢幕之战。",
+      "category": "赛前动态",
+      "publishTime": "2026-06-12T22:00:00",
+      "source": "懂球帝",
+      "sourceUrl": "http://m.toutiao.com/group/7650383032600085011/",
+      "relatedMatches": ["match-fd-537333"]
+    },
+    {
+      "id": 204,
+      "title": "加拿大赛前好消息：邦比托恢复进展顺利有望登场",
+      "summary": "虽然邦比托可能无法首发，但最新消息显示他恢复进展顺利，已进入26人大名单。主帅马什表示会给年轻球员德富热罗勒机会，后者在训练中表现出色。",
+      "category": "赛前动态",
+      "publishTime": "2026-06-12T20:00:00",
+      "source": "懂球帝",
+      "sourceUrl": "http://m.toutiao.com/group/7650383032600085011/",
+      "relatedMatches": ["match-fd-537333"]
+    },
     {
       "id": 101,
       "title": "中超独苗！朴镇燮84分钟替补登场，完成个人世界杯首秀",
@@ -10,9 +50,7 @@
       "publishTime": "2026-06-12T19:41:11",
       "source": "Coze整理",
       "sourceUrl": "https://www.coze.cn/share-article/201781263872957728",
-      "relatedMatches": [
-        2
-      ]
+      "relatedMatches": [2]
     },
     {
       "id": 102,
@@ -22,9 +60,7 @@
       "publishTime": "2026-06-12T18:58:38",
       "source": "Coze整理",
       "sourceUrl": "https://www.coze.cn/share-article/201781261111754944",
-      "relatedMatches": [
-        1
-      ]
+      "relatedMatches": [1]
     },
     {
       "id": 103,
@@ -34,9 +70,7 @@
       "publishTime": "2026-06-12T17:54:06",
       "source": "Coze整理",
       "sourceUrl": "https://www.coze.cn/share-article/201781257526059776",
-      "relatedMatches": [
-        2
-      ]
+      "relatedMatches": [2]
     },
     {
       "id": 104,
@@ -46,9 +80,7 @@
       "publishTime": "2026-06-12T18:44:26",
       "source": "新浪财经",
       "sourceUrl": "http://m.toutiao.com/group/7650457977102533154/",
-      "relatedMatches": [
-        1
-      ]
+      "relatedMatches": [1]
     },
     {
       "id": 105,
@@ -118,9 +150,7 @@
       "publishTime": "2026-06-12T12:01:13",
       "source": "央视新闻",
       "sourceUrl": "http://m.toutiao.com/group/7650354081982104064/",
-      "relatedMatches": [
-        2
-      ]
+      "relatedMatches": [2]
     },
     {
       "id": 99,
@@ -130,10 +160,7 @@
       "publishTime": "2026-06-12T12:42:35",
       "source": "体坛大boos",
       "sourceUrl": "http://m.toutiao.com/group/7650364134625722890/",
-      "relatedMatches": [
-        1,
-        2
-      ]
+      "relatedMatches": [1, 2]
     },
     {
       "id": 98,
@@ -143,9 +170,7 @@
       "publishTime": "2026-06-12T12:17:37",
       "source": "Coze整理",
       "sourceUrl": "https://www.coze.cn/share-article/201781237273550880",
-      "relatedMatches": [
-        2
-      ]
+      "relatedMatches": [2]
     },
     {
       "id": 97,
@@ -155,10 +180,7 @@
       "publishTime": "2026-06-12T12:42:35",
       "source": "体坛大boos",
       "sourceUrl": "http://m.toutiao.com/group/7650364134625722890/",
-      "relatedMatches": [
-        1,
-        2
-      ]
+      "relatedMatches": [1, 2]
     },
     {
       "id": 96,
@@ -168,9 +190,7 @@
       "publishTime": "2026-06-12T10:24:25",
       "source": "Coze整理",
       "sourceUrl": "https://www.coze.cn/share-article/201781230425365376",
-      "relatedMatches": [
-        1
-      ]
+      "relatedMatches": [1]
     },
     {
       "id": 95,
@@ -180,9 +200,7 @@
       "publishTime": "2026-06-12T09:21:44",
       "source": "Coze整理",
       "sourceUrl": "https://www.coze.cn/share-article/201781226704153088",
-      "relatedMatches": [
-        1
-      ]
+      "relatedMatches": [1]
     },
     {
       "id": 94,
@@ -192,9 +210,7 @@
       "publishTime": "2026-06-12T11:56:02",
       "source": "直播吧",
       "sourceUrl": "https://m.zhibo8.cc/news/web/zuqiu/2026-06-12/match1869142date2026vnative.htm",
-      "relatedMatches": [
-        2
-      ]
+      "relatedMatches": [2]
     },
     {
       "id": 93,
@@ -204,9 +220,7 @@
       "publishTime": "2026-06-12T12:01:56",
       "source": "球迷屋",
       "sourceUrl": "https://m.qiumiwu.com/news/1959357734121",
-      "relatedMatches": [
-        2
-      ]
+      "relatedMatches": [2]
     },
     {
       "id": 92,
@@ -226,9 +240,7 @@
       "publishTime": "2026-06-12T04:22:00",
       "source": "ESPN",
       "sourceUrl": "https://global.espn.com/soccer/story/_/id/49035302/fifa-world-cup-2026-stats-3-red-cards-raul-jimenez-47-korea-republic-3-row",
-      "relatedMatches": [
-        2
-      ]
+      "relatedMatches": [2]
     },
     {
       "id": 1,
@@ -238,9 +250,7 @@
       "publishTime": "2026-06-12T05:06:43",
       "source": "央视网",
       "sourceUrl": "https://sports.cctv.com/2026/06/12/ARTIiCv77G8qNMAb0qw3iFkV260612.shtml",
-      "relatedMatches": [
-        1
-      ]
+      "relatedMatches": [1]
     },
     {
       "id": 2,
@@ -250,9 +260,7 @@
       "publishTime": "2026-06-12T06:34:46",
       "source": "微博体育",
       "sourceUrl": "https://m.weibo.cn/detail/5308872436746481",
-      "relatedMatches": [
-        2
-      ]
+      "relatedMatches": [2]
     },
     {
       "id": 3,
@@ -262,9 +270,7 @@
       "publishTime": "2026-06-12T05:15:00",
       "source": "直播吧",
       "sourceUrl": "https://m.zhibo8.com/news/web/zuqiu/2026-06-12/match1867414date2026vnative.htm",
-      "relatedMatches": [
-        1
-      ]
+      "relatedMatches": [1]
     },
     {
       "id": 4,
@@ -274,9 +280,7 @@
       "publishTime": "2026-06-12T05:20:00",
       "source": "体坛周报",
       "sourceUrl": "http://m.toutiao.com/group/7650248439623713322/",
-      "relatedMatches": [
-        1
-      ]
+      "relatedMatches": [1]
     },
     {
       "id": 5,
@@ -286,9 +290,7 @@
       "publishTime": "2026-06-12T06:42:35",
       "source": "环球资讯",
       "sourceUrl": "https://m.weibo.cn/detail/5308874405971273",
-      "relatedMatches": [
-        1
-      ]
+      "relatedMatches": [1]
     },
     {
       "id": 6,
@@ -298,9 +300,7 @@
       "publishTime": "2026-06-12T06:56:00",
       "source": "搜狐体育",
       "sourceUrl": "https://m.sohu.com/a/1035436130_122001006/",
-      "relatedMatches": [
-        1
-      ]
+      "relatedMatches": [1]
     },
     {
       "id": 7,
@@ -310,10 +310,7 @@
       "publishTime": "2026-06-12T06:30:00",
       "source": "新浪体育",
       "sourceUrl": "https://k.sina.cn/article_2834321443_a8f0502300101zyac.html",
-      "relatedMatches": [
-        1,
-        2
-      ]
+      "relatedMatches": [1, 2]
     },
     {
       "id": 8,
