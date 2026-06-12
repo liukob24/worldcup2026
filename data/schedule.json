@@ -10,13 +10,31 @@
     "venue": "墨西哥城阿兹特克体育场",
     "group": "A组",
     "goals": [
-      {"player": "胡利安·基尼奥内斯（墨西哥）", "minute": "9'"},
-      {"player": "劳尔·希门尼斯（墨西哥）", "minute": "67'"}
+      {
+        "player": "胡利安·基尼奥内斯（墨西哥）",
+        "minute": "9'"
+      },
+      {
+        "player": "劳尔·希门尼斯（墨西哥）",
+        "minute": "67'"
+      }
     ],
     "cards": [
-      {"player": "西索尔（南非）", "minute": "49'", "type": "red"},
-      {"player": "兹瓦内（南非）", "minute": "84'", "type": "red"},
-      {"player": "塞萨尔·蒙特斯（墨西哥）", "minute": "90+2'", "type": "red"}
+      {
+        "player": "西索尔（南非）",
+        "minute": "49'",
+        "type": "red"
+      },
+      {
+        "player": "兹瓦内（南非）",
+        "minute": "84'",
+        "type": "red"
+      },
+      {
+        "player": "塞萨尔·蒙特斯（墨西哥）",
+        "minute": "90+2'",
+        "type": "red"
+      }
     ],
     "attendance": 80824
   },
@@ -31,9 +49,18 @@
     "venue": "瓜达拉哈拉体育场",
     "group": "A组",
     "goals": [
-      {"player": "克雷伊奇（捷克）", "minute": "59'"},
-      {"player": "黄仁范（韩国）", "minute": "67'"},
-      {"player": "吴贤揆（韩国）", "minute": "80'"}
+      {
+        "player": "克雷伊奇（捷克）",
+        "minute": "59'"
+      },
+      {
+        "player": "黄仁范（韩国）",
+        "minute": "67'"
+      },
+      {
+        "player": "吴贤揆（韩国）",
+        "minute": "80'"
+      }
     ],
     "notes": "捷克绍切克77分钟进球因越位无效"
   },
@@ -41,14 +68,51 @@
     "id": "match-fd-537333",
     "home_team": "加拿大",
     "away_team": "波黑",
-    "home_score": null,
-    "away_score": null,
-    "status": "upcoming",
+    "home_score": 1,
+    "away_score": 1,
+    "status": "completed",
     "start_time": "2026-06-13T03:00:00+08:00",
     "venue": "BMO Field，多伦多",
     "group": "B组",
-    "goals": [],
-    "notes": "阿方索·戴维斯因伤大概率缺阵"
+    "goals": [
+      {
+        "player": "约沃·卢基奇（波黑）",
+        "minute": "21'"
+      },
+      {
+        "player": "赛尔·拉林（加拿大）",
+        "minute": "78'"
+      }
+    ],
+    "notes": "阿方索·戴维斯未出场；加拿大拿到队史世界杯首个积分",
+    "cards": [
+      {
+        "player": "科内（加拿大）",
+        "minute": "11'",
+        "type": "yellow"
+      },
+      {
+        "player": "德米罗维奇（波黑）",
+        "minute": "45'",
+        "type": "yellow"
+      },
+      {
+        "player": "卢基奇（波黑）",
+        "minute": "45+2'",
+        "type": "yellow"
+      },
+      {
+        "player": "德富热罗勒（加拿大）",
+        "minute": "53'",
+        "type": "yellow"
+      },
+      {
+        "player": "卡蒂奇（波黑）",
+        "minute": "90+3'",
+        "type": "yellow"
+      }
+    ],
+    "attendance": 43041
   },
   {
     "id": "match-fd-537345",
