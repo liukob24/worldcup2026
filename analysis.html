@@ -116,9 +116,11 @@
             await loadData();
             initFilters();
             renderMatchSelector();
-            // 自动选中第一场比赛并显示分析
+            // 确保数据加载完成后自动选中第一场比赛
             if (scheduleData && scheduleData.matches && scheduleData.matches.length > 0) {
-                selectMatch(scheduleData.matches[0].id);
+                const firstMatchId = scheduleData.matches[0].id;
+                console.log('自动选中比赛ID:', firstMatchId, scheduleData.matches[0].home, 'vs', scheduleData.matches[0].away);
+                selectMatch(firstMatchId);
             }
         });
 
@@ -145,12 +147,14 @@
         // 加载数据
         async function loadData() {
             try {
+                const ts = Date.now();
                 const [scheduleRes, analysisRes] = await Promise.all([
-                    fetch('data/schedule.json'),
-                    fetch('data/analysis.json')
+                    fetch(`data/schedule.json?t=${ts}`),
+                    fetch(`data/analysis.json?t=${ts}`)
                 ]);
                 scheduleData = await scheduleRes.json();
                 analysisData = await analysisRes.json();
+                console.log('数据加载成功:', scheduleData?.matches?.length, '场比赛');
             } catch (e) {
                 console.error('数据加载失败:', e);
             }
@@ -252,9 +256,18 @@
         function showMatchAnalysis(matchId) {
             const match = scheduleData.matches.find(m => m.id === matchId);
             const analysis = getMatchAnalysis(matchId);
-            const venue = scheduleData.venues[match.venue] || {};
+            const venue = scheduleData.venues ? (scheduleData.venues[match?.venue] || {}) : {};
+            
+            console.log('showMatchAnalysis called:', matchId, {
+                match: match ? `${match.home} vs ${match.away}` : 'NOT FOUND',
+                analysisFound: !!analysis,
+                analysisKeys: analysis?.analysis ? Object.keys(analysis.analysis) : []
+            });
 
-            if (!match) return;
+            if (!match) {
+                console.error('未找到比赛:', matchId);
+                return;
+            }
 
             // 更新标题
             document.getElementById('analysisTitle').textContent = `${match.home} vs ${match.away}`;
