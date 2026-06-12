@@ -254,7 +254,34 @@
       "round": 1,
       "status": "completed",
       "homeScore": 2,
-      "awayScore": 1
+      "awayScore": 1,
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      },
+      "goals": [
+        {
+          "minute": 59,
+          "team": "away",
+          "player": "克雷伊奇",
+          "type": "header",
+          "assist": "曹法尔"
+        },
+        {
+          "minute": 67,
+          "team": "home",
+          "player": "黄仁范",
+          "type": "shot",
+          "assist": "李刚仁"
+        },
+        {
+          "minute": 80,
+          "team": "home",
+          "player": "吴贤揆",
+          "type": "shot",
+          "assist": "黄仁范"
+        }
+      ]
     },
     {
       "id": 3,
