@@ -3,397 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026世界杯 - 小组积分</title>
+    <title>小组积分 - 2026世界杯预测分析</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .page-container {
-            padding-top: 80px;
-            min-height: 100vh;
-        }
-
-        .page-header {
-            text-align: center;
-            padding: var(--space-2xl) var(--space-lg);
-            background: linear-gradient(180deg, rgba(10, 22, 40, 0.9) 0%, rgba(26, 45, 77, 0.5) 100%);
-        }
-
-        .page-title {
-            font-size: clamp(2rem, 5vw, 3rem);
-            font-weight: 900;
-            background: var(--gradient-gold);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: var(--space-md);
-        }
-
-        .page-desc {
-            color: var(--text-secondary);
-            font-size: 1rem;
-        }
-
-        .groups-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-            gap: var(--space-xl);
-            padding: var(--space-2xl);
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        .group-card {
-            background: var(--gradient-card);
-            border-radius: var(--radius-xl);
-            border: 1px solid rgba(255, 215, 0, 0.15);
-            overflow: hidden;
-            box-shadow: var(--shadow-lg);
-        }
-
-        .group-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: var(--space-lg);
-            background: rgba(255, 215, 0, 0.1);
-            border-bottom: 1px solid rgba(255, 215, 0, 0.2);
-        }
-
-        .group-name {
-            display: flex;
-            align-items: center;
-            gap: var(--space-md);
-        }
-
-        .group-letter {
-            width: 48px;
-            height: 48px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: var(--gradient-gold);
-            border-radius: 50%;
-            font-size: 1.5rem;
-            font-weight: 900;
-            color: var(--primary-dark);
-        }
-
-        .group-title {
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: var(--text-primary);
-        }
-
-        .standings-table {
-            width: 100%;
-        }
-
-        .standings-header {
-            display: grid;
-            grid-template-columns: 50px 1fr repeat(6, 50px);
-            gap: var(--space-xs);
-            padding: var(--space-md) var(--space-lg);
-            background: rgba(0, 0, 0, 0.3);
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: var(--text-muted);
-            text-transform: uppercase;
-        }
-
-        .standings-header span {
-            text-align: center;
-        }
-
-        .standings-header span:nth-child(2) {
-            text-align: left;
-        }
-
-        .team-row {
-            display: grid;
-            grid-template-columns: 50px 1fr repeat(6, 50px);
-            gap: var(--space-xs);
-            padding: var(--space-md) var(--space-lg);
-            align-items: center;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
-
-        .team-row:hover {
-            background: rgba(255, 215, 0, 0.1);
-        }
-
-        .team-row:last-child {
-            border-bottom: none;
-        }
-
-        .team-rank {
-            text-align: center;
-            font-weight: 700;
-            font-size: 1rem;
-        }
-
-        .team-rank.rank-1 { color: var(--accent-gold); }
-        .team-rank.rank-2 { color: #c0c0c0; }
-        .team-rank.rank-3 { color: #cd7f32; }
-        .team-rank.rank-4 { color: var(--text-muted); }
-
-        .team-info {
-            display: flex;
-            align-items: center;
-            gap: var(--space-md);
-        }
-
-        .team-flag {
-            width: 32px;
-            height: 24px;
-            border-radius: 4px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.25rem;
-        }
-
-        .team-name {
-            font-weight: 600;
-            color: var(--text-primary);
-        }
-
-        .stat-cell {
-            text-align: center;
-            font-size: 0.875rem;
-            color: var(--text-secondary);
-        }
-
-        .stat-cell.points {
-            font-weight: 700;
-            color: var(--accent-gold);
-        }
-
-        .stat-cell.gd-positive { color: var(--success-green); }
-        .stat-cell.gd-negative { color: var(--danger-red); }
-
-        /* Team Modal */
-        .modal-overlay {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.8);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 2000;
-            opacity: 0;
-            visibility: hidden;
-            transition: all 0.3s ease;
-        }
-
-        .modal-overlay.active {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .team-modal {
-            background: var(--gradient-card);
-            border-radius: var(--radius-xl);
-            border: 1px solid rgba(255, 215, 0, 0.2);
-            max-width: 500px;
-            width: 90%;
-            max-height: 80vh;
-            overflow-y: auto;
-            transform: scale(0.9);
-            transition: transform 0.3s ease;
-        }
-
-        .modal-overlay.active .team-modal {
-            transform: scale(1);
-        }
-
-        .modal-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: var(--space-lg);
-            background: rgba(255, 215, 0, 0.1);
-            border-bottom: 1px solid rgba(255, 215, 0, 0.2);
-        }
-
-        .modal-team-info {
-            display: flex;
-            align-items: center;
-            gap: var(--space-md);
-        }
-
-        .modal-team-flag {
-            width: 48px;
-            height: 36px;
-            border-radius: 6px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2rem;
-        }
-
-        .modal-team-name {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--text-primary);
-        }
-
-        .modal-close {
-            background: none;
-            border: none;
-            color: var(--text-secondary);
-            font-size: 1.5rem;
-            cursor: pointer;
-            padding: var(--space-sm);
-            transition: color 0.3s ease;
-        }
-
-        .modal-close:hover {
-            color: var(--accent-gold);
-        }
-
-        .modal-body {
-            padding: var(--space-lg);
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: var(--space-md);
-            margin-bottom: var(--space-lg);
-        }
-
-        .stat-box {
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: var(--radius-lg);
-            padding: var(--space-lg);
-            text-align: center;
-        }
-
-        .stat-box-value {
-            font-size: 2rem;
-            font-weight: 900;
-            color: var(--accent-gold);
-        }
-
-        .stat-box-label {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            margin-top: var(--space-xs);
-        }
-
-        .form-record {
-            display: flex;
-            gap: var(--space-sm);
-            justify-content: center;
-            margin-bottom: var(--space-lg);
-        }
-
-        .form-result {
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 700;
-            font-size: 0.875rem;
-        }
-
-        .form-result.win { background: var(--success-green); color: #000; }
-        .form-result.draw { background: var(--warning-orange); color: #000; }
-        .form-result.lose { background: var(--danger-red); color: #fff; }
-
-        .modal-section-title {
-            font-size: 1rem;
-            font-weight: 600;
-            color: var(--text-primary);
-            margin-bottom: var(--space-md);
-            padding-bottom: var(--space-sm);
-            border-bottom: 1px solid rgba(255, 215, 0, 0.2);
-        }
-
-        .key-players {
-            display: flex;
-            flex-direction: column;
-            gap: var(--space-md);
-        }
-
-        .player-item {
-            display: flex;
-            align-items: center;
-            gap: var(--space-md);
-            padding: var(--space-md);
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: var(--radius-md);
-        }
-
-        .player-avatar {
-            width: 48px;
-            height: 48px;
-            border-radius: 50%;
-            background: var(--primary-light);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-        }
-
-        .player-details {
-            flex: 1;
-        }
-
-        .player-item-name {
-            font-weight: 600;
-            color: var(--text-primary);
-        }
-
-        .player-item-position {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-        }
-
-        @media (max-width: 768px) {
-            .groups-container {
-                grid-template-columns: 1fr;
-                padding: var(--space-lg);
-            }
-
-            .standings-header,
-            .team-row {
-                grid-template-columns: 40px 1fr repeat(6, 40px);
-                gap: 2px;
-                padding: var(--space-sm) var(--space-md);
-            }
-
-            .team-flag {
-                width: 24px;
-                height: 18px;
-                font-size: 1rem;
-            }
-
-            .stats-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-    </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="main-nav">
+    <!-- 导航栏 -->
+    <nav class="main-nav" id="mainNav">
         <div class="nav-container">
             <a href="index.html" class="nav-logo">
-                <span class="logo-icon">🏆</span>
-                <span class="logo-text">2026世界杯</span>
+                <span class="logo-icon">⚽</span>
+                <span class="logo-text">世界杯预测</span>
             </a>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html" class="nav-link">首页</a></li>
-                <li><a href="standings.html" class="nav-link active">积分榜</a></li>
-                <li><a href="odds.html" class="nav-link">赔率</a></li>
-                <li><a href="news.html" class="nav-link">新闻</a></li>
+                <li><a href="schedule.html" class="nav-link">赛程</a></li>
+                <li><a href="standings.html" class="nav-link active">小组积分</a></li>
+                <li><a href="news.html" class="nav-link">赛事新闻</a></li>
+                <li><a href="analysis.html" class="nav-link">实时分析</a></li>
             </ul>
-            <button class="nav-toggle" aria-label="菜单">
+            <button class="nav-toggle" id="navToggle">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -401,210 +29,244 @@
         </div>
     </nav>
 
-    <div class="page-container">
-        <header class="page-header">
-            <h1 class="page-title">🏆 小组积分榜</h1>
-            <p class="page-desc">2026年世界杯小组赛阶段各组排名实时更新</p>
-        </header>
-
-        <main class="groups-container" id="standingsContainer">
-            <!-- Standings will be loaded here -->
-        </main>
-    </div>
-
-    <!-- Team Detail Modal -->
-    <div class="modal-overlay" id="teamModal">
-        <div class="team-modal">
-            <div class="modal-header">
-                <div class="modal-team-info">
-                    <div class="modal-team-flag" id="modalFlag"></div>
-                    <span class="modal-team-name" id="modalTeamName"></span>
-                </div>
-                <button class="modal-close" onclick="closeModal()">&times;</button>
+    <!-- 主内容 -->
+    <main class="page-content">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">积分榜</span>
+                <h1 class="section-title">小组积分榜</h1>
+                <p class="section-desc">实时更新12组48队积分排名，掌握晋级形势</p>
             </div>
-            <div class="modal-body">
-                <div class="stats-grid">
-                    <div class="stat-box">
-                        <div class="stat-box-value" id="modalPoints">0</div>
-                        <div class="stat-box-label">积分</div>
-                    </div>
-                    <div class="stat-box">
-                        <div class="stat-box-value" id="modalGD">0</div>
-                        <div class="stat-box-label">净胜球</div>
-                    </div>
-                    <div class="stat-box">
-                        <div class="stat-box-value" id="modalRank">0</div>
-                        <div class="stat-box-label">小组排名</div>
-                    </div>
+
+            <!-- 筛选栏 -->
+            <div class="filter-bar">
+                <div class="filter-tabs" id="filterTabs">
+                    <button class="filter-tab all active" data-group="all">全部</button>
+                    <button class="filter-tab" data-group="A">A组</button>
+                    <button class="filter-tab" data-group="B">B组</button>
+                    <button class="filter-tab" data-group="C">C组</button>
+                    <button class="filter-tab" data-group="D">D组</button>
+                    <button class="filter-tab" data-group="E">E组</button>
+                    <button class="filter-tab" data-group="F">F组</button>
+                    <button class="filter-tab" data-group="G">G组</button>
+                    <button class="filter-tab" data-group="H">H组</button>
+                    <button class="filter-tab" data-group="I">I组</button>
+                    <button class="filter-tab" data-group="J">J组</button>
+                    <button class="filter-tab" data-group="K">K组</button>
+                    <button class="filter-tab" data-group="L">L组</button>
                 </div>
+            </div>
 
-                <h4 class="modal-section-title">近期战绩</h4>
-                <div class="form-record" id="formRecord"></div>
-
-                <h4 class="modal-section-title">关键球员</h4>
-                <div class="key-players" id="keyPlayers"></div>
+            <!-- 积分榜容器 -->
+            <div id="standingsContainer">
+                <!-- 动态加载 -->
             </div>
         </div>
-    </div>
+    </main>
 
+    <!-- 页脚 -->
     <footer class="site-footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <span class="footer-logo">🏆</span>
-                    <span class="footer-text">FIFA World Cup 2026™</span>
+                    <span class="footer-logo">⚽</span>
+                    <span class="footer-text">2026世界杯预测分析</span>
                 </div>
                 <div class="footer-disclaimer">
-                    <p>数据仅供参考，请以官方公布为准</p>
-                    <p>© 2026 世界杯预测分析系统</p>
+                    <p>本平台仅供娱乐参考，请理性观看比赛</p>
+                    <p>AI预测结果仅供参考，不构成投注建议</p>
                 </div>
             </div>
         </div>
     </footer>
 
     <script>
-        // Country emoji mapping
-        const countryEmoji = {
-            'ARG': '🇦🇷', 'MEX': '🇲🇽', 'NED': '🇳🇱', 'CAN': '🇨🇦',
-            'ENG': '🏴󠁧󠁢󠁥󠁮󠁧󠁿', 'ESP': '🇪🇸', 'IRN': '🇮🇷', 'USA': '🇺🇸',
-            'FRA': '🇫🇷', 'BRA': '🇧🇷', 'POL': '🇵🇱', 'AUS': '🇦🇺',
-            'GER': '🇩🇪', 'CRO': '🇭🇷', 'JPN': '🇯🇵', 'CRC': '🇨🇷',
-            'POR': '🇵🇹', 'BEL': '🇧🇪', 'KOR': '🇰🇷', 'URU': '🇺🇾',
-            'MAR': '🇲🇦', 'ITA': '🇮🇹', 'SEN': '🇸🇳', 'ECU': '🇪🇨',
-            'DEN': '🇩🇰', 'SUI': '🇨🇭', 'SWE': '🇸🇪', 'NOR': '🇳🇴',
-            'GHA': '🇬🇭', 'ALG': '🇩🇿'
-        };
-
-        // Team players data
-        const teamPlayers = {
-            'ARG': [{name: '梅西', position: '前锋', avatar: '⚽'}, {name: '马丁内斯', position: '门将', avatar: '🧤'}, {name: '迪马利亚', position: '中场', avatar: '⭐'}],
-            'MEX': [{name: '洛萨诺', position: '前锋', avatar: '⚽'}, {name: '奥乔亚', position: '门将', avatar: '🧤'}, {name: '瓜尔达多', position: '中场', avatar: '⭐'}],
-            'ENG': [{name: '凯恩', position: '前锋', avatar: '⚽'}, {name: '萨卡', position: '边锋', avatar: '⭐'}, {name: '贝林厄姆', position: '中场', avatar: '⭐'}],
-            'FRA': [{name: '姆巴佩', position: '前锋', avatar: '⚽'}, {name: '图拉姆', position: '前锋', avatar: '⚽'}, {name: '格列兹曼', position: '中场', avatar: '⭐'}],
-            'BRA': [{name: '内马尔', position: '前锋', avatar: '⚽'}, {name: '维尼修斯', position: '边锋', avatar: '⭐'}, {name: '卡塞米罗', position: '中场', avatar: '⭐'}],
-            'GER': [{name: '哈兰德', position: '前锋', avatar: '⚽'}, {name: '京多安', position: '中场', avatar: '⭐'}, {name: '基米希', position: '后卫', avatar: '⭐'}],
-            'POR': [{name: 'C罗', position: '前锋', avatar: '⚽'}, {name: 'B费', position: '中场', avatar: '⭐'}, {name: '菲利克斯', position: '前锋', avatar: '⚽'}],
-            'BEL': [{name: '德布劳内', position: '中场', avatar: '⭐'}, {name: '卢卡库', position: '前锋', avatar: '⚽'}, {name: '阿扎尔', position: '边锋', avatar: '⭐'}],
-            'ITA': [{name: '基耶萨', position: '前锋', avatar: '⚽'}, {name: '若日尼奥', position: '中场', avatar: '⭐'}, {name: '多纳鲁马', position: '门将', avatar: '🧤'}],
-            'MAR': [{name: '哈默斯', position: '中场', avatar: '⭐'}, {name: '齐耶赫', position: '中场', avatar: '⭐'}, {name: '恩内斯里', position: '前锋', avatar: '⚽'}],
-            'CRO': [{name: '莫德里奇', position: '中场', avatar: '⭐'}, {name: '佩里西奇', position: '边锋', avatar: '⚽'}, {name: '格瓦迪奥尔', position: '后卫', avatar: '⭐'}],
-            'JPN': [{name: '久保建英', position: '中场', avatar: '⭐'}, {name: '三笘薰', position: '边锋', avatar: '⭐'}, {name: '远藤航', position: '中场', avatar: '⭐'}],
-            'ESP': [{name: '佩德里', position: '中场', avatar: '⭐'}, {name: '威廉姆斯', position: '边锋', avatar: '⚽'}, {name: '莫拉塔', position: '前锋', avatar: '⚽'}],
-            'NED': [{name: '范戴克', position: '后卫', avatar: '⭐'}, {name: '德容', position: '中场', avatar: '⭐'}, {name: '加克波', position: '前锋', avatar: '⚽'}],
-            'SEN': [{name: '马内', position: '前锋', avatar: '⚽'}, {name: '库利巴利', position: '后卫', avatar: '⭐'}, {name: '门迪', position: '门将', avatar: '🧤'}],
-            'URU': [{name: '努涅斯', position: '前锋', avatar: '⚽'}, {name: '巴尔韦德', position: '中场', avatar: '⭐'}, {name: '卡塞雷斯', position: '后卫', avatar: '⭐'}]
-        };
-
+        // 数据
         let standingsData = null;
+        let currentGroup = 'all';
 
-        // Load standings data
-        async function loadStandings() {
+        // 初始化
+        document.addEventListener('DOMContentLoaded', async () => {
+            initNavigation();
+            await loadData();
+            initFilters();
+            renderStandings();
+        });
+
+        // 导航
+        function initNavigation() {
+            const navToggle = document.getElementById('navToggle');
+            const navMenu = document.getElementById('navMenu');
+            const mainNav = document.getElementById('mainNav');
+
+            navToggle.addEventListener('click', () => {
+                navToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    mainNav.classList.add('scrolled');
+                } else {
+                    mainNav.classList.remove('scrolled');
+                }
+            });
+        }
+
+        // 加载数据
+        async function loadData() {
             try {
-                const response = await fetch('data/standings.json');
-                standingsData = await response.json();
-                renderStandings(standingsData);
-            } catch (error) {
-                console.error('Failed to load standings:', error);
-                document.getElementById('standingsContainer').innerHTML = '<p style="text-align:center;color:var(--text-muted);">数据加载失败</p>';
+                const res = await fetch('data/standings.json');
+                standingsData = await res.json();
+            } catch (e) {
+                console.error('数据加载失败:', e);
+                document.getElementById('standingsContainer').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">⚠️</div>
+                        <div class="empty-state-title">数据加载失败</div>
+                        <p class="empty-state-desc">请刷新页面重试</p>
+                    </div>
+                `;
             }
         }
 
-        // Render standings
-        function renderStandings(data) {
+        // 筛选器
+        function initFilters() {
+            const tabs = document.querySelectorAll('.filter-tab');
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    currentGroup = tab.dataset.group;
+                    renderStandings();
+                });
+            });
+        }
+
+        // 球队代码映射
+        const teamCodes = {
+            '墨西哥': 'MEX', '南非': 'RSA', '韩国': 'KOR', '捷克': 'CZE',
+            '加拿大': 'CAN', '波黑': 'BIH', '卡塔尔': 'QAT', '瑞士': 'SUI',
+            '巴西': 'BRA', '摩洛哥': 'MAR', '海地': 'HAI', '苏格兰': 'SCO',
+            '美国': 'USA', '巴拉圭': 'PAR', '澳大利亚': 'AUS', '土耳其': 'TUR',
+            '德国': 'GER', '库拉索': 'CUW', '科特迪瓦': 'CIV', '厄瓜多尔': 'ECU',
+            '荷兰': 'NED', '日本': 'JPN', '瑞典': 'SWE', '突尼斯': 'TUN',
+            '比利时': 'BEL', '埃及': 'EGY', '伊朗': 'IRN', '新西兰': 'NZL',
+            '西班牙': 'ESP', '佛得角': 'CPV', '沙特': 'KSA', '乌拉圭': 'URU',
+            '法国': 'FRA', '塞内加尔': 'SEN', '伊拉克': 'IRQ', '挪威': 'NOR',
+            '阿根廷': 'ARG', '阿尔及利亚': 'ALG', '奥地利': 'AUT', '约旦': 'JOR',
+            '葡萄牙': 'POR', '刚果民主共和国': 'COD', '乌兹别克斯坦': 'UZB', '哥伦比亚': 'COL',
+            '英格兰': 'ENG', '克罗地亚': 'CRO', '加纳': 'GHA', '巴拿马': 'PAN'
+        };
+
+        // 球队国旗emoji映射
+        const teamFlags = {
+            '墨西哥': '🇲🇽', '南非': '🇿🇦', '韩国': '🇰🇷', '捷克': '🇨🇿',
+            '加拿大': '🇨🇦', '波黑': '🇧🇦', '卡塔尔': '🇶🇦', '瑞士': '🇨🇭',
+            '巴西': '🇧🇷', '摩洛哥': '🇲🇦', '海地': '🇭🇹', '苏格兰': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+            '美国': '🇺🇸', '巴拉圭': '🇵🇾', '澳大利亚': '🇦🇺', '土耳其': '🇹🇷',
+            '德国': '🇩🇪', '库拉索': '🇨🇼', '科特迪瓦': '🇨🇮', '厄瓜多尔': '🇪🇨',
+            '荷兰': '🇳🇱', '日本': '🇯🇵', '瑞典': '🇸🇪', '突尼斯': '🇹🇳',
+            '比利时': '🇧🇪', '埃及': '🇪🇬', '伊朗': '🇮🇷', '新西兰': '🇳🇿',
+            '西班牙': '🇪🇸', '佛得角': '🇨🇻', '沙特': '🇸🇦', '乌拉圭': '🇺🇾',
+            '法国': '🇫🇷', '塞内加尔': '🇸🇳', '伊拉克': '🇮🇶', '挪威': '🇳🇴',
+            '阿根廷': '🇦🇷', '阿尔及利亚': '🇩🇿', '奥地利': '🇦🇹', '约旦': '🇯🇴',
+            '葡萄牙': '🇵🇹', '刚果民主共和国': '🇨🇩', '乌兹别克斯坦': '🇺🇿', '哥伦比亚': '🇨🇴',
+            '英格兰': '🏴󠁧󠁢󠁥󠁮󠁧󠁿', '克罗地亚': '🇭🇷', '加纳': '🇬🇭', '巴拿马': '🇵🇦'
+        };
+
+        // 渲染积分榜
+        function renderStandings() {
             const container = document.getElementById('standingsContainer');
-            container.innerHTML = data.groups.map(group => `
-                <div class="group-card">
-                    <div class="group-header">
-                        <div class="group-name">
-                            <div class="group-letter">${group.id}</div>
-                            <span class="group-title">第${group.id}组</span>
-                        </div>
+            if (!standingsData || !standingsData.groups) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">🏆</div>
+                        <div class="empty-state-title">暂无积分数据</div>
+                        <p class="empty-state-desc">世界杯即将开始</p>
                     </div>
-                    <div class="standings-table">
-                        <div class="standings-header">
-                            <span>#</span>
-                            <span>球队</span>
-                            <span>赛</span>
-                            <span>胜</span>
-                            <span>平</span>
-                            <span>负</span>
-                            <span>积分</span>
-                        </div>
-                        ${group.teams.map(team => `
-                            <div class="team-row" onclick="showTeamDetail('${group.id}', '${team.code}')">
-                                <span class="team-rank rank-${team.rank}">${team.rank}</span>
-                                <div class="team-info">
-                                    <div class="team-flag">${countryEmoji[team.code] || '🏳️'}</div>
-                                    <span class="team-name">${team.name}</span>
-                                </div>
-                                <span class="stat-cell">${team.played}</span>
-                                <span class="stat-cell">${team.won}</span>
-                                <span class="stat-cell">${team.drawn}</span>
-                                <span class="stat-cell">${team.lost}</span>
-                                <span class="stat-cell points">${team.points}</span>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `).join('');
-        }
-
-        // Show team detail modal
-        function showTeamDetail(groupId, teamCode) {
-            const group = standingsData.groups.find(g => g.id === groupId);
-            const team = group.teams.find(t => t.code === teamCode);
-            
-            document.getElementById('modalFlag').textContent = countryEmoji[teamCode] || '🏳️';
-            document.getElementById('modalTeamName').textContent = team.name;
-            document.getElementById('modalPoints').textContent = team.points;
-            document.getElementById('modalGD').textContent = (team.gd > 0 ? '+' : '') + team.gd;
-            document.getElementById('modalRank').textContent = team.rank;
-
-            // Form record (simulated)
-            const formTypes = ['win', 'win', 'draw', 'lose', 'win'];
-            document.getElementById('formRecord').innerHTML = formTypes.map(f => `
-                <div class="form-result ${f}">${f === 'win' ? 'W' : f === 'draw' ? 'D' : 'L'}</div>
-            `).join('');
-
-            // Key players
-            const players = teamPlayers[teamCode] || [
-                {name: '主力球员', position: '前锋', avatar: '⭐'},
-                {name: '核心球员', position: '中场', avatar: '⭐'},
-                {name: '守门员', position: '门将', avatar: '🧤'}
-            ];
-            document.getElementById('keyPlayers').innerHTML = players.map(p => `
-                <div class="player-item">
-                    <div class="player-avatar">${p.avatar}</div>
-                    <div class="player-details">
-                        <div class="player-item-name">${p.name}</div>
-                        <div class="player-item-position">${p.position}</div>
-                    </div>
-                </div>
-            `).join('');
-
-            document.getElementById('teamModal').classList.add('active');
-        }
-
-        // Close modal
-        function closeModal() {
-            document.getElementById('teamModal').classList.remove('active');
-        }
-
-        // Close modal on overlay click
-        document.getElementById('teamModal').addEventListener('click', (e) => {
-            if (e.target === document.getElementById('teamModal')) {
-                closeModal();
+                `;
+                return;
             }
-        });
 
-        // Mobile menu toggle
-        document.querySelector('.nav-toggle').addEventListener('click', function() {
-            this.classList.toggle('active');
-            document.querySelector('.nav-menu').classList.toggle('active');
-        });
+            let groups = standingsData.groups;
+            if (currentGroup !== 'all') {
+                groups = groups.filter(g => g.id === currentGroup);
+            }
 
-        // Initialize
-        loadStandings();
+            if (groups.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">🏆</div>
+                        <div class="empty-state-title">暂无数据</div>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = groups.map(group => `
+                <div class="standings-container" style="margin-bottom: 30px;">
+                    <div class="standings-header">
+                        <h3 class="standings-title">
+                            <span>🏆</span>
+                            <span>${group.name}</span>
+                        </h3>
+                    </div>
+                    <div style="overflow-x: auto;">
+                        <table class="standings-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px;">排名</th>
+                                    <th style="text-align: left;">球队</th>
+                                    <th>场</th>
+                                    <th>胜</th>
+                                    <th>平</th>
+                                    <th>负</th>
+                                    <th>进</th>
+                                    <th>失</th>
+                                    <th>净胜</th>
+                                    <th>积分</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${group.teams.map((team, index) => {
+                                    const gd = team.goalDifference !== undefined ? team.goalDifference : (team.goalsFor - team.goalsAgainst);
+                                    const gdClass = gd > 0 ? 'gd-positive' : gd < 0 ? 'gd-negative' : '';
+                                    const rankClass = index === 0 ? 'rank-1' : index === 1 ? 'rank-2' : index === 2 ? 'rank-3' : 'rank-4';
+                                    
+                                    return `
+                                        <tr>
+                                            <td class="${rankClass}">${index + 1}</td>
+                                            <td style="text-align: left;">
+                                                <div class="team-cell">
+                                                    <span style="font-size: 1.3rem;">${teamFlags[team.name] || '🏳️'}</span>
+                                                    <span>${team.name}</span>
+                                                </div>
+                                            </td>
+                                            <td>${team.played}</td>
+                                            <td>${team.won}</td>
+                                            <td>${team.drawn}</td>
+                                            <td>${team.lost}</td>
+                                            <td>${team.goalsFor}</td>
+                                            <td>${team.goalsAgainst}</td>
+                                            <td class="${gdClass}">${gd > 0 ? '+' : ''}${gd}</td>
+                                            <td class="points-cell">${team.points}</td>
+                                        </tr>
+                                    `;
+                                }).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="padding: 15px 25px; background: rgba(136, 146, 176, 0.05); border-top: 1px solid rgba(136, 146, 176, 0.1);">
+                        <div style="display: flex; gap: 20px; font-size: 0.8rem; color: var(--text-muted);">
+                            <span><span style="color: #4ade80;">●</span> 出线</span>
+                            <span><span style="color: #fb923c;">●</span> 待定</span>
+                            <span><span style="color: #f87171;">●</span> 淘汰</span>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
     </script>
 </body>
 </html>

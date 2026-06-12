@@ -8,18 +8,18 @@
 </head>
 <body>
     <!-- 导航栏 -->
-    <nav class="main-nav">
+    <nav class="main-nav" id="mainNav">
         <div class="nav-container">
             <a href="index.html" class="nav-logo">
                 <span class="logo-icon">⚽</span>
                 <span class="logo-text">世界杯预测</span>
             </a>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html" class="nav-link active">首页</a></li>
                 <li><a href="schedule.html" class="nav-link">赛程</a></li>
-                <li><a href="#" class="nav-link">小组积分</a></li>
-                <li><a href="#" class="nav-link">实时赔率</a></li>
-                <li><a href="#" class="nav-link">赛事新闻</a></li>
+                <li><a href="standings.html" class="nav-link">小组积分</a></li>
+                <li><a href="news.html" class="nav-link">赛事新闻</a></li>
+                <li><a href="analysis.html" class="nav-link">实时分析</a></li>
             </ul>
             <button class="nav-toggle" id="navToggle">
                 <span></span>
@@ -29,21 +29,21 @@
         </div>
     </nav>
 
-    <!-- 顶部英雄区域 -->
+    <!-- 英雄区域 -->
     <header class="hero-section">
-        <div class="hero-overlay"></div>
-        <div class="stadium-lights"></div>
         <div class="hero-content">
             <div class="trophy-container">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2022_FIFA_World_Cup_%E2%80%93_Trophy.jpg/800px-2022_FIFA_World_Cup_%E2%80%93_Trophy.jpg" 
-                     alt="大力神杯" class="trophy-icon">
+                     alt="大力神杯" class="trophy-icon" onerror="this.style.display='none'">
                 <div class="trophy-glow"></div>
             </div>
             <h1 class="hero-title">
                 <span class="year-text">2026</span>
                 <span class="world-cup-text">世界杯预测分析</span>
             </h1>
-            <p class="hero-subtitle">FIFA World Cup USA • Canada • Mexico</p>
+            <p class="hero-subtitle">FIFA World Cup · USA · Canada · Mexico</p>
+            
+            <!-- 倒计时 -->
             <div class="match-countdown">
                 <div class="countdown-item">
                     <span class="countdown-number" id="days">--</span>
@@ -68,18 +68,32 @@
         </div>
     </header>
 
-    <!-- 功能入口卡片 -->
-    <section class="section portal-section">
+    <!-- 今日比赛 -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">实时更新</span>
+                <h2 class="section-title">今日比赛</h2>
+                <p class="section-desc">关注世界杯每一场精彩对决</p>
+            </div>
+            
+            <div class="today-matches-grid" id="todayMatches">
+                <!-- 动态加载 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能入口 -->
+    <section class="section" style="background: linear-gradient(180deg, var(--primary) 0%, var(--secondary) 100%);">
         <div class="container">
             <div class="section-header">
                 <span class="section-badge">功能导航</span>
                 <h2 class="section-title">探索世界杯</h2>
-                <p class="section-desc">全面覆盖赛程、数据、预测与资讯，一站式世界杯体验</p>
+                <p class="section-desc">一站式获取赛程、数据、预测与资讯</p>
             </div>
             
             <div class="portal-grid">
-                <!-- 赛程入口 -->
-                <a href="schedule.html" class="portal-card">
+                <a href="schedule.html" class="portal-card fade-in">
                     <div class="portal-icon">📅</div>
                     <h3 class="portal-title">赛程</h3>
                     <p class="portal-desc">查看全部72场小组赛程，支持按组别筛选与比赛分析</p>
@@ -89,41 +103,17 @@
                     <div class="portal-arrow">→</div>
                 </a>
 
-                <!-- 小组积分入口 -->
-                <a href="#" class="portal-card">
+                <a href="standings.html" class="portal-card fade-in">
                     <div class="portal-icon">🏆</div>
                     <h3 class="portal-title">小组积分</h3>
-                    <p class="portal-desc">实时更新各小组积分榜，掌握晋级形势与关键战役</p>
+                    <p class="portal-desc">实时更新12组48队积分榜，掌握晋级形势</p>
                     <div class="portal-meta">
-                        <span class="portal-badge">16个小组</span>
+                        <span class="portal-badge">12个小组</span>
                     </div>
                     <div class="portal-arrow">→</div>
                 </a>
 
-                <!-- 实时赔率入口 -->
-                <a href="#" class="portal-card">
-                    <div class="portal-icon">📊</div>
-                    <h3 class="portal-title">实时赔率</h3>
-                    <p class="portal-desc">汇集多家博彩公司赔率数据，支持胜平负与比分投注</p>
-                    <div class="portal-meta">
-                        <span class="portal-badge">实时更新</span>
-                    </div>
-                    <div class="portal-arrow">→</div>
-                </a>
-
-                <!-- 赛事新闻入口 -->
-                <a href="#" class="portal-card">
-                    <div class="portal-icon">📰</div>
-                    <h3 class="portal-title">赛事新闻</h3>
-                    <p class="portal-desc">最新球队动态、伤病报告、转会消息与赛前分析</p>
-                    <div class="portal-meta">
-                        <span class="portal-badge">每日更新</span>
-                    </div>
-                    <div class="portal-arrow">→</div>
-                </a>
-
-                <!-- 实时赛事分析入口 -->
-                <a href="#" class="portal-card featured">
+                <a href="analysis.html" class="portal-card featured fade-in">
                     <div class="portal-icon">🤖</div>
                     <h3 class="portal-title">AI赛事分析</h3>
                     <p class="portal-desc">基于大数据与机器学习的比赛预测，胜负概率与比分分析</p>
@@ -133,36 +123,51 @@
                     </div>
                     <div class="portal-arrow">→</div>
                 </a>
+
+                <a href="news.html" class="portal-card fade-in">
+                    <div class="portal-icon">📰</div>
+                    <h3 class="portal-title">赛事新闻</h3>
+                    <p class="portal-desc">最新球队动态、伤病报告、赛前分析与热点资讯</p>
+                    <div class="portal-meta">
+                        <span class="portal-badge">每日更新</span>
+                    </div>
+                    <div class="portal-arrow">→</div>
+                </a>
             </div>
         </div>
     </section>
 
     <!-- 赛事信息 -->
-    <section class="section info-section">
+    <section class="section">
         <div class="container">
+            <div class="section-header">
+                <span class="section-badge">赛事概览</span>
+                <h2 class="section-title">关于世界杯</h2>
+            </div>
+            
             <div class="info-grid">
-                <div class="info-card">
+                <div class="info-card fade-in">
                     <div class="info-icon">🌍</div>
                     <div class="info-content">
                         <h4>举办地点</h4>
                         <p>美国 · 加拿大 · 墨西哥</p>
                     </div>
                 </div>
-                <div class="info-card">
+                <div class="info-card fade-in">
                     <div class="info-icon">📅</div>
                     <div class="info-content">
                         <h4>比赛时间</h4>
                         <p>2026年6月11日 - 7月19日</p>
                     </div>
                 </div>
-                <div class="info-card">
+                <div class="info-card fade-in">
                     <div class="info-icon">⚽</div>
                     <div class="info-content">
                         <h4>参赛球队</h4>
-                        <p>48支球队 · 16个小组</p>
+                        <p>48支球队 · 12个小组</p>
                     </div>
                 </div>
-                <div class="info-card">
+                <div class="info-card fade-in">
                     <div class="info-icon">🏟️</div>
                     <div class="info-content">
                         <h4>比赛场馆</h4>
@@ -192,10 +197,55 @@
         </div>
     </footer>
 
+    <!-- 弹窗 -->
+    <div class="modal-overlay" id="matchModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modalTitle">比赛分析</h3>
+                <button class="modal-close" onclick="closeModal()">×</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- 动态内容 -->
+            </div>
+        </div>
+    </div>
+
     <script>
-        // 倒计时功能
+        // 数据
+        let scheduleData = null;
+        let analysisData = null;
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', async () => {
+            initNavigation();
+            initCountdown();
+            await loadData();
+            renderTodayMatches();
+        });
+
+        // 导航
+        function initNavigation() {
+            const navToggle = document.getElementById('navToggle');
+            const navMenu = document.getElementById('navMenu');
+            const mainNav = document.getElementById('mainNav');
+
+            navToggle.addEventListener('click', () => {
+                navToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    mainNav.classList.add('scrolled');
+                } else {
+                    mainNav.classList.remove('scrolled');
+                }
+            });
+        }
+
+        // 倒计时
         function initCountdown() {
-            const worldCupStart = new Date('2026-06-11T19:00:00-05:00');
+            const worldCupStart = new Date('2026-06-11T03:00:00+08:00');
             
             function updateCountdown() {
                 const now = new Date();
@@ -224,39 +274,180 @@
             setInterval(updateCountdown, 1000);
         }
 
-        // 导航功能
-        function initNavigation() {
-            const navToggle = document.getElementById('navToggle');
-            const navMenu = document.querySelector('.nav-menu');
-            const mainNav = document.querySelector('.main-nav');
-
-            navToggle.addEventListener('click', () => {
-                navToggle.classList.toggle('active');
-                navMenu.classList.toggle('active');
-            });
-
-            window.addEventListener('scroll', () => {
-                if (window.scrollY > 100) {
-                    mainNav.classList.add('scrolled');
-                } else {
-                    mainNav.classList.remove('scrolled');
-                }
-            });
+        // 加载数据
+        async function loadData() {
+            try {
+                const [scheduleRes, analysisRes] = await Promise.all([
+                    fetch('data/schedule.json'),
+                    fetch('data/analysis.json')
+                ]);
+                scheduleData = await scheduleRes.json();
+                analysisData = await analysisRes.json();
+            } catch (e) {
+                console.error('数据加载失败:', e);
+            }
         }
 
-        // 卡片动画
-        function initAnimations() {
-            const cards = document.querySelectorAll('.portal-card');
-            cards.forEach((card, index) => {
-                card.style.animationDelay = `${index * 100}ms`;
-                card.classList.add('fade-in');
-            });
+        // 获取比赛分析
+        function getMatchAnalysis(matchId) {
+            if (!analysisData || !analysisData.matches) return null;
+            return analysisData.matches.find(m => m.match_id === matchId);
         }
 
-        document.addEventListener('DOMContentLoaded', () => {
-            initCountdown();
-            initNavigation();
-            initAnimations();
+        // 渲染今日比赛
+        function renderTodayMatches() {
+            const container = document.getElementById('todayMatches');
+            if (!scheduleData || !scheduleData.matches) {
+                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📅</div><div class="empty-state-title">暂无比赛</div></div>';
+                return;
+            }
+
+            // 获取今日和即将到来的比赛
+            const today = new Date().toISOString().split('T')[0];
+            const upcomingMatches = scheduleData.matches
+                .filter(m => m.status !== 'completed' || m.date >= today)
+                .slice(0, 4);
+
+            if (upcomingMatches.length === 0) {
+                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📅</div><div class="empty-state-title">暂无比赛</div><p class="empty-state-desc">世界杯即将开始，敬请期待</p></div>';
+                return;
+            }
+
+            container.innerHTML = upcomingMatches.map(match => {
+                const analysis = getMatchAnalysis(match.id);
+                const venue = scheduleData.venues[match.venue] || {};
+                const score = match.homeScore !== undefined ? 
+                    `<span class="score-display">${match.homeScore} - ${match.awayScore}</span>` : 
+                    `<span class="score-display vs">VS</span>`;
+                const statusText = match.status === 'completed' ? '已结束' : 
+                                   match.status === 'live' ? '进行中' : '未开始';
+                const statusClass = match.status;
+
+                return `
+                    <div class="match-card" onclick="openMatchModal(${match.id})">
+                        <div class="match-card-header">
+                            <span class="match-group-badge">${match.group}组</span>
+                            <span class="match-status ${statusClass}">${statusText}</span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="team">
+                                <div class="team-logo">🇲🇽</div>
+                                <div class="team-name">${match.home}</div>
+                                <div class="team-rank">FIFA #--</div>
+                            </div>
+                            <div class="match-score">
+                                ${score}
+                            </div>
+                            <div class="team">
+                                <div class="team-logo">🇿🇦</div>
+                                <div class="team-name">${match.away}</div>
+                                <div class="team-rank">FIFA #--</div>
+                            </div>
+                        </div>
+                        <div class="match-time">
+                            <span>📅 ${formatDate(match.date)}</span>
+                            <span>🕐 ${match.time}</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // 打开弹窗
+        function openMatchModal(matchId) {
+            const match = scheduleData.matches.find(m => m.id === matchId);
+            const analysis = getMatchAnalysis(matchId);
+            const venue = scheduleData.venues[match.venue] || {};
+
+            if (!match) return;
+
+            const score = match.homeScore !== undefined ? 
+                `${match.homeScore} - ${match.awayScore}` : 'VS';
+            const statusText = match.status === 'completed' ? '已结束' : 
+                               match.status === 'live' ? '进行中' : '未开始';
+
+            let analysisContent = '';
+            if (analysis && analysis.analysis) {
+                const a = analysis.analysis;
+                analysisContent = `
+                    <div class="analysis-section">
+                        <h4 class="analysis-section-title">战术分析</h4>
+                        <p class="analysis-text">${a.tactics || '暂无战术分析'}</p>
+                    </div>
+                    <div class="analysis-section">
+                        <h4 class="analysis-section-title">关键球员</h4>
+                        <p class="analysis-text">${a.key_players || '暂无关键球员信息'}</p>
+                    </div>
+                    <div class="analysis-section">
+                        <h4 class="analysis-section-title">赔率分析</h4>
+                        <p class="analysis-text">${a.odds_analysis || '暂无赔率分析'}</p>
+                    </div>
+                    <div class="analysis-section">
+                        <h4 class="analysis-section-title">冷门因素</h4>
+                        <p class="analysis-text">${a.upset_factors || '暂无冷门分析'}</p>
+                    </div>
+                    ${a.prediction ? `
+                    <div class="analysis-prediction">
+                        <div class="prediction-score">${a.prediction.score || '--'}</div>
+                        <div class="prediction-result">${a.prediction.result || '预测中'}</div>
+                        <span class="prediction-confidence">置信度: ${a.prediction.confidence || '中'}</span>
+                    </div>
+                    ` : ''}
+                `;
+            } else {
+                analysisContent = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📊</div>
+                        <div class="empty-state-title">暂无详细分析</div>
+                        <p class="empty-state-desc">分析数据正在生成中</p>
+                    </div>
+                `;
+            }
+
+            document.getElementById('modalTitle').textContent = `${match.home} vs ${match.away}`;
+            document.getElementById('modalBody').innerHTML = `
+                <div style="text-align: center; margin-bottom: 25px;">
+                    <div style="font-size: 2.5rem; font-weight: 800; color: var(--gold); margin-bottom: 10px;">${score}</div>
+                    <div style="color: var(--text-muted);">
+                        <span>${match.group}组</span> · 
+                        <span>${formatDate(match.date)} ${match.time}</span> · 
+                        <span>${statusText}</span>
+                    </div>
+                    <div style="color: var(--text-muted); margin-top: 8px;">
+                        🏟️ ${venue.name || match.city} · ${venue.city || ''}
+                    </div>
+                </div>
+                ${analysisContent}
+            `;
+
+            document.getElementById('matchModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // 关闭弹窗
+        function closeModal() {
+            document.getElementById('matchModal').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // 点击遮罩关闭
+        document.getElementById('matchModal').addEventListener('click', (e) => {
+            if (e.target.id === 'matchModal') {
+                closeModal();
+            }
+        });
+
+        // 格式化日期
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return `${date.getMonth() + 1}月${date.getDate()}日`;
+        }
+
+        // ESC关闭弹窗
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
         });
     </script>
 </body>

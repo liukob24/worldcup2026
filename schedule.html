@@ -5,637 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>赛程 - 2026世界杯预测分析</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* 赛程页额外样式 */
-        .date-section {
-            margin-bottom: 2rem;
-        }
-        
-        .date-header {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 1rem;
-            padding: 1rem 1.5rem;
-            background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
-            border-radius: 12px;
-            border-left: 4px solid #4299e1;
-        }
-        
-        .date-badge {
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: #fff;
-        }
-        
-        .weekday {
-            padding: 0.25rem 0.75rem;
-            background: rgba(255,255,255,0.15);
-            border-radius: 20px;
-            font-size: 0.875rem;
-            color: rgba(255,255,255,0.9);
-        }
-        
-        .match-count {
-            margin-left: auto;
-            font-size: 0.875rem;
-            color: rgba(255,255,255,0.7);
-        }
-        
-        .matches-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1rem;
-        }
-        
-        .match-card {
-            background: linear-gradient(145deg, #1a365d 0%, #234876 100%);
-            border-radius: 12px;
-            padding: 1.25rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(255,255,255,0.1);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .match-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, #4299e1, #667eea);
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-        
-        .match-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 12px 40px rgba(0,0,0,0.3);
-            border-color: rgba(66,153,225,0.5);
-        }
-        
-        .match-card:hover::before {
-            opacity: 1;
-        }
-        
-        .match-teams {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 1rem;
-            margin-bottom: 0.75rem;
-        }
-        
-        .team {
-            flex: 1;
-            text-align: center;
-        }
-        
-        .team-name {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #fff;
-            margin-bottom: 0.5rem;
-        }
-        
-        .team-flag {
-            width: 40px;
-            height: 30px;
-            border-radius: 4px;
-            margin: 0 auto;
-            background: rgba(255,255,255,0.1);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.25rem;
-        }
-        
-        .match-vs {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        
-        .vs-text {
-            font-size: 0.875rem;
-            font-weight: 700;
-            color: #4299e1;
-            background: rgba(66,153,225,0.15);
-            padding: 0.25rem 0.75rem;
-            border-radius: 20px;
-        }
-        
-        .match-info-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding-top: 0.75rem;
-            border-top: 1px solid rgba(255,255,255,0.1);
-            font-size: 0.8rem;
-            color: rgba(255,255,255,0.6);
-        }
-        
-        .match-datetime {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        
-        .match-datetime svg {
-            width: 14px;
-            height: 14px;
-        }
-        
-        .match-venue {
-            color: rgba(255,255,255,0.5);
-            max-width: 120px;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-        
-        .group-badge {
-            display: inline-block;
-            padding: 0.2rem 0.6rem;
-            background: linear-gradient(135deg, #4299e1 0%, #667eea 100%);
-            border-radius: 12px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: #fff;
-        }
-        
-        .analysis-hint {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            margin-top: 0.75rem;
-            font-size: 0.8rem;
-            color: #4299e1;
-            justify-content: center;
-        }
-        
-        /* 响应式 */
-        @media (max-width: 768px) {
-            .matches-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .date-header {
-                padding: 0.75rem 1rem;
-                flex-wrap: wrap;
-            }
-            
-            .date-badge {
-                font-size: 1rem;
-            }
-            
-            .match-count {
-                width: 100%;
-                margin-left: 0;
-                margin-top: 0.5rem;
-            }
-            
-            .match-info-row {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 0.5rem;
-            }
-            
-            .match-venue {
-                max-width: 100%;
-            }
-            
-            .team-name {
-                font-size: 0.9rem;
-            }
-        }
-        
-        /* 弹窗样式 */
-        .modal-overlay {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0,0,0,0.8);
-            z-index: 1000;
-            align-items: center;
-            justify-content: center;
-            padding: 1rem;
-        }
-        
-        .modal-overlay.active {
-            display: flex;
-        }
-        
-        .modal-content {
-            background: linear-gradient(145deg, #1a365d 0%, #234876 100%);
-            border-radius: 16px;
-            max-width: 700px;
-            width: 100%;
-            max-height: 90vh;
-            overflow-y: auto;
-            position: relative;
-            border: 1px solid rgba(255,255,255,0.1);
-        }
-        
-        .modal-close {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.1);
-            border: none;
-            color: #fff;
-            font-size: 1.5rem;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s;
-            z-index: 10;
-        }
-        
-        .modal-close:hover {
-            background: rgba(255,255,255,0.2);
-        }
-        
-        .modal-body {
-            padding: 2rem;
-        }
-        
-        .analysis-modal {
-            color: #fff;
-        }
-        
-        .modal-header-section {
-            text-align: center;
-            margin-bottom: 2rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
-        }
-        
-        .modal-group-badge {
-            display: inline-block;
-            padding: 0.4rem 1rem;
-            background: linear-gradient(135deg, #4299e1 0%, #667eea 100%);
-            border-radius: 20px;
-            font-size: 0.875rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-        
-        .modal-header-section h2 {
-            font-size: 1.75rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        .modal-match-info {
-            color: rgba(255,255,255,0.6);
-            font-size: 0.9rem;
-        }
-        
-        .ai-prediction {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-        
-        .ai-badge {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: #4299e1;
-            text-align: center;
-        }
-        
-        .prediction-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-        }
-        
-        @media (max-width: 600px) {
-            .prediction-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-        
-        .prediction-card {
-            background: rgba(0,0,0,0.2);
-            border-radius: 12px;
-            padding: 1.25rem;
-        }
-        
-        .card-subtitle {
-            font-size: 0.875rem;
-            color: rgba(255,255,255,0.6);
-            margin-bottom: 1rem;
-        }
-        
-        .probability-bars {
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-        }
-        
-        .prob-item {
-            display: flex;
-            flex-direction: column;
-            gap: 0.25rem;
-        }
-        
-        .prob-label {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.8rem;
-        }
-        
-        .prob-bar {
-            height: 8px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 4px;
-            overflow: hidden;
-        }
-        
-        .prob-fill {
-            height: 100%;
-            border-radius: 4px;
-            transition: width 1s ease;
-        }
-        
-        .prob-item.win .prob-fill { background: #48bb78; }
-        .prob-item.draw .prob-fill { background: #ecc94b; }
-        .prob-item.lose .prob-fill { background: #fc8181; }
-        
-        .score-prediction {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 1rem;
-        }
-        
-        .score-team {
-            flex: 1;
-            font-size: 0.9rem;
-            text-align: center;
-        }
-        
-        .score-numbers {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 2rem;
-            font-weight: 700;
-        }
-        
-        .score-divider {
-            color: #4299e1;
-        }
-        
-        .alternative-scores {
-            margin-top: 0.75rem;
-            font-size: 0.8rem;
-            color: rgba(255,255,255,0.5);
-            text-align: center;
-        }
-        
-        .alt-score {
-            margin: 0 0.25rem;
-            color: rgba(255,255,255,0.7);
-        }
-        
-        .analysis-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-        }
-        
-        @media (max-width: 600px) {
-            .analysis-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-        
-        .analysis-card {
-            background: rgba(0,0,0,0.2);
-            border-radius: 12px;
-            padding: 1.25rem;
-        }
-        
-        .card-header {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            margin-bottom: 1rem;
-        }
-        
-        .card-icon {
-            font-size: 1.25rem;
-        }
-        
-        .card-title {
-            font-size: 0.95rem;
-            font-weight: 600;
-            margin: 0;
-        }
-        
-        .advantage-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            gap: 0.6rem;
-        }
-        
-        .advantage-item {
-            display: flex;
-            align-items: flex-start;
-            gap: 0.5rem;
-            font-size: 0.85rem;
-            color: rgba(255,255,255,0.8);
-            line-height: 1.4;
-        }
-        
-        .item-bullet {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            margin-top: 0.35rem;
-            flex-shrink: 0;
-        }
-        
-        .item-bullet.green { background: #48bb78; }
-        .item-bullet.orange { background: #ed8936; }
-        
-        .risk-section {
-            background: rgba(0,0,0,0.2);
-            border-radius: 12px;
-            padding: 1.25rem;
-        }
-        
-        .risk-section h4 {
-            font-size: 1rem;
-            margin: 0 0 1rem 0;
-        }
-        
-        .risk-items {
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-        }
-        
-        .risk-item {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-        }
-        
-        .risk-icon {
-            font-size: 1.25rem;
-        }
-        
-        .risk-content {
-            flex: 1;
-        }
-        
-        .risk-title {
-            font-size: 0.8rem;
-            color: rgba(255,255,255,0.6);
-            margin-bottom: 0.25rem;
-        }
-        
-        .risk-bar-container {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        
-        .risk-bar {
-            flex: 1;
-            height: 6px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 3px;
-            overflow: hidden;
-        }
-        
-        .risk-fill {
-            height: 100%;
-            background: linear-gradient(90deg, #4299e1, #667eea);
-            border-radius: 3px;
-        }
-        
-        .risk-value {
-            font-size: 0.8rem;
-            font-weight: 600;
-            color: #4299e1;
-            min-width: 35px;
-        }
-        
-        .alert-box {
-            margin-top: 1rem;
-            padding: 0.75rem 1rem;
-            background: rgba(66,153,225,0.15);
-            border-radius: 8px;
-            display: flex;
-            align-items: flex-start;
-            gap: 0.5rem;
-            font-size: 0.85rem;
-            color: rgba(255,255,255,0.9);
-            line-height: 1.5;
-        }
-        
-        .alert-icon {
-            flex-shrink: 0;
-        }
-        
-        /* 锁定分析样式 */
-        .locked-analysis {
-            text-align: center;
-            padding: 2rem 1rem;
-        }
-        
-        .lock-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        
-        .locked-analysis h3 {
-            margin: 0 0 0.5rem 0;
-            font-size: 1.25rem;
-        }
-        
-        .locked-analysis p {
-            color: rgba(255,255,255,0.6);
-            margin: 0 0 1.5rem 0;
-        }
-        
-        .unlock-countdown {
-            margin-bottom: 2rem;
-        }
-        
-        .unlock-countdown span {
-            color: rgba(255,255,255,0.6);
-            font-size: 0.9rem;
-        }
-        
-        .countdown-time {
-            display: block;
-            font-size: 2rem;
-            font-weight: 700;
-            color: #4299e1;
-            margin-top: 0.5rem;
-            font-family: monospace;
-        }
-        
-        .preview-teaser {
-            background: rgba(0,0,0,0.2);
-            border-radius: 12px;
-            padding: 1.25rem;
-            text-align: left;
-        }
-        
-        .preview-teaser h4 {
-            margin: 0 0 0.75rem 0;
-            font-size: 0.95rem;
-        }
-        
-        .preview-teaser ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-        }
-        
-        .preview-teaser li {
-            font-size: 0.85rem;
-            color: rgba(255,255,255,0.7);
-        }
-    </style>
 </head>
 <body>
     <!-- 导航栏 -->
-    <nav class="main-nav">
+    <nav class="main-nav" id="mainNav">
         <div class="nav-container">
             <a href="index.html" class="nav-logo">
                 <span class="logo-icon">⚽</span>
                 <span class="logo-text">世界杯预测</span>
             </a>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html" class="nav-link">首页</a></li>
                 <li><a href="schedule.html" class="nav-link active">赛程</a></li>
-                <li><a href="#" class="nav-link">小组积分</a></li>
-                <li><a href="#" class="nav-link">实时赔率</a></li>
-                <li><a href="#" class="nav-link">赛事新闻</a></li>
+                <li><a href="standings.html" class="nav-link">小组积分</a></li>
+                <li><a href="news.html" class="nav-link">赛事新闻</a></li>
+                <li><a href="analysis.html" class="nav-link">实时分析</a></li>
             </ul>
             <button class="nav-toggle" id="navToggle">
                 <span></span>
@@ -645,30 +29,50 @@
         </div>
     </nav>
 
-    <!-- 页面标题 -->
-    <header class="page-header">
+    <!-- 主内容 -->
+    <main class="page-content">
         <div class="container">
-            <h1 class="page-title">🏆 赛程表</h1>
-            <p class="page-subtitle">2026世界杯 · 共72场比赛 · 点击比赛查看AI分析</p>
-        </div>
-    </header>
+            <div class="section-header">
+                <span class="section-badge">赛程</span>
+                <h1 class="section-title">比赛日程</h1>
+                <p class="section-desc">2026世界杯小组赛完整赛程，支持按组别筛选</p>
+            </div>
 
-    <!-- 赛程内容 -->
-    <section class="section schedule-section">
-        <div class="container">
-            <!-- 比赛列表容器 -->
-            <div class="matches-container" id="matchesContainer">
-                <!-- 比赛卡片将由JS动态生成 -->
+            <!-- 筛选栏 -->
+            <div class="filter-bar">
+                <div class="filter-tabs" id="filterTabs">
+                    <button class="filter-tab all active" data-group="all">全部</button>
+                    <button class="filter-tab" data-group="A">A组</button>
+                    <button class="filter-tab" data-group="B">B组</button>
+                    <button class="filter-tab" data-group="C">C组</button>
+                    <button class="filter-tab" data-group="D">D组</button>
+                    <button class="filter-tab" data-group="E">E组</button>
+                    <button class="filter-tab" data-group="F">F组</button>
+                    <button class="filter-tab" data-group="G">G组</button>
+                    <button class="filter-tab" data-group="H">H组</button>
+                    <button class="filter-tab" data-group="I">I组</button>
+                    <button class="filter-tab" data-group="J">J组</button>
+                    <button class="filter-tab" data-group="K">K组</button>
+                    <button class="filter-tab" data-group="L">L组</button>
+                </div>
+            </div>
+
+            <!-- 赛程列表 -->
+            <div class="schedule-list" id="scheduleList">
+                <!-- 动态加载 -->
             </div>
         </div>
-    </section>
+    </main>
 
     <!-- 弹窗 -->
-    <div class="modal-overlay" id="modalOverlay">
-        <div class="modal-content" id="modalContent">
-            <button class="modal-close" id="modalClose">×</button>
+    <div class="modal-overlay" id="matchModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modalTitle">比赛分析</h3>
+                <button class="modal-close" onclick="closeModal()">×</button>
+            </div>
             <div class="modal-body" id="modalBody">
-                <!-- 弹窗内容由JS生成 -->
+                <!-- 动态内容 -->
             </div>
         </div>
     </div>
@@ -685,9 +89,6 @@
                     <p>本平台仅供娱乐参考，请理性观看比赛</p>
                     <p>AI预测结果仅供参考，不构成投注建议</p>
                 </div>
-                <div class="footer-links">
-                    <p>© 2026 FIFA World Cup Prediction. All rights reserved.</p>
-                </div>
             </div>
         </div>
     </footer>
@@ -695,348 +96,22 @@
     <script>
         // 数据
         let scheduleData = null;
+        let analysisData = null;
+        let currentGroup = 'all';
 
-        // 加载赛程数据
-        async function loadSchedule() {
-            try {
-                const response = await fetch('./data/schedule.json');
-                scheduleData = await response.json();
-                renderMatches(scheduleData.matches);
-            } catch (error) {
-                console.error('加载赛程失败:', error);
-                document.getElementById('matchesContainer').innerHTML = '<p style="color:#fff;text-align:center;">加载赛程数据失败，请刷新页面重试。</p>';
-            }
-        }
+        // 初始化
+        document.addEventListener('DOMContentLoaded', async () => {
+            initNavigation();
+            await loadData();
+            initFilters();
+            renderSchedule();
+        });
 
-        // 渲染比赛列表 - 按日期分组
-        function renderMatches(matches) {
-            const container = document.getElementById('matchesContainer');
-            
-            // 按日期分组
-            const groupedMatches = {};
-            matches.forEach(match => {
-                if (!groupedMatches[match.date]) {
-                    groupedMatches[match.date] = [];
-                }
-                groupedMatches[match.date].push(match);
-            });
-
-            let html = '';
-            // 按日期排序
-            Object.keys(groupedMatches).sort().forEach(date => {
-                const dateObj = new Date(date);
-                const month = dateObj.getMonth() + 1;
-                const day = dateObj.getDate();
-                const dateStr = `${month}月${day}日`;
-                const weekDay = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'][dateObj.getDay()];
-                const matchesInDay = groupedMatches[date];
-                
-                html += `
-                    <div class="date-section">
-                        <div class="date-header">
-                            <span class="date-badge">${dateStr}</span>
-                            <span class="weekday">${weekDay}</span>
-                            <span class="match-count">${matchesInDay.length}场比赛</span>
-                        </div>
-                        <div class="matches-grid">
-                `;
-                
-                matchesInDay.forEach(match => {
-                    const venue = scheduleData.venues[match.venue] || {name: match.city || '待定', city: ''};
-                    html += createMatchCard(match, venue);
-                });
-                
-                html += `
-                        </div>
-                    </div>
-                `;
-            });
-
-            container.innerHTML = html;
-
-            // 绑定点击事件
-            document.querySelectorAll('.match-card').forEach(card => {
-                card.addEventListener('click', () => {
-                    const matchId = parseInt(card.dataset.matchId);
-                    openAnalysisModal(matchId);
-                });
-            });
-        }
-
-        // 创建比赛卡片
-        function createMatchCard(match, venue) {
-            return `
-                <div class="match-card" data-match-id="${match.id}" data-group="${match.group}">
-                    <div class="match-teams">
-                        <div class="team">
-                            <div class="team-name">${match.home}</div>
-                            <div class="team-flag">${getTeamEmoji(match.home)}</div>
-                        </div>
-                        <div class="match-vs">
-                            <span class="vs-text">VS</span>
-                            <span class="group-badge">${match.group}组</span>
-                        </div>
-                        <div class="team">
-                            <div class="team-name">${match.away}</div>
-                            <div class="team-flag">${getTeamEmoji(match.away)}</div>
-                        </div>
-                    </div>
-                    <div class="match-info-row">
-                        <div class="match-datetime">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="12" r="10"/>
-                                <polyline points="12,6 12,12 16,14"/>
-                            </svg>
-                            <span>${formatTime(match.time)}</span>
-                        </div>
-                        <span class="match-venue">${venue.name}</span>
-                    </div>
-                    <div class="analysis-hint">
-                        <span>点击查看AI分析 →</span>
-                    </div>
-                </div>
-            `;
-        }
-
-        // 打开分析弹窗
-        function openAnalysisModal(matchId) {
-            const match = scheduleData.matches.find(m => m.id === matchId);
-            if (!match) return;
-
-            const venue = scheduleData.venues[match.venue] || {name: match.city || '待定', city: ''};
-            const modalBody = document.getElementById('modalBody');
-            
-            // 检查是否赛前12小时内
-            const matchDateTime = new Date(`${match.date}T${match.time}:00`);
-            const now = new Date();
-            const hoursUntilMatch = (matchDateTime - now) / (1000 * 60 * 60);
-            const isUnlocked = hoursUntilMatch <= 12;
-
-            modalBody.innerHTML = `
-                <div class="analysis-modal">
-                    <div class="modal-header-section">
-                        <span class="modal-group-badge">${match.group}组 第${match.round}轮</span>
-                        <h2>${match.home} vs ${match.away}</h2>
-                        <p class="modal-match-info">${match.date} · ${formatTime(match.time)} · ${venue.name}</p>
-                    </div>
-                    
-                    ${isUnlocked ? `
-                        <div class="analysis-content">
-                            <div class="ai-prediction">
-                                <div class="ai-badge">🤖 AI预测分析</div>
-                                
-                                <div class="prediction-grid">
-                                    <div class="prediction-card">
-                                        <div class="card-subtitle">胜负预测</div>
-                                        <div class="probability-bars">
-                                            <div class="prob-item win">
-                                                <div class="prob-label">
-                                                    <span class="country-name">${match.home} 胜</span>
-                                                    <span class="prob-value">${generateProbability()}%</span>
-                                                </div>
-                                                <div class="prob-bar">
-                                                    <div class="prob-fill" style="width: ${generateProbability()}%"></div>
-                                                </div>
-                                            </div>
-                                            <div class="prob-item draw">
-                                                <div class="prob-label">
-                                                    <span class="country-name">平局</span>
-                                                    <span class="prob-value">${generateProbability()}%</span>
-                                                </div>
-                                                <div class="prob-bar">
-                                                    <div class="prob-fill" style="width: ${generateProbability()}%"></div>
-                                                </div>
-                                            </div>
-                                            <div class="prob-item lose">
-                                                <div class="prob-label">
-                                                    <span class="country-name">${match.away} 胜</span>
-                                                    <span class="prob-value">${generateProbability()}%</span>
-                                                </div>
-                                                <div class="prob-bar">
-                                                    <div class="prob-fill" style="width: ${generateProbability()}%"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="prediction-card">
-                                        <div class="card-subtitle">比分预测</div>
-                                        <div class="score-prediction">
-                                            <span class="score-team">${match.home}</span>
-                                            <div class="score-numbers">
-                                                <span class="home-score">${Math.floor(Math.random() * 3) + 1}</span>
-                                                <span class="score-divider">-</span>
-                                                <span class="away-score">${Math.floor(Math.random() * 3)}</span>
-                                            </div>
-                                            <span class="score-team">${match.away}</span>
-                                        </div>
-                                        <div class="alternative-scores">
-                                            <span>备选: </span>
-                                            <span class="alt-score">${Math.floor(Math.random() * 2) + 1}-${Math.floor(Math.random() * 2)}</span>
-                                            <span class="alt-score">${Math.floor(Math.random() * 2) + 2}-${Math.floor(Math.random() * 2)}</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="analysis-grid">
-                                    <div class="analysis-card advantages-card">
-                                        <div class="card-header">
-                                            <span class="card-icon">💪</span>
-                                            <h4 class="card-title">${match.home}优势</h4>
-                                        </div>
-                                        <ul class="advantage-list">
-                                            <li class="advantage-item">
-                                                <span class="item-bullet green"></span>
-                                                <span>近期状态火热，攻防两端表现稳定</span>
-                                            </li>
-                                            <li class="advantage-item">
-                                                <span class="item-bullet green"></span>
-                                                <span>主力球员伤愈复出，阵容齐整</span>
-                                            </li>
-                                            <li class="advantage-item">
-                                                <span class="item-bullet green"></span>
-                                                <span>历史交锋占据心理优势</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    
-                                    <div class="analysis-card concerns-card">
-                                        <div class="card-header">
-                                            <span class="card-icon">⚠️</span>
-                                            <h4 class="card-title">${match.away}优势</h4>
-                                        </div>
-                                        <ul class="advantage-list">
-                                            <li class="advantage-item">
-                                                <span class="item-bullet orange"></span>
-                                                <span>客场作战，需要适应时差与气候</span>
-                                            </li>
-                                            <li class="advantage-item">
-                                                <span class="item-bullet orange"></span>
-                                                <span>防线存在一定隐患</span>
-                                            </li>
-                                            <li class="advantage-item">
-                                                <span class="item-bullet orange"></span>
-                                                <span>关键位置球员可能缺阵</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="risk-section">
-                                    <h4>🔮 冷门概率分析</h4>
-                                    <div class="risk-items">
-                                        <div class="risk-item">
-                                            <span class="risk-icon">⚡</span>
-                                            <div class="risk-content">
-                                                <span class="risk-title">意外结果概率</span>
-                                                <div class="risk-bar-container">
-                                                    <div class="risk-bar">
-                                                        <div class="risk-fill" style="width: ${Math.floor(Math.random() * 30) + 10}%"></div>
-                                                    </div>
-                                                    <span class="risk-value">${Math.floor(Math.random() * 30) + 10}%</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="alert-box">
-                                        <span class="alert-icon">💡</span>
-                                        <span class="alert-text">综合分析显示本场${match.home}获胜概率较高，但${match.away}具备一定反击能力，建议关注临场数据变化。</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    ` : `
-                        <div class="locked-analysis">
-                            <div class="lock-icon">🔒</div>
-                            <h3>详细分析已锁定</h3>
-                            <p>赛前12小时解锁详细AI预测与分析</p>
-                            <div class="unlock-countdown">
-                                <span>距离解锁还有</span>
-                                <span class="countdown-time" id="unlockCountdown">--:--:--</span>
-                            </div>
-                            <div class="preview-teaser">
-                                <h4>📋 预告内容</h4>
-                                <ul>
-                                    <li>✅ 胜负概率预测</li>
-                                    <li>✅ 比分预测</li>
-                                    <li>✅ 球队优劣势分析</li>
-                                    <li>✅ 冷门概率评估</li>
-                                    <li>✅ 关键球员数据</li>
-                                </ul>
-                            </div>
-                        </div>
-                    `}
-                </div>
-            `;
-
-            document.getElementById('modalOverlay').classList.add('active');
-
-            // 如果未解锁，启动倒计时
-            if (!isUnlocked) {
-                startUnlockCountdown(matchDateTime);
-            }
-        }
-
-        // 关闭弹窗
-        function closeModal() {
-            document.getElementById('modalOverlay').classList.remove('active');
-        }
-
-        // 工具函数
-        function formatTime(time) {
-            const [hours, minutes] = time.split(':');
-            return `${hours}:${minutes}`;
-        }
-
-        function generateProbability() {
-            return Math.floor(Math.random() * 40) + 30;
-        }
-
-        function getTeamEmoji(teamName) {
-            const emojiMap = {
-                '墨西哥': '🇲🇽', '南非': '🇿🇦', '韩国': '🇰🇷', '捷克': '🇨🇿',
-                '加拿大': '🇨🇦', '波黑': '🇧🇦', '卡塔尔': '🇶🇦', '瑞士': '🇨🇭',
-                '巴西': '🇧🇷', '摩洛哥': '🇲🇦', '海地': '🇭🇹', '苏格兰': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
-                '美国': '🇺🇸', '巴拉圭': '🇵🇾', '土耳其': '🇹🇷', '澳大利亚': '🇦🇺',
-                '德国': '🇩🇪', '库拉索': '🇨🇼', '科特迪瓦': '🇨🇮', '厄瓜多尔': '🇪🇨',
-                '荷兰': '🇳🇱', '日本': '🇯🇵', '瑞典': '🇸🇪', '突尼斯': '🇹🇳',
-                '比利时': '🇧🇪', '埃及': '🇪🇬', '伊朗': '🇮🇷', '新西兰': '🇳🇿',
-                '西班牙': '🇪🇸', '佛得角': '🇨🇻', '沙特': '🇸🇦', '乌拉圭': '🇺🇾',
-                '法国': '🇫🇷', '塞内加尔': '🇸🇳', '伊拉克': '🇮🇶', '挪威': '🇳🇴',
-                '阿根廷': '🇦🇷', '阿尔及利亚': '🇩🇿', '奥地利': '🇦🇹', '约旦': '🇯🇴',
-                '葡萄牙': '🇵🇹', '英格兰': '🏴󠁧󠁢󠁥󠁮󠁧󠁿', '加纳': '🇬🇭', '巴拿马': '🇵🇦', '克罗地亚': '🇭🇷',
-                '哥伦比亚': '🇨🇴', '刚果民主共和国': '🇨🇩', '乌兹别克斯坦': '🇺🇿'
-            };
-            return emojiMap[teamName] || '🏳️';
-        }
-
-        function startUnlockCountdown(targetDate) {
-            function update() {
-                const now = new Date();
-                const diff = targetDate - now - (12 * 60 * 60 * 1000);
-                
-                if (diff <= 0) {
-                    document.getElementById('unlockCountdown').textContent = '已解锁!';
-                    return;
-                }
-
-                const hours = Math.floor(diff / (1000 * 60 * 60));
-                const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
-                document.getElementById('unlockCountdown').textContent = 
-                    `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-            }
-            
-            update();
-            setInterval(update, 1000);
-        }
-
-        // 导航功能
+        // 导航
         function initNavigation() {
             const navToggle = document.getElementById('navToggle');
-            const navMenu = document.querySelector('.nav-menu');
-            const mainNav = document.querySelector('.main-nav');
+            const navMenu = document.getElementById('navMenu');
+            const mainNav = document.getElementById('mainNav');
 
             navToggle.addEventListener('click', () => {
                 navToggle.classList.toggle('active');
@@ -1052,25 +127,247 @@
             });
         }
 
-        // 初始化
-        document.addEventListener('DOMContentLoaded', () => {
-            loadSchedule();
-            initNavigation();
+        // 加载数据
+        async function loadData() {
+            try {
+                const [scheduleRes, analysisRes] = await Promise.all([
+                    fetch('data/schedule.json'),
+                    fetch('data/analysis.json')
+                ]);
+                scheduleData = await scheduleRes.json();
+                analysisData = await analysisRes.json();
+            } catch (e) {
+                console.error('数据加载失败:', e);
+                document.getElementById('scheduleList').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">⚠️</div>
+                        <div class="empty-state-title">数据加载失败</div>
+                        <p class="empty-state-desc">请刷新页面重试</p>
+                    </div>
+                `;
+            }
+        }
 
-            document.getElementById('modalClose').addEventListener('click', closeModal);
-            document.getElementById('modalOverlay').addEventListener('click', (e) => {
-                if (e.target === e.currentTarget) {
-                    closeModal();
-                }
+        // 筛选器
+        function initFilters() {
+            const tabs = document.querySelectorAll('.filter-tab');
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    currentGroup = tab.dataset.group;
+                    renderSchedule();
+                });
             });
+        }
+
+        // 获取比赛分析
+        function getMatchAnalysis(matchId) {
+            if (!analysisData || !analysisData.matches) return null;
+            return analysisData.matches.find(m => m.match_id === matchId);
+        }
+
+        // 渲染赛程
+        function renderSchedule() {
+            const container = document.getElementById('scheduleList');
+            if (!scheduleData || !scheduleData.matches) return;
+
+            let matches = scheduleData.matches;
+            if (currentGroup !== 'all') {
+                matches = matches.filter(m => m.group === currentGroup);
+            }
+
+            if (matches.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📅</div>
+                        <div class="empty-state-title">暂无比赛</div>
+                        <p class="empty-state-desc">该小组暂无比赛安排</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // 按日期分组
+            const groupedMatches = {};
+            matches.forEach(match => {
+                const dateKey = match.date;
+                if (!groupedMatches[dateKey]) {
+                    groupedMatches[dateKey] = [];
+                }
+                groupedMatches[dateKey].push(match);
+            });
+
+            let html = '';
+            Object.keys(groupedMatches).sort().forEach(date => {
+                const dayMatches = groupedMatches[date];
+                html += `
+                    <div class="group-section">
+                        <h3 class="group-title">
+                            <span>📅</span>
+                            <span>${formatDateFull(date)}</span>
+                            <span style="font-size: 0.9rem; color: var(--text-muted); font-weight: normal;">(${dayMatches.length}场比赛)</span>
+                        </h3>
+                        <div style="display: grid; gap: 15px;">
+                            ${dayMatches.map(match => renderMatchCard(match)).join('')}
+                        </div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        // 渲染比赛卡片
+        function renderMatchCard(match) {
+            const venue = scheduleData.venues[match.venue] || {};
+            const analysis = getMatchAnalysis(match.id);
             
-            // ESC关闭弹窗
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape') {
-                    closeModal();
-                }
-            });
+            let scoreHtml;
+            if (match.status === 'completed' && match.homeScore !== undefined) {
+                scoreHtml = `
+                    <div class="schedule-score">${match.homeScore} - ${match.awayScore}</div>
+                `;
+            } else {
+                scoreHtml = `<div class="schedule-score vs">VS</div>`;
+            }
+
+            const statusText = match.status === 'completed' ? '已结束' : 
+                               match.status === 'live' ? '进行中' : '未开始';
+            const statusClass = match.status;
+
+            return `
+                <div class="schedule-card" onclick="openMatchModal(${match.id})">
+                    <div class="schedule-card-header">
+                        <div class="schedule-date">
+                            <span>${match.group}组 · 第${match.round}轮</span>
+                        </div>
+                        <span class="match-status ${statusClass}">${statusText}</span>
+                    </div>
+                    <div class="schedule-teams">
+                        <div class="schedule-team">
+                            <div>
+                                <div class="schedule-team-name">${match.home}</div>
+                                <div class="schedule-team-code">FIFA #--</div>
+                            </div>
+                        </div>
+                        ${scoreHtml}
+                        <div class="schedule-team away">
+                            <div>
+                                <div class="schedule-team-name">${match.away}</div>
+                                <div class="schedule-team-code">FIFA #--</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-venue">
+                        <span>🕐 ${match.time}</span>
+                        <span>🏟️ ${venue.name || match.city || ''}</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 打开弹窗
+        function openMatchModal(matchId) {
+            const match = scheduleData.matches.find(m => m.id === matchId);
+            const analysis = getMatchAnalysis(matchId);
+            const venue = scheduleData.venues[match.venue] || {};
+
+            if (!match) return;
+
+            const score = match.homeScore !== undefined ? 
+                `${match.homeScore} - ${match.awayScore}` : 'VS';
+            const statusText = match.status === 'completed' ? '已结束' : 
+                               match.status === 'live' ? '进行中' : '未开始';
+
+            let analysisContent = '';
+            if (analysis && analysis.analysis) {
+                const a = analysis.analysis;
+                analysisContent = `
+                    <div class="analysis-section">
+                        <h4 class="analysis-section-title">战术分析</h4>
+                        <p class="analysis-text">${a.tactics || '暂无战术分析'}</p>
+                    </div>
+                    <div class="analysis-section">
+                        <h4 class="analysis-section-title">关键球员</h4>
+                        <p class="analysis-text">${a.key_players || '暂无关键球员信息'}</p>
+                    </div>
+                    <div class="analysis-section">
+                        <h4 class="analysis-section-title">赔率分析</h4>
+                        <p class="analysis-text">${a.odds_analysis || '暂无赔率分析'}</p>
+                    </div>
+                    <div class="analysis-section">
+                        <h4 class="analysis-section-title">冷门因素</h4>
+                        <p class="analysis-text">${a.upset_factors || '暂无冷门分析'}</p>
+                    </div>
+                    ${a.prediction ? `
+                    <div class="analysis-prediction">
+                        <div class="prediction-score">${a.prediction.score || '--'}</div>
+                        <div class="prediction-result">${a.prediction.result || '预测中'}</div>
+                        <span class="prediction-confidence">置信度: ${a.prediction.confidence || '中'}</span>
+                    </div>
+                    ` : ''}
+                `;
+            } else {
+                analysisContent = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📊</div>
+                        <div class="empty-state-title">暂无详细分析</div>
+                        <p class="empty-state-desc">分析数据正在生成中</p>
+                    </div>
+                `;
+            }
+
+            document.getElementById('modalTitle').textContent = `${match.home} vs ${match.away}`;
+            document.getElementById('modalBody').innerHTML = `
+                <div style="text-align: center; margin-bottom: 25px;">
+                    <div style="font-size: 2.5rem; font-weight: 800; color: var(--gold); margin-bottom: 10px;">${score}</div>
+                    <div style="color: var(--text-muted);">
+                        <span>${match.group}组 · 第${match.round}轮</span>
+                    </div>
+                    <div style="color: var(--text-muted); margin-top: 8px;">
+                        📅 ${formatDateFull(match.date)} ${match.time}
+                    </div>
+                    <div style="color: var(--text-muted); margin-top: 5px;">
+                        🏟️ ${venue.name || match.city || ''} · ${venue.city || ''}
+                    </div>
+                    <div style="color: var(--text-muted); margin-top: 5px;">
+                        ${statusText}
+                    </div>
+                </div>
+                ${analysisContent}
+            `;
+
+            document.getElementById('matchModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // 关闭弹窗
+        function closeModal() {
+            document.getElementById('matchModal').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // 点击遮罩关闭
+        document.getElementById('matchModal').addEventListener('click', (e) => {
+            if (e.target.id === 'matchModal') {
+                closeModal();
+            }
         });
+
+        // ESC关闭弹窗
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // 格式化日期
+        function formatDateFull(dateStr) {
+            const date = new Date(dateStr);
+            const weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+            return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日 ${weekdays[date.getDay()]}`;
+        }
     </script>
 </body>
 </html>
