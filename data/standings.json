@@ -19,6 +19,32 @@
         },
         {
           "rank": 2,
+          "name": "韩国",
+          "code": "KOR",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "points": 3,
+          "gd": 1
+        },
+        {
+          "rank": 3,
+          "name": "捷克",
+          "code": "CZE",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "points": 0,
+          "gd": -1
+        },
+        {
+          "rank": 4,
           "name": "南非",
           "code": "RSA",
           "played": 1,
@@ -29,32 +55,6 @@
           "goalsAgainst": 2,
           "points": 0,
           "gd": -2
-        },
-        {
-          "rank": 3,
-          "name": "韩国",
-          "code": "KOR",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "points": 0,
-          "gd": 0
-        },
-        {
-          "rank": 4,
-          "name": "捷克",
-          "code": "CZE",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "points": 0,
-          "gd": 0
         }
       ]
     },

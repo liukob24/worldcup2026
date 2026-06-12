@@ -252,7 +252,9 @@
       "city": "瓜达拉哈拉",
       "group": "A",
       "round": 1,
-      "status": "upcoming"
+      "status": "completed",
+      "homeScore": 2,
+      "awayScore": 1
     },
     {
       "id": 3,
