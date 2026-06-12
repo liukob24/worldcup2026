@@ -116,6 +116,10 @@
             await loadData();
             initFilters();
             renderMatchSelector();
+            // 自动选中第一场比赛并显示分析
+            if (scheduleData && scheduleData.matches && scheduleData.matches.length > 0) {
+                selectMatch(scheduleData.matches[0].id);
+            }
         });
 
         // 导航
