@@ -285,7 +285,7 @@
     },
     {
       "id": 3,
-      "date": "2026-06-12",
+      "date": "2026-06-13",
       "time": "03:00",
       "home": "加拿大",
       "away": "波黑",
@@ -293,31 +293,34 @@
       "city": "多伦多",
       "group": "B",
       "round": 1,
-      "status": "upcoming"
+      "status": "upcoming",
+      "country": "加拿大"
     },
     {
       "id": 4,
-      "date": "2026-06-12",
-      "time": "06:00",
+      "date": "2026-06-13",
+      "time": "09:00",
       "home": "美国",
       "away": "巴拉圭",
       "venue": "sofi",
       "city": "英格尔伍德",
       "group": "D",
       "round": 1,
-      "status": "upcoming"
+      "status": "upcoming",
+      "country": "美国"
     },
     {
       "id": 5,
-      "date": "2026-06-12",
-      "time": "09:00",
+      "date": "2026-06-14",
+      "time": "03:00",
       "home": "卡塔尔",
       "away": "瑞士",
       "venue": "sanfran",
       "city": "圣克拉拉",
       "group": "B",
       "round": 1,
-      "status": "upcoming"
+      "status": "upcoming",
+      "country": "美国"
     },
     {
       "id": 6,
