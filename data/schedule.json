@@ -118,13 +118,48 @@
     "id": "match-fd-537345",
     "home_team": "美国",
     "away_team": "巴拉圭",
-    "home_score": null,
-    "away_score": null,
-    "status": "upcoming",
+    "home_score": 4,
+    "away_score": 1,
+    "status": "completed",
     "start_time": "2026-06-13T09:00:00+08:00",
     "venue": "SoFi体育场，洛杉矶",
     "group": "D组",
-    "goals": []
+    "goals": [
+      {
+        "player": "博瓦迪利亚（巴拉圭）乌龙球",
+        "minute": "7'"
+      },
+      {
+        "player": "巴洛贡（美国）",
+        "minute": "31'"
+      },
+      {
+        "player": "巴洛贡（美国）",
+        "minute": "45+'"
+      },
+      {
+        "player": "毛里西奥（巴拉圭）",
+        "minute": "70'"
+      },
+      {
+        "player": "雷纳（美国）",
+        "minute": "90+'"
+      }
+    ],
+    "notes": "巴洛贡首秀梅开二度；本届世界杯首个乌龙球；恩西索助攻",
+    "cards": [
+      {
+        "player": "博巴迪利亚（巴拉圭）",
+        "minute": "6'",
+        "type": "yellow"
+      },
+      {
+        "player": "麦肯尼（美国）",
+        "minute": "20'",
+        "type": "yellow"
+      }
+    ],
+    "attendance": 70000
   },
   {
     "id": "match-fd-537334",
