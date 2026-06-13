@@ -1,8 +1,103 @@
 {
-
-  "lastUpdate": "2026-06-13T18:25:00",
-  "version": "1.0.5",
+  "lastUpdate": "2026-06-14T00:25:00",
+  "version": "1.0.6",
   "news": [
+    {
+      "id": 145,
+      "title": "普利西奇回应世界杯首战伤情：左小腿不适，乐观判断无大碍",
+      "summary": "美国队4-1大胜巴拉圭的世界杯首战赛后，普利西奇回应了自己半场被换下的原因。他在上半场表现活跃，制造对手乌龙并助攻巴洛贡破门，之后左小腿区域出现不适，主帅波切蒂诺出于规避风险的考虑在半场将他换下。普利西奇表示：'我被踢了一下，希望没什么大碍。'波切蒂诺称换人是预防性的，不想拿核心球员冒险。",
+      "category": "球员动态",
+      "publishTime": "2026-06-13T23:22:00",
+      "source": "ESPN",
+      "sourceUrl": "https://global.espn.com/soccer/story/_/id/49047601/world-cup-2026-today-blog-13-06-2026-live-updates-news-fixtures-schedule-results-usmnt-dream-start",
+      "relatedMatches": [
+        4
+      ]
+    },
+    {
+      "id": 146,
+      "title": "内马尔确认缺席巴西世界杯首战，维尼修斯誓言冲击冠军",
+      "summary": "巴西队世界杯首战对阵摩洛哥前，内马尔因伤确认缺席。内马尔周五未参加训练，基本无缘6月14日的C组首轮比赛。维尼修斯在赛前新闻发布会上表示：'我们的目标就是拿下冠军，球队实力足以比肩世界顶级强队。'他同时称赞摩洛哥队战术组织严密，完全有能力与任何对手抗衡。巴西队其他伤病包括韦斯利（肌肉）、罗德里戈（ACL报销）、米利唐（腿筋）。",
+      "category": "球员动态",
+      "publishTime": "2026-06-13T17:09:00",
+      "source": "新华网",
+      "sourceUrl": "http://www.xinhuanet.com/sports/20260613/3d143c75398b43a39613526513b9ddfc/c.html",
+      "relatedMatches": []
+    },
+    {
+      "id": 147,
+      "title": "加纳核心托马斯·帕蒂被加拿大拒绝入境，无缘世界杯首战",
+      "summary": "国际足联官方确认，加纳队核心球星托马斯·帕蒂被加拿大拒绝入境，无缘本届世界杯首战。帕蒂是前阿森纳中场悍将，加纳国家队的攻防核心，他的意外缺席直接打乱球队整体战术布局。这是本届世界杯首位因入境问题缺席赛事的顶级球员，签证壁垒风波持续蔓延引发关注。",
+      "category": "赛事动态",
+      "publishTime": "2026-06-13T18:10:00",
+      "source": "国际在线/央视",
+      "sourceUrl": "http://m.toutiao.com/group/7650820165336105518/",
+      "relatedMatches": []
+    },
+    {
+      "id": 148,
+      "title": "英格兰队训练装备被盗，两人被捕接受调查",
+      "summary": "据ESPN报道，两人因涉嫌盗窃英格兰队训练装备已被逮捕并接受进一步调查。消息人士透露，当球队大巴抵达堪萨斯城备战对阵克罗地亚的首场比赛时，训练装备和其他物品失踪。英格兰队首战将于6月18日进行。",
+      "category": "赛事动态",
+      "publishTime": "2026-06-13T09:51:00",
+      "source": "ESPN",
+      "sourceUrl": "https://global.espn.com/soccer/story/_/id/49047601/world-cup-2026-today-blog-13-06-2026-live-updates-news-fixtures-schedule-results-usmnt-dream-start",
+      "relatedMatches": []
+    },
+    {
+      "id": 149,
+      "title": "英国裁判迈克尔·奥利弗因伤缺阵，法国裁判莱特西耶替补执法",
+      "summary": "FIFA宣布，英国裁判迈克尔·奥利弗因轻微伤病将缺席6月14日E组科特迪瓦对阵厄瓜多尔的比赛，由法国裁判弗朗索瓦·莱特西耶替补执法。FIFA表示奥利弗将在未来几天恢复可供选派。",
+      "category": "赛事动态",
+      "publishTime": "2026-06-13T09:51:00",
+      "source": "ESPN",
+      "sourceUrl": "https://global.espn.com/soccer/story/_/id/49047601/world-cup-2026-today-blog-13-06-2026-live-updates-news-fixtures-schedule-results-usmnt-dream-start",
+      "relatedMatches": []
+    },
+    {
+      "id": 150,
+      "title": "世界杯补水暂停新规引争议，球迷质疑'名为补水实为补钱'",
+      "summary": "本届世界杯新增强制补水暂停规则引发广泛争议。根据FIFA新规，赛场温度达标后上下半场各设一次补水暂停。但在美国对阵巴拉圭的比赛中，赛场气温仅21摄氏度，依然执行补水暂停，引发球迷、媒体集体吐槽。不少声音指出这是'足球美国化'，质疑FIFA借此增加商业曝光时长。这项新规已成为本届世界杯最具争议的赛事规则。",
+      "category": "赛事动态",
+      "publishTime": "2026-06-13T18:10:00",
+      "source": "央视网/国际在线",
+      "sourceUrl": "http://m.toutiao.com/group/7650820165336105518/",
+      "relatedMatches": [
+        4
+      ]
+    },
+    {
+      "id": 151,
+      "title": "世界杯签证风波持续：索马里裁判被拘留驱逐，多国球迷遭拒签",
+      "summary": "据《华尔街日报》和《卫报》报道，已有超过二十名世界杯球员、工作人员和官员遭遇赴美签证和入境问题。国际足联指定的索马里籍裁判在迈阿密机场被盘问十余小时后遭关押并驱逐出境。伊朗代表团因美伊关系被迫将训练基地迁至墨西哥。近80%主办城市酒店经营者称预订量低于预期，70%认为签证壁垒显著抑制了国际观赛需求。英国《卫报》评论称美国成了唯一禁止FIFA成员入境参赛的世界杯主办国。",
+      "category": "赛事动态",
+      "publishTime": "2026-06-13T19:23:00",
+      "source": "国际在线/华尔街日报/卫报",
+      "sourceUrl": "http://m.toutiao.com/group/7650839149322322483/",
+      "relatedMatches": []
+    },
+    {
+      "id": 152,
+      "title": "AI技术首次系统性引入世界杯：裁判视角直播、3D数字人越位判罚、生成式战术平台",
+      "summary": "2026世界杯首次系统引入多项AI技术：裁判第一视角AI防抖增强直播（联想提供），全球观众首次通过裁判视角见证进球；SAOT半自动越位技术与3D数字人深度整合，1200多名球员完成全身3D扫描，越位判罚进入毫米级精确时代；Football AI Pro生成式战术平台首次向48支球队免费开放，教练可用自然语言提问获取战术分析。FIFA规定AI工具仅限赛前备战和赛后复盘使用，比赛中不得接入。",
+      "category": "赛事动态",
+      "publishTime": "2026-06-13T19:31:00",
+      "source": "财联社/科创板日报",
+      "sourceUrl": "http://m.toutiao.com/group/7650841252207936046/",
+      "relatedMatches": []
+    },
+    {
+      "id": 153,
+      "title": "捷克媒体沉痛点评首战：时隔20年重返世界杯遭韩国逆转",
+      "summary": "捷克队时隔20年重返世界杯正赛，首战1-2被韩国队逆转。捷克媒体满是苦涩地评价此役。比赛第59分钟，捷克队长克雷伊奇头球破门先拔头筹；第67分钟，李刚仁助攻黄仁范扳平；第80分钟，吴贤揆完成绝杀。捷克队绍切克77分钟进球因越位无效，成为比赛转折点之一。",
+      "category": "赛况报道",
+      "publishTime": "2026-06-13T22:34:00",
+      "source": "Coze/综合外媒",
+      "sourceUrl": "https://www.coze.cn/share-article/201781360667558048",
+      "relatedMatches": [
+        2
+      ]
+    },
     {
       "id": 137,
       "title": "东道主大胜！美国4-1巴拉圭取得世界杯开门红",
@@ -526,7 +621,9 @@
       "publishTime": "2026-06-13T11:08:00",
       "source": "央视网",
       "sourceUrl": "https://sports.cctv.com/2026/06/13/ARTIlvzggcFu44ru9EPFFjWv260613.shtml",
-      "relatedMatches": [4]
+      "relatedMatches": [
+        4
+      ]
     },
     {
       "id": 138,
@@ -536,7 +633,9 @@
       "publishTime": "2026-06-13T11:30:00",
       "source": "央视新闻",
       "sourceUrl": "http://m.toutiao.com/group/7650711465938141731/",
-      "relatedMatches": [4]
+      "relatedMatches": [
+        4
+      ]
     },
     {
       "id": 139,
@@ -546,7 +645,9 @@
       "publishTime": "2026-06-13T16:02:00",
       "source": "央视新闻/环球网",
       "sourceUrl": "http://m.toutiao.com/group/7650787272731787776/",
-      "relatedMatches": [4]
+      "relatedMatches": [
+        4
+      ]
     },
     {
       "id": 140,
@@ -556,7 +657,11 @@
       "publishTime": "2026-06-13T18:00:00",
       "source": "新华网",
       "sourceUrl": "http://www.xinhuanet.com/sports/20260613/8461d90ce92a42a38ba1f364f9784d98/c.html",
-      "relatedMatches": [1, 3, 4]
+      "relatedMatches": [
+        1,
+        3,
+        4
+      ]
     },
     {
       "id": 141,
@@ -566,7 +671,9 @@
       "publishTime": "2026-06-13T12:00:00",
       "source": "FIFA官网",
       "sourceUrl": "https://www.fifa.com/en/articles/usa-paraguay-highlights-match-report",
-      "relatedMatches": [4]
+      "relatedMatches": [
+        4
+      ]
     },
     {
       "id": 142,
@@ -576,7 +683,9 @@
       "publishTime": "2026-06-13T08:00:00",
       "source": "新华网",
       "sourceUrl": "http://www.xinhuanet.com/sports/20260613/8461d90ce92a42a38ba1f364f9784d98/c.html",
-      "relatedMatches": [3]
+      "relatedMatches": [
+        3
+      ]
     }
   ]
 }
