@@ -127,39 +127,60 @@
     "goals": [
       {
         "player": "博瓦迪利亚（巴拉圭）乌龙球",
-        "minute": "7'"
+        "minute": "7'",
+        "assist": "麦肯尼/普利西奇"
       },
       {
         "player": "巴洛贡（美国）",
-        "minute": "31'"
+        "minute": "31'",
+        "assist": "普利西奇"
       },
       {
         "player": "巴洛贡（美国）",
-        "minute": "45+'"
+        "minute": "45+5'",
+        "assist": "蒂尔曼"
       },
       {
         "player": "毛里西奥（巴拉圭）",
-        "minute": "70'"
+        "minute": "73'",
+        "assist": "恩西索"
       },
       {
         "player": "雷纳（美国）",
-        "minute": "90+'"
+        "minute": "90+8'",
+        "assist": "弗里曼"
       }
     ],
-    "notes": "巴洛贡首秀梅开二度；本届世界杯首个乌龙球；恩西索助攻",
+    "notes": "巴洛贡首秀梅开二度当选全场最佳；本届世界杯首个乌龙球；本届世界杯首次VAR改判（52'阿尔米隆假摔改判黄牌）；美国队史世界杯单场最高比分胜利；汤姆·克鲁斯和贝克汉姆现场观战",
     "cards": [
       {
-        "player": "博巴迪利亚（巴拉圭）",
-        "minute": "6'",
+        "player": "阿尔米隆（巴拉圭）",
+        "minute": "52'",
+        "type": "yellow",
+        "note": "假摔，VAR改判"
+      },
+      {
+        "player": "亚当斯（美国）",
+        "minute": "59'",
         "type": "yellow"
       },
       {
-        "player": "麦肯尼（美国）",
-        "minute": "20'",
+        "player": "迭戈·戈麦斯（巴拉圭）",
+        "minute": "79'",
+        "type": "yellow"
+      },
+      {
+        "player": "阿尔塞（巴拉圭）",
+        "minute": "88'",
+        "type": "yellow"
+      },
+      {
+        "player": "儒尼奥尔·阿隆索（巴拉圭）",
+        "minute": "90+2'",
         "type": "yellow"
       }
     ],
-    "attendance": 70000
+    "attendance": 70492
   },
   {
     "id": "match-fd-537334",
@@ -169,7 +190,7 @@
     "away_score": null,
     "status": "upcoming",
     "start_time": "2026-06-14T03:00:00+08:00",
-    "venue": "待确认",
+    "venue": "旧金山湾球场",
     "group": "B组",
     "goals": []
   },
@@ -181,7 +202,7 @@
     "away_score": null,
     "status": "upcoming",
     "start_time": "2026-06-14T06:00:00+08:00",
-    "venue": "待确认",
+    "venue": "纽约大都会体育场",
     "group": "C组",
     "goals": []
   },
@@ -193,7 +214,7 @@
     "away_score": null,
     "status": "upcoming",
     "start_time": "2026-06-14T09:00:00+08:00",
-    "venue": "待确认",
+    "venue": "波士顿吉列体育场",
     "group": "C组",
     "goals": []
   },
@@ -205,7 +226,7 @@
     "away_score": null,
     "status": "upcoming",
     "start_time": "2026-06-14T12:00:00+08:00",
-    "venue": "待确认",
+    "venue": "温哥华BC Place体育场",
     "group": "D组",
     "goals": []
   }
