@@ -1,0 +1,299 @@
+[
+  {
+    "id": "match-fd-537331",
+    "home_team": "墨西哥",
+    "away_team": "南非",
+    "home_score": 2,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-11T03:00:00+08:00",
+    "venue": "墨西哥城阿兹特克体育场",
+    "group": "A组",
+    "goals": [
+      {
+        "player": "胡利安·基尼奥内斯（墨西哥）",
+        "minute": "9'"
+      },
+      {
+        "player": "劳尔·希门尼斯（墨西哥）",
+        "minute": "67'"
+      }
+    ],
+    "cards": [
+      {
+        "player": "西索尔（南非）",
+        "minute": "49'",
+        "type": "red"
+      },
+      {
+        "player": "兹瓦内（南非）",
+        "minute": "84'",
+        "type": "red"
+      },
+      {
+        "player": "塞萨尔·蒙特斯（墨西哥）",
+        "minute": "90+2'",
+        "type": "red"
+      }
+    ],
+    "attendance": 80824
+  },
+  {
+    "id": "match-fd-537332",
+    "home_team": "韩国",
+    "away_team": "捷克",
+    "home_score": 2,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-12T02:00:00+08:00",
+    "venue": "瓜达拉哈拉体育场",
+    "group": "A组",
+    "goals": [
+      {
+        "player": "克雷伊奇（捷克）",
+        "minute": "59'"
+      },
+      {
+        "player": "黄仁范（韩国）",
+        "minute": "67'"
+      },
+      {
+        "player": "吴贤揆（韩国）",
+        "minute": "80'"
+      }
+    ],
+    "notes": "捷克绍切克77分钟进球因越位无效"
+  },
+  {
+    "id": "match-fd-537333",
+    "home_team": "加拿大",
+    "away_team": "波黑",
+    "home_score": 1,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-13T03:00:00+08:00",
+    "venue": "BMO Field，多伦多",
+    "group": "B组",
+    "goals": [
+      {
+        "player": "约沃·卢基奇（波黑）",
+        "minute": "21'"
+      },
+      {
+        "player": "赛尔·拉林（加拿大）",
+        "minute": "78'"
+      }
+    ],
+    "notes": "阿方索·戴维斯未出场；加拿大拿到队史世界杯首个积分",
+    "cards": [
+      {
+        "player": "科内（加拿大）",
+        "minute": "11'",
+        "type": "yellow"
+      },
+      {
+        "player": "德米罗维奇（波黑）",
+        "minute": "45'",
+        "type": "yellow"
+      },
+      {
+        "player": "卢基奇（波黑）",
+        "minute": "45+2'",
+        "type": "yellow"
+      },
+      {
+        "player": "德富热罗勒（加拿大）",
+        "minute": "53'",
+        "type": "yellow"
+      },
+      {
+        "player": "卡蒂奇（波黑）",
+        "minute": "90+3'",
+        "type": "yellow"
+      }
+    ],
+    "attendance": 43041
+  },
+  {
+    "id": "match-fd-537345",
+    "home_team": "美国",
+    "away_team": "巴拉圭",
+    "home_score": 4,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-13T09:00:00+08:00",
+    "venue": "SoFi体育场，洛杉矶",
+    "group": "D组",
+    "goals": [
+      {
+        "player": "博瓦迪利亚（巴拉圭）乌龙球",
+        "minute": "7'",
+        "assist": "麦肯尼/普利西奇"
+      },
+      {
+        "player": "巴洛贡（美国）",
+        "minute": "31'",
+        "assist": "普利西奇"
+      },
+      {
+        "player": "巴洛贡（美国）",
+        "minute": "45+5'",
+        "assist": "蒂尔曼"
+      },
+      {
+        "player": "毛里西奥（巴拉圭）",
+        "minute": "73'",
+        "assist": "恩西索"
+      },
+      {
+        "player": "雷纳（美国）",
+        "minute": "90+8'",
+        "assist": "弗里曼"
+      }
+    ],
+    "notes": "巴洛贡首秀梅开二度当选全场最佳；本届世界杯首个乌龙球；本届世界杯首次VAR改判（52'阿尔米隆假摔改判黄牌）；美国队史世界杯单场最高比分胜利；汤姆·克鲁斯和贝克汉姆现场观战",
+    "cards": [
+      {
+        "player": "阿尔米隆（巴拉圭）",
+        "minute": "52'",
+        "type": "yellow",
+        "note": "假摔，VAR改判"
+      },
+      {
+        "player": "亚当斯（美国）",
+        "minute": "59'",
+        "type": "yellow"
+      },
+      {
+        "player": "迭戈·戈麦斯（巴拉圭）",
+        "minute": "79'",
+        "type": "yellow"
+      },
+      {
+        "player": "阿尔塞（巴拉圭）",
+        "minute": "88'",
+        "type": "yellow"
+      },
+      {
+        "player": "儒尼奥尔·阿隆索（巴拉圭）",
+        "minute": "90+2'",
+        "type": "yellow"
+      }
+    ],
+    "attendance": 70492
+  },
+  {
+    "id": "match-fd-537334",
+    "home_team": "卡塔尔",
+    "away_team": "瑞士",
+    "home_score": 1,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-14T03:00:00+08:00",
+    "venue": "旧金山湾球场",
+    "group": "B组",
+    "goals": [
+      {
+        "player": "布雷尔·恩博洛（瑞士）",
+        "minute": "17'",
+        "note": "点球"
+      },
+      {
+        "player": "布瓦莱姆·胡希（卡塔尔）",
+        "minute": "90+4'",
+        "note": "头球绝平",
+        "assist": "胡马姆·艾哈迈德"
+      }
+    ],
+    "notes": "恩博洛第17分钟点球破门（本届世界杯首粒点球），卡塔尔队长胡希补时第4分钟头球绝平！卡塔尔拿到队史世界杯首个积分。B组首轮两场全部战平，四支球队同积1分净胜球均为零。阿布纳达当选全场最佳（FIFA官方）。",
+    "cards": [
+      {
+        "player": "阿布纳达（卡塔尔）",
+        "minute": "15'",
+        "type": "yellow",
+        "note": "禁区犯规送点"
+      },
+      {
+        "player": "贾西姆（卡塔尔）",
+        "minute": "23'",
+        "type": "yellow"
+      },
+      {
+        "player": "扎卡里亚（瑞士）",
+        "minute": "42'",
+        "type": "yellow"
+      }
+    ],
+    "attendance": 65000
+  },
+  {
+    "id": "match-fd-537335",
+    "home_team": "巴西",
+    "away_team": "摩洛哥",
+    "home_score": 1,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-14T06:00:00+08:00",
+    "venue": "纽约大都会体育场",
+    "group": "C组",
+    "goals": [
+      {
+        "player": "伊斯梅尔·塞巴里（摩洛哥）",
+        "minute": "21'",
+        "assist": "卜拉欣·迪亚斯"
+      },
+      {
+        "player": "维尼修斯（巴西）",
+        "minute": "32'",
+        "assist": "布鲁诺·吉马良斯"
+      }
+    ],
+    "notes": "内马尔确认缺席；塞巴里反击挑射破门，摩洛哥先下一城；维尼修斯左路个人秀扳平；法比尼奥46分钟替补登场（时隔三年回归国家队）；下半场拉菲尼亚错失良机，布努多次关键扑救；维尼修斯此前8次为巴西进球全胜纪录终结；安切洛蒂赛后表示需评估球员焦虑情绪；维尼修斯赛后抱怨场地因高温干燥影响节奏",
+    "cards": [
+      {
+        "player": "卡塞米罗（巴西）",
+        "minute": "37'",
+        "type": "yellow"
+      },
+      {
+        "player": "伊巴涅斯（巴西）",
+        "minute": "43'",
+        "type": "yellow"
+      }
+    ]
+  },
+  {
+    "id": "match-fd-537336",
+    "home_team": "海地",
+    "away_team": "苏格兰",
+    "home_score": 0,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-14T09:00:00+08:00",
+    "venue": "波士顿吉列体育场",
+    "group": "C组",
+    "goals": [
+      {
+        "player": "约翰·麦金（苏格兰）",
+        "minute": "29'",
+        "note": "折射破门",
+        "assist": "本·多克/亚当斯"
+      }
+    ],
+    "notes": "苏格兰自1990年意大利世界杯以来首场世界杯胜利，也是1982年以来首场世界杯首战胜利；麦克托米奈头球中柱；麦金当选FIFA全场最佳；海地皮罗特终场前头球偏出险些扳平；苏格兰队长罗伯逊赛后表示'梦想成真'",
+    "cards": []
+  },
+  {
+    "id": "match-fd-537337",
+    "home_team": "澳大利亚",
+    "away_team": "土耳其",
+    "home_score": null,
+    "away_score": null,
+    "status": "in_progress",
+    "start_time": "2026-06-14T12:00:00+08:00",
+    "venue": "温哥华BC Place体育场",
+    "group": "D组",
+    "goals": [],
+    "notes": "比赛于北京时间12:00开球，目前进行中；中国裁判傅明担任辅助视频助理裁判（SVAR），本届世界杯首位亮相的中国裁判；澳大利亚首发：比奇/奇尔卡蒂、伊塔利亚诺、博斯、苏塔尔、伯吉斯/梅特卡夫、奥尼尔、奥孔-恩格斯勒/图雷、伊兰昆达；土耳其首发：恰基尔/切利克、德米拉尔、巴尔达克奇、卡迪奥卢/尤克塞克、恰尔汗奥卢、科克丘/阿克图尔科格鲁、居莱尔、伊尔马兹"
+  }
+]
