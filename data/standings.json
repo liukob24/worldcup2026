@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T06:25:00+08:00",
+  "last_updated": "2026-06-14T18:17:05+08:00",
   "source": "科比数据组 — FIFA/央视/懂球帝核实",
   "notes": "积分在每场比赛结束后4小时内更新；仅列出已有赛果的组别",
   "groups": {
@@ -7,7 +7,7 @@
       "matches_played": 2,
       "teams": [
         {
-          "rank": 1,
+          "group": "A组",
           "team": "墨西哥",
           "played": 1,
           "won": 1,
@@ -16,10 +16,11 @@
           "gf": 2,
           "ga": 0,
           "gd": 2,
-          "points": 3
+          "points": 3,
+          "rank": 1
         },
         {
-          "rank": 2,
+          "group": "A组",
           "team": "韩国",
           "played": 1,
           "won": 1,
@@ -28,10 +29,11 @@
           "gf": 2,
           "ga": 1,
           "gd": 1,
-          "points": 3
+          "points": 3,
+          "rank": 2
         },
         {
-          "rank": 3,
+          "group": "A组",
           "team": "捷克",
           "played": 1,
           "won": 0,
@@ -40,10 +42,11 @@
           "gf": 1,
           "ga": 2,
           "gd": -1,
-          "points": 0
+          "points": 0,
+          "rank": 3
         },
         {
-          "rank": 4,
+          "group": "A组",
           "team": "南非",
           "played": 1,
           "won": 0,
@@ -52,7 +55,8 @@
           "gf": 0,
           "ga": 2,
           "gd": -2,
-          "points": 0
+          "points": 0,
+          "rank": 4
         }
       ]
     },
@@ -60,7 +64,7 @@
       "matches_played": 2,
       "teams": [
         {
-          "rank": 1,
+          "group": "B组",
           "team": "加拿大",
           "played": 1,
           "won": 0,
@@ -69,34 +73,11 @@
           "gf": 1,
           "ga": 1,
           "gd": 0,
-          "points": 1
+          "points": 1,
+          "rank": 1
         },
         {
-          "rank": 2,
-          "team": "波黑",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
-        },
-        {
-          "rank": 3,
-          "team": "瑞士",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
-        },
-        {
-          "rank": 4,
+          "group": "B组",
           "team": "卡塔尔",
           "played": 1,
           "won": 0,
@@ -105,7 +86,34 @@
           "gf": 1,
           "ga": 1,
           "gd": 0,
-          "points": 1
+          "points": 1,
+          "rank": 2
+        },
+        {
+          "group": "B组",
+          "team": "波黑",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "rank": 3
+        },
+        {
+          "group": "B组",
+          "team": "瑞士",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "rank": 4
         }
       ]
     },
@@ -113,7 +121,7 @@
       "matches_played": 0,
       "teams": [
         {
-          "rank": 1,
+          "group": "C组",
           "team": "巴西",
           "played": 0,
           "won": 0,
@@ -122,10 +130,11 @@
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "points": 0
+          "points": 0,
+          "rank": 1
         },
         {
-          "rank": 2,
+          "group": "C组",
           "team": "摩洛哥",
           "played": 0,
           "won": 0,
@@ -134,10 +143,11 @@
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "points": 0
+          "points": 0,
+          "rank": 2
         },
         {
-          "rank": 3,
+          "group": "C组",
           "team": "海地",
           "played": 0,
           "won": 0,
@@ -146,10 +156,11 @@
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "points": 0
+          "points": 0,
+          "rank": 3
         },
         {
-          "rank": 4,
+          "group": "C组",
           "team": "苏格兰",
           "played": 0,
           "won": 0,
@@ -158,7 +169,8 @@
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "points": 0
+          "points": 0,
+          "rank": 4
         }
       ]
     },
@@ -166,7 +178,7 @@
       "matches_played": 1,
       "teams": [
         {
-          "rank": 1,
+          "group": "D组",
           "team": "美国",
           "played": 1,
           "won": 1,
@@ -175,34 +187,11 @@
           "gf": 4,
           "ga": 1,
           "gd": 3,
-          "points": 3
+          "points": 3,
+          "rank": 1
         },
         {
-          "rank": 2,
-          "team": "巴拉圭",
-          "played": 1,
-          "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "gf": 1,
-          "ga": 4,
-          "gd": -3,
-          "points": 0
-        },
-        {
-          "rank": 3,
-          "team": "澳大利亚",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "points": 0
-        },
-        {
-          "rank": 4,
+          "group": "D组",
           "team": "土耳其",
           "played": 0,
           "won": 0,
@@ -211,7 +200,34 @@
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "points": 0
+          "points": 0,
+          "rank": 2
+        },
+        {
+          "group": "D组",
+          "team": "澳大利亚",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 0,
+          "rank": 3
+        },
+        {
+          "group": "D组",
+          "team": "巴拉圭",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
+          "points": 0,
+          "rank": 4
         }
       ]
     }
