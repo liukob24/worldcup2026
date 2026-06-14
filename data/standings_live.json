@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T12:24:00+08:00",
+  "last_updated": "2026-06-14T18:25:00+08:00",
   "source": "科比数据组 — FIFA/央视/懂球帝核实",
   "notes": "积分在每场比赛结束后4小时内更新；仅列出已有赛果的组别",
   "groups": {
@@ -163,7 +163,7 @@
       ]
     },
     "D组": {
-      "matches_played": 1,
+      "matches_played": 2,
       "teams": [
         {
           "rank": 1,
@@ -179,6 +179,30 @@
         },
         {
           "rank": 2,
+          "team": "澳大利亚",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 2,
+          "ga": 0,
+          "gd": 2,
+          "points": 3
+        },
+        {
+          "rank": 3,
+          "team": "土耳其",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 2,
+          "gd": -2,
+          "points": 0
+        },
+        {
+          "rank": 4,
           "team": "巴拉圭",
           "played": 1,
           "won": 0,
@@ -187,30 +211,6 @@
           "gf": 1,
           "ga": 4,
           "gd": -3,
-          "points": 0
-        },
-        {
-          "rank": 3,
-          "team": "澳大利亚",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "points": 0
-        },
-        {
-          "rank": 4,
-          "team": "土耳其",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
           "points": 0
         }
       ]
