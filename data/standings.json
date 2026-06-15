@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T18:25:00+08:00",
+  "last_updated": "2026-06-16T00:25:00+08:00",
   "source": "科比数据组 — FIFA/央视/懂球帝核实",
   "notes": "积分在每场比赛结束后4小时内更新；仅列出已有赛果的组别",
   "groups": {
@@ -211,6 +211,112 @@
           "gf": 1,
           "ga": 4,
           "gd": -3,
+          "points": 0
+        }
+      ]
+    },
+    "E组": {
+      "matches_played": 2,
+      "teams": [
+        {
+          "rank": 1,
+          "team": "德国",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 7,
+          "ga": 1,
+          "gd": 6,
+          "points": 3
+        },
+        {
+          "rank": 2,
+          "team": "科特迪瓦",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 1,
+          "ga": 0,
+          "gd": 1,
+          "points": 3
+        },
+        {
+          "rank": 3,
+          "team": "厄瓜多尔",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 1,
+          "gd": -1,
+          "points": 0
+        },
+        {
+          "rank": 4,
+          "team": "库拉索",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 7,
+          "gd": -6,
+          "points": 0
+        }
+      ]
+    },
+    "F组": {
+      "matches_played": 2,
+      "teams": [
+        {
+          "rank": 1,
+          "team": "瑞典",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 5,
+          "ga": 1,
+          "gd": 4,
+          "points": 3
+        },
+        {
+          "rank": 2,
+          "team": "日本",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "rank": 3,
+          "team": "荷兰",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "rank": 4,
+          "team": "突尼斯",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 5,
+          "gd": -4,
           "points": 0
         }
       ]
