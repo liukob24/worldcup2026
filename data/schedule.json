@@ -429,5 +429,86 @@
       }
     ],
     "notes": "瑞典5-1大胜突尼斯，伊萨克、居勒等英超球员表现出色。瑞典暂列F组第一。"
+  },
+  {
+    "id": "match-fd-537342",
+    "home_team": "西班牙",
+    "away_team": "佛得角",
+    "home_score": 0,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-16T00:00:00+08:00",
+    "venue": "梅赛德斯奔驰体育场，亚特兰大",
+    "group": "H组",
+    "goals": [],
+    "notes": "西班牙控球率74%，27脚射门7次射正，预期进球2.29。佛得角门将沃西尼亚全场7次关键扑救，40岁高龄表现神勇。佛得角拿到队史世界杯首个积分。"
+  },
+  {
+    "id": "match-fd-537343",
+    "home_team": "比利时",
+    "away_team": "埃及",
+    "home_score": 1,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-16T03:00:00+08:00",
+    "venue": "Lumen球场，西雅图",
+    "group": "G组",
+    "goals": [
+      {
+        "player": "阿舒尔（埃及）",
+        "minute": "19'",
+        "note": "萨拉赫助攻，禁区外贴地斩"
+      },
+      {
+        "player": "哈尼（埃及）乌龙球",
+        "minute": "66'",
+        "note": "卢卡库造成乌龙"
+      }
+    ],
+    "notes": "萨拉赫34岁生日夜送出精彩助攻。卢卡库替补登场第一脚触球即造成乌龙球扳平比分。"
+  },
+  {
+    "id": "match-fd-537344",
+    "home_team": "沙特阿拉伯",
+    "away_team": "乌拉圭",
+    "home_score": 0,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-16T06:00:00+08:00",
+    "venue": "硬石体育场，迈阿密花园",
+    "group": "H组",
+    "goals": [],
+    "notes": "乌拉圭14次射门6次射正，沙特铁桶阵成功守住0-0平局。"
+  },
+  {
+    "id": "match-fd-537346",
+    "home_team": "伊朗",
+    "away_team": "新西兰",
+    "home_score": 2,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-16T09:00:00+08:00",
+    "venue": "SoFi体育场，洛杉矶",
+    "group": "G组",
+    "goals": [
+      {
+        "player": "阿兹蒙（伊朗）",
+        "minute": "22'",
+        "note": "禁区外远射破门"
+      },
+      {
+        "player": "塔雷米（伊朗）",
+        "minute": "38'",
+        "note": "头球梅开二度"
+      }
+    ],
+    "cards": [
+      {
+        "player": "史密斯（新西兰）",
+        "minute": "43'",
+        "type": "yellow"
+      }
+    ],
+    "notes": "伊朗轻松取胜，塔雷米梅开二度表现抢眼。"
   }
 ]
