@@ -1,7 +1,139 @@
 {
-  "lastUpdate": "2026-06-15T19:47:48",
-  "version": "v1.5.0",
+  "lastUpdate": "2026-06-16T07:50:07",
+  "version": "v1.6.0",
   "news": [
+    {
+      "id": 119,
+      "title": "世界杯首场0-0！西班牙5亿豪阵哑火，40岁门神沃齐尼亚7次神扑封神",
+      "summary": "2026年美加墨世界杯H组首轮爆出惊天冷门！夺冠大热西班牙0-0被世界杯新军佛得角逼平，遭遇本届赛事首个零进球平局。40岁门将沃齐尼亚全场贡献7次关键扑救，将西班牙总预期进球1.46的攻势化为无形，当选全场最佳球员。18岁小将亚马尔下半场替补登场完成世界杯首秀。西班牙32场正式比赛不败纪录延续，但这场平局让球队被扣18.68个FIFA积分，排名跌至世界第三。",
+      "category": "赛况报道",
+      "publishTime": "2026-06-16T02:30:00",
+      "source": "澎湃新闻",
+      "sourceUrl": "https://www.thepaper.cn/newsDetail_forward_xxx",
+      "relatedMatches": [
+        13
+      ]
+    },
+    {
+      "id": 120,
+      "title": "比利时1-1埃及：萨拉赫34岁生日助攻，卢卡库替补22秒造乌龙救主",
+      "summary": "G组首轮比利时1-1战平埃及。34岁生日夜的萨拉赫第19分钟精彩助攻，阿舒尔禁区外贴地斩破门助埃及领先。下半场德布劳内任意球中柱，第66分钟卢卡库替补登场仅22秒便抢点造成埃及后卫哈尼自摆乌龙扳平比分。比利时终结325分钟世界杯决赛圈球荒，但5.5亿欧元豪阵仅获1分，黄金一代状态堪忧。",
+      "category": "赛况报道",
+      "publishTime": "2026-06-16T05:00:00",
+      "source": "新华网",
+      "sourceUrl": "http://www.xinhuanet.com/sports/20260616/7573a6f0f820405993cbff13096b85d4/c.html",
+      "relatedMatches": [
+        14
+      ]
+    },
+    {
+      "id": 121,
+      "title": "突尼斯1-5惨败瑞典后火速换帅，拉穆奇成2026世界杯首位下课主帅",
+      "summary": "突尼斯在F组首轮1-5惨负瑞典后，54岁的主帅萨布里·拉穆奇被火速解雇，成为2026美加墨世界杯首位下课主帅。拉穆奇今年1月才上任，执教仅5个月，带队战绩1胜1平3负，胜率仅20%。首轮大比分失利让突尼斯刷新队史世界杯单场失球纪录，国内舆论一片哗然，助教瓦赫比·哈兹里可能临时接手。",
+      "category": "球员动态",
+      "publishTime": "2026-06-16T03:50:00",
+      "source": "红星新闻",
+      "sourceUrl": "http://m.toutiao.com/group/7651710999048831523/",
+      "relatedMatches": [
+        12
+      ]
+    },
+    {
+      "id": 122,
+      "title": "佛得角门神ins粉丝从5万暴涨至170万，沃齐尼亚：一辈子都在追这个梦",
+      "summary": "佛得角40岁门将沃齐尼亚在与西班牙的比赛中完成7次神扑，当选全场最佳。赛后他的个人ins粉丝从5万暴涨至170万。沃齐尼亚含泪接受采访时表示：\"我整整一辈子都在渴望和梦想着这样一个时刻，为了能站上这样的顶级赛场，我倾尽一生都在努力。今天我终于成功了。\"",
+      "category": "综合热点",
+      "publishTime": "2026-06-16T04:00:00",
+      "source": "直播吧",
+      "sourceUrl": "http://news.zhibo8.com/zuqiu/2026-06-16/6a306c6fc11a6native.htm",
+      "relatedMatches": [
+        13
+      ]
+    },
+    {
+      "id": 123,
+      "title": "39岁364天！穆斯莱拉刷新乌拉圭队史世界杯最年长出场纪录",
+      "summary": "乌拉圭在H组首轮对阵沙特的比赛中，39岁364天的门将穆斯莱拉首发出场，以仅差1天满40岁的年龄创造乌拉圭队史世界杯最年长出场新纪录。此前的纪录由戈丁保持（36岁285天，2022年卡塔尔世界杯）。",
+      "category": "综合热点",
+      "publishTime": "2026-06-16T06:30:00",
+      "source": "直播吧",
+      "sourceUrl": "http://m.toutiao.com/group/7651768051855835683/",
+      "relatedMatches": [
+        15
+      ]
+    },
+    {
+      "id": 124,
+      "title": "阿根廷利好！斯卡洛尼确认梅西恢复良好，\"小蜘蛛\"明天也能上场",
+      "summary": "阿根廷国家队主帅斯卡洛尼在赛前发布会上确认，队内核心梅西的恢复情况良好，明天应该能够出战关键比赛。\"小蜘蛛\"阿尔瓦雷斯同样状态不错，可以出场。阿根廷即将迎来小组赛关键战役，球迷们期待的梅西表演即将上演。",
+      "category": "球员动态",
+      "publishTime": "2026-06-16T04:45:00",
+      "source": "央视新闻",
+      "sourceUrl": "http://m.toutiao.com/group/7651764150904947210/",
+      "relatedMatches": []
+    },
+    {
+      "id": 125,
+      "title": "伊朗2-0新西兰：阿兹蒙、塔雷米联袂破门，亚洲球队本届保持不败",
+      "summary": "G组首轮伊朗2-0击败新西兰，阿兹蒙第22分钟禁区外远射首开纪录，塔雷米第38分钟头球完成梅开二度。新西兰全场仅4次射门1次射正，进攻乏善可陈。伊朗拿下这场胜利后，本届世界杯亚足联球队战绩提升为2胜2平1负，保持不败金身。",
+      "category": "赛况报道",
+      "publishTime": "2026-06-16T09:00:00",
+      "source": "央视网",
+      "sourceUrl": "https://sports.cctv.com/2026/06/16/",
+      "relatedMatches": [
+        16
+      ]
+    },
+    {
+      "id": 126,
+      "title": "沙特1-0乌拉圭：阿姆里补射破门，亚洲球队再爆冷门？",
+      "summary": "H组首轮上半场比赛，沙特1-0暂时领先乌拉圭。第41分钟，沙特开出右路角球，卡努头球攻门被穆斯莱拉扑出，阿姆里跟进捅射打破僵局。乌拉圭占据场面优势但效率不佳，比尼亚斯错失近距离头球良机。",
+      "category": "赛况报道",
+      "publishTime": "2026-06-16T06:56:00",
+      "source": "央视网",
+      "sourceUrl": "https://sports.cctv.cn/2026/06/16/VIDE4o8chP5NOzKOgNq2eD9y260616.shtml",
+      "relatedMatches": [
+        15
+      ]
+    },
+    {
+      "id": 127,
+      "title": "FIFA主席因凡蒂诺盛赞世界杯开幕：\"超出了我们的预期\"",
+      "summary": "FIFA主席因凡蒂诺在迈阿密举行的国际足联执行峰会上表示，2026年世界杯的开局\"超出了我们的预期\"。他参观了三国五座球场，对场馆座无虚席、气氛热烈以及足球比赛的精彩程度印象深刻。前8场比赛平均观众超过63000人，他相信这将是历史上最伟大的一届世界杯。",
+      "category": "综合热点",
+      "publishTime": "2026-06-16T05:00:00",
+      "source": "FIFA官网",
+      "sourceUrl": "https://inside.fifa.com/es/organisation/president/news/copa-mundial-gianni-infantino-estados-unidos-canada-mexico",
+      "relatedMatches": []
+    },
+    {
+      "id": 128,
+      "title": "世界前十已出战6队：仅德国赢球！西班牙、巴西、荷兰、比利时均爆冷战平",
+      "summary": "本届世界杯前四天，世界排名前十的球队中已有6队出战，除德国7-1大胜库拉索外，西班牙、巴西、摩洛哥、荷兰、比利时五支强队均收获平局。亚洲和非洲球队表现强势，欧洲传统强队普遍陷入苦战，世界杯格局正在发生微妙变化。",
+      "category": "综合热点",
+      "publishTime": "2026-06-16T06:00:00",
+      "source": "直播吧",
+      "sourceUrl": "http://news.zhibo8.com/zuqiu/2026-06-16/6a306c6fc11a6native.htm",
+      "relatedMatches": [
+        9,
+        10,
+        13,
+        14
+      ]
+    },
+    {
+      "id": 129,
+      "title": "德天空：西班牙爆冷战平后产生连锁反应，德国下轮赢球即出线",
+      "summary": "德国天空体育分析指出，西班牙0-0爆冷战平佛得角后，世界杯H组出线形势发生微妙变化。由于佛得角拿到1分，德国只要在下一轮比赛中取胜就能基本锁定出线资格。而西班牙则面临更大压力，如果第二轮无法取胜，可能会陷入出线危机。",
+      "category": "赛事前瞻",
+      "publishTime": "2026-06-16T07:00:00",
+      "source": "德天空体育",
+      "sourceUrl": "https://www.skysports.com/",
+      "relatedMatches": [
+        9,
+        13
+      ]
+    },
     {
       "id": 118,
       "title": "13支世界杯新军联合声明：回怼欧足联主席\"无趣\"言论",
@@ -20,7 +152,16 @@
       "publishTime": "2026-06-15T16:40:21",
       "source": "央视新闻",
       "sourceUrl": "http://m.toutiao.com/group/7651539268673847871/",
-      "relatedMatches": [9, 10, 11, 12, 13, 14, 15, 16]
+      "relatedMatches": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
     },
     {
       "id": 116,
@@ -30,7 +171,9 @@
       "publishTime": "2026-06-15T17:34:51",
       "source": "逸说体育",
       "sourceUrl": "http://m.toutiao.com/group/7651552255912444450/",
-      "relatedMatches": [10]
+      "relatedMatches": [
+        10
+      ]
     },
     {
       "id": 115,
@@ -40,7 +183,14 @@
       "publishTime": "2026-06-15T15:32:55",
       "source": "南方都市报",
       "sourceUrl": "http://m.toutiao.com/group/7651521910798352947/",
-      "relatedMatches": [5, 6, 8, 10, 11, 12]
+      "relatedMatches": [
+        5,
+        6,
+        8,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 114,
@@ -50,7 +200,9 @@
       "publishTime": "2026-06-15T15:57:46",
       "source": "直播吧",
       "sourceUrl": "https://news.zhibo8.com/zuqiu/2026-06-15/6a2fae53632a8native.htm",
-      "relatedMatches": [15]
+      "relatedMatches": [
+        15
+      ]
     },
     {
       "id": 113,
@@ -60,7 +212,10 @@
       "publishTime": "2026-06-15T15:57:46",
       "source": "直播吧",
       "sourceUrl": "https://news.zhibo8.com/zuqiu/2026-06-15/6a2fae53632a8native.htm",
-      "relatedMatches": [10, 12]
+      "relatedMatches": [
+        10,
+        12
+      ]
     },
     {
       "id": 112,
@@ -70,7 +225,9 @@
       "publishTime": "2026-06-15T15:32:55",
       "source": "南方都市报",
       "sourceUrl": "http://m.toutiao.com/group/7651521910798352947/",
-      "relatedMatches": [12]
+      "relatedMatches": [
+        12
+      ]
     },
     {
       "id": 111,
@@ -80,7 +237,9 @@
       "publishTime": "2026-06-15T15:57:46",
       "source": "直播吧",
       "sourceUrl": "https://news.zhibo8.com/zuqiu/2026-06-15/6a2fae53632a8native.htm",
-      "relatedMatches": [15]
+      "relatedMatches": [
+        15
+      ]
     },
     {
       "id": 110,
@@ -90,7 +249,9 @@
       "publishTime": "2026-06-15T15:32:55",
       "source": "南方都市报",
       "sourceUrl": "http://m.toutiao.com/group/7651521910798352947/",
-      "relatedMatches": [10]
+      "relatedMatches": [
+        10
+      ]
     },
     {
       "id": 109,
@@ -100,7 +261,9 @@
       "publishTime": "2026-06-15T15:57:46",
       "source": "直播吧",
       "sourceUrl": "https://news.zhibo8.com/zuqiu/2026-06-15/6a2fae53632a8native.htm",
-      "relatedMatches": [15]
+      "relatedMatches": [
+        15
+      ]
     },
     {
       "id": 108,
@@ -110,7 +273,9 @@
       "publishTime": "2026-06-15T15:32:55",
       "source": "南方都市报",
       "sourceUrl": "http://m.toutiao.com/group/7651521910798352947/",
-      "relatedMatches": [11]
+      "relatedMatches": [
+        11
+      ]
     },
     {
       "id": 107,
@@ -120,7 +285,9 @@
       "publishTime": "2026-06-15T12:37:10",
       "source": "体坛周报",
       "sourceUrl": "http://m.toutiao.com/group/7651476613430805002/",
-      "relatedMatches": [12]
+      "relatedMatches": [
+        12
+      ]
     },
     {
       "id": 106,
@@ -130,7 +297,12 @@
       "publishTime": "2026-06-15T13:04:00",
       "source": "人民网",
       "sourceUrl": "http://ent.people.com.cn/n1/2026/0615/c1012-40740711.html",
-      "relatedMatches": [9, 10, 11, 12]
+      "relatedMatches": [
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 105,
@@ -140,7 +312,12 @@
       "publishTime": "2026-06-15T09:37:37",
       "source": "龙飞体育",
       "sourceUrl": "http://m.toutiao.com/group/7651428633734578694/",
-      "relatedMatches": [5, 6, 8, 10]
+      "relatedMatches": [
+        5,
+        6,
+        8,
+        10
+      ]
     },
     {
       "id": 104,
@@ -150,7 +327,9 @@
       "publishTime": "2026-06-15T11:21:26",
       "source": "扬子晚报",
       "sourceUrl": "http://m.toutiao.com/group/7651457092234068480/",
-      "relatedMatches": [13]
+      "relatedMatches": [
+        13
+      ]
     },
     {
       "id": 103,
@@ -160,7 +339,9 @@
       "publishTime": "2026-06-15T12:03:40",
       "source": "懂球帝",
       "sourceUrl": "http://m.toutiao.com/group/7651467970896249382/",
-      "relatedMatches": [14]
+      "relatedMatches": [
+        14
+      ]
     },
     {
       "id": 102,
@@ -170,7 +351,12 @@
       "publishTime": "2026-06-15T09:37:37",
       "source": "龙飞体育",
       "sourceUrl": "http://m.toutiao.com/group/7651428633734578694/",
-      "relatedMatches": [5, 6, 8, 10]
+      "relatedMatches": [
+        5,
+        6,
+        8,
+        10
+      ]
     },
     {
       "id": 101,
@@ -180,7 +366,9 @@
       "publishTime": "2026-06-15T09:03:15",
       "source": "新华社",
       "sourceUrl": "https://english.news.cn/20260615/208d38257f9844038ddee8c21a67b835/c.html",
-      "relatedMatches": [13]
+      "relatedMatches": [
+        13
+      ]
     },
     {
       "id": 100,
@@ -190,7 +378,9 @@
       "publishTime": "2026-06-15T09:20:07",
       "source": "央视新闻",
       "sourceUrl": "http://news.cnr.cn/sq/20260615/t20260615_527661128.shtml",
-      "relatedMatches": [11]
+      "relatedMatches": [
+        11
+      ]
     },
     {
       "id": 99,
@@ -200,7 +390,9 @@
       "publishTime": "2026-06-15T12:16:00",
       "source": "泳装精灵",
       "sourceUrl": "http://m.toutiao.com/group/7651470556046410250/",
-      "relatedMatches": [14]
+      "relatedMatches": [
+        14
+      ]
     }
   ]
 }
