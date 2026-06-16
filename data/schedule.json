@@ -336,7 +336,9 @@
       "city": "休斯顿",
       "group": "E",
       "round": 1,
-      "status": "upcoming"
+      "status": "completed",
+      "homeScore": 7,
+      "awayScore": 1
     },
     {
       "id": 10,
@@ -348,7 +350,9 @@
       "city": "阿灵顿",
       "group": "F",
       "round": 1,
-      "status": "upcoming"
+      "status": "completed",
+      "homeScore": 2,
+      "awayScore": 2
     },
     {
       "id": 11,
@@ -384,7 +388,9 @@
       "city": "迈阿密花园",
       "group": "H",
       "round": 1,
-      "status": "upcoming"
+      "status": "completed",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": 14,
@@ -396,7 +402,9 @@
       "city": "西雅图",
       "group": "G",
       "round": 1,
-      "status": "upcoming"
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": 15,
@@ -408,7 +416,9 @@
       "city": "迈阿密花园",
       "group": "H",
       "round": 1,
-      "status": "upcoming"
+      "status": "completed",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": 16,
@@ -420,7 +430,9 @@
       "city": "英格尔伍德",
       "group": "G",
       "round": 1,
-      "status": "upcoming"
+      "status": "completed",
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "id": 17,
