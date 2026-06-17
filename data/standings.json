@@ -1,431 +1,700 @@
 {
-  "last_updated": "2026-06-16T12:24:00+08:00",
-  "source": "科比数据组 — FIFA/央视/懂球帝核实",
-  "notes": "积分在每场比赛结束后4小时内更新；仅列出已有赛果的组别",
-  "groups": {
-    "A组": {
-      "matches_played": 2,
+  "groups": [
+    {
+      "id": "A",
+      "name": "A组",
       "teams": [
         {
           "rank": 1,
-          "team": "墨西哥",
+          "name": "墨西哥",
+          "code": "MEX",
           "played": 1,
           "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 2,
-          "ga": 0,
-          "gd": 2,
-          "points": 3
+          "goalsFor": 4,
+          "goalsAgainst": 0,
+          "points": 3,
+          "gd": 4
         },
         {
           "rank": 2,
-          "team": "韩国",
-          "played": 1,
-          "won": 1,
+          "name": "韩国",
+          "code": "KOR",
+          "played": 0,
+          "won": 0,
           "drawn": 0,
           "lost": 0,
-          "gf": 2,
-          "ga": 1,
-          "gd": 1,
-          "points": 3
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 3,
-          "team": "捷克",
-          "played": 1,
+          "name": "捷克",
+          "code": "CZE",
+          "played": 0,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "gf": 1,
-          "ga": 2,
-          "gd": -1,
-          "points": 0
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 4,
-          "team": "南非",
+          "name": "南非",
+          "code": "RSA",
           "played": 1,
           "won": 0,
           "drawn": 0,
           "lost": 1,
-          "gf": 0,
-          "ga": 2,
-          "gd": -2,
-          "points": 0
+          "goalsFor": 0,
+          "goalsAgainst": 4,
+          "points": 0,
+          "gd": -4
         }
       ]
     },
-    "B组": {
-      "matches_played": 2,
+    {
+      "id": "B",
+      "name": "B组",
       "teams": [
         {
           "rank": 1,
-          "team": "加拿大",
-          "played": 1,
+          "name": "加拿大",
+          "code": "CAN",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 2,
-          "team": "波黑",
-          "played": 1,
+          "name": "波黑",
+          "code": "BIH",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 3,
-          "team": "瑞士",
-          "played": 1,
+          "name": "卡塔尔",
+          "code": "QAT",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 4,
-          "team": "卡塔尔",
-          "played": 1,
+          "name": "瑞士",
+          "code": "SUI",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         }
       ]
     },
-    "C组": {
-      "matches_played": 2,
+    {
+      "id": "C",
+      "name": "C组",
       "teams": [
         {
           "rank": 1,
-          "team": "苏格兰",
+          "name": "巴西",
+          "code": "BRA",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        },
+        {
+          "rank": 2,
+          "name": "摩洛哥",
+          "code": "MAR",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        },
+        {
+          "rank": 3,
+          "name": "海地",
+          "code": "HAI",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        },
+        {
+          "rank": 4,
+          "name": "苏格兰",
+          "code": "SCO",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "name": "D组",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "美国",
+          "code": "USA",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        },
+        {
+          "rank": 2,
+          "name": "巴拉圭",
+          "code": "PAR",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        },
+        {
+          "rank": 3,
+          "name": "澳大利亚",
+          "code": "AUS",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        },
+        {
+          "rank": 4,
+          "name": "土耳其",
+          "code": "TUR",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "name": "E组",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "德国",
+          "code": "GER",
           "played": 1,
           "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 1,
-          "ga": 0,
-          "gd": 1,
-          "points": 3
+          "goalsFor": 7,
+          "goalsAgainst": 1,
+          "points": 3,
+          "gd": 6
         },
         {
           "rank": 2,
-          "team": "巴西",
-          "played": 1,
+          "name": "科特迪瓦",
+          "code": "CIV",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 3,
-          "team": "摩洛哥",
-          "played": 1,
+          "name": "厄瓜多尔",
+          "code": "ECU",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 4,
-          "team": "海地",
+          "name": "库拉索",
+          "code": "CUW",
           "played": 1,
           "won": 0,
           "drawn": 0,
           "lost": 1,
-          "gf": 0,
-          "ga": 1,
-          "gd": -1,
-          "points": 0
+          "goalsFor": 1,
+          "goalsAgainst": 7,
+          "points": 0,
+          "gd": -6
         }
       ]
     },
-    "D组": {
-      "matches_played": 2,
+    {
+      "id": "F",
+      "name": "F组",
       "teams": [
         {
           "rank": 1,
-          "team": "美国",
+          "name": "荷兰",
+          "code": "NED",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "points": 1,
+          "gd": 0
+        },
+        {
+          "rank": 2,
+          "name": "日本",
+          "code": "JPN",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "points": 1,
+          "gd": 0
+        },
+        {
+          "rank": 3,
+          "name": "瑞典",
+          "code": "SWE",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        },
+        {
+          "rank": 4,
+          "name": "突尼斯",
+          "code": "TUN",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "name": "G组",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "伊朗",
+          "code": "IRN",
           "played": 1,
           "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 4,
-          "ga": 1,
-          "gd": 3,
-          "points": 3
+          "goalsFor": 2,
+          "goalsAgainst": 0,
+          "points": 3,
+          "gd": 2
         },
         {
           "rank": 2,
-          "team": "澳大利亚",
+          "name": "比利时",
+          "code": "BEL",
           "played": 1,
-          "won": 1,
-          "drawn": 0,
+          "won": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 2,
-          "ga": 0,
-          "gd": 2,
-          "points": 3
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "points": 1,
+          "gd": 0
         },
         {
           "rank": 3,
-          "team": "土耳其",
+          "name": "埃及",
+          "code": "EGY",
           "played": 1,
           "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "gf": 0,
-          "ga": 2,
-          "gd": -2,
-          "points": 0
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "points": 1,
+          "gd": 0
         },
         {
           "rank": 4,
-          "team": "巴拉圭",
+          "name": "新西兰",
+          "code": "NZL",
           "played": 1,
           "won": 0,
           "drawn": 0,
           "lost": 1,
-          "gf": 1,
-          "ga": 4,
-          "gd": -3,
-          "points": 0
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "points": 0,
+          "gd": -2
         }
       ]
     },
-    "E组": {
-      "matches_played": 2,
+    {
+      "id": "H",
+      "name": "H组",
       "teams": [
         {
           "rank": 1,
-          "team": "德国",
+          "name": "西班牙",
+          "code": "ESP",
           "played": 1,
-          "won": 1,
-          "drawn": 0,
+          "won": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 7,
-          "ga": 1,
-          "gd": 6,
-          "points": 3
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 1,
+          "gd": 0
         },
         {
           "rank": 2,
-          "team": "科特迪瓦",
+          "name": "乌拉圭",
+          "code": "URU",
           "played": 1,
-          "won": 1,
-          "drawn": 0,
+          "won": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 1,
-          "ga": 0,
-          "gd": 1,
-          "points": 3
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 1,
+          "gd": 0
         },
         {
           "rank": 3,
-          "team": "厄瓜多尔",
+          "name": "沙特",
+          "code": "KSA",
           "played": 1,
           "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "gf": 0,
-          "ga": 1,
-          "gd": -1,
-          "points": 0
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 1,
+          "gd": 0
         },
         {
           "rank": 4,
-          "team": "库拉索",
+          "name": "佛得角",
+          "code": "CPV",
           "played": 1,
           "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "gf": 1,
-          "ga": 7,
-          "gd": -6,
-          "points": 0
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 1,
+          "gd": 0
         }
       ]
     },
-    "F组": {
-      "matches_played": 2,
+    {
+      "id": "I",
+      "name": "I组",
       "teams": [
         {
           "rank": 1,
-          "team": "瑞典",
-          "played": 1,
-          "won": 1,
+          "name": "法国",
+          "code": "FRA",
+          "played": 0,
+          "won": 0,
           "drawn": 0,
           "lost": 0,
-          "gf": 5,
-          "ga": 1,
-          "gd": 4,
-          "points": 3
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 2,
-          "team": "荷兰",
-          "played": 1,
+          "name": "塞内加尔",
+          "code": "SEN",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 3,
-          "team": "日本",
-          "played": 1,
+          "name": "伊拉克",
+          "code": "IRQ",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 4,
-          "team": "突尼斯",
-          "played": 1,
+          "name": "挪威",
+          "code": "NOR",
+          "played": 0,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "gf": 1,
-          "ga": 5,
-          "gd": -4,
-          "points": 0
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         }
       ]
     },
-    "G组": {
-      "matches_played": 2,
+    {
+      "id": "J",
+      "name": "J组",
       "teams": [
         {
           "rank": 1,
-          "team": "埃及",
-          "played": 1,
+          "name": "阿根廷",
+          "code": "ARG",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 2,
-          "team": "比利时",
-          "played": 1,
+          "name": "奥地利",
+          "code": "AUT",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 3,
-          "team": "伊朗",
-          "played": 1,
+          "name": "约旦",
+          "code": "JOR",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 4,
-          "team": "新西兰",
-          "played": 1,
+          "name": "阿尔及利亚",
+          "code": "ALG",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         }
       ]
     },
-    "H组": {
-      "matches_played": 2,
+    {
+      "id": "K",
+      "name": "K组",
       "teams": [
         {
           "rank": 1,
-          "team": "沙特阿拉伯",
-          "played": 1,
+          "name": "葡萄牙",
+          "code": "POR",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 2,
-          "team": "西班牙",
-          "played": 1,
+          "name": "哥伦比亚",
+          "code": "COL",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 3,
-          "team": "佛得角",
-          "played": 1,
+          "name": "乌兹别克斯坦",
+          "code": "UZB",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         },
         {
           "rank": 4,
-          "team": "乌拉圭",
-          "played": 1,
+          "name": "刚果民主共和国",
+          "code": "COD",
+          "played": 0,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        }
+      ]
+    },
+    {
+      "id": "L",
+      "name": "L组",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "英格兰",
+          "code": "ENG",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        },
+        {
+          "rank": 2,
+          "name": "克罗地亚",
+          "code": "CRO",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        },
+        {
+          "rank": 3,
+          "name": "巴拿马",
+          "code": "PAN",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
+        },
+        {
+          "rank": 4,
+          "name": "加纳",
+          "code": "GHA",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0,
+          "gd": 0
         }
       ]
     }
-  }
+  ]
 }
