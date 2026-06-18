@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-18T18:30:45+08:00",
-  "version": "3.88",
+  "lastUpdate": "2026-06-19T00:33:10+08:00",
+  "version": "3.89",
   "totalMatches": 85,
   "groups": [
     "A",
@@ -2596,6 +2596,287 @@
         }
       },
       "pre_match_insight": "🔥 <b>【捷克 vs 南非 - A组第二轮生死战】</b><br><br>\n<b>📋 赛前关键情报</b><br>\n• <b>排名差距</b>：捷克第40位 vs 南非第60位，身价差距4.5倍<br>\n• <b>赔率</b>：捷克胜1.53 vs 平局3.80 vs 南非胜6.50<br>\n• <b>首轮战绩</b>：捷克1-2负韩国 | 南非0-2负墨西哥(9人作战)<br>\n• <b>出线形势</b>：捷克必须取胜保留希望；南非基本出局<br><br>\n<b>📊 战术分析</b><br>\n• 捷克：3-4-2-1弹性阵型，高空优势+定位球<br>\n• 南非：5-4-1铁桶防守，反击依赖福斯特单点<br>\n• 捷克破密集防守：边路传中、绍切克后插上、定位球<br>\n• 南非致命伤：中场双核红牌停赛，攻防断层<br><br>\n<b>🔥 关键对位</b><br>\n• 希克 vs 姆博卡齐+奥孔：希克身高191cm，南非后卫无人超过185cm<br>\n• 绍切克 vs 亚当斯+姆巴塔：英超级别vs替补双后腰，完全压制<br>\n• 曹法尔传中 vs 南非防空：捷克50%进球来自头球<br><br>\n<b>💰 投注建议</b><br>\n• 捷克小胜概率高，2-0最可能比分<br>\n• 冷门预警：南非防守顽强可能逼平，1-1值得防范<br>\n• 大小球：偏向2.5小球<br>\n• 推荐：捷克胜（稳胆）"
+    },
+    {
+      "match_id": "match-20260619-029",
+      "group": "C",
+      "date": "2026-06-19",
+      "time": "02:00",
+      "timezone": "CST",
+      "home": "巴西",
+      "away": "海地",
+      "home_name": "巴西",
+      "away_name": "海地",
+      "home_ranking": 6,
+      "away_ranking": 82,
+      "venue": "待定",
+      "venueCity": "待定",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "巴西采用4-3-3阵型，以技术流控制中场为核心打法。海地则使用4-4-2阵型，防守反击为主。",
+        "key_players": "巴西仰仗核心球员带领全队，海地依靠关键先生寻求突破。",
+        "injuries": {
+          "home": [
+            "Rodrygo(FWD, out)",
+            "Éder Militão(DEF, out)",
+            "Estêvão(FWD, out)"
+          ],
+          "away": [
+            "全员健康"
+          ]
+        },
+        "odds_analysis": "胜1.5 平3.99 负3.91。概率分布：巴西56.8% → 平局21.4% → 海地21.8%。大小球偏向小球。",
+        "upset_factors": [
+          "排名差距悬殊，弱队可能放手一搏",
+          "巴西有主力缺阵"
+        ],
+        "prediction": {
+          "result": "主场胜",
+          "score": "2-0",
+          "confidence": "高",
+          "homeWin": 56.8,
+          "draw": 21.4,
+          "awayWin": 21.8,
+          "goalsRange": [
+            1,
+            3
+          ],
+          "recommendation": "巴西胜"
+        }
+      },
+      "pre_match_insight": "🔥 <b>【巴西 vs 海地 - C组】</b><br><br>\n<b>📋 赛前关键情报</b><br>\n• <b>排名</b>：巴西第6位 vs 海地第82位<br>\n• <b>赔率</b>：巴西胜1.5 vs 平局3.99 vs 海地胜3.91<br>\n• <b>概率</b>：巴西56.8% vs 平局21.4% vs 海地21.8%<br>• <b>巴西缺阵</b>：Rodrygo, Éder Militão, Estêvão<br><br><b>📊 赔率分析</b><br>\n• 大小球(2.5)：大球1.86 / 小球1.75<br>\n• 最可能比分：0-0(4.82) / 0-1(7.11) / 1-1(7.7)<br><br><b>💰 投注建议</b><br>• 推荐：巴西胜（稳胆）<br>• 大小球：倾向小球<br>"
+    },
+    {
+      "match_id": "match-20260619-030",
+      "group": "C",
+      "date": "2026-06-19",
+      "time": "07:00",
+      "timezone": "CST",
+      "home": "苏格兰",
+      "away": "摩洛哥",
+      "home_name": "苏格兰",
+      "away_name": "摩洛哥",
+      "home_ranking": 43,
+      "away_ranking": 8,
+      "venue": "待定",
+      "venueCity": "待定",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "苏格兰采用4-3-3阵型，以技术流控制中场为核心打法。摩洛哥则使用4-4-2阵型，防守反击为主。",
+        "key_players": "苏格兰仰仗核心球员带领全队，摩洛哥依靠关键先生寻求突破。",
+        "injuries": {
+          "home": [
+            "全员健康"
+          ],
+          "away": [
+            "全员健康"
+          ]
+        },
+        "odds_analysis": "胜1.53 平2.7 负3.47。概率分布：苏格兰49.8% → 平局28.2% → 摩洛哥22.0%。大小球偏向小球。",
+        "upset_factors": [
+          "排名差距悬殊，弱队可能放手一搏"
+        ],
+        "prediction": {
+          "result": "主场胜",
+          "score": "2-0",
+          "confidence": "高",
+          "homeWin": 49.8,
+          "draw": 28.2,
+          "awayWin": 22.0,
+          "goalsRange": [
+            1,
+            3
+          ],
+          "recommendation": "苏格兰胜"
+        }
+      },
+      "pre_match_insight": "🔥 <b>【苏格兰 vs 摩洛哥 - C组】</b><br><br>\n<b>📋 赛前关键情报</b><br>\n• <b>排名</b>：苏格兰第43位 vs 摩洛哥第8位<br>\n• <b>赔率</b>：苏格兰胜1.53 vs 平局2.7 vs 摩洛哥胜3.47<br>\n• <b>概率</b>：苏格兰49.8% vs 平局28.2% vs 摩洛哥22.0%<br><br><b>📊 赔率分析</b><br>\n• 大小球(2.5)：大球1.95 / 小球1.93<br>\n• 最可能比分：2-0(4.01) / 0-1(7.16) / 1-0(10.5)<br><br><b>💰 投注建议</b><br>• 推荐：苏格兰胜（稳胆）<br>• 大小球：倾向小球<br>"
+    },
+    {
+      "match_id": "match-20260619-031",
+      "group": "D",
+      "date": "2026-06-19",
+      "time": "08:00",
+      "timezone": "CST",
+      "home": "美国",
+      "away": "澳大利亚",
+      "home_name": "美国",
+      "away_name": "澳大利亚",
+      "home_ranking": 16,
+      "away_ranking": 27,
+      "venue": "待定",
+      "venueCity": "待定",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "美国采用4-3-3阵型，以技术流控制中场为核心打法。澳大利亚则使用4-4-2阵型，防守反击为主。",
+        "key_players": "美国仰仗核心球员带领全队，澳大利亚依靠关键先生寻求突破。",
+        "injuries": {
+          "home": [
+            "Johnny Cardoso(MID, doubt)"
+          ],
+          "away": [
+            "全员健康"
+          ]
+        },
+        "odds_analysis": "胜3.13 平3.77 负3.26。概率分布：美国35.8% → 平局29.8% → 澳大利亚34.4%。大小球偏向大球。",
+        "upset_factors": [],
+        "prediction": {
+          "result": "平局",
+          "score": "1-1",
+          "confidence": "中",
+          "homeWin": 35.8,
+          "draw": 29.8,
+          "awayWin": 34.4,
+          "goalsRange": [
+            1,
+            3
+          ],
+          "recommendation": "平局"
+        }
+      },
+      "pre_match_insight": "🔥 <b>【美国 vs 澳大利亚 - D组】</b><br><br>\n<b>📋 赛前关键情报</b><br>\n• <b>排名</b>：美国第16位 vs 澳大利亚第27位<br>\n• <b>赔率</b>：美国胜3.13 vs 平局3.77 vs 澳大利亚胜3.26<br>\n• <b>概率</b>：美国35.8% vs 平局29.8% vs 澳大利亚34.4%<br>• <b>美国存疑</b>：Johnny Cardoso<br><br><b>📊 赔率分析</b><br>\n• 大小球(2.5)：大球1.74 / 小球1.96<br>\n• 最可能比分：1-1(4.17) / 2-0(7.95) / 0-1(10.98)<br><br><b>💰 投注建议</b><br>• 推荐：关注平局可能性<br• 大小球：倾向大球<br>"
+    },
+    {
+      "match_id": "match-20260619-032",
+      "group": "D",
+      "date": "2026-06-19",
+      "time": "22:00",
+      "timezone": "CST",
+      "home": "土耳其",
+      "away": "巴拉圭",
+      "home_name": "土耳其",
+      "away_name": "巴拉圭",
+      "home_ranking": 22,
+      "away_ranking": 40,
+      "venue": "待定",
+      "venueCity": "待定",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "土耳其采用4-3-3阵型，以技术流控制中场为核心打法。巴拉圭则使用4-4-2阵型，防守反击为主。",
+        "key_players": "土耳其仰仗核心球员带领全队，巴拉圭依靠关键先生寻求突破。",
+        "injuries": {
+          "home": [
+            "全员健康"
+          ],
+          "away": [
+            "全员健康"
+          ]
+        },
+        "odds_analysis": "胜1.64 平2.88 负2.17。概率分布：土耳其43.0% → 平局24.5% → 巴拉圭32.5%。大小球偏向小球。",
+        "upset_factors": [],
+        "prediction": {
+          "result": "主场胜",
+          "score": "1-0",
+          "confidence": "中高",
+          "homeWin": 43.0,
+          "draw": 24.5,
+          "awayWin": 32.5,
+          "goalsRange": [
+            1,
+            3
+          ],
+          "recommendation": "土耳其胜"
+        }
+      },
+      "pre_match_insight": "🔥 <b>【土耳其 vs 巴拉圭 - D组】</b><br><br>\n<b>📋 赛前关键情报</b><br>\n• <b>排名</b>：土耳其第22位 vs 巴拉圭第40位<br>\n• <b>赔率</b>：土耳其胜1.64 vs 平局2.88 vs 巴拉圭胜2.17<br>\n• <b>概率</b>：土耳其43.0% vs 平局24.5% vs 巴拉圭32.5%<br><br><b>📊 赔率分析</b><br>\n• 大小球(2.5)：大球2.0 / 小球1.76<br>\n• 最可能比分：0-0(4.6) / 2-0(4.67) / 1-1(8.4)<br><br><b>💰 投注建议</b><br>• 推荐：关注平局可能性<br• 大小球：倾向小球<br>"
+    },
+    {
+      "match_id": "match-20260619-051",
+      "group": "B",
+      "date": "2026-06-19",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "波黑",
+      "away": "加拿大",
+      "home_name": "波黑",
+      "away_name": "加拿大",
+      "home_ranking": 64,
+      "away_ranking": 30,
+      "venue": "待定",
+      "venueCity": "待定",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "波黑采用4-3-3阵型，以技术流控制中场为核心打法。加拿大则使用4-4-2阵型，防守反击为主。",
+        "key_players": "波黑仰仗核心球员带领全队，加拿大依靠关键先生寻求突破。",
+        "injuries": {
+          "home": [
+            "全员健康"
+          ],
+          "away": [
+            "Alphonso Davies(DEF, doubt)"
+          ]
+        },
+        "odds_analysis": "胜3.17 平2.98 负2.26。概率分布：波黑28.8% → 平局30.7% → 加拿大40.5%。大小球偏向小球。",
+        "upset_factors": [
+          "排名差距悬殊，弱队可能放手一搏"
+        ],
+        "prediction": {
+          "result": "客场胜",
+          "score": "0-1",
+          "confidence": "中高",
+          "homeWin": 28.8,
+          "draw": 30.7,
+          "awayWin": 40.5,
+          "goalsRange": [
+            1,
+            3
+          ],
+          "recommendation": "加拿大胜"
+        }
+      },
+      "pre_match_insight": "🔥 <b>【波黑 vs 加拿大 - B组】</b><br><br>\n<b>📋 赛前关键情报</b><br>\n• <b>排名</b>：波黑第64位 vs 加拿大第30位<br>\n• <b>赔率</b>：波黑胜3.17 vs 平局2.98 vs 加拿大胜2.26<br>\n• <b>概率</b>：波黑28.8% vs 平局30.7% vs 加拿大40.5%<br>• <b>加拿大存疑</b>：Alphonso Davies<br><br><b>📊 赔率分析</b><br>\n• 大小球(2.5)：大球1.93 / 小球1.87<br>\n• 最可能比分：1-1(9.15) / 1-0(10.95) / 0-1(11.13)<br><br><b>💰 投注建议</b><br>• 推荐：关注平局可能性<br• 大小球：倾向小球<br>"
+    },
+    {
+      "match_id": "match-20260619-052",
+      "group": "B",
+      "date": "2026-06-19",
+      "time": "08:00",
+      "timezone": "CST",
+      "home": "瑞士",
+      "away": "卡塔尔",
+      "home_name": "瑞士",
+      "away_name": "卡塔尔",
+      "home_ranking": 19,
+      "away_ranking": 54,
+      "venue": "待定",
+      "venueCity": "待定",
+      "altitude": 0,
+      "round": 1,
+      "analysis": {
+        "tactics": "瑞士采用4-3-3阵型，以技术流控制中场为核心打法。卡塔尔则使用4-4-2阵型，防守反击为主。",
+        "key_players": "瑞士仰仗核心球员带领全队，卡塔尔依靠关键先生寻求突破。",
+        "injuries": {
+          "home": [
+            "全员健康"
+          ],
+          "away": [
+            "全员健康"
+          ]
+        },
+        "odds_analysis": "胜2.75 平3.61 负3.95。概率分布：瑞士40.7% → 平局31.0% → 卡塔尔28.3%。大小球偏向小球。",
+        "upset_factors": [
+          "排名差距悬殊，弱队可能放手一搏"
+        ],
+        "prediction": {
+          "result": "主场胜",
+          "score": "1-0",
+          "confidence": "中高",
+          "homeWin": 40.7,
+          "draw": 31.0,
+          "awayWin": 28.3,
+          "goalsRange": [
+            1,
+            3
+          ],
+          "recommendation": "瑞士胜"
+        }
+      },
+      "pre_match_insight": "🔥 <b>【瑞士 vs 卡塔尔 - B组】</b><br><br>\n<b>📋 赛前关键情报</b><br>\n• <b>排名</b>：瑞士第19位 vs 卡塔尔第54位<br>\n• <b>赔率</b>：瑞士胜2.75 vs 平局3.61 vs 卡塔尔胜3.95<br>\n• <b>概率</b>：瑞士40.7% vs 平局31.0% vs 卡塔尔28.3%<br><br><b>📊 赔率分析</b><br>\n• 大小球(2.5)：大球2.07 / 小球1.89<br>\n• 最可能比分：1-1(4.32) / 2-0(9.12) / 1-0(12.14)<br><br><b>💰 投注建议</b><br>• 推荐：关注平局可能性<br• 大小球：倾向小球<br>"
     }
   ]
 }
