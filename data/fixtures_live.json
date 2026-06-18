@@ -811,5 +811,141 @@
       }
     },
     "referee": "塞萨尔·拉莫斯（墨西哥）"
+  },
+  {
+    "id": "match-20260618-001",
+    "home_team": "葡萄牙",
+    "away_team": "民主刚果",
+    "home_score": 1,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-18T01:00:00+08:00",
+    "venue": "NRG体育场",
+    "venueCity": "休斯敦",
+    "group": "K组",
+    "goals": [
+      {
+        "player": "若昂·内维斯（葡萄牙）",
+        "minute": "6'"
+      },
+      {
+        "player": "姆本巴（民主刚果）",
+        "minute": "45+2'"
+      }
+    ],
+    "notes": "葡萄牙10亿豪华战舰被民主刚果逼平；C罗首发表现低迷；民主刚果52年重返世界杯首战拿到宝贵1分",
+    "featured": true
+  },
+  {
+    "id": "match-20260618-002",
+    "home_team": "英格兰",
+    "away_team": "克罗地亚",
+    "home_score": 1,
+    "away_score": 2,
+    "status": "completed",
+    "start_time": "2026-06-18T04:00:00+08:00",
+    "venue": "AT&T体育场",
+    "venueCity": "达拉斯",
+    "group": "L组",
+    "goals": [
+      {
+        "player": "巴图里纳（克罗地亚）",
+        "minute": "45'"
+      },
+      {
+        "player": "帕尔默（英格兰）",
+        "minute": "67'"
+      },
+      {
+        "player": "莫德里奇（克罗地亚）",
+        "minute": "89'"
+      }
+    ],
+    "notes": "克罗地亚2-1逆转英格兰，延续2018世界杯半决赛淘汰英格兰的战绩；莫德里奇戴面具出战打入关键球",
+    "featured": true
+  },
+  {
+    "id": "match-20260618-003",
+    "home_team": "加纳",
+    "away_team": "巴拿马",
+    "home_score": 1,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-18T07:00:00+08:00",
+    "venue": "BMO球场",
+    "venueCity": "多伦多",
+    "group": "L组",
+    "goals": [
+      {
+        "player": "凯莱布·伊伦基（加纳）",
+        "minute": "90+5'",
+        "assist": "托马斯-阿桑特"
+      }
+    ],
+    "notes": "加纳1-0绝杀巴拿马，伊伦基补时第5分钟上演绝杀。巴拿马无缘世界杯首分。加纳因净胜球劣势暂列小组第二。",
+    "cards": [
+      {
+        "player": "凯莱布·伊伦基（加纳）",
+        "minute": "16'",
+        "type": "yellow"
+      },
+      {
+        "player": "塞萨尔·布莱克曼（巴拿马）",
+        "minute": "73'",
+        "type": "yellow"
+      },
+      {
+        "player": "卡洛斯·哈维（巴拿马）",
+        "minute": "90+10'",
+        "type": "yellow"
+      }
+    ]
+  },
+  {
+    "id": "match-20260618-004",
+    "home_team": "乌兹别克斯坦",
+    "away_team": "哥伦比亚",
+    "home_score": 1,
+    "away_score": 3,
+    "status": "completed",
+    "start_time": "2026-06-18T10:00:00+08:00",
+    "venue": "阿兹特克体育场",
+    "venueCity": "墨西哥城",
+    "group": "K组",
+    "goals": [
+      {
+        "player": "丹尼尔·穆尼奥斯（哥伦比亚）",
+        "minute": "41'",
+        "assist": "路易斯·迪亚斯"
+      },
+      {
+        "player": "阿博斯别克·法伊祖拉耶夫（乌兹别克斯坦）",
+        "minute": "60'",
+        "note": "乌兹别克斯坦队史世界杯首球"
+      },
+      {
+        "player": "路易斯·迪亚斯（哥伦比亚）",
+        "minute": "65'",
+        "assist": "古斯塔沃·普埃尔塔"
+      },
+      {
+        "player": "哈明通·坎帕斯（哥伦比亚）",
+        "minute": "99'",
+        "assist": "库乔·埃尔南德斯"
+      }
+    ],
+    "notes": "哥伦比亚3-1战胜乌兹别克斯坦，迪亚斯表现出色贡献1球1助攻。乌兹别克斯坦打入队史世界杯首球。哥伦比亚首轮全取三分位居K组榜首。",
+    "cards": [
+      {
+        "player": "路易斯·迪亚斯（哥伦比亚）",
+        "minute": "8'",
+        "type": "yellow"
+      },
+      {
+        "player": "阿卜杜勒科尔·胡桑诺夫（乌兹别克斯坦）",
+        "minute": "34'",
+        "type": "yellow"
+      }
+    ]
   }
 ]
