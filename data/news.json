@@ -1,7 +1,27 @@
 {
-  "lastUpdate": "2026-06-19T07:47:00",
-  "version": "v1.17.0",
+  "lastUpdate": "2026-06-19T13:47:00",
+  "version": "v1.18.0",
   "news": [
+    {
+      "id": 175,
+      "title": "首支32强诞生！墨西哥1-0韩国锁定A组头名，罗莫世界杯处子球制胜",
+      "summary": "北京时间6月19日9:00，世界杯A组第二轮墨西哥1-0战胜韩国。上半场韩国0射正，第50分钟金承奎出击摘高空球时与李期奕相撞脱手，罗莫打空门得手。最终墨西哥两连胜积6分锁定小组头名，成为本届世界杯首支晋级16强的球队。韩国积3分位居第二，捷克和南非同积1分小组第三和垫底。",
+      "category": "赛况报道",
+      "publishTime": "2026-06-19T11:00:00",
+      "source": "央视新闻",
+      "sourceUrl": "http://m.toutiao.com/group/7652935731714753065/",
+      "relatedMatches": []
+    },
+    {
+      "id": 176,
+      "title": "世界杯戴帽成家常便饭！乔纳森·戴维独中三元，加拿大6-0血洗九人卡塔尔",
+      "summary": "北京时间6月19日6:00，世界杯B组第二轮，加拿大6-0大胜卡塔尔，迎来队史世界杯首胜。乔纳森·戴维上演帽子戏法（第29分钟、第45+3分钟、第90+2分钟），拉林首开记录，萨利巴任意球破门。卡塔尔两分钟内连吃两张红牌（霍马姆·艾哈迈德、马迪博），成为世界杯史上首支单场两红的亚洲球队，净胜球-6形势严峻。本届世界杯红牌数已超上届整届（6张vs4张）。",
+      "category": "赛况报道",
+      "publishTime": "2026-06-19T08:30:00",
+      "source": "澎湃新闻",
+      "sourceUrl": "http://m.toutiao.com/group/7652891935115313718/",
+      "relatedMatches": []
+    },
     {
       "id": 174,
       "title": "墨韩大战今晚打响！谁赢谁提前出线，孙兴慜能否破进球荒成焦点",
@@ -100,7 +120,9 @@
       "publishTime": "2026-06-18T11:21:29",
       "source": "直播吧",
       "sourceUrl": "https://m.zhibo8.com/news/web/zuqiu/2026-06-18/6a33641c33228native.htm",
-      "relatedMatches": [24]
+      "relatedMatches": [
+        24
+      ]
     },
     {
       "id": 164,
@@ -110,7 +132,9 @@
       "publishTime": "2026-06-18T12:01:56",
       "source": "央视网",
       "sourceUrl": "https://sports.cctv.com/2026/06/18/ARTIJw4zzXBGDfvB3345NEVH260618.shtml",
-      "relatedMatches": [24]
+      "relatedMatches": [
+        24
+      ]
     },
     {
       "id": 163,
@@ -120,7 +144,9 @@
       "publishTime": "2026-06-18T06:54:16",
       "source": "文海漫游",
       "sourceUrl": "http://m.toutiao.com/group/7652501465319211529/",
-      "relatedMatches": [22]
+      "relatedMatches": [
+        22
+      ]
     },
     {
       "id": 162,
@@ -150,7 +176,9 @@
       "publishTime": "2026-06-17T22:27:15",
       "source": "Coze平台",
       "sourceUrl": "https://www.coze.cn/share-article/201781705999042528",
-      "relatedMatches": [19]
+      "relatedMatches": [
+        19
+      ]
     },
     {
       "id": 159,
@@ -170,7 +198,9 @@
       "publishTime": "2026-06-17T15:15:31",
       "source": "Coze平台",
       "sourceUrl": "https://www.coze.cn/share-article/201781680085549248",
-      "relatedMatches": [19]
+      "relatedMatches": [
+        19
+      ]
     },
     {
       "id": 157,
@@ -180,7 +210,12 @@
       "publishTime": "2026-06-17T18:56:26",
       "source": "直播吧",
       "sourceUrl": "https://news.zhibo8.com/zuqiu/2026-06-17/6a327ced05994native.htm",
-      "relatedMatches": [21, 22, 23, 24]
+      "relatedMatches": [
+        21,
+        22,
+        23,
+        24
+      ]
     },
     {
       "id": 156,
@@ -190,7 +225,9 @@
       "publishTime": "2026-06-17T17:47:27",
       "source": "红星新闻",
       "sourceUrl": "http://m.toutiao.com/group/7652298702144537128/",
-      "relatedMatches": [21]
+      "relatedMatches": [
+        21
+      ]
     },
     {
       "id": 155,
@@ -200,7 +237,9 @@
       "publishTime": "2026-06-17T16:43:34",
       "source": "懂球帝",
       "sourceUrl": "http://m.toutiao.com/group/7652282272951632418/",
-      "relatedMatches": [24]
+      "relatedMatches": [
+        24
+      ]
     },
     {
       "id": 154,
@@ -210,7 +249,9 @@
       "publishTime": "2026-06-17T13:21:57",
       "source": "红星新闻",
       "sourceUrl": "http://m.toutiao.com/group/7652230129037132339/",
-      "relatedMatches": [19]
+      "relatedMatches": [
+        19
+      ]
     },
     {
       "id": 153,
@@ -220,7 +261,9 @@
       "publishTime": "2026-06-17T14:29:00",
       "source": "央视网",
       "sourceUrl": "https://sports.cctv.com/2026/06/17/PHOAdLCoCA37sNz0dhU0hjCX260617.shtml",
-      "relatedMatches": [20]
+      "relatedMatches": [
+        20
+      ]
     },
     {
       "id": 152,
@@ -230,7 +273,9 @@
       "publishTime": "2026-06-17T14:08:17",
       "source": "直播吧",
       "sourceUrl": "https://m.zhibo8.com/news/web/zuqiu/2026-06-17/match1869193date2026vnative.htm",
-      "relatedMatches": [20]
+      "relatedMatches": [
+        20
+      ]
     },
     {
       "id": 150,
@@ -240,7 +285,9 @@
       "publishTime": "2026-06-17T12:30:00",
       "source": "腾讯新闻",
       "sourceUrl": "https://news.qq.com/rain/a/20260617A04TAD00",
-      "relatedMatches": [19]
+      "relatedMatches": [
+        19
+      ]
     },
     {
       "id": 149,
@@ -250,7 +297,9 @@
       "publishTime": "2026-06-17T12:19:00",
       "source": "央视新闻",
       "sourceUrl": "http://m.toutiao.com/group/7652214138471219763/",
-      "relatedMatches": [21]
+      "relatedMatches": [
+        21
+      ]
     },
     {
       "id": 148,
@@ -260,7 +309,11 @@
       "publishTime": "2026-06-17T11:24:40",
       "source": "央视新闻",
       "sourceUrl": "http://m.toutiao.com/group/7652213696936083995/",
-      "relatedMatches": [17, 18, 19]
+      "relatedMatches": [
+        17,
+        18,
+        19
+      ]
     },
     {
       "id": 147,
@@ -270,7 +323,9 @@
       "publishTime": "2026-06-17T10:11:37",
       "source": "央视新闻",
       "sourceUrl": "http://m.toutiao.com/group/7652172183300489769/",
-      "relatedMatches": [18]
+      "relatedMatches": [
+        18
+      ]
     },
     {
       "id": 146,
@@ -280,7 +335,9 @@
       "publishTime": "2026-06-17T07:44:32",
       "source": "足坛竞技ing",
       "sourceUrl": "http://m.toutiao.com/group/7652143322068189711/",
-      "relatedMatches": [18]
+      "relatedMatches": [
+        18
+      ]
     },
     {
       "id": 145,
@@ -290,7 +347,9 @@
       "publishTime": "2026-06-17T07:23:42",
       "source": "夜稳",
       "sourceUrl": "http://m.toutiao.com/group/7652135331101180450/",
-      "relatedMatches": [17]
+      "relatedMatches": [
+        17
+      ]
     },
     {
       "id": 144,
@@ -300,7 +359,9 @@
       "publishTime": "2026-06-17T07:19:50",
       "source": "直播吧",
       "sourceUrl": "https://m.zhibo8.com/news/web/zuqiu/2026-06-17/6a31ce2da345cnative.htm",
-      "relatedMatches": [17]
+      "relatedMatches": [
+        17
+      ]
     },
     {
       "id": 143,
@@ -310,7 +371,9 @@
       "publishTime": "2026-06-17T07:08:00",
       "source": "体坛呱呱",
       "sourceUrl": "http://m.toutiao.com/group/7652133937640243748/",
-      "relatedMatches": [18]
+      "relatedMatches": [
+        18
+      ]
     },
     {
       "id": 142,
@@ -320,7 +383,9 @@
       "publishTime": "2026-06-17T07:19:50",
       "source": "直播吧",
       "sourceUrl": "https://m.zhibo8.com/news/web/zuqiu/2026-06-17/6a31ce2da345cnative.htm",
-      "relatedMatches": [17]
+      "relatedMatches": [
+        17
+      ]
     },
     {
       "id": 141,
@@ -330,7 +395,9 @@
       "publishTime": "2026-06-17T07:24:47",
       "source": "红星新闻",
       "sourceUrl": "http://m.toutiao.com/group/7652138269450289710/",
-      "relatedMatches": [22]
+      "relatedMatches": [
+        22
+      ]
     },
     {
       "id": 140,
@@ -340,7 +407,12 @@
       "publishTime": "2026-06-17T00:00:00",
       "source": "央视新闻",
       "sourceUrl": "https://www.coze.cn/share-article/201781629366126368",
-      "relatedMatches": [17, 18, 19, 20]
+      "relatedMatches": [
+        17,
+        18,
+        19,
+        20
+      ]
     },
     {
       "id": 139,
@@ -350,7 +422,9 @@
       "publishTime": "2026-06-17T01:10:07",
       "source": "Coze平台",
       "sourceUrl": "https://www.coze.cn/share-article/201781629366126368",
-      "relatedMatches": [19]
+      "relatedMatches": [
+        19
+      ]
     },
     {
       "id": 138,
@@ -360,7 +434,9 @@
       "publishTime": "2026-06-17T00:19:08",
       "source": "Coze平台",
       "sourceUrl": "https://www.coze.cn/share-article/201781626218266304",
-      "relatedMatches": [13]
+      "relatedMatches": [
+        13
+      ]
     },
     {
       "id": 137,
@@ -370,7 +446,10 @@
       "publishTime": "2026-06-16T20:00:00",
       "source": "环球网",
       "sourceUrl": "http://m.toutiao.com/group/7651771562715726374/",
-      "relatedMatches": [9, 13]
+      "relatedMatches": [
+        9,
+        13
+      ]
     },
     {
       "id": 136,
@@ -380,7 +459,13 @@
       "publishTime": "2026-06-16T21:26:30",
       "source": "央视新闻",
       "sourceUrl": "http://m.toutiao.com/group/7651984080812114447/",
-      "relatedMatches": [10, 13, 14, 15, 16]
+      "relatedMatches": [
+        10,
+        13,
+        14,
+        15,
+        16
+      ]
     },
     {
       "id": 135,
@@ -390,7 +475,9 @@
       "publishTime": "2026-06-16T23:13:12",
       "source": "Coze平台",
       "sourceUrl": "https://www.coze.cn/share-article/201781622502675936",
-      "relatedMatches": [15]
+      "relatedMatches": [
+        15
+      ]
     },
     {
       "id": 134,
@@ -400,7 +487,10 @@
       "publishTime": "2026-06-16T19:05:00",
       "source": "网易体育",
       "sourceUrl": "http://m.163.com/dy/article/KVIM305105563TP7.html",
-      "relatedMatches": [5, 6]
+      "relatedMatches": [
+        5,
+        6
+      ]
     },
     {
       "id": 133,
@@ -410,7 +500,12 @@
       "publishTime": "2026-06-16T18:03:14",
       "source": "懂球帝",
       "sourceUrl": "http://m.toutiao.com/group/7651931692780847652/",
-      "relatedMatches": [17, 18, 19, 20]
+      "relatedMatches": [
+        17,
+        18,
+        19,
+        20
+      ]
     },
     {
       "id": 132,
@@ -420,7 +515,11 @@
       "publishTime": "2026-06-16T16:35:32",
       "source": "直播吧",
       "sourceUrl": "https://m.zhibo8.com/news/web/zuqiu/2026-06-16/6a30f428b0055native.htm",
-      "relatedMatches": [17, 18, 19]
+      "relatedMatches": [
+        17,
+        18,
+        19
+      ]
     },
     {
       "id": 131,
@@ -430,7 +529,16 @@
       "publishTime": "2026-06-16T13:45:06",
       "source": "金台资讯",
       "sourceUrl": "http://m.toutiao.com/group/7651865197597983282/",
-      "relatedMatches": [13, 14, 15, 16, 17, 18, 19, 20]
+      "relatedMatches": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
     },
     {
       "id": 130,
@@ -440,7 +548,10 @@
       "publishTime": "2026-06-16T12:00:00",
       "source": "央视新闻",
       "sourceUrl": "http://m.toutiao.com/group/7651824437909520902/",
-      "relatedMatches": [15, 16]
+      "relatedMatches": [
+        15,
+        16
+      ]
     },
     {
       "id": 129,
@@ -450,7 +561,9 @@
       "publishTime": "2026-06-16T11:42:05",
       "source": "环球网",
       "sourceUrl": "http://m.toutiao.com/group/7651833497455247924/",
-      "relatedMatches": [9]
+      "relatedMatches": [
+        9
+      ]
     },
     {
       "id": 128,
@@ -460,7 +573,9 @@
       "publishTime": "2026-06-16T10:32:25",
       "source": "南方都市报",
       "sourceUrl": "http://m.toutiao.com/group/7651815546409517587/",
-      "relatedMatches": [13]
+      "relatedMatches": [
+        13
+      ]
     },
     {
       "id": 127,
@@ -470,7 +585,9 @@
       "publishTime": "2026-06-16T10:14:41",
       "source": "光明网",
       "sourceUrl": "http://m.toutiao.com/group/7651810962181259819/",
-      "relatedMatches": [13]
+      "relatedMatches": [
+        13
+      ]
     },
     {
       "id": 126,
@@ -480,7 +597,16 @@
       "publishTime": "2026-06-16T11:06:54",
       "source": "央视新闻",
       "sourceUrl": "http://m.toutiao.com/group/7651824437909520902/",
-      "relatedMatches": [13, 14, 15, 16, 17, 18, 19, 20]
+      "relatedMatches": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
     },
     {
       "id": 125,
@@ -490,7 +616,9 @@
       "publishTime": "2026-06-16T08:53:00",
       "source": "央视网",
       "sourceUrl": "https://sports.cctv.com/2026/06/16/PHOAwA97L63DqGLoGMqfkwWD260616.shtml",
-      "relatedMatches": [14]
+      "relatedMatches": [
+        14
+      ]
     },
     {
       "id": 124,
@@ -500,7 +628,9 @@
       "publishTime": "2026-06-16T03:44:00",
       "source": "上观新闻",
       "sourceUrl": "http://www.shobserver.com/wx/detail.do?id=1129217",
-      "relatedMatches": [12]
+      "relatedMatches": [
+        12
+      ]
     },
     {
       "id": 123,
@@ -520,7 +650,9 @@
       "publishTime": "2026-06-16T00:03:35",
       "source": "金羊网",
       "sourceUrl": "http://m.toutiao.com/group/7651653484294488626/",
-      "relatedMatches": [11]
+      "relatedMatches": [
+        11
+      ]
     },
     {
       "id": 121,
@@ -540,7 +672,9 @@
       "publishTime": "2026-06-15T23:18:17",
       "source": "Coze平台",
       "sourceUrl": "https://www.coze.cn/share-article/201781535286843200",
-      "relatedMatches": [10]
+      "relatedMatches": [
+        10
+      ]
     },
     {
       "id": 119,
@@ -570,7 +704,16 @@
       "publishTime": "2026-06-15T16:40:21",
       "source": "央视新闻",
       "sourceUrl": "http://m.toutiao.com/group/7651539268673847871/",
-      "relatedMatches": [9, 10, 11, 12, 13, 14, 15, 16]
+      "relatedMatches": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
     },
     {
       "id": 116,
@@ -580,7 +723,9 @@
       "publishTime": "2026-06-15T17:34:51",
       "source": "逸说体育",
       "sourceUrl": "http://m.toutiao.com/group/7651552255912444450/",
-      "relatedMatches": [10]
+      "relatedMatches": [
+        10
+      ]
     },
     {
       "id": 115,
@@ -590,7 +735,14 @@
       "publishTime": "2026-06-15T15:32:55",
       "source": "南方都市报",
       "sourceUrl": "http://m.toutiao.com/group/7651521910798352947/",
-      "relatedMatches": [5, 6, 8, 10, 11, 12]
+      "relatedMatches": [
+        5,
+        6,
+        8,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 114,
@@ -600,7 +752,9 @@
       "publishTime": "2026-06-15T15:57:46",
       "source": "直播吧",
       "sourceUrl": "https://news.zhibo8.com/zuqiu/2026-06-15/6a2fae53632a8native.htm",
-      "relatedMatches": [15]
+      "relatedMatches": [
+        15
+      ]
     },
     {
       "id": 113,
@@ -610,7 +764,10 @@
       "publishTime": "2026-06-15T15:57:46",
       "source": "直播吧",
       "sourceUrl": "https://news.zhibo8.com/zuqiu/2026-06-15/6a2fae53632a8native.htm",
-      "relatedMatches": [10, 12]
+      "relatedMatches": [
+        10,
+        12
+      ]
     },
     {
       "id": 112,
@@ -620,7 +777,9 @@
       "publishTime": "2026-06-15T15:32:55",
       "source": "南方都市报",
       "sourceUrl": "http://m.toutiao.com/group/7651521910798352947/",
-      "relatedMatches": [12]
+      "relatedMatches": [
+        12
+      ]
     },
     {
       "id": 111,
@@ -630,7 +789,9 @@
       "publishTime": "2026-06-15T15:57:46",
       "source": "直播吧",
       "sourceUrl": "https://news.zhibo8.com/zuqiu/2026-06-15/6a2fae53632a8native.htm",
-      "relatedMatches": [21]
+      "relatedMatches": [
+        21
+      ]
     },
     {
       "id": 110,
@@ -640,7 +801,9 @@
       "publishTime": "2026-06-15T15:32:55",
       "source": "南方都市报",
       "sourceUrl": "http://m.toutiao.com/group/7651521910798352947/",
-      "relatedMatches": [10]
+      "relatedMatches": [
+        10
+      ]
     },
     {
       "id": 109,
@@ -650,7 +813,9 @@
       "publishTime": "2026-06-15T15:57:46",
       "source": "直播吧",
       "sourceUrl": "https://news.zhibo8.com/zuqiu/2026-06-15/6a2fae53632a8native.htm",
-      "relatedMatches": [15]
+      "relatedMatches": [
+        15
+      ]
     },
     {
       "id": 108,
@@ -660,7 +825,9 @@
       "publishTime": "2026-06-15T15:32:55",
       "source": "南方都市报",
       "sourceUrl": "http://m.toutiao.com/group/7651521910798352947/",
-      "relatedMatches": [11]
+      "relatedMatches": [
+        11
+      ]
     },
     {
       "id": 107,
@@ -670,7 +837,9 @@
       "publishTime": "2026-06-15T12:37:10",
       "source": "体坛周报",
       "sourceUrl": "http://m.toutiao.com/group/7651476613430805002/",
-      "relatedMatches": [12]
+      "relatedMatches": [
+        12
+      ]
     }
   ]
 }
