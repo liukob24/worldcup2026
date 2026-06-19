@@ -950,85 +950,154 @@
   },
   {
     "id": "match-20260619-029",
-    "home_team": "巴西",
-    "away_team": "海地",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
-    "start_time": "2026-06-19T02:00:00+08:00",
-    "venue": "待定",
-    "venueCity": "待定",
-    "group": "C组",
-    "goals": [],
-    "featured": true
+    "home_team": "捷克",
+    "away_team": "南非",
+    "home_score": 1,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-19T00:00:00+08:00",
+    "venue": "梅赛德斯-奔驰体育场",
+    "venueCity": "亚特兰大",
+    "group": "A组",
+    "goals": [
+      {
+        "player": "萨迪莱克（捷克）",
+        "minute": "5'",
+        "note": "本届世界杯最快进球"
+      },
+      {
+        "player": "莫科纳（南非）",
+        "minute": "83'",
+        "note": "点球"
+      }
+    ],
+    "notes": "捷克1-1南非，萨迪莱克开场5分钟闪电破门，南非83分钟点球扳平。南非全场18次射门7次射正，捷克仅9次射门。"
   },
   {
     "id": "match-20260619-030",
-    "home_team": "苏格兰",
-    "away_team": "摩洛哥",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
-    "start_time": "2026-06-19T07:00:00+08:00",
-    "venue": "待定",
-    "venueCity": "待定",
-    "group": "C组",
-    "goals": [],
-    "featured": true
+    "home_team": "瑞士",
+    "away_team": "波黑",
+    "home_score": 4,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-19T03:00:00+08:00",
+    "venue": "SoFi体育场",
+    "venueCity": "洛杉矶",
+    "group": "B组",
+    "goals": [
+      {
+        "player": "曼赞比（瑞士）",
+        "minute": "74'",
+        "note": "替补双响"
+      },
+      {
+        "player": "恩博洛（瑞士）",
+        "minute": "76'",
+        "note": "单刀被铲倒红牌"
+      },
+      {
+        "player": "马赫米奇（波黑）",
+        "minute": "93'",
+        "note": "角球扳回一球"
+      },
+      {
+        "player": "瑞士球员（瑞士）",
+        "minute": "97'",
+        "note": "点球"
+      }
+    ],
+    "notes": "瑞士4-1十人波黑，70分钟后连轰五球。波黑后卫穆哈雷莫维奇第76分钟被红牌罚下。"
   },
   {
     "id": "match-20260619-031",
+    "home_team": "加拿大",
+    "away_team": "卡塔尔",
+    "home_score": 6,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-19T06:00:00+08:00",
+    "venue": "不列颠哥伦比亚体育馆",
+    "venueCity": "温哥华",
+    "group": "B组",
+    "goals": [
+      {
+        "player": "拉林（加拿大）",
+        "minute": "16'",
+        "note": "补射破门"
+      },
+      {
+        "player": "戴维（加拿大）",
+        "minute": "29'",
+        "note": "凌空抽射"
+      },
+      {
+        "player": "戴维（加拿大）",
+        "minute": "45+3'",
+        "note": "梅开二度"
+      },
+      {
+        "player": "萨利巴（加拿大）",
+        "minute": "64'",
+        "note": "任意球破门"
+      },
+      {
+        "player": "卡塔尔球员（加拿大）",
+        "minute": "75'",
+        "note": "乌龙球"
+      },
+      {
+        "player": "戴维（加拿大）",
+        "minute": "92'",
+        "note": "帽子戏法"
+      }
+    ],
+    "notes": "加拿大6-0九人卡塔尔，戴维帽子戏法！卡塔尔两名球员被红牌罚下（霍马姆33'、马迪博64'）。加拿大取得队史世界杯首胜。"
+  },
+  {
+    "id": "match-20260619-032",
+    "home_team": "墨西哥",
+    "away_team": "韩国",
+    "home_score": 1,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-19T09:00:00+08:00",
+    "venue": "瓜达拉哈拉体育场",
+    "venueCity": "瓜达拉哈拉",
+    "group": "A组",
+    "goals": [
+      {
+        "player": "罗莫（墨西哥）",
+        "minute": "50'",
+        "note": "门将失误送礼"
+      }
+    ],
+    "notes": "墨西哥1-0韩国，墨西哥两连胜成为首支晋级32强球队。韩国门将金承奎出击失误，罗莫把握机会破门。"
+  },
+  {
+    "id": "match-20260619-051",
     "home_team": "美国",
     "away_team": "澳大利亚",
     "home_score": null,
     "away_score": null,
     "status": "scheduled",
-    "start_time": "2026-06-19T08:00:00+08:00",
-    "venue": "待定",
-    "venueCity": "待定",
+    "start_time": "2026-06-20T03:00:00+08:00",
+    "venue": "西雅图体育场",
+    "venueCity": "西雅图",
     "group": "D组",
     "goals": [],
     "featured": true
-  },
-  {
-    "id": "match-20260619-032",
-    "home_team": "土耳其",
-    "away_team": "巴拉圭",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
-    "start_time": "2026-06-19T22:00:00+08:00",
-    "venue": "待定",
-    "venueCity": "待定",
-    "group": "D组",
-    "goals": [],
-    "featured": true
-  },
-  {
-    "id": "match-20260619-051",
-    "home_team": "波黑",
-    "away_team": "加拿大",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
-    "start_time": "2026-06-19T03:00:00+08:00",
-    "venue": "待定",
-    "venueCity": "待定",
-    "group": "B组",
-    "goals": [],
-    "featured": false
   },
   {
     "id": "match-20260619-052",
-    "home_team": "瑞士",
-    "away_team": "卡塔尔",
+    "home_team": "苏格兰",
+    "away_team": "摩洛哥",
     "home_score": null,
     "away_score": null,
     "status": "scheduled",
-    "start_time": "2026-06-19T08:00:00+08:00",
-    "venue": "待定",
-    "venueCity": "待定",
-    "group": "B组",
+    "start_time": "2026-06-20T06:00:00+08:00",
+    "venue": "吉列体育场",
+    "venueCity": "波士顿",
+    "group": "C组",
     "goals": [],
     "featured": true
   }
