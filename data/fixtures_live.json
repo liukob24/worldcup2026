@@ -1077,28 +1077,94 @@
     "id": "match-20260619-051",
     "home_team": "美国",
     "away_team": "澳大利亚",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
+    "home_score": 2,
+    "away_score": 0,
+    "status": "completed",
     "start_time": "2026-06-20T03:00:00+08:00",
     "venue": "西雅图体育场",
     "venueCity": "西雅图",
     "group": "D组",
-    "goals": [],
-    "featured": true
+    "goals": [
+      {
+        "player": "伯吉斯（澳大利亚）",
+        "minute": "11'",
+        "type": "own_goal",
+        "assist": "巴洛贡"
+      },
+      {
+        "player": "亚历克斯·弗里曼（美国）",
+        "minute": "43'"
+      }
+    ],
+    "featured": true,
+    "notes": "美国2-0澳大利亚提前出线，伯吉斯乌龙+弗里曼头球建功"
   },
   {
     "id": "match-20260619-052",
     "home_team": "苏格兰",
     "away_team": "摩洛哥",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
+    "home_score": 0,
+    "away_score": 1,
+    "status": "completed",
     "start_time": "2026-06-20T06:00:00+08:00",
     "venue": "吉列体育场",
     "venueCity": "波士顿",
     "group": "C组",
-    "goals": [],
-    "featured": true
+    "goals": [
+      {
+        "player": "伊斯梅尔·赛巴里（摩洛哥）",
+        "minute": "2'",
+        "assist": "卜拉欣·迪亚斯"
+      }
+    ],
+    "featured": true,
+    "notes": "赛巴里开场70秒闪击，摩洛哥1-0小胜苏格兰"
+  },
+  {
+    "id": "match-20260620-003",
+    "home_team": "巴西",
+    "away_team": "海地",
+    "home_score": 3,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-20T08:30:00+08:00",
+    "venue": "林肯金融球场",
+    "venueCity": "费城",
+    "group": "C组",
+    "goals": [
+      {
+        "player": "库尼亚（巴西）",
+        "minute": "23'"
+      },
+      {
+        "player": "库尼亚（巴西）",
+        "minute": "45+3'"
+      },
+      {
+        "player": "维尼修斯（巴西）",
+        "minute": "HT+1'"
+      }
+    ],
+    "notes": "库尼亚双响+维尼修斯传射，巴西3-0海地提前晋级"
+  },
+  {
+    "id": "match-20260620-004",
+    "home_team": "土耳其",
+    "away_team": "巴拉圭",
+    "home_score": 0,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-20T11:00:00+08:00",
+    "venue": "李维斯体育场",
+    "venueCity": "旧金山",
+    "group": "D组",
+    "goals": [
+      {
+        "player": "加拉尔萨（巴拉圭）",
+        "minute": "2'",
+        "note": "世界波"
+      }
+    ],
+    "notes": "加拉尔萨2分钟世界波，巴拉圭1-0土耳其"
   }
 ]
