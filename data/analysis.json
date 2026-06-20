@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-20T06:32:10+08:00",
-  "version": "3.94",
+  "lastUpdate": "2026-06-20T11:57:32+08:00",
+  "version": "3.95",
   "totalMatches": 85,
   "groups": [
     "A",
@@ -2801,6 +2801,69 @@
           "recommendation": "土耳其不败"
         },
         "pre_match_insight": "🔥 <b>【土耳其 vs 巴拉圭 - D组生死战】</b><br><br>\n<b>📋 赛前关键情报</b><br>\n• <b>排名差距</b>：土耳其第32位 vs 巴拉圭第35位<br>\n• <b>赔率</b>：土耳其胜2.30 vs 平局3.00 vs 巴拉圭胜2.80<br>\n• <b>首轮战绩</b>：土耳其0-2澳大利亚 | 巴拉圭1-4美国<br>\n• <b>出线形势</b>：两队首轮皆败，本场必须分出胜负<br><br>\n<b>📊 战术分析</b><br>\n• 土耳其：进攻效率低，恰尔汗奥卢需要站出来<br>\n• 巴拉圭：首轮丢4球，防守问题严重<br>\n• 双方都可能加强进攻<br><br>\n<b>🔥 关键对位</b><br>\n• 恰尔汗奥卢 vs 恩西索：中场核心对决<br>\n• 居莱尔 vs 阿尔米隆：边路对决<br><br>\n<b>💰 投注建议</b><br>\n• 势均力敌，2-1或1-1可能<br>\n• 土耳其主场稍占优势<br>\n• 推荐：土耳其不败"
+      }
+    },
+    {
+      "match_id": "match-20260619-030",
+      "group": "H",
+      "date": "2026-06-19",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "瑞士",
+      "away": "波黑",
+      "home_name": "瑞士",
+      "away_name": "波黑",
+      "home_ranking": 15,
+      "away_ranking": 72,
+      "venue": "SoFi体育场",
+      "round": 2,
+      "analysis": {
+        "prediction": {
+          "actual_result": "瑞士 4-1 波黑"
+        },
+        "post_match_summary": "🔥 <b>【全场结束：瑞士 4-1 波黑】</b><br><br>\n【比赛进程】<br>\n• 74' 曼赞比（瑞士） ⚽<br>• 76' 恩博洛（瑞士） ⚽<br>• 93' 马赫米奇（波黑） ⚽<br>• 97' 瑞士球员（瑞士） ⚽<br>\n【关键数据】<br>\n• 备注: 瑞士4-1十人波黑，70分钟后连轰五球。波黑后卫穆哈雷莫维奇第76分钟被红牌罚下。<br><br>\n【全场最佳】瑞士"
+      }
+    },
+    {
+      "match_id": "match-20260619-031",
+      "group": "B",
+      "date": "2026-06-19",
+      "time": "06:00",
+      "timezone": "CST",
+      "home": "加拿大",
+      "away": "卡塔尔",
+      "home_name": "加拿大",
+      "away_name": "卡塔尔",
+      "home_ranking": 25,
+      "away_ranking": 58,
+      "venue": "不列颠哥伦比亚体育馆",
+      "round": 2,
+      "analysis": {
+        "prediction": {
+          "actual_result": "加拿大 6-0 卡塔尔"
+        },
+        "post_match_summary": "🔥 <b>【全场结束：加拿大 6-0 卡塔尔】</b><br><br>\n【比赛进程】<br>\n• 16' 拉林（加拿大） ⚽<br>• 29' 戴维（加拿大） ⚽<br>• 45+3' 戴维（加拿大） ⚽<br>• 64' 萨利巴（加拿大） ⚽<br>• 75' 卡塔尔球员（加拿大） ⚽<br>• 92' 戴维（加拿大） ⚽<br>\n【关键数据】<br>\n• 备注: 加拿大6-0九人卡塔尔，戴维帽子戏法！卡塔尔两名球员被红牌罚下（霍马姆33'、马迪博64'）。加拿大取得队史世界杯首胜。<br><br>\n【全场最佳】加拿大"
+      }
+    },
+    {
+      "match_id": "match-20260619-032",
+      "group": "A",
+      "date": "2026-06-19",
+      "time": "09:00",
+      "timezone": "CST",
+      "home": "墨西哥",
+      "away": "韩国",
+      "home_name": "墨西哥",
+      "away_name": "韩国",
+      "home_ranking": 8,
+      "away_ranking": 31,
+      "venue": "瓜达拉哈拉体育场",
+      "round": 2,
+      "analysis": {
+        "prediction": {
+          "actual_result": "墨西哥 1-0 韩国"
+        },
+        "post_match_summary": "🔥 <b>【全场结束：墨西哥 1-0 韩国】</b><br><br>\n【比赛进程】<br>\n• 50' 罗莫（墨西哥） ⚽<br>\n【关键数据】<br>\n• 备注: 墨西哥1-0韩国，墨西哥两连胜成为首支晋级32强球队。韩国门将金承奎出击失误，罗莫把握机会破门。<br><br>\n【全场最佳】墨西哥"
       }
     }
   ]
