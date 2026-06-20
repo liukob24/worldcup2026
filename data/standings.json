@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T00:26:00+08:00",
+  "last_updated": "2026-06-21T06:35:00+08:00",
   "source": "科比数据组 — FIFA/央视/懂球帝核实",
   "notes": "积分在每场比赛结束后4小时内更新；仅列出已有赛果的组别",
   "groups": {
@@ -225,22 +225,22 @@
           "won": 2,
           "drawn": 0,
           "lost": 0,
-          "gf": 14,
+          "gf": 9,
           "ga": 2,
-          "gd": 12,
+          "gd": 7,
           "points": 6
         },
         {
           "rank": 2,
           "team": "科特迪瓦",
           "played": 2,
-          "won": 2,
+          "won": 1,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 2,
-          "ga": 0,
-          "gd": 2,
-          "points": 6
+          "ga": 2,
+          "gd": 0,
+          "points": 3
         },
         {
           "rank": 3,
@@ -275,25 +275,25 @@
           "rank": 1,
           "team": "瑞典",
           "played": 2,
-          "won": 2,
+          "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "gf": 10,
-          "ga": 2,
-          "gd": 8,
-          "points": 6
+          "lost": 1,
+          "gf": 6,
+          "ga": 6,
+          "gd": 0,
+          "points": 3
         },
         {
           "rank": 2,
           "team": "荷兰",
           "played": 2,
-          "won": 0,
-          "drawn": 2,
+          "won": 1,
+          "drawn": 1,
           "lost": 0,
-          "gf": 4,
-          "ga": 4,
-          "gd": 0,
-          "points": 2
+          "gf": 7,
+          "ga": 3,
+          "gd": 4,
+          "points": 4
         },
         {
           "rank": 3,
