@@ -1118,5 +1118,69 @@
       }
     ],
     "featured": true
+  },
+  {
+    "id": "match-20260621-001",
+    "home_team": "荷兰",
+    "away_team": "瑞典",
+    "home_score": 5,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-21T01:00:00+08:00",
+    "venue": "NRG体育场",
+    "group": "F组",
+    "goals": [
+      {
+        "player": "布罗比（荷兰）",
+        "minute": "5'"
+      },
+      {
+        "player": "布罗比（荷兰）",
+        "minute": "17'"
+      },
+      {
+        "player": "加克波（荷兰）",
+        "minute": "47'"
+      },
+      {
+        "player": "加克波（荷兰）",
+        "minute": "54'"
+      },
+      {
+        "player": "埃兰加（瑞典）",
+        "minute": "59'"
+      },
+      {
+        "player": "萨默维尔（荷兰）",
+        "minute": "89'"
+      }
+    ],
+    "notes": "荷兰5-1大胜瑞典，布罗比+加克波双响"
+  },
+  {
+    "id": "match-20260621-002",
+    "home_team": "德国",
+    "away_team": "科特迪瓦",
+    "home_score": 2,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-21T04:00:00+08:00",
+    "venue": "BMO球场",
+    "group": "E组",
+    "goals": [
+      {
+        "player": "凯西（科特迪瓦）",
+        "minute": "30'"
+      },
+      {
+        "player": "翁达夫（德国）",
+        "minute": "68'"
+      },
+      {
+        "player": "翁达夫（德国）",
+        "minute": "90+4'"
+      }
+    ],
+    "notes": "翁达夫替补双响绝杀，德国2-1科特迪瓦提前出线"
   }
 ]
