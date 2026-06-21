@@ -10,13 +10,31 @@
     "venue": "墨西哥城阿兹特克体育场",
     "group": "A组",
     "goals": [
-      {"player": "胡利安·基尼奥内斯（墨西哥）", "minute": "9'"},
-      {"player": "劳尔·希门尼斯（墨西哥）", "minute": "67'"}
+      {
+        "player": "胡利安·基尼奥内斯（墨西哥）",
+        "minute": "9'"
+      },
+      {
+        "player": "劳尔·希门尼斯（墨西哥）",
+        "minute": "67'"
+      }
     ],
     "cards": [
-      {"player": "西索尔（南非）", "minute": "49'", "type": "red"},
-      {"player": "兹瓦内（南非）", "minute": "84'", "type": "red"},
-      {"player": "塞萨尔·蒙特斯（墨西哥）", "minute": "90+2'", "type": "red"}
+      {
+        "player": "西索尔（南非）",
+        "minute": "49'",
+        "type": "red"
+      },
+      {
+        "player": "兹瓦内（南非）",
+        "minute": "84'",
+        "type": "red"
+      },
+      {
+        "player": "塞萨尔·蒙特斯（墨西哥）",
+        "minute": "90+2'",
+        "type": "red"
+      }
     ],
     "attendance": 80824
   },
@@ -31,9 +49,18 @@
     "venue": "瓜达拉哈拉体育场",
     "group": "A组",
     "goals": [
-      {"player": "克雷伊奇（捷克）", "minute": "59'"},
-      {"player": "黄仁范（韩国）", "minute": "67'"},
-      {"player": "吴贤揆（韩国）", "minute": "80'"}
+      {
+        "player": "克雷伊奇（捷克）",
+        "minute": "59'"
+      },
+      {
+        "player": "黄仁范（韩国）",
+        "minute": "67'"
+      },
+      {
+        "player": "吴贤揆（韩国）",
+        "minute": "80'"
+      }
     ],
     "notes": "捷克绍切克77分钟进球因越位无效"
   },
@@ -48,8 +75,14 @@
     "venue": "BMO Field，多伦多",
     "group": "B组",
     "goals": [
-      {"player": "约沃·卢基奇（波黑）", "minute": "21'"},
-      {"player": "赛尔·拉林（加拿大）", "minute": "78'"}
+      {
+        "player": "约沃·卢基奇（波黑）",
+        "minute": "21'"
+      },
+      {
+        "player": "赛尔·拉林（加拿大）",
+        "minute": "78'"
+      }
     ],
     "notes": "阿方索·戴维斯未出场；加拿大拿到队史世界杯首个积分"
   },
@@ -64,11 +97,31 @@
     "venue": "SoFi体育场，洛杉矶",
     "group": "D组",
     "goals": [
-      {"player": "博瓦迪利亚（巴拉圭）乌龙球", "minute": "7'", "assist": "麦肯尼/普利西奇"},
-      {"player": "巴洛贡（美国）", "minute": "31'", "assist": "普利西奇"},
-      {"player": "巴洛贡（美国）", "minute": "45+5'", "assist": "蒂尔曼"},
-      {"player": "毛里西奥（巴拉圭）", "minute": "73'", "assist": "恩西索"},
-      {"player": "雷纳（美国）", "minute": "90+8'", "assist": "弗里曼"}
+      {
+        "player": "博瓦迪利亚（巴拉圭）乌龙球",
+        "minute": "7'",
+        "assist": "麦肯尼/普利西奇"
+      },
+      {
+        "player": "巴洛贡（美国）",
+        "minute": "31'",
+        "assist": "普利西奇"
+      },
+      {
+        "player": "巴洛贡（美国）",
+        "minute": "45+5'",
+        "assist": "蒂尔曼"
+      },
+      {
+        "player": "毛里西奥（巴拉圭）",
+        "minute": "73'",
+        "assist": "恩西索"
+      },
+      {
+        "player": "雷纳（美国）",
+        "minute": "90+8'",
+        "assist": "弗里曼"
+      }
     ],
     "notes": "巴洛贡首秀梅开二度当选全场最佳；本届世界杯首个乌龙球；美国队史世界杯单场最高比分胜利"
   },
@@ -83,8 +136,16 @@
     "venue": "旧金山湾球场",
     "group": "B组",
     "goals": [
-      {"player": "布雷尔·恩博洛（瑞士）", "minute": "17'", "note": "点球"},
-      {"player": "米罗·穆海姆（瑞士）", "minute": "90+4'", "note": "乌龙球"}
+      {
+        "player": "布雷尔·恩博洛（瑞士）",
+        "minute": "17'",
+        "note": "点球"
+      },
+      {
+        "player": "米罗·穆海姆（瑞士）",
+        "minute": "90+4'",
+        "note": "乌龙球"
+      }
     ],
     "notes": "B组首轮四队同积1分，创世界杯奇景"
   },
@@ -99,8 +160,14 @@
     "venue": "纽约大都会体育场",
     "group": "C组",
     "goals": [
-      {"player": "伊斯梅尔·塞巴里（摩洛哥）", "minute": "21'"},
-      {"player": "维尼修斯（巴西）", "minute": "32'"}
+      {
+        "player": "伊斯梅尔·塞巴里（摩洛哥）",
+        "minute": "21'"
+      },
+      {
+        "player": "维尼修斯（巴西）",
+        "minute": "32'"
+      }
     ]
   },
   {
@@ -114,7 +181,10 @@
     "venue": "波士顿吉列体育场",
     "group": "C组",
     "goals": [
-      {"player": "约翰·麦金（苏格兰）", "minute": "29'"}
+      {
+        "player": "约翰·麦金（苏格兰）",
+        "minute": "29'"
+      }
     ],
     "notes": "苏格兰自1990年以来首场世界杯胜利"
   },
@@ -129,8 +199,15 @@
     "venue": "温哥华BC Place体育场",
     "group": "D组",
     "goals": [
-      {"player": "内斯托里·伊兰昆达（澳大利亚）", "minute": "27'", "note": "人球分过破门，20岁124天队史最年轻"},
-      {"player": "康纳·梅特卡夫（澳大利亚）", "minute": "75'"}
+      {
+        "player": "内斯托里·伊兰昆达（澳大利亚）",
+        "minute": "27'",
+        "note": "人球分过破门，20岁124天队史最年轻"
+      },
+      {
+        "player": "康纳·梅特卡夫（澳大利亚）",
+        "minute": "75'"
+      }
     ],
     "notes": "伊兰昆达当选FIFA全场最佳"
   },
@@ -145,14 +222,40 @@
     "venue": "休斯顿NRG体育场",
     "group": "E组",
     "goals": [
-      {"player": "恩梅查（德国）", "minute": "6'"},
-      {"player": "科梅嫩西亚（库拉索）", "minute": "21'", "note": "库拉索世界杯历史首球"},
-      {"player": "施洛特贝克（德国）", "minute": "38'"},
-      {"player": "哈弗茨（德国）", "minute": "45+5'", "note": "点球"},
-      {"player": "穆西亚拉（德国）", "minute": "47'"},
-      {"player": "纳撒尼尔·布朗（德国）", "minute": "68'"},
-      {"player": "翁达夫（德国）", "minute": "78'"},
-      {"player": "哈弗茨（德国）", "minute": "88'"}
+      {
+        "player": "恩梅查（德国）",
+        "minute": "6'"
+      },
+      {
+        "player": "科梅嫩西亚（库拉索）",
+        "minute": "21'",
+        "note": "库拉索世界杯历史首球"
+      },
+      {
+        "player": "施洛特贝克（德国）",
+        "minute": "38'"
+      },
+      {
+        "player": "哈弗茨（德国）",
+        "minute": "45+5'",
+        "note": "点球"
+      },
+      {
+        "player": "穆西亚拉（德国）",
+        "minute": "47'"
+      },
+      {
+        "player": "纳撒尼尔·布朗（德国）",
+        "minute": "68'"
+      },
+      {
+        "player": "翁达夫（德国）",
+        "minute": "78'"
+      },
+      {
+        "player": "哈弗茨（德国）",
+        "minute": "88'"
+      }
     ],
     "notes": "德国7-1大胜创本届世界杯最大分差"
   },
@@ -167,10 +270,22 @@
     "venue": "达拉斯AT&T体育场",
     "group": "F组",
     "goals": [
-      {"player": "范戴克（荷兰）", "minute": "51'"},
-      {"player": "中村敬斗（日本）", "minute": "57'"},
-      {"player": "萨默维尔（荷兰）", "minute": "64'"},
-      {"player": "镰田大地（日本）", "minute": "88'"}
+      {
+        "player": "范戴克（荷兰）",
+        "minute": "51'"
+      },
+      {
+        "player": "中村敬斗（日本）",
+        "minute": "57'"
+      },
+      {
+        "player": "萨默维尔（荷兰）",
+        "minute": "64'"
+      },
+      {
+        "player": "镰田大地（日本）",
+        "minute": "88'"
+      }
     ],
     "notes": "日本两度落后两度扳平"
   },
@@ -185,7 +300,11 @@
     "venue": "费城林肯金融球场",
     "group": "E组",
     "goals": [
-      {"player": "阿玛德·迪亚洛（科特迪瓦）", "minute": "90'", "note": "替补绝杀"}
+      {
+        "player": "阿玛德·迪亚洛（科特迪瓦）",
+        "minute": "90'",
+        "note": "替补绝杀"
+      }
     ],
     "notes": "双方共4次击中门框"
   },
@@ -200,12 +319,30 @@
     "venue": "蒙特雷体育场",
     "group": "F组",
     "goals": [
-      {"player": "亚辛·阿亚里（瑞典）", "minute": "7'"},
-      {"player": "亚历山大·伊萨克（瑞典）", "minute": "30'"},
-      {"player": "奥马尔·雷基克（突尼斯）", "minute": "43'"},
-      {"player": "哲凯赖什（瑞典）", "minute": "59'"},
-      {"player": "马蒂亚斯·斯万贝里（瑞典）", "minute": "84'"},
-      {"player": "亚辛·阿亚里（瑞典）", "minute": "90+5'"}
+      {
+        "player": "亚辛·阿亚里（瑞典）",
+        "minute": "7'"
+      },
+      {
+        "player": "亚历山大·伊萨克（瑞典）",
+        "minute": "30'"
+      },
+      {
+        "player": "奥马尔·雷基克（突尼斯）",
+        "minute": "43'"
+      },
+      {
+        "player": "哲凯赖什（瑞典）",
+        "minute": "59'"
+      },
+      {
+        "player": "马蒂亚斯·斯万贝里（瑞典）",
+        "minute": "84'"
+      },
+      {
+        "player": "亚辛·阿亚里（瑞典）",
+        "minute": "90+5'"
+      }
     ],
     "notes": "伊萨克1射2传当选FIFA全场最佳"
   },
@@ -233,8 +370,16 @@
     "venue": "西雅图流明球场",
     "group": "G组",
     "goals": [
-      {"player": "阿舒尔（埃及）", "minute": "19'", "assist": "萨拉赫"},
-      {"player": "哈尼乌龙球（比利时）", "minute": "66'", "note": "卢卡库造成"}
+      {
+        "player": "阿舒尔（埃及）",
+        "minute": "19'",
+        "assist": "萨拉赫"
+      },
+      {
+        "player": "哈尼乌龙球（比利时）",
+        "minute": "66'",
+        "note": "卢卡库造成"
+      }
     ],
     "notes": "萨拉赫34岁生日夜送出精彩助攻"
   },
@@ -249,8 +394,15 @@
     "venue": "迈阿密硬石体育场",
     "group": "H组",
     "goals": [
-      {"player": "纳赛尔·布赫萨利（沙特）", "minute": "HT'", "note": "半场结束前进球"},
-      {"player": "努涅斯（乌拉圭）", "minute": "75'"}
+      {
+        "player": "纳赛尔·布赫萨利（沙特）",
+        "minute": "HT'",
+        "note": "半场结束前进球"
+      },
+      {
+        "player": "努涅斯（乌拉圭）",
+        "minute": "75'"
+      }
     ],
     "notes": "沙特铁桶阵成功逼平强敌"
   },
@@ -265,8 +417,14 @@
     "venue": "洛杉矶SoFi体育场",
     "group": "G组",
     "goals": [
-      {"player": "阿兹蒙（伊朗）", "minute": "22'"},
-      {"player": "塔雷米（伊朗）", "minute": "38'"}
+      {
+        "player": "阿兹蒙（伊朗）",
+        "minute": "22'"
+      },
+      {
+        "player": "塔雷米（伊朗）",
+        "minute": "38'"
+      }
     ],
     "notes": "塔雷米梅开二度当选全场最佳"
   },
@@ -281,10 +439,22 @@
     "venue": "大都会人寿体育场",
     "group": "I组",
     "goals": [
-      {"player": "姆巴佩（法国）", "minute": "66'"},
-      {"player": "巴尔科拉（法国）", "minute": "82'"},
-      {"player": "易卜拉欣·姆巴耶（塞内加尔）", "minute": "90+5'"},
-      {"player": "姆巴佩（法国）", "minute": "90+6'"}
+      {
+        "player": "姆巴佩（法国）",
+        "minute": "66'"
+      },
+      {
+        "player": "巴尔科拉（法国）",
+        "minute": "82'"
+      },
+      {
+        "player": "易卜拉欣·姆巴耶（塞内加尔）",
+        "minute": "90+5'"
+      },
+      {
+        "player": "姆巴佩（法国）",
+        "minute": "90+6'"
+      }
     ],
     "notes": "姆巴佩独中两元，以14球超越普拉蒂尼成为法国队世界杯射手王；法国2002年后成功复仇"
   },
@@ -299,11 +469,26 @@
     "venue": "波士顿吉列体育场",
     "group": "I组",
     "goals": [
-      {"player": "哈兰德（挪威）", "minute": "29'"},
-      {"player": "艾曼·侯赛因（伊拉克）", "minute": "39'"},
-      {"player": "哈兰德（挪威）", "minute": "43'"},
-      {"player": "厄斯蒂高（挪威）", "minute": "77'"},
-      {"player": "侯赛因乌龙（伊拉克）", "minute": "90+4'"}
+      {
+        "player": "哈兰德（挪威）",
+        "minute": "29'"
+      },
+      {
+        "player": "艾曼·侯赛因（伊拉克）",
+        "minute": "39'"
+      },
+      {
+        "player": "哈兰德（挪威）",
+        "minute": "43'"
+      },
+      {
+        "player": "厄斯蒂高（挪威）",
+        "minute": "77'"
+      },
+      {
+        "player": "侯赛因乌龙（伊拉克）",
+        "minute": "90+4'"
+      }
     ],
     "notes": "哈兰德首次世界杯出场即梅开二度；伊拉克成为本届首支落败的亚足联球队"
   },
@@ -318,9 +503,18 @@
     "venue": "迈阿密硬石体育场",
     "group": "J组",
     "goals": [
-      {"player": "梅西（阿根廷）", "minute": "17'"},
-      {"player": "梅西（阿根廷）", "minute": "60'"},
-      {"player": "梅西（阿根廷）", "minute": "76'"}
+      {
+        "player": "梅西（阿根廷）",
+        "minute": "17'"
+      },
+      {
+        "player": "梅西（阿根廷）",
+        "minute": "60'"
+      },
+      {
+        "player": "梅西（阿根廷）",
+        "minute": "76'"
+      }
     ],
     "notes": "梅西完成个人首个世界杯帽子戏法；世界杯总进球达16球，追平克洛泽并列历史射手王；36岁成为戴帽最年长球员"
   },
@@ -335,11 +529,66 @@
     "venue": "AT&T体育场",
     "group": "J组",
     "goals": [
-      {"player": "施密德（奥地利）", "minute": "20'"},
-      {"player": "阿里·乌勒万（约旦）", "minute": "50'"},
-      {"player": "亚赞乌龙（奥地利）", "minute": "76'"},
-      {"player": "阿瑙托维奇（奥地利）", "minute": "90+3'", "note": "点球"}
+      {
+        "player": "施密德（奥地利）",
+        "minute": "20'"
+      },
+      {
+        "player": "阿里·乌勒万（约旦）",
+        "minute": "50'"
+      },
+      {
+        "player": "亚赞乌龙（奥地利）",
+        "minute": "76'"
+      },
+      {
+        "player": "阿瑙托维奇（奥地利）",
+        "minute": "90+3'",
+        "note": "点球"
+      }
     ],
     "notes": "约旦队史世界杯首球诞生"
+  },
+  {
+    "id": "match-20260622-001",
+    "home_team": "比利时",
+    "away_team": "伊朗",
+    "home_score": null,
+    "away_score": null,
+    "status": "scheduled",
+    "start_time": "2026-06-22T03:00:00+08:00",
+    "venue": "SoFi体育场",
+    "venueCity": "洛杉矶",
+    "group": "G组",
+    "round": 2,
+    "notes": ""
+  },
+  {
+    "id": "match-20260622-002",
+    "home_team": "乌拉圭",
+    "away_team": "佛得角",
+    "home_score": null,
+    "away_score": null,
+    "status": "scheduled",
+    "start_time": "2026-06-22T06:00:00+08:00",
+    "venue": "硬石体育场",
+    "venueCity": "迈阿密",
+    "group": "H组",
+    "round": 2,
+    "notes": ""
+  },
+  {
+    "id": "match-20260622-003",
+    "home_team": "新西兰",
+    "away_team": "埃及",
+    "home_score": null,
+    "away_score": null,
+    "status": "scheduled",
+    "start_time": "2026-06-22T09:00:00+08:00",
+    "venue": "BC Place",
+    "venueCity": "温哥华",
+    "group": "G组",
+    "round": 2,
+    "notes": ""
   }
 ]
