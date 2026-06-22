@@ -1187,9 +1187,9 @@
     "id": "match-20260622-001",
     "home_team": "比利时",
     "away_team": "伊朗",
-    "home_score": null,
-    "away_score": null,
-    "status": "live",
+    "home_score": 0,
+    "away_score": 0,
+    "status": "completed",
     "start_time": "2026-06-22T03:00:00+08:00",
     "venue": "SoFi体育场",
     "venueCity": "洛杉矶",
@@ -1201,9 +1201,9 @@
     "id": "match-20260622-002",
     "home_team": "乌拉圭",
     "away_team": "佛得角",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
+    "home_score": 2,
+    "away_score": 2,
+    "status": "completed",
     "start_time": "2026-06-22T06:00:00+08:00",
     "venue": "硬石体育场",
     "venueCity": "迈阿密",
@@ -1215,14 +1215,85 @@
     "id": "match-20260622-003",
     "home_team": "新西兰",
     "away_team": "埃及",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
+    "home_score": 1,
+    "away_score": 3,
+    "status": "completed",
     "start_time": "2026-06-22T09:00:00+08:00",
     "venue": "BC Place",
     "venueCity": "温哥华",
     "group": "G组",
     "round": 2,
     "notes": "G组第二轮，新西兰vs埃及"
+  },
+  {
+    "id": "match-20260623-001",
+    "home_team": "阿根廷",
+    "away_team": "奥地利",
+    "home_score": 2,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-23T01:00:00+08:00",
+    "venue": "AT&T体育场",
+    "venueCity": "达拉斯",
+    "group": "J组",
+    "round": 2,
+    "notes": "阿根廷2-0完胜奥地利，梅西双响超越克洛泽独享世界杯射手王",
+    "goals": [
+      {
+        "player": "梅西（阿根廷）",
+        "minute": "38'",
+        "note": "梅迪纳传中，梅西推射破门"
+      },
+      {
+        "player": "梅西（阿根廷）",
+        "minute": "90+5'",
+        "note": "反击中补射破门完成双响"
+      }
+    ],
+    "cards": [
+      {
+        "player": "帕雷德斯（阿根廷）",
+        "minute": "90+2'",
+        "type": "yellow"
+      },
+      {
+        "player": "莱默（奥地利）",
+        "minute": "77'",
+        "type": "yellow"
+      }
+    ]
+  },
+  {
+    "id": "match-20260623-002",
+    "home_team": "法国",
+    "away_team": "伊拉克",
+    "status": "upcoming",
+    "start_time": "2026-06-23T05:00:00+08:00",
+    "venue": "大都会人寿体育场",
+    "venueCity": "新泽西",
+    "group": "I组",
+    "round": 2
+  },
+  {
+    "id": "match-20260623-003",
+    "home_team": "挪威",
+    "away_team": "塞内加尔",
+    "status": "upcoming",
+    "start_time": "2026-06-23T08:00:00+08:00",
+    "venue": "林肯金融球场",
+    "venueCity": "费城",
+    "group": "I组",
+    "round": 2
+  },
+  {
+    "id": "match-20260623-004",
+    "home_team": "约旦",
+    "away_team": "阿尔及利亚",
+    "status": "upcoming",
+    "start_time": "2026-06-23T11:00:00+08:00",
+    "venue": "NRG体育场",
+    "venueCity": "休斯顿",
+    "group": "J组",
+    "round": 2
   }
 ]
