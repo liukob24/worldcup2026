@@ -553,42 +553,79 @@
     "id": "match-20260622-001",
     "home_team": "比利时",
     "away_team": "伊朗",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
+    "home_score": 0,
+    "away_score": 0,
+    "status": "completed",
     "start_time": "2026-06-22T03:00:00+08:00",
     "venue": "SoFi体育场",
     "venueCity": "洛杉矶",
     "group": "G组",
     "round": 2,
-    "notes": ""
+    "notes": "比赛结束",
+    "goals": []
   },
   {
     "id": "match-20260622-002",
     "home_team": "乌拉圭",
     "away_team": "佛得角",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
+    "home_score": 2,
+    "away_score": 2,
+    "status": "completed",
     "start_time": "2026-06-22T06:00:00+08:00",
     "venue": "硬石体育场",
     "venueCity": "迈阿密",
     "group": "H组",
     "round": 2,
-    "notes": ""
+    "notes": "比赛结束",
+    "goals": [
+      {
+        "player": "凯文·皮纳（佛得角）",
+        "minute": "21'"
+      },
+      {
+        "player": "马克西·阿劳霍（乌拉圭）",
+        "minute": "44'"
+      },
+      {
+        "player": "卡诺比奥（乌拉圭）",
+        "minute": "45+6'"
+      },
+      {
+        "player": "埃利奥·瓦雷拉（佛得角）",
+        "minute": "61'"
+      }
+    ]
   },
   {
     "id": "match-20260622-003",
     "home_team": "新西兰",
     "away_team": "埃及",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
+    "home_score": 1,
+    "away_score": 3,
+    "status": "completed",
     "start_time": "2026-06-22T09:00:00+08:00",
     "venue": "BC Place",
     "venueCity": "温哥华",
     "group": "G组",
     "round": 2,
-    "notes": ""
+    "notes": "比赛结束",
+    "goals": [
+      {
+        "player": "苏尔曼（新西兰）",
+        "minute": "15'"
+      },
+      {
+        "player": "齐库（埃及）",
+        "minute": "58'"
+      },
+      {
+        "player": "萨拉赫（埃及）",
+        "minute": "67'"
+      },
+      {
+        "player": "特雷泽盖（埃及）",
+        "minute": "82'"
+      }
+    ]
   }
 ]
