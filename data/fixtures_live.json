@@ -1267,33 +1267,112 @@
     "id": "match-20260623-002",
     "home_team": "法国",
     "away_team": "伊拉克",
-    "status": "upcoming",
+    "status": "completed",
     "start_time": "2026-06-23T05:00:00+08:00",
     "venue": "大都会人寿体育场",
     "venueCity": "新泽西",
     "group": "I组",
-    "round": 2
+    "round": 2,
+    "home_score": 3,
+    "away_score": 0,
+    "goals": [
+      {
+        "player": "姆巴佩（法国）",
+        "minute": "14'",
+        "assist": "奥利塞"
+      },
+      {
+        "player": "姆巴佩（法国）",
+        "minute": "54'",
+        "assist": "巴西勒乌龙"
+      },
+      {
+        "player": "登贝莱（法国）",
+        "minute": "66'",
+        "assist": "奥利塞"
+      }
+    ],
+    "notes": "I组第二轮，姆巴佩100场里程碑梅开二度，法国大胜提前出线",
+    "cards": [
+      {
+        "player": "伊拉克球员",
+        "minute": "75'",
+        "type": "yellow"
+      }
+    ]
   },
   {
     "id": "match-20260623-003",
     "home_team": "挪威",
     "away_team": "塞内加尔",
-    "status": "upcoming",
+    "status": "completed",
     "start_time": "2026-06-23T08:00:00+08:00",
     "venue": "林肯金融球场",
     "venueCity": "费城",
     "group": "I组",
-    "round": 2
+    "round": 2,
+    "home_score": 3,
+    "away_score": 2,
+    "goals": [
+      {
+        "player": "彼得森（挪威）",
+        "minute": "43'",
+        "assist": "库利巴利失误"
+      },
+      {
+        "player": "哈兰德（挪威）",
+        "minute": "48'",
+        "assist": "厄德高"
+      },
+      {
+        "player": "萨尔（塞内加尔）",
+        "minute": "53'",
+        "assist": "马内"
+      },
+      {
+        "player": "哈兰德（挪威）",
+        "minute": "58'",
+        "assist": "贝格"
+      },
+      {
+        "player": "萨尔（塞内加尔）",
+        "minute": "90+3'",
+        "assist": "马内"
+      }
+    ],
+    "notes": "I组第二轮，哈兰德连场梅开二度助挪威提前出线",
+    "cards": []
   },
   {
     "id": "match-20260623-004",
     "home_team": "约旦",
     "away_team": "阿尔及利亚",
-    "status": "upcoming",
+    "status": "completed",
     "start_time": "2026-06-23T11:00:00+08:00",
     "venue": "NRG体育场",
     "venueCity": "休斯顿",
     "group": "J组",
-    "round": 2
+    "round": 2,
+    "home_score": 1,
+    "away_score": 2,
+    "goals": [
+      {
+        "player": "尼扎尔（约旦）",
+        "minute": "36'",
+        "assist": "塔马里"
+      },
+      {
+        "player": "本布阿利（阿尔及利亚）",
+        "minute": "69'",
+        "assist": "马赫雷斯"
+      },
+      {
+        "player": "古伊里（阿尔及利亚）",
+        "minute": "82'",
+        "assist": "角球"
+      }
+    ],
+    "notes": "J组第二轮，约旦提前出局，阿尔及利亚逆转保留出线希望",
+    "cards": []
   }
 ]
