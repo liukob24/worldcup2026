@@ -1229,44 +1229,100 @@
     "id": "match-20260623-001",
     "home_team": "阿根廷",
     "away_team": "奥地利",
-    "status": "upcoming",
+    "home_score": 2,
+    "away_score": 0,
+    "status": "completed",
     "start_time": "2026-06-23T01:00:00+08:00",
-    "venue": "AT&T体育场",
-    "venueCity": "达拉斯",
     "group": "J组",
-    "round": 2
+    "goals": [
+      {
+        "player": "梅西（阿根廷）",
+        "minute": "38'"
+      },
+      {
+        "player": "梅西（阿根廷）",
+        "minute": "90+5'"
+      }
+    ],
+    "notes": "梅西梅开二度超越克洛泽独享世界杯射手王，阿根廷2连胜提前出线。"
   },
   {
     "id": "match-20260623-002",
     "home_team": "法国",
     "away_team": "伊拉克",
-    "status": "upcoming",
+    "home_score": 3,
+    "away_score": 0,
+    "status": "completed",
     "start_time": "2026-06-23T05:00:00+08:00",
-    "venue": "大都会人寿体育场",
-    "venueCity": "新泽西",
     "group": "I组",
-    "round": 2
+    "goals": [
+      {
+        "player": "姆巴佩（法国）",
+        "minute": "14'"
+      },
+      {
+        "player": "姆巴佩（法国）",
+        "minute": "54'"
+      },
+      {
+        "player": "登贝莱（法国）",
+        "minute": "66'"
+      }
+    ],
+    "notes": "姆巴佩梅开二度，法国3-0完胜提前出线。因雷暴天气下半场推迟2小时开赛。"
   },
   {
     "id": "match-20260623-003",
     "home_team": "挪威",
     "away_team": "塞内加尔",
-    "status": "upcoming",
+    "home_score": 3,
+    "away_score": 2,
+    "status": "completed",
     "start_time": "2026-06-23T08:00:00+08:00",
-    "venue": "林肯金融球场",
-    "venueCity": "费城",
     "group": "I组",
-    "round": 2
+    "goals": [
+      {
+        "player": "彼得森（挪威）",
+        "minute": "43'"
+      },
+      {
+        "player": "哈兰德（挪威）",
+        "minute": "48'"
+      },
+      {
+        "player": "萨尔（塞内加尔）",
+        "minute": "53'"
+      },
+      {
+        "player": "哈兰德（挪威）",
+        "minute": "58'"
+      },
+      {
+        "player": "萨尔（塞内加尔）",
+        "minute": "90+3'"
+      }
+    ],
+    "notes": "哈兰德梅开二度，挪威3-2险胜塞内加尔提前出线。"
   },
   {
     "id": "match-20260623-004",
     "home_team": "约旦",
     "away_team": "阿尔及利亚",
-    "status": "upcoming",
+    "home_score": 1,
+    "away_score": 1,
+    "status": "completed",
     "start_time": "2026-06-23T11:00:00+08:00",
-    "venue": "NRG体育场",
-    "venueCity": "休斯顿",
     "group": "J组",
-    "round": 2
+    "goals": [
+      {
+        "player": "尼扎尔·拉什丹（约旦）",
+        "minute": "36'"
+      },
+      {
+        "player": "本布阿利（阿尔及利亚）",
+        "minute": "69'"
+      }
+    ],
+    "notes": "约旦1-1阿尔及利亚，约旦取得队史首个世界杯积分。"
   }
 ]
