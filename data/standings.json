@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-24T00:30:00+08:00",
-  "source": "fixtures_live+verified",
-  "notes": "R2最终修复v3",
+  "last_updated": "2026-06-24T00:33:00+08:00",
+  "source": "fixtures_live_ONLY",
+  "notes": "fixtures_live单一数据源",
   "groups": {
     "A组": {
       "matches_played": 2,
@@ -110,19 +110,19 @@
       ]
     },
     "C组": {
-      "matches_played": 3,
+      "matches_played": 2,
       "teams": [
         {
           "rank": 1,
           "team": "摩洛哥",
-          "played": 3,
-          "won": 2,
+          "played": 2,
+          "won": 1,
           "drawn": 1,
           "lost": 0,
-          "gf": 4,
+          "gf": 2,
           "ga": 1,
-          "gd": 3,
-          "points": 7
+          "gd": 1,
+          "points": 4
         },
         {
           "rank": 2,
@@ -151,13 +151,13 @@
         {
           "rank": 4,
           "team": "海地",
-          "played": 2,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
+          "lost": 1,
           "gf": 0,
-          "ga": 3,
-          "gd": -3,
+          "ga": 1,
+          "gd": -1,
           "points": 0
         }
       ]
@@ -245,26 +245,26 @@
         {
           "rank": 3,
           "team": "厄瓜多尔",
-          "played": 2,
+          "played": 1,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 1,
           "gf": 0,
           "ga": 1,
           "gd": -1,
-          "points": 1
+          "points": 0
         },
         {
           "rank": 4,
           "team": "库拉索",
-          "played": 2,
+          "played": 1,
           "won": 0,
-          "drawn": 1,
+          "drawn": 0,
           "lost": 1,
           "gf": 1,
           "ga": 7,
           "gd": -6,
-          "points": 1
+          "points": 0
         }
       ]
     },
@@ -285,18 +285,6 @@
         },
         {
           "rank": 2,
-          "team": "日本",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 6,
-          "ga": 2,
-          "gd": 4,
-          "points": 4
-        },
-        {
-          "rank": 3,
           "team": "瑞典",
           "played": 2,
           "won": 1,
@@ -308,15 +296,27 @@
           "points": 3
         },
         {
+          "rank": 3,
+          "team": "日本",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 1
+        },
+        {
           "rank": 4,
           "team": "突尼斯",
-          "played": 2,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
+          "lost": 1,
           "gf": 1,
-          "ga": 9,
-          "gd": -8,
+          "ga": 5,
+          "gd": -4,
           "points": 0
         }
       ]
@@ -379,18 +379,6 @@
       "teams": [
         {
           "rank": 1,
-          "team": "西班牙",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 4,
-          "ga": 0,
-          "gd": 4,
-          "points": 4
-        },
-        {
-          "rank": 2,
           "team": "乌拉圭",
           "played": 2,
           "won": 0,
@@ -402,7 +390,7 @@
           "points": 2
         },
         {
-          "rank": 3,
+          "rank": 2,
           "team": "佛得角",
           "played": 2,
           "won": 0,
@@ -414,121 +402,133 @@
           "points": 2
         },
         {
-          "rank": 4,
+          "rank": 3,
           "team": "沙特阿拉伯",
-          "played": 2,
+          "played": 1,
           "won": 0,
           "drawn": 1,
-          "lost": 1,
+          "lost": 0,
           "gf": 1,
-          "ga": 5,
-          "gd": -4,
+          "ga": 1,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "rank": 4,
+          "team": "西班牙",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
           "points": 1
         }
       ]
     },
     "I组": {
-      "matches_played": 2,
+      "matches_played": 1,
       "teams": [
         {
           "rank": 1,
           "team": "法国",
-          "played": 2,
-          "won": 2,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 6,
-          "ga": 1,
-          "gd": 5,
-          "points": 6
+          "gf": 3,
+          "ga": 0,
+          "gd": 3,
+          "points": 3
         },
         {
           "rank": 2,
           "team": "挪威",
-          "played": 2,
-          "won": 2,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 7,
-          "ga": 3,
-          "gd": 4,
-          "points": 6
+          "gf": 3,
+          "ga": 2,
+          "gd": 1,
+          "points": 3
         },
         {
           "rank": 3,
           "team": "塞内加尔",
-          "played": 2,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "gf": 3,
-          "ga": 6,
-          "gd": -3,
+          "lost": 1,
+          "gf": 2,
+          "ga": 3,
+          "gd": -1,
           "points": 0
         },
         {
           "rank": 4,
           "team": "伊拉克",
-          "played": 2,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "gf": 1,
-          "ga": 7,
-          "gd": -6,
+          "lost": 1,
+          "gf": 0,
+          "ga": 3,
+          "gd": -3,
           "points": 0
         }
       ]
     },
     "J组": {
-      "matches_played": 2,
+      "matches_played": 1,
       "teams": [
         {
           "rank": 1,
           "team": "阿根廷",
-          "played": 2,
-          "won": 2,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 5,
+          "gf": 2,
           "ga": 0,
-          "gd": 5,
-          "points": 6
+          "gd": 2,
+          "points": 3
         },
         {
           "rank": 2,
-          "team": "奥地利",
-          "played": 2,
+          "team": "阿尔及利亚",
+          "played": 1,
           "won": 1,
           "drawn": 0,
-          "lost": 1,
-          "gf": 3,
-          "ga": 3,
-          "gd": 0,
+          "lost": 0,
+          "gf": 2,
+          "ga": 1,
+          "gd": 1,
           "points": 3
         },
         {
           "rank": 3,
-          "team": "阿尔及利亚",
-          "played": 2,
-          "won": 1,
+          "team": "约旦",
+          "played": 1,
+          "won": 0,
           "drawn": 0,
           "lost": 1,
-          "gf": 2,
-          "ga": 4,
-          "gd": -2,
-          "points": 3
+          "gf": 1,
+          "ga": 2,
+          "gd": -1,
+          "points": 0
         },
         {
           "rank": 4,
-          "team": "约旦",
-          "played": 2,
+          "team": "奥地利",
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "gf": 2,
-          "ga": 5,
-          "gd": -3,
+          "lost": 1,
+          "gf": 0,
+          "ga": 2,
+          "gd": -2,
           "points": 0
         }
       ]
