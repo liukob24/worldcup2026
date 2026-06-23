@@ -550,33 +550,419 @@
     "notes": "约旦队史世界杯首球诞生"
   },
   {
+    "id": "match-20260618-001",
+    "home_team": "葡萄牙",
+    "away_team": "民主刚果",
+    "home_score": 1,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-18T01:00:00+08:00",
+    "venue": "NRG体育场",
+    "group": "K组",
+    "goals": [
+      {
+        "player": "若昂·内维斯（葡萄牙）",
+        "minute": "6'"
+      },
+      {
+        "player": "姆本巴（民主刚果）",
+        "minute": "45+2'"
+      }
+    ],
+    "notes": "C罗六届世界杯首秀爆冷丢分"
+  },
+  {
+    "id": "match-20260618-002",
+    "home_team": "英格兰",
+    "away_team": "克罗地亚",
+    "home_score": 4,
+    "away_score": 2,
+    "status": "completed",
+    "start_time": "2026-06-18T04:00:00+08:00",
+    "venue": "AT&T体育场",
+    "group": "L组",
+    "goals": [
+      {
+        "player": "巴图里纳（克罗地亚）",
+        "minute": "45'"
+      },
+      {
+        "player": "帕尔默（英格兰）",
+        "minute": "67'"
+      },
+      {
+        "player": "莫德里奇（克罗地亚）",
+        "minute": "89'"
+      },
+      {
+        "player": "凯恩（英格兰）",
+        "minute": "90+2'"
+      }
+    ],
+    "notes": "凯恩梅开二度+点球追平队史射手王，莫德里奇世界波"
+  },
+  {
+    "id": "match-20260618-003",
+    "home_team": "加纳",
+    "away_team": "巴拿马",
+    "home_score": 1,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-18T07:00:00+08:00",
+    "venue": "BMO球场",
+    "group": "L组",
+    "goals": [
+      {
+        "player": "凯莱布·伊伦基（加纳）",
+        "minute": "90+5'",
+        "assist": "托马斯-阿桑特"
+      }
+    ],
+    "notes": "加纳1-0绝杀巴拿马，伊伦基补时第5分钟上演绝杀"
+  },
+  {
+    "id": "match-20260618-004",
+    "home_team": "乌兹别克斯坦",
+    "away_team": "哥伦比亚",
+    "home_score": 1,
+    "away_score": 3,
+    "status": "completed",
+    "start_time": "2026-06-18T10:00:00+08:00",
+    "venue": "阿兹特克体育场",
+    "group": "K组",
+    "goals": [
+      {
+        "player": "丹尼尔·穆尼奥斯（哥伦比亚）",
+        "minute": "41'"
+      },
+      {
+        "player": "阿博斯别克·法伊祖拉耶夫（乌兹别克斯坦）",
+        "minute": "60'"
+      },
+      {
+        "player": "路易斯·迪亚斯（哥伦比亚）",
+        "minute": "65'"
+      },
+      {
+        "player": "哈明通·坎帕斯（哥伦比亚）",
+        "minute": "99'"
+      }
+    ],
+    "notes": "乌兹别克斯坦队史世界杯首球"
+  },
+  {
+    "id": "match-20260619-029",
+    "home_team": "捷克",
+    "away_team": "南非",
+    "home_score": 1,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-19T00:00:00+08:00",
+    "venue": "梅赛德斯-奔驰体育场",
+    "group": "A组",
+    "goals": [
+      {
+        "player": "萨迪莱克（捷克）",
+        "minute": "5'"
+      },
+      {
+        "player": "莫科纳（南非）",
+        "minute": "83'",
+        "note": "点球"
+      }
+    ],
+    "notes": "捷克1-1南非，萨迪莱克开场5分钟闪电破门，南非83分钟点球扳平"
+  },
+  {
+    "id": "match-20260619-030",
+    "home_team": "瑞士",
+    "away_team": "波黑",
+    "home_score": 4,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-19T03:00:00+08:00",
+    "venue": "SoFi体育场",
+    "group": "B组",
+    "goals": [
+      {
+        "player": "曼赞比（瑞士）",
+        "minute": "74'"
+      },
+      {
+        "player": "曼赞比（瑞士）",
+        "minute": "77'"
+      },
+      {
+        "player": "恩博洛（瑞士）",
+        "minute": "83'",
+        "note": "点球"
+      },
+      {
+        "player": "马赫米奇（波黑）",
+        "minute": "93'"
+      }
+    ],
+    "notes": "瑞士4-1十人波黑，曼赞比20岁替补双响创纪录"
+  },
+  {
+    "id": "match-20260619-031",
+    "home_team": "加拿大",
+    "away_team": "卡塔尔",
+    "home_score": 6,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-19T06:00:00+08:00",
+    "venue": "不列颠哥伦比亚体育馆",
+    "group": "B组",
+    "goals": [
+      {
+        "player": "拉林（加拿大）",
+        "minute": "16'"
+      },
+      {
+        "player": "戴维（加拿大）",
+        "minute": "29'"
+      },
+      {
+        "player": "戴维（加拿大）",
+        "minute": "45+3'"
+      },
+      {
+        "player": "萨利巴（加拿大）",
+        "minute": "64'"
+      },
+      {
+        "player": "卡塔尔球员（加拿大）",
+        "minute": "75'",
+        "note": "乌龙球"
+      },
+      {
+        "player": "戴维（加拿大）",
+        "minute": "92'"
+      }
+    ],
+    "notes": "加拿大6-0血洗卡塔尔，乔纳森·戴维帽子戏法，卡塔尔单场两红创纪录"
+  },
+  {
+    "id": "match-20260619-032",
+    "home_team": "墨西哥",
+    "away_team": "韩国",
+    "home_score": 1,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-19T09:00:00+08:00",
+    "venue": "瓜达拉哈拉体育场",
+    "group": "A组",
+    "goals": [
+      {
+        "player": "罗莫（墨西哥）",
+        "minute": "50'"
+      }
+    ],
+    "notes": "墨西哥1-0韩国成为首支晋级16强球队"
+  },
+  {
+    "id": "match-20260620-051",
+    "home_team": "美国",
+    "away_team": "澳大利亚",
+    "home_score": 2,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-20T03:00:00+08:00",
+    "venue": "西雅图体育场",
+    "group": "D组",
+    "goals": [
+      {
+        "player": "伯吉斯（澳大利亚）",
+        "minute": "11'",
+        "note": "乌龙球"
+      },
+      {
+        "player": "亚历克斯·弗里曼（美国）",
+        "minute": "43'"
+      }
+    ],
+    "notes": "美国连续两场靠乌龙得分，两连胜锁定D组头名提前出线"
+  },
+  {
+    "id": "match-20260620-052",
+    "home_team": "苏格兰",
+    "away_team": "摩洛哥",
+    "home_score": 0,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-20T06:00:00+08:00",
+    "venue": "吉列体育场",
+    "group": "C组",
+    "goals": [
+      {
+        "player": "伊斯梅尔·赛巴里（摩洛哥）",
+        "minute": "2'"
+      }
+    ],
+    "notes": "摩洛哥1-0苏格兰，赛巴里开场70秒闪击"
+  },
+  {
+    "id": "match-20260621-001",
+    "home_team": "德国",
+    "away_team": "科特迪瓦",
+    "home_score": 2,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-21T00:00:00+08:00",
+    "venue": "休斯顿NRG体育场",
+    "group": "E组",
+    "goals": [
+      {
+        "player": "凯西（科特迪瓦）",
+        "minute": "30'"
+      },
+      {
+        "player": "翁达夫（德国）",
+        "minute": "68'"
+      },
+      {
+        "player": "翁达夫（德国）",
+        "minute": "90+4'"
+      }
+    ],
+    "notes": "德国2-1逆转科特迪瓦，翁达夫补时绝杀，德国两连胜提前出线"
+  },
+  {
+    "id": "match-20260621-002",
+    "home_team": "厄瓜多尔",
+    "away_team": "库拉索",
+    "home_score": 0,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-21T03:00:00+08:00",
+    "venue": "费城林肯金融球场",
+    "group": "E组",
+    "goals": [],
+    "notes": "库拉索门将鲁姆15次扑救创纪录，双方0-0握手言和"
+  },
+  {
+    "id": "match-20260621-003",
+    "home_team": "荷兰",
+    "away_team": "瑞典",
+    "home_score": 5,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-21T06:00:00+08:00",
+    "venue": "达拉斯AT&T体育场",
+    "group": "F组",
+    "goals": [
+      {
+        "player": "布罗比（荷兰）",
+        "minute": "17'"
+      },
+      {
+        "player": "布罗比（荷兰）",
+        "minute": "23'"
+      },
+      {
+        "player": "加克波（荷兰）",
+        "minute": "62'"
+      },
+      {
+        "player": "加克波（荷兰）",
+        "minute": "70'"
+      },
+      {
+        "player": "埃兰加（瑞典）",
+        "minute": "77'"
+      },
+      {
+        "player": "萨默维尔（荷兰）",
+        "minute": "88'"
+      }
+    ],
+    "notes": "荷兰5-1大胜瑞典，布罗比、加克波双双梅开二度"
+  },
+  {
+    "id": "match-20260621-004",
+    "home_team": "突尼斯",
+    "away_team": "日本",
+    "home_score": 0,
+    "away_score": 4,
+    "status": "completed",
+    "start_time": "2026-06-21T09:00:00+08:00",
+    "venue": "蒙特雷体育场",
+    "group": "F组",
+    "goals": [
+      {
+        "player": "镰田大地（日本）",
+        "minute": "4'"
+      },
+      {
+        "player": "上田绮世（日本）",
+        "minute": "31'"
+      },
+      {
+        "player": "伊东纯也（日本）",
+        "minute": "69'"
+      },
+      {
+        "player": "上田绮世（日本）",
+        "minute": "83'"
+      }
+    ],
+    "notes": "日本4-0横扫突尼斯，世界杯第1000场里程碑，日本创造亚洲最大分差纪录"
+  },
+  {
     "id": "match-20260622-001",
+    "home_team": "西班牙",
+    "away_team": "沙特阿拉伯",
+    "home_score": 4,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-22T00:00:00+08:00",
+    "venue": "亚特兰大体育场",
+    "group": "H组",
+    "goals": [
+      {
+        "player": "奥亚萨瓦尔（西班牙）",
+        "minute": "10'"
+      },
+      {
+        "player": "奥亚萨瓦尔（西班牙）",
+        "minute": "21'"
+      },
+      {
+        "player": "奥亚萨瓦尔（西班牙）",
+        "minute": "23'"
+      },
+      {
+        "player": "坦巴克提（沙特）",
+        "minute": "48'",
+        "note": "乌龙球"
+      }
+    ],
+    "notes": "西班牙4-0大胜，奥亚萨瓦尔25分钟戴帽，18岁亚马尔获世界杯首球"
+  },
+  {
+    "id": "match-20260622-002",
     "home_team": "比利时",
     "away_team": "伊朗",
     "home_score": 0,
     "away_score": 0,
     "status": "completed",
     "start_time": "2026-06-22T03:00:00+08:00",
-    "venue": "SoFi体育场",
-    "venueCity": "洛杉矶",
+    "venue": "洛杉矶体育场",
     "group": "G组",
-    "round": 2,
-    "notes": "比赛结束",
-    "goals": []
+    "goals": [],
+    "notes": "比利时23脚射门0进球，伊朗进球被吹，双方0-0闷平"
   },
   {
-    "id": "match-20260622-002",
+    "id": "match-20260622-003",
     "home_team": "乌拉圭",
     "away_team": "佛得角",
     "home_score": 2,
     "away_score": 2,
     "status": "completed",
     "start_time": "2026-06-22T06:00:00+08:00",
-    "venue": "硬石体育场",
-    "venueCity": "迈阿密",
+    "venue": "迈阿密体育场",
     "group": "H组",
-    "round": 2,
-    "notes": "比赛结束",
     "goals": [
       {
         "player": "凯文·皮纳（佛得角）",
@@ -588,30 +974,28 @@
       },
       {
         "player": "卡诺比奥（乌拉圭）",
-        "minute": "45+6'"
+        "minute": "45+1'"
       },
       {
         "player": "埃利奥·瓦雷拉（佛得角）",
         "minute": "61'"
       }
-    ]
+    ],
+    "notes": "佛得角2-2逼平乌拉圭，队史世界杯首球诞生"
   },
   {
-    "id": "match-20260622-003",
+    "id": "match-20260622-004",
     "home_team": "新西兰",
     "away_team": "埃及",
     "home_score": 1,
     "away_score": 3,
     "status": "completed",
     "start_time": "2026-06-22T09:00:00+08:00",
-    "venue": "BC Place",
-    "venueCity": "温哥华",
+    "venue": "温哥华不列颠哥伦比亚体育馆",
     "group": "G组",
-    "round": 2,
-    "notes": "比赛结束",
     "goals": [
       {
-        "player": "苏尔曼（新西兰）",
+        "player": "瑟曼（新西兰）",
         "minute": "15'"
       },
       {
@@ -623,9 +1007,118 @@
         "minute": "67'"
       },
       {
-        "player": "特雷泽盖（埃及）",
+        "player": "萨拉赫（埃及）",
+        "minute": "89'"
+      }
+    ],
+    "notes": "埃及3-1逆转新西兰，萨拉赫传射建功，终结92年世界杯不胜魔咒"
+  },
+  {
+    "id": "match-20260623-001",
+    "home_team": "阿根廷",
+    "away_team": "奥地利",
+    "home_score": 2,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-23T01:00:00+08:00",
+    "venue": "达拉斯AT&T体育场",
+    "group": "J组",
+    "goals": [
+      {
+        "player": "梅西（阿根廷）",
+        "minute": "38'"
+      },
+      {
+        "player": "梅西（阿根廷）",
+        "minute": "90+3'"
+      }
+    ],
+    "notes": "梅西梅开二度，世界杯18球超越克洛泽登顶历史射手王"
+  },
+  {
+    "id": "match-20260623-002",
+    "home_team": "法国",
+    "away_team": "伊拉克",
+    "home_score": 3,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-23T05:00:00+08:00",
+    "venue": "费城体育场",
+    "group": "I组",
+    "goals": [
+      {
+        "player": "姆巴佩（法国）",
+        "minute": "14'"
+      },
+      {
+        "player": "姆巴佩（法国）",
+        "minute": "54'"
+      },
+      {
+        "player": "登贝莱（法国）",
+        "minute": "66'"
+      }
+    ],
+    "notes": "姆巴佩百场里程碑双响，法国3-0伊拉克提前出线"
+  },
+  {
+    "id": "match-20260623-003",
+    "home_team": "挪威",
+    "away_team": "塞内加尔",
+    "home_score": 3,
+    "away_score": 2,
+    "status": "completed",
+    "start_time": "2026-06-23T08:00:00+08:00",
+    "venue": "纽约新泽西大都会球场",
+    "group": "I组",
+    "goals": [
+      {
+        "player": "彼德森（挪威）",
+        "minute": "43'"
+      },
+      {
+        "player": "哈兰德（挪威）",
+        "minute": "46'"
+      },
+      {
+        "player": "伊斯梅拉·萨尔（塞内加尔）",
+        "minute": "52'"
+      },
+      {
+        "player": "哈兰德（挪威）",
+        "minute": "58'"
+      },
+      {
+        "player": "伊斯梅拉·萨尔（塞内加尔）",
+        "minute": "90+3'"
+      }
+    ],
+    "notes": "哈兰德连场双响，挪威3-2险胜塞内加尔提前出线"
+  },
+  {
+    "id": "match-20260623-004",
+    "home_team": "约旦",
+    "away_team": "阿尔及利亚",
+    "home_score": 1,
+    "away_score": 3,
+    "status": "completed",
+    "start_time": "2026-06-23T11:00:00+08:00",
+    "venue": "旧金山湾区李维斯球场",
+    "group": "J组",
+    "goals": [
+      {
+        "player": "阿尔拉什丹（约旦）",
+        "minute": "36'"
+      },
+      {
+        "player": "本布阿里（阿尔及利亚）",
+        "minute": "69'"
+      },
+      {
+        "player": "古伊里（阿尔及利亚）",
         "minute": "82'"
       }
-    ]
+    ],
+    "notes": "阿尔及利亚2-1逆转约旦，约旦成为亚洲首支出局球队"
   }
 ]
