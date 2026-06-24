@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-24T11:57:00+08:00",
+  "last_updated": "2026-06-24T12:35:00+08:00",
   "source": "fixtures_live + verified match results",
-  "notes": "L组 R3: Croatia 1-0 Panama (Budimir winner). Full standings: England 4pts, Ghana 4pts, Croatia 3pts",
+  "notes": "K组 R3: Colombia 1-0 DR Congo (Muñoz 76'). Colombia 6pts advance as group leader. Portugal 4pts 2nd. DR Congo 1pt.",
   "groups": {
     "A组": {
       "matches_played": 2,
@@ -534,10 +534,23 @@
       ]
     },
     "K组": {
-      "matches_played": 2,
+      "matches_played": 3,
+      "notes": "R3: Colombia 1-0 DR Congo, Portugal 5-0 Uzbekistan. Colombia 6pts advance as group leader.",
       "teams": [
         {
           "rank": 1,
+          "team": "哥伦比亚",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "points": 6
+        },
+        {
+          "rank": 2,
           "team": "葡萄牙",
           "played": 2,
           "won": 1,
@@ -549,27 +562,15 @@
           "points": 4
         },
         {
-          "rank": 2,
-          "team": "哥伦比亚",
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 3,
-          "ga": 1,
-          "gd": 2,
-          "points": 3
-        },
-        {
           "rank": 3,
           "team": "民主刚果",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 1,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "ga": 2,
+          "gd": -1,
           "points": 1
         },
         {
