@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-24T07:50:00+08:00",
+  "last_updated": "2026-06-24T11:57:00+08:00",
   "source": "fixtures_live + verified match results",
-  "notes": "Added R3: Portugal 5-0 Uzbekistan, England 0-0 Ghana",
+  "notes": "L组 R3: Croatia 1-0 Panama (Budimir winner). Full standings: England 4pts, Ghana 4pts, Croatia 3pts",
   "groups": {
     "A组": {
       "matches_played": 2,
@@ -616,25 +616,25 @@
         {
           "rank": 3,
           "team": "克罗地亚",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "gf": 2,
-          "ga": 1,
-          "gd": 1,
+          "lost": 1,
+          "gf": 3,
+          "ga": 4,
+          "gd": -1,
           "points": 3
         },
         {
           "rank": 4,
           "team": "巴拿马",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 0,
-          "ga": 1,
-          "gd": -1,
+          "ga": 2,
+          "gd": -2,
           "points": 0
         }
       ]
