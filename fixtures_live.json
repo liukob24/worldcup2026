@@ -1324,5 +1324,151 @@
       }
     ],
     "notes": "约旦1-1阿尔及利亚，约旦取得队史首个世界杯积分。"
+  },
+  {
+    "id": "match-20260624-001",
+    "home_team": "英格兰",
+    "away_team": "加纳",
+    "home_score": 0,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-24T04:00:00+08:00",
+    "venue": "林肯金融球场",
+    "venueCity": "费城",
+    "group": "L组",
+    "round": 2,
+    "notes": "英格兰0-0加纳，英格兰两连平基本锁定出线",
+    "goals": [],
+    "cards": []
+  },
+  {
+    "id": "match-20260624-002",
+    "home_team": "葡萄牙",
+    "away_team": "乌兹别克斯坦",
+    "home_score": 5,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-24T07:00:00+08:00",
+    "venue": "NRG体育场",
+    "venueCity": "休斯敦",
+    "group": "K组",
+    "round": 2,
+    "notes": "C罗梅开二度，连续六届世界杯进球，超越尤西比奥成为葡萄牙队史世界杯射手王",
+    "goals": [
+      {
+        "player": "C罗（葡萄牙）",
+        "minute": "6'",
+        "note": "凌空扫射"
+      },
+      {
+        "player": "努诺·门德斯（葡萄牙）",
+        "minute": "17'",
+        "note": "任意球直接破门"
+      },
+      {
+        "player": "C罗（葡萄牙）",
+        "minute": "39'",
+        "note": "单刀推射梅开二度"
+      },
+      {
+        "player": "乌兹别克斯坦球员（葡萄牙）",
+        "minute": "60'",
+        "note": "乌龙球"
+      },
+      {
+        "player": "莱奥（葡萄牙）",
+        "minute": "87'",
+        "note": "内切兜射"
+      }
+    ],
+    "cards": []
+  },
+  {
+    "id": "match-20260624-003",
+    "home_team": "巴拿马",
+    "away_team": "克罗地亚",
+    "home_score": 0,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-24T07:00:00+08:00",
+    "venue": "BMO球场",
+    "venueCity": "多伦多",
+    "group": "L组",
+    "round": 2,
+    "notes": "莫德里奇迎来国家队第200场里程碑，布迪米尔替补破门",
+    "goals": [
+      {
+        "player": "布迪米尔（克罗地亚）",
+        "minute": "54'"
+      }
+    ],
+    "cards": []
+  },
+  {
+    "id": "match-20260624-004",
+    "home_team": "哥伦比亚",
+    "away_team": "刚果民主共和国",
+    "home_score": 1,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-24T10:00:00+08:00",
+    "venue": "大都会人寿体育场",
+    "venueCity": "新泽西",
+    "group": "K组",
+    "round": 2,
+    "notes": "穆尼奥斯第76分钟低射变线入网，哥伦比亚6分提前出线",
+    "goals": [
+      {
+        "player": "穆尼奥斯（哥伦比亚）",
+        "minute": "76'",
+        "note": "低射变线"
+      }
+    ],
+    "cards": []
+  },
+  {
+    "id": "match-20260625-001",
+    "home_team": "瑞士",
+    "away_team": "加拿大",
+    "start_time": "2026-06-25T03:00:00+08:00",
+    "venue": "BMO球场",
+    "venueCity": "多伦多",
+    "group": "B组"
+  },
+  {
+    "id": "match-20260625-002",
+    "home_team": "波黑",
+    "away_team": "卡塔尔",
+    "start_time": "2026-06-25T03:00:00+08:00",
+    "venue": "梅赛德斯-奔驰体育场",
+    "venueCity": "亚特兰大",
+    "group": "B组"
+  },
+  {
+    "id": "match-20260625-003",
+    "home_team": "摩洛哥",
+    "away_team": "海地",
+    "start_time": "2026-06-25T06:00:00+08:00",
+    "venue": "NRG体育场",
+    "venueCity": "休斯敦",
+    "group": "C组"
+  },
+  {
+    "id": "match-20260625-004",
+    "home_team": "捷克",
+    "away_team": "墨西哥",
+    "start_time": "2026-06-25T09:00:00+08:00",
+    "venue": "阿兹特克体育场",
+    "venueCity": "墨西哥城",
+    "group": "A组"
+  },
+  {
+    "id": "match-20260625-005",
+    "home_team": "南非",
+    "away_team": "韩国",
+    "start_time": "2026-06-25T09:00:00+08:00",
+    "venue": "阿兹特克体育场",
+    "venueCity": "墨西哥城",
+    "group": "A组"
   }
 ]
