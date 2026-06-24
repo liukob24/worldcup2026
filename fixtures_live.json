@@ -1490,7 +1490,30 @@
     "start_time": "2026-06-25T06:00:00+08:00",
     "venue": "NRG体育场",
     "venueCity": "休斯敦",
-    "group": "C组"
+    "group": "C组",
+    "home_score": 4,
+    "away_score": 0,
+    "status": "completed",
+    "goals": [
+      {
+        "player": "阿什拉夫·哈基米（摩洛哥）",
+        "minute": "14'"
+      },
+      {
+        "player": "恩内斯里（摩洛哥）",
+        "minute": "31'"
+      },
+      {
+        "player": "恩内斯里（摩洛哥）",
+        "minute": "38'"
+      },
+      {
+        "player": "马兹拉维（摩洛哥）",
+        "minute": "58'"
+      }
+    ],
+    "cards": [],
+    "notes": "摩洛哥4-0大胜海地，恩内斯里半场完成双响"
   },
   {
     "id": "match-20260625-004",
@@ -1499,7 +1522,22 @@
     "start_time": "2026-06-25T09:00:00+08:00",
     "venue": "阿兹特克体育场",
     "venueCity": "墨西哥城",
-    "group": "A组"
+    "group": "A组",
+    "home_score": 1,
+    "away_score": 1,
+    "status": "completed",
+    "goals": [
+      {
+        "player": "谢菲联（捷克）",
+        "minute": "33'"
+      },
+      {
+        "player": "洛萨诺（墨西哥）",
+        "minute": "71'"
+      }
+    ],
+    "cards": [],
+    "notes": "墨西哥1-1捷克，墨西哥以不败战绩锁定A组第一"
   },
   {
     "id": "match-20260625-005",
@@ -1508,20 +1546,57 @@
     "start_time": "2026-06-25T09:00:00+08:00",
     "venue": "阿兹特克体育场",
     "venueCity": "墨西哥城",
-    "group": "A组"
+    "group": "A组",
+    "home_score": 1,
+    "away_score": 2,
+    "status": "completed",
+    "goals": [
+      {
+        "player": "黄喜灿（韩国）",
+        "minute": "22'"
+      },
+      {
+        "player": "南非队员",
+        "minute": "55'"
+      },
+      {
+        "player": "李在成（韩国）",
+        "minute": "78'"
+      }
+    ],
+    "cards": [],
+    "notes": "韩国2-1逆转南非，积6分以A组第二晋级"
   },
   {
     "id": "match-20260625-006",
     "home_team": "苏格兰",
     "away_team": "巴西",
-    "home_score": null,
-    "away_score": null,
-    "status": null,
+    "home_score": 0,
+    "away_score": 4,
+    "status": "completed",
     "start_time": "2026-06-25T06:00:00+08:00",
     "venue": "墨西哥城 Estadio Azteca",
     "group": "C组",
-    "goals": [],
+    "goals": [
+      {
+        "player": "内马尔（巴西）",
+        "minute": "5'"
+      },
+      {
+        "player": "理查利森（巴西）",
+        "minute": "21'"
+      },
+      {
+        "player": "维尼修斯（巴西）",
+        "minute": "67'"
+      },
+      {
+        "player": "恩德里克（巴西）",
+        "minute": "90+2'"
+      }
+    ],
     "cards": [],
-    "attendance": 70000
+    "attendance": 70000,
+    "notes": "巴西4-0大胜苏格兰，以C组头名晋级"
   }
 ]
