@@ -1212,29 +1212,80 @@
     "id": "match-20260625-001",
     "home_team": "瑞士",
     "away_team": "加拿大",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
+    "home_score": 2,
+    "away_score": 1,
+    "status": "completed",
     "start_time": "2026-06-25T03:00:00+08:00",
-    "venue": "多伦多BMO球场",
+    "venue": "温哥华不列颠哥伦比亚体育馆",
     "group": "A组",
-    "goals": [],
-    "cards": [],
-    "attendance": 45000
+    "goals": [
+      {
+        "player": "鲁文·巴尔加斯（瑞士）",
+        "minute": "46'",
+        "assist": "曼赞比"
+      },
+      {
+        "player": "曼赞比（瑞士）",
+        "minute": "57'",
+        "assist": "恩博洛"
+      },
+      {
+        "player": "普罗米斯（加拿大）",
+        "minute": "76'",
+        "assist": "内森·萨利巴"
+      }
+    ],
+    "cards": [
+      {
+        "player": "凯尔·拉林（加拿大）",
+        "minute": "31'",
+        "type": "yellow"
+      },
+      {
+        "player": "格兰特·哈卡（瑞士）",
+        "minute": "31'",
+        "type": "yellow"
+      }
+    ],
+    "attendance": 42000
   },
   {
     "id": "match-20260625-002",
     "home_team": "波黑",
     "away_team": "卡塔尔",
-    "home_score": null,
-    "away_score": null,
-    "status": "scheduled",
+    "home_score": 3,
+    "away_score": 1,
+    "status": "completed",
     "start_time": "2026-06-25T03:00:00+08:00",
-    "venue": "蒙特利尔奥林匹克体育场",
+    "venue": "西雅图Lumen球场",
     "group": "A组",
-    "goals": [],
-    "cards": [],
-    "attendance": 55000
+    "goals": [
+      {
+        "player": "阿拉伊贝戈维奇（波黑）",
+        "minute": "29'"
+      },
+      {
+        "player": "苏丹·布雷克（卡塔尔）",
+        "minute": "44'",
+        "note": "乌龙球"
+      },
+      {
+        "player": "海多斯（卡塔尔）",
+        "minute": "66'"
+      },
+      {
+        "player": "埃尔明·马赫米奇（波黑）",
+        "minute": "90+'"
+      }
+    ],
+    "cards": [
+      {
+        "player": "艾哈迈德·法特希（卡塔尔）",
+        "minute": "45+'",
+        "type": "yellow"
+      }
+    ],
+    "attendance": 47000
   },
   {
     "id": "match-20260625-006",

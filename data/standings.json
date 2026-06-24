@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T18:40:00+08:00",
+  "last_updated": "2026-06-25T06:35:00+08:00",
   "source": "fixtures_live + verified match results",
   "notes": "I/J R2 verified: France 3-0 Iraq (Mbappé brace, 2hr thunderstorm delay). Norway 3-2 Senegal (Haaland brace). Argentina 2-0 Austria (Messi 2 goals, WC all-time top scorer 18 goals). Jordan 1-2 Algeria (Gouiri winner). Tiebreak: Norway GD+2 over France GD+6? NO, France GD+6 beats Norway GD+2. Algeria GF=5 over Argentina GF=4? NO, Algeria won R1 vs Jordan 2-1 so Argentina 1st on head-to-head vs Algeria.",
   "groups": {
@@ -57,54 +57,54 @@
       ]
     },
     "B组": {
-      "matches_played": 2,
+      "matches_played": 3,
       "teams": [
         {
-          "rank": 1,
+          "rank": 2,
           "team": "加拿大",
-          "played": 2,
+          "played": 3,
           "won": 1,
           "drawn": 1,
-          "lost": 0,
-          "gf": 7,
-          "ga": 1,
-          "gd": 6,
+          "lost": 1,
+          "gf": 8,
+          "ga": 3,
+          "gd": 5,
           "points": 4
         },
         {
-          "rank": 2,
+          "rank": 1,
           "team": "瑞士",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "gf": 5,
-          "ga": 2,
-          "gd": 3,
-          "points": 4
+          "gf": 7,
+          "ga": 3,
+          "gd": 4,
+          "points": 7
         },
         {
           "rank": 3,
           "team": "波黑",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 1,
           "lost": 1,
-          "gf": 2,
+          "gf": 5,
           "ga": 5,
-          "gd": -3,
-          "points": 1
+          "gd": 0,
+          "points": 4
         },
         {
           "rank": 4,
           "team": "卡塔尔",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 1,
-          "lost": 1,
-          "gf": 1,
-          "ga": 7,
-          "gd": -6,
+          "lost": 2,
+          "gf": 2,
+          "ga": 9,
+          "gd": -7,
           "points": 1
         }
       ]
