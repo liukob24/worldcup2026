@@ -1470,5 +1470,19 @@
     "venue": "阿兹特克体育场",
     "venueCity": "墨西哥城",
     "group": "A组"
+  },
+  {
+    "id": "match-20260625-006",
+    "home_team": "苏格兰",
+    "away_team": "巴西",
+    "home_score": null,
+    "away_score": null,
+    "status": null,
+    "start_time": "2026-06-25T06:00:00+08:00",
+    "venue": "墨西哥城 Estadio Azteca",
+    "group": "C组",
+    "goals": [],
+    "cards": [],
+    "attendance": 70000
   }
 ]

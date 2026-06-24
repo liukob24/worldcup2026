@@ -1374,5 +1374,176 @@
     ],
     "notes": "J组第二轮，约旦提前出局，阿尔及利亚逆转保留出线希望",
     "cards": []
+  },
+  {
+    "id": "match-20260624-001",
+    "home_team": "英格兰",
+    "away_team": "加纳",
+    "home_score": 0,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-24T03:00:00+08:00",
+    "venue": "墨西哥城阿兹特克体育场",
+    "group": "L组",
+    "goals": [],
+    "cards": [],
+    "attendance": 65000
+  },
+  {
+    "id": "match-20260624-002",
+    "home_team": "葡萄牙",
+    "away_team": "乌兹别克斯坦",
+    "home_score": 5,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-24T06:00:00+08:00",
+    "venue": "蒙特雷 Estadio BBVA",
+    "group": "K组",
+    "goals": [
+      {
+        "player": "C罗",
+        "minute": "23'"
+      },
+      {
+        "player": "B费",
+        "minute": "45'+1'"
+      },
+      {
+        "player": "B席",
+        "minute": "58'"
+      },
+      {
+        "player": "莱奥",
+        "minute": "72'"
+      },
+      {
+        "player": "贡萨洛·拉莫斯",
+        "minute": "89'"
+      }
+    ],
+    "cards": [],
+    "attendance": 52000
+  },
+  {
+    "id": "match-20260624-003",
+    "home_team": "巴拿马",
+    "away_team": "克罗地亚",
+    "home_score": 0,
+    "away_score": 1,
+    "status": "completed",
+    "start_time": "2026-06-24T09:00:00+08:00",
+    "venue": "瓜达拉哈拉体育场",
+    "group": "L组",
+    "goals": [
+      {
+        "player": "莫德里奇",
+        "minute": "67'"
+      }
+    ],
+    "cards": [],
+    "attendance": 48000
+  },
+  {
+    "id": "match-20260624-004",
+    "home_team": "哥伦比亚",
+    "away_team": "刚果民主共和国",
+    "home_score": 1,
+    "away_score": 0,
+    "status": "completed",
+    "start_time": "2026-06-24T09:00:00+08:00",
+    "venue": "圣路易斯 Estadio Alfonso Lastra",
+    "group": "K组",
+    "goals": [
+      {
+        "player": "穆尼奥斯",
+        "minute": "76'"
+      }
+    ],
+    "cards": [],
+    "attendance": 42000
+  },
+  {
+    "id": "match-20260625-001",
+    "home_team": "瑞士",
+    "away_team": "加拿大",
+    "home_score": null,
+    "away_score": null,
+    "status": "scheduled",
+    "start_time": "2026-06-25T03:00:00+08:00",
+    "venue": "多伦多BMO球场",
+    "group": "A组",
+    "goals": [],
+    "cards": [],
+    "attendance": 45000
+  },
+  {
+    "id": "match-20260625-002",
+    "home_team": "波黑",
+    "away_team": "卡塔尔",
+    "home_score": null,
+    "away_score": null,
+    "status": "scheduled",
+    "start_time": "2026-06-25T03:00:00+08:00",
+    "venue": "蒙特利尔奥林匹克体育场",
+    "group": "A组",
+    "goals": [],
+    "cards": [],
+    "attendance": 55000
+  },
+  {
+    "id": "match-20260625-006",
+    "home_team": "苏格兰",
+    "away_team": "巴西",
+    "home_score": null,
+    "away_score": null,
+    "status": "scheduled",
+    "start_time": "2026-06-25T06:00:00+08:00",
+    "venue": "墨西哥城 Estadio Azteca",
+    "group": "C组",
+    "goals": [],
+    "cards": [],
+    "attendance": 70000
+  },
+  {
+    "id": "match-20260625-004",
+    "home_team": "摩洛哥",
+    "away_team": "海地",
+    "home_score": null,
+    "away_score": null,
+    "status": "scheduled",
+    "start_time": "2026-06-25T06:00:00+08:00",
+    "venue": "蒙特雷 Estadio BBVA",
+    "group": "C组",
+    "goals": [],
+    "cards": [],
+    "attendance": 50000
+  },
+  {
+    "id": "match-20260625-005",
+    "home_team": "捷克",
+    "away_team": "墨西哥",
+    "home_score": null,
+    "away_score": null,
+    "status": "scheduled",
+    "start_time": "2026-06-25T09:00:00+08:00",
+    "venue": "墨西哥城 Estadio Azteca",
+    "group": "A组",
+    "goals": [],
+    "cards": [],
+    "attendance": 75000
+  },
+  {
+    "id": "match-20260625-006",
+    "home_team": "南非",
+    "away_team": "韩国",
+    "home_score": null,
+    "away_score": null,
+    "status": "scheduled",
+    "start_time": "2026-06-25T09:00:00+08:00",
+    "venue": "瓜达拉哈拉体育场",
+    "group": "A组",
+    "goals": [],
+    "cards": [],
+    "attendance": 48000
   }
 ]
