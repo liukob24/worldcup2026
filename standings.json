@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-25T10:30:00+08:00",
+  "last_updated": "2026-06-25T18:16:52+08:00",
   "source": "科比数据组 — FIFA/央视/懂球帝核实 (R1+R2 verified)",
-  "notes": "积分在每场比赛结束后4小时内更新；仅列出已有赛果的组别",
+  "notes": "B组R3已更新（6月25日）",
   "groups": {
     "A组": {
       "matches_played": 12,
@@ -57,54 +57,50 @@
       ]
     },
     "B组": {
-      "matches_played": 4,
+      "matches_played": 6,
       "teams": [
         {
-          "rank": 1,
-          "team": "加拿大",
-          "played": 2,
-          "won": 1,
+          "team": "瑞士",
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
           "gf": 7,
-          "ga": 1,
-          "gd": 6,
-          "points": 4
+          "ga": 3,
+          "gd": 4,
+          "points": 7
         },
         {
-          "rank": 2,
-          "team": "瑞士",
-          "played": 2,
+          "team": "加拿大",
+          "played": 3,
           "won": 1,
           "drawn": 1,
-          "lost": 0,
-          "gf": 5,
-          "ga": 2,
-          "gd": 3,
+          "lost": 1,
+          "gf": 8,
+          "ga": 3,
+          "gd": 5,
           "points": 4
         },
         {
-          "rank": 3,
           "team": "波黑",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 1,
           "lost": 1,
-          "gf": 2,
-          "ga": 5,
-          "gd": -3,
-          "points": 1
+          "gf": 5,
+          "ga": 6,
+          "gd": -1,
+          "points": 4
         },
         {
-          "rank": 4,
           "team": "卡塔尔",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 1,
-          "lost": 1,
-          "gf": 1,
-          "ga": 7,
-          "gd": -6,
+          "lost": 2,
+          "gf": 2,
+          "ga": 10,
+          "gd": -8,
           "points": 1
         }
       ]
