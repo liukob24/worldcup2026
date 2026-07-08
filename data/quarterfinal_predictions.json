@@ -1,0 +1,246 @@
+{
+  "lastUpdate": "2026-07-08T17:36:00+08:00",
+  "version": "v2.0",
+  "stage": "1/4决赛",
+  "totalMatches": 4,
+  "source": {
+    "odds": "中国体彩竞彩官方、新浪澳盘 (2026-07-08 14:00)",
+    "injuries": "FIFA官方公告、ESPN、天空体育、各队赛前发布会",
+    "analysis": "综合Opta、Sky Sports、SportsLine、bet365等多平台数据"
+  },
+  "matches": [
+    {
+      "match_id": "qf-01",
+      "date": "2026-07-10",
+      "time": "04:00",
+      "timezone": "CST",
+      "home": "法国",
+      "away": "摩洛哥",
+      "home_name": "法国",
+      "away_name": "摩洛哥",
+      "home_ranking": 1,
+      "away_ranking": 7,
+      "venue": "波士顿吉列体育场",
+      "round": "1/4决赛",
+      "odds": {
+        "home_win": 1.39,
+        "draw": 3.87,
+        "away_win": 6.60
+      },
+      "asian_handicap": "法国让一球",
+      "over_under": "2.5球",
+      "injuries": {
+        "home": ["楚阿梅尼(中场核心，内收肌伤缺)"],
+        "away": ["赛巴里(前锋，出战成疑)", "里亚德(中卫，伤疑)"]
+      },
+      "weather": {
+        "temperature": "27°C",
+        "condition": "晴朗",
+        "impact": "完美比赛条件"
+      },
+      "analysis": {
+        "tactics": "法国4-3-3传控压迫，姆巴佩7球领跑射手榜。楚阿梅尼缺阵由拉比奥+科内顶替。摩洛哥5-4-1极致大巴，赛巴里若缺阵反击威胁大减。",
+        "key_players": "法国：姆巴佩(7球)、登贝莱、奥利塞；摩洛哥：布努(门将)、阿什拉夫、阿姆拉巴特",
+        "odds_analysis": "胜赔1.39极低，亚盘让一球，市场高度看好法国。平赔3.87偏高，机构不看好平局。",
+        "upset_factors": [
+          "楚阿梅尼缺阵削弱中场拦截",
+          "摩洛哥若全员死守可能逼平",
+          "2022半决赛法国2-0历史压制"
+        ],
+        "prediction": {
+          "result": "法国胜",
+          "score": "2-0",
+          "confidence": "高",
+          "homeWin": 65,
+          "draw": 24,
+          "awayWin": 11
+        }
+      },
+      "advance_probability": {
+        "home": 78,
+        "away": 22
+      }
+    },
+    {
+      "match_id": "qf-02",
+      "date": "2026-07-11",
+      "time": "03:00",
+      "timezone": "CST",
+      "home": "西班牙",
+      "away": "比利时",
+      "home_name": "西班牙",
+      "away_name": "比利时",
+      "home_ranking": 3,
+      "away_ranking": 5,
+      "venue": "洛杉矶SoFi体育场",
+      "round": "1/4决赛",
+      "odds": {
+        "home_win": 1.50,
+        "draw": 3.75,
+        "away_win": 5.10
+      },
+      "asian_handicap": "西班牙让半球/一球",
+      "over_under": "2.5球",
+      "injuries": {
+        "home": ["尼科·威廉姆斯(边锋伤缺)", "皮诺(边锋伤缺)"],
+        "away": ["德布劳内(带伤作战)", "卢卡库(大腿不适)"]
+      },
+      "weather": {
+        "temperature": "22°C",
+        "condition": "晴朗",
+        "impact": "良好"
+      },
+      "analysis": {
+        "tactics": "西班牙4-3-3极致传控，连续6场零封创纪录。边锋伤病影响攻坚效率。比利时4-2-3-1高效反击，德凯特拉雷状态爆棚，但防线每场丢球。",
+        "key_players": "西班牙：罗德里(中场核心)、亚马尔(边路)、奥亚萨瓦尔；比利时：德凯特拉雷、德布劳内、多库",
+        "odds_analysis": "胜赔1.50，亚盘让半一，西班牙优势但非碾压。平赔3.75有一定防范。",
+        "upset_factors": [
+          "西班牙边锋伤病，攻坚手段减少",
+          "比利时反击效率顶级，德凯特拉雷状态火热",
+          "1986年1/4决赛比利时点球淘汰西班牙的历史",
+          "西班牙连续零封终有被破的一天"
+        ],
+        "prediction": {
+          "result": "西班牙胜",
+          "score": "1-0",
+          "confidence": "中高",
+          "homeWin": 66,
+          "draw": 21,
+          "awayWin": 13
+        }
+      },
+      "advance_probability": {
+        "home": 75,
+        "away": 25
+      }
+    },
+    {
+      "match_id": "qf-03",
+      "date": "2026-07-12",
+      "time": "05:00",
+      "timezone": "CST",
+      "home": "挪威",
+      "away": "英格兰",
+      "home_name": "挪威",
+      "away_name": "英格兰",
+      "home_ranking": 11,
+      "away_ranking": 4,
+      "venue": "迈阿密硬石体育场",
+      "round": "1/4决赛",
+      "odds": {
+        "home_win": 3.75,
+        "draw": 3.25,
+        "away_win": 1.86
+      },
+      "asian_handicap": "英格兰让半球",
+      "over_under": "2.5球（大球倾向）",
+      "injuries": {
+        "home": ["全员健康"],
+        "away": ["夸安萨(红牌停赛)", "亨德森(手腕骨折，可能报销)", "里斯·詹姆斯(腿筋)", "利夫拉门托(小腿)"]
+      },
+      "weather": {
+        "temperature": "28-31°C",
+        "condition": "雷暴预警，可能延期",
+        "impact": "高温+高湿，体能消耗巨大"
+      },
+      "analysis": {
+        "tactics": "挪威4-3-3哈兰德核心，7球射手王，连续14场国家队进球。英格兰4-2-3-1凯恩+贝林厄姆双核，但后防严重受损需重组。哈兰德对英格兰残阵防线是噩梦级威胁。",
+        "key_players": "挪威：哈兰德(7球)、厄德高(组织)；英格兰：凯恩(6球)、贝林厄姆、萨卡",
+        "odds_analysis": "英格兰让半球但赔率1.86不算低，平赔3.25偏低，市场对平局有防范。哈兰德效应让挪威受让盘有吸引力。",
+        "upset_factors": [
+          "英格兰后防四人伤缺/停赛，面对哈兰德是致命风险",
+          "挪威刚淘汰巴西士气正盛",
+          "哈兰德连续14场国家队进球，状态恐怖",
+          "迈阿密雷暴可能导致延期，影响比赛节奏",
+          "英格兰右后卫真空，挪威左边锋可针对"
+        ],
+        "prediction": {
+          "result": "英格兰胜",
+          "score": "2-1",
+          "confidence": "中",
+          "homeWin": 35,
+          "draw": 25,
+          "awayWin": 40
+        }
+      },
+      "advance_probability": {
+        "home": 35,
+        "away": 65
+      }
+    },
+    {
+      "match_id": "qf-04",
+      "date": "2026-07-12",
+      "time": "09:00",
+      "timezone": "CST",
+      "home": "阿根廷",
+      "away": "瑞士",
+      "home_name": "阿根廷",
+      "away_name": "瑞士",
+      "home_ranking": 1,
+      "away_ranking": 19,
+      "venue": "堪萨斯城箭头体育场",
+      "round": "1/4决赛",
+      "odds": {
+        "home_win": 1.72,
+        "draw": 3.10,
+        "away_win": 4.85
+      },
+      "asian_handicap": "阿根廷让半球/一球",
+      "over_under": "2.5球（小球倾向）",
+      "injuries": {
+        "home": ["罗梅罗(恢复中，可出战)", "迪马利亚(伤疑)"],
+        "away": ["全员健康"]
+      },
+      "weather": {
+        "temperature": "25°C",
+        "condition": "晴朗",
+        "impact": "良好"
+      },
+      "analysis": {
+        "tactics": "阿根廷4-3-3梅西核心，8球射手王，连续9场世界杯破门。但连续两轮苦战，后防连续3场丢球。瑞士4-2-3-1铁血防守，淘汰赛连续210分钟零封，扎卡+阿坎吉+科贝尔铁三角。",
+        "key_players": "阿根廷：梅西(8球，历史射手王)、恩佐·费尔南德斯、阿尔瓦雷斯；瑞士：科贝尔(门将)、扎卡(队长)、恩博洛(支点)",
+        "odds_analysis": "胜赔1.72不算低，平赔3.10有防范。瑞士防守硬度被市场认可，阿根廷胜率仅54%低于法国和西班牙。",
+        "upset_factors": [
+          "瑞士淘汰赛连续210分钟零封，铁桶阵顶级",
+          "科贝尔点球能力极强，瑞士可能拖入加时",
+          "阿根廷连续两轮苦战，梅西体能消耗巨大",
+          "阿根廷后防连续3场丢球，瑞士反击可针对",
+          "瑞士时隔72年重返八强，士气巅峰"
+        ],
+        "prediction": {
+          "result": "阿根廷胜",
+          "score": "1-0",
+          "confidence": "中高",
+          "homeWin": 54,
+          "draw": 26,
+          "awayWin": 20
+        }
+      },
+      "advance_probability": {
+        "home": 75,
+        "away": 25
+      }
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "homeWin": 3,
+    "draw": 0,
+    "awayWin": 1,
+    "mostConfident": "法国 vs 摩洛哥（胜赔1.39，晋级概率78%）",
+    "mostUncertain": "挪威 vs 英格兰（英格兰后防重组+哈兰德威胁，爆冷风险最高）",
+    "keyUpsetWatch": "挪威 vs 英格兰：哈兰德连续14场国家队进球，英格兰后防四人缺阵",
+    "legendMatch": "阿根廷 vs 瑞士：梅西最后一舞冲击四强，瑞士铁桶阵能否阻止传奇"
+  },
+  "championship_odds": {
+    "1": {"team": "法国", "odds": 2.87},
+    "2": {"team": "西班牙", "odds": 4.50},
+    "3": {"team": "阿根廷", "odds": 5.00},
+    "4": {"team": "英格兰", "odds": 6.00},
+    "5": {"team": "挪威", "odds": 17.00},
+    "6": {"team": "比利时", "odds": 34.00},
+    "6": {"team": "摩洛哥", "odds": 34.00},
+    "6": {"team": "瑞士", "odds": 34.00}
+  }
+}
